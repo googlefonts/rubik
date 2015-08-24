@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daletdageshhebrew" format="1">
+  <advance width="499"/>
+  <unicode hex="FB33"/>
+  <outline>
+    <contour>
+      <point x="199" y="296" type="line" smooth="yes" name="hr00"/>
+      <point x="199" y="309"/>
+      <point x="190" y="318"/>
+      <point x="177" y="318" type="curve" smooth="yes"/>
+      <point x="154" y="318" type="line" smooth="yes"/>
+      <point x="141" y="318"/>
+      <point x="132" y="309"/>
+      <point x="132" y="296" type="curve" smooth="yes"/>
+      <point x="132" y="273" type="line" smooth="yes"/>
+      <point x="132" y="260"/>
+      <point x="141" y="251"/>
+      <point x="154" y="251" type="curve" smooth="yes"/>
+      <point x="177" y="251" type="line" smooth="yes"/>
+      <point x="190" y="251"/>
+      <point x="199" y="260"/>
+      <point x="199" y="273" type="curve" smooth="yes"/>
+    </contour>
+    <component base="dalethebrew"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.609</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="272" width="-21" />
+      <hstem pos="318" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
