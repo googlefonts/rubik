@@ -1,6 +1,11 @@
 {
 DisplayStrings = (
-"elpmas a si sihT\012/kaf-hb/finalkaf-hb  /he-hb/tav-hb/resh-hb/samekh-hb/qof-hb  /nun-hb/pe-hb/finaltsadi-hb  /ayin-hb/lamed-hb  /gimel-hb/vav-hb/zayin-hb/lamed-hb  /qof-hb/tet-hb/finalnun-hb  elpmas\012/shin-hb/dalet-hb/het-hb/finalpe-hb  /alef-hb/tav-hb  /tsadi-hb/bet-hb/yod-hb  /lamed-hb/mem-hb/yod-hb/finalmem-hb"
+"elpmas a si srihT\012/kaf-hb/finalkaf-hb  /he-hb/tav-hb/resh-hb/samekh-hb/qof-hb  /nun-hb/pe-hb/finaltsadi-hb  /ayin-hb/lamed-hb  /gimel-hb/vav-hb/zayin-hb/lamed-hb  /qof-hb/tet-hb/finalnun-hb  elpmas\012/shin-hb/dalet-hb/het-hb/finalpe-hb  /alef-hb/tav-hb  /tsadi-hb/bet-hb/yod-hb  /lamed-hb/mem-hb/yod-hb/finalmem-hb  ",
+"/vavholam-hb",
+"/shindot-hb",
+"/shinshindot-hb",
+"/patah-hb",
+"/alefqamats-hb"
 );
 classes = (
 {
@@ -33,10 +38,6 @@ customParameters = (
 {
 name = macintoshFONDFamilyID;
 value = 128;
-},
-{
-name = macintoshFONDName;
-value = Rubik;
 },
 {
 name = openTypeHeadFlags;
@@ -212,49 +213,51 @@ value = 2015;
 date = "2015-08-24 21:44:38 +0000";
 designer = "Hubert & Fischer";
 designerURL = www.hubertfischer.com;
-familyName = "Rubik";
+familyName = "RubikHebrew";
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;";
-name = Prefix;
+automatic = 1;
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem hebr dflt;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012";
+name = Languagesystems;
 }
 );
 features = (
-{
-code = "\011sub parenleft by parenleft.cap;\012\011sub parenright by parenright.cap;\012\011sub plus by plus.cap;\012\011sub hyphen by hyphen.cap;\012\011sub equal by equal.cap;\012\011sub bracketleft by bracketleft.cap;\012\011sub bracketright by bracketright.cap;\012\011sub braceleft by braceleft.cap;\012\011sub braceright by braceright.cap;\012\011sub asciitilde by asciitilde.cap;\012\011sub multiply by multiply.cap;\012\011sub divide by divide.cap;\012\011sub endash by endash.cap;\012\011sub emdash by emdash.cap;\012\011sub approxequal by approxequal.cap;\012\011sub notequal by notequal.cap;\012\011sub minus by minus.cap;\012\011sub at by at.cap;\012\011sub guillemotleft by guillemotleft.cap;\012\011sub guillemotright by guillemotright.cap;\012\011sub guilsinglleft by guilsinglleft.cap;\012\011sub guilsinglright by guilsinglright.cap;";
-name = case;
-},
 {
 code = "\011sub @standard by @sups;";
 name = sups;
 },
 {
-code = "    lookup FractionBar {\012        ignore sub slash @standard @standard @standard @standard @standard @standard @standard @standard @standard @standard slash';\012        ignore sub slash' @standard @standard @standard @standard @standard @standard @standard @standard @standard @standard slash;\012        ignore sub slash @standard @standard @standard @standard @standard @standard @standard @standard @standard slash';\012        ignore sub slash' @standard @standard @standard @standard @standard @standard @standard @standard @standard slash;\012        ignore sub slash @standard @standard @standard @standard @standard @standard @standard @standard slash';\012        ignore sub slash' @standard @standard @standard @standard @standard @standard @standard @standard slash;\012        ignore sub slash @standard @standard @standard @standard @standard @standard @standard slash';\012        ignore sub slash' @standard @standard @standard @standard @standard @standard @standard slash;\012        ignore sub slash @standard @standard @standard @standard @standard @standard slash';\012        ignore sub slash' @standard @standard @standard @standard @standard @standard slash;\012        ignore sub slash @standard @standard @standard @standard @standard slash';\012        ignore sub slash' @standard @standard @standard @standard @standard slash;\012        ignore sub slash @standard @standard @standard @standard slash';\012        ignore sub slash' @standard @standard @standard @standard slash;\012        ignore sub slash @standard @standard @standard slash';\012        ignore sub slash' @standard @standard @standard slash;\012        ignore sub slash @standard @standard slash';\012        ignore sub slash' @standard @standard slash;\012        ignore sub slash @standard slash';\012        ignore sub slash' @standard slash;\012        ignore sub slash slash';\012        ignore sub slash' slash;\012        sub @standard slash' @standard by fraction;\012    } FractionBar;\012\012    lookup Numerator1 {\012        sub @standard' fraction by @numerator;\012    } Numerator1;\012\012    lookup Numerator2 {\012        sub @standard' @numerator fraction by @numerator;\012    } Numerator2;\012\012    lookup Numerator3 {\012        sub @standard' @numerator @numerator fraction by @numerator;\012    } Numerator3;\012\012    lookup Numerator4 {\012        sub @standard' @numerator @numerator @numerator fraction by @numerator;\012    } Numerator4;\012\012    lookup Numerator5 {\012        sub @standard' @numerator @numerator @numerator @numerator fraction by @numerator;\012    } Numerator5;\012\012    lookup Numerator6 {\012        sub @standard' @numerator @numerator @numerator @numerator @numerator fraction by @numerator;\012    } Numerator6;\012\012    lookup Numerator7 {\012        sub @standard' @numerator @numerator @numerator @numerator @numerator @numerator fraction by @numerator;\012    } Numerator7;\012\012    lookup Numerator8 {\012        sub @standard' @numerator @numerator @numerator @numerator @numerator @numerator @numerator fraction by @numerator;\012    } Numerator8;\012\012    lookup Numerator9 {\012        sub @standard' @numerator @numerator @numerator @numerator @numerator @numerator @numerator @numerator fraction by @numerator;\012    } Numerator9;\012\012    lookup Numerator10 {      \012    sub @standard' @numerator @numerator @numerator @numerator @numerator @numerator @numerator @numerator @numerator fraction by @numerator;\012    } Numerator10;\012\012    lookup Denominator {\012        sub [fraction @denominator] @standard' by @denominator;\012    } Denominator;\012\012    sub @standard space' @numerator by space;";
+automatic = 1;
+code = "sub one slash eight by oneeighth;\012sub one slash four by onequarter;\012sub three slash eight by threeeighths;\012sub one slash two by onehalf;\012sub five slash eight by fiveeighths;\012sub three slash four by threequarters;\012sub seven slash eight by seveneighths;\012sub one slash three by onethird;\012sub two slash three by twothirds;\012";
 name = frac;
-},
-{
-code = "  sub @standard by @tnum1;";
-name = tnum;
 },
 {
 code = "# Standard Ligatures\012  sub f i by fi;\012  sub f l by fl;\012  sub f f by f_f;\012  sub f f i by f_f_i;\012  sub f f l by f_f_l;";
 name = liga;
 },
 {
-code = "\011sub @standard by @subs;";
+automatic = 1;
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012sub parenleft by parenleftinferior;\012sub parenright by parenrightinferior;\012";
 name = subs;
-},
-{
-code = "    sub @standard by @numerator;";
-name = numr;
-},
-{
-code = "    sub @standard by @denominator;";
-name = dnom;
 },
 {
 code = " \012\011sub a e by ae;\012\011sub A E by AE;\012\011sub o e by oe;\012\011sub O E by OE;\012\011sub i j by ij;\012\011sub I J by IJ;\012\011sub period period period by ellipsis;";
 name = dlig;
+},
+{
+automatic = 1;
+code = "feature sups;\012feature frac;\012feature subs;\012feature locl;\012feature ordn;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "script latn;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012";
+name = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
+name = ordn;
 }
 );
 fontMaster = (
@@ -318,7 +321,7 @@ position = "{0, 340}";
 position = "{0, 818}";
 },
 {
-position = "{0, -5}";
+position = "{52, -75}";
 },
 {
 position = "{0, 415}";
@@ -42104,9 +42107,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "alef-hb";
-lastChange = "2015-09-01 23:47:48 +0000";
+lastChange = "2015-09-15 00:05:51 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{282, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{224, 142}";
+},
+{
+name = top;
+position = "{282, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -42317,9 +42342,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "bet-hb";
-lastChange = "2015-09-02 02:13:27 +0000";
+lastChange = "2015-09-14 23:33:32 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{266, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{215, 260}";
+},
+{
+name = top;
+position = "{266, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{-16, 571}";
@@ -42488,14 +42535,32 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "gimel-hb";
-lastChange = "2015-09-03 10:20:45 +0000";
+lastChange = "2015-09-14 23:57:19 +0000";
 layers = (
 {
-guideLines = (
+anchors = (
 {
-angle = 90;
-position = "{55, 0}";
+name = bottom;
+position = "{250, 0}";
 },
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{152, 260}";
+},
+{
+name = top;
+position = "{250, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
+guideLines = (
 {
 position = "{0, 571}";
 }
@@ -42546,22 +42611,26 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"161 43 LINE SMOOTH",
-"237 104 OFFCURVE",
-"353 199 OFFCURVE",
+"238 98 OFFCURVE",
+"350 210 OFFCURVE",
 "331 300 CURVE",
 "273 288 LINE",
-"282 240 OFFCURVE",
-"221 169 OFFCURVE",
-"180 136 CURVE SMOOTH",
-"68 45 LINE SMOOTH",
-"58 37 OFFCURVE",
-"56 24 OFFCURVE",
-"65 14 CURVE SMOOTH",
-"76 2 LINE SMOOTH",
-"84 -9 OFFCURVE",
-"96 -10 OFFCURVE",
-"106 -2 CURVE SMOOTH"
+"282 229 OFFCURVE",
+"195 142 OFFCURVE",
+"156 111 CURVE SMOOTH",
+"130 90 OFFCURVE",
+"80 62 OFFCURVE",
+"66 57 CURVE SMOOTH",
+"51 51 OFFCURVE",
+"45 42 OFFCURVE",
+"45 32 CURVE SMOOTH",
+"45 7 LINE SMOOTH",
+"45 -7 OFFCURVE",
+"56 -10 OFFCURVE",
+"69 -8 CURVE SMOOTH",
+"116 1 OFFCURVE",
+"157 30 OFFCURVE",
+"212 76 CURVE SMOOTH"
 );
 }
 );
@@ -42668,9 +42737,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "dalet-hb";
-lastChange = "2015-09-01 23:54:53 +0000";
+lastChange = "2015-09-14 23:41:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{338, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{170, 260}";
+},
+{
+name = top;
+position = "{250, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -42826,9 +42917,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "he-hb";
-lastChange = "2015-09-01 23:26:06 +0000";
+lastChange = "2015-09-14 23:35:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{304, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{304, 260}";
+},
+{
+name = top;
+position = "{304, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 angle = 90;
@@ -43002,9 +43115,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "vav-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:58:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{115, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{13, 260}";
+},
+{
+name = top;
+position = "{115, 520}";
+},
+{
+name = topleft;
+position = "{118, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -43111,9 +43246,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "zayin-hb";
-lastChange = "2015-09-01 23:25:37 +0000";
+lastChange = "2015-09-14 23:38:22 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{147, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{26, 260}";
+},
+{
+name = top;
+position = "{147, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 983}";
@@ -43267,9 +43424,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "het-hb";
-lastChange = "2015-09-01 23:57:47 +0000";
+lastChange = "2015-09-14 23:35:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{305, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{305, 260}";
+},
+{
+name = top;
+position = "{305, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -43428,9 +43607,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "tet-hb";
-lastChange = "2015-09-02 02:06:19 +0000";
+lastChange = "2015-09-14 23:37:47 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{322, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{322, 260}";
+},
+{
+name = top;
+position = "{322, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -43467,26 +43668,26 @@ nodes = (
 "564 244 OFFCURVE",
 "564 327 OFFCURVE",
 "563 347 CURVE SMOOTH",
-"559 502 OFFCURVE",
-"485 571 OFFCURVE",
-"364 571 CURVE",
-"315 571 OFFCURVE",
-"286 560 OFFCURVE",
-"257 541 CURVE SMOOTH",
-"246 534 OFFCURVE",
-"241 524 OFFCURVE",
-"247 513 CURVE SMOOTH",
-"253 500 LINE SMOOTH",
-"258 488 OFFCURVE",
-"272 482 OFFCURVE",
-"283 489 CURVE SMOOTH",
-"307 505 OFFCURVE",
-"335 513 OFFCURVE",
-"359 513 CURVE SMOOTH",
-"442 513 OFFCURVE",
-"499 462 OFFCURVE",
+"559 507 OFFCURVE",
+"485 576 OFFCURVE",
+"364 576 CURVE",
+"315 576 OFFCURVE",
+"286 565 OFFCURVE",
+"257 546 CURVE SMOOTH",
+"246 539 OFFCURVE",
+"247 530 OFFCURVE",
+"247 518 CURVE SMOOTH",
+"247 505 LINE SMOOTH",
+"247 492 OFFCURVE",
+"263 485 OFFCURVE",
+"274 492 CURVE SMOOTH",
+"298 508 OFFCURVE",
+"335 518 OFFCURVE",
+"359 518 CURVE SMOOTH",
+"442 518 OFFCURVE",
+"499 467 OFFCURVE",
 "502 342 CURVE SMOOTH",
-"503 322 OFFCURVE",
+"502 322 OFFCURVE",
 "503 249 OFFCURVE",
 "502 229 CURVE SMOOTH",
 "499 109 OFFCURVE",
@@ -43625,9 +43826,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "yod-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:39:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{107, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{17, 260}";
+},
+{
+name = top;
+position = "{107, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 240}";
@@ -43647,10 +43870,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"115 240 LINE SMOOTH",
-"128 240 OFFCURVE",
-"137 249 OFFCURVE",
-"137 262 CURVE SMOOTH",
+"115 230 LINE SMOOTH",
+"128 230 OFFCURVE",
+"137 239 OFFCURVE",
+"137 252 CURVE SMOOTH",
 "137 549 LINE",
 "137 562 OFFCURVE",
 "128 571 OFFCURVE",
@@ -43659,10 +43882,10 @@ nodes = (
 "85 571 OFFCURVE",
 "76 562 OFFCURVE",
 "76 549 CURVE SMOOTH",
-"76 262 LINE SMOOTH",
-"76 249 OFFCURVE",
-"85 240 OFFCURVE",
-"98 240 CURVE SMOOTH"
+"76 252 LINE SMOOTH",
+"76 239 OFFCURVE",
+"85 230 OFFCURVE",
+"98 230 CURVE SMOOTH"
 );
 }
 );
@@ -43729,9 +43952,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "finalkaf-hb";
-lastChange = "2015-09-01 23:45:00 +0000";
+lastChange = "2015-09-14 23:35:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{250, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{250, 260}";
+},
+{
+name = top;
+position = "{250, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 61}";
@@ -43857,9 +44102,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "kaf-hb";
-lastChange = "2015-09-01 23:27:20 +0000";
+lastChange = "2015-09-14 23:36:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{218, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{218, 260}";
+},
+{
+name = top;
+position = "{218, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 590}";
@@ -44022,9 +44289,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "lamed-hb";
-lastChange = "2015-09-02 01:49:54 +0000";
+lastChange = "2015-09-14 23:37:27 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{171, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{171, 260}";
+},
+{
+name = top;
+position = "{171, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 710}";
@@ -44049,7 +44338,7 @@ paths = (
 closed = 1;
 nodes = (
 "191 7 LINE SMOOTH",
-"301 49 OFFCURVE",
+"301 46 OFFCURVE",
 "406 119 OFFCURVE",
 "406 307 CURVE",
 "406 503 OFFCURVE",
@@ -44068,16 +44357,16 @@ nodes = (
 "345 462 OFFCURVE",
 "345 314 CURVE",
 "345 162 OFFCURVE",
-"275 105 OFFCURVE",
-"187 66 CURVE SMOOTH",
-"146 48 LINE SMOOTH",
-"131 42 OFFCURVE",
-"122 32 OFFCURVE",
-"125 22 CURVE SMOOTH",
-"131 5 LINE SMOOTH",
-"134 -4 OFFCURVE",
-"147 -10 OFFCURVE",
-"159 -5 CURVE SMOOTH"
+"277 108 OFFCURVE",
+"187 73 CURVE SMOOTH",
+"146 57 LINE SMOOTH",
+"131 51 OFFCURVE",
+"125 42 OFFCURVE",
+"125 32 CURVE SMOOTH",
+"125 7 LINE SMOOTH",
+"125 -7 OFFCURVE",
+"137 -12 OFFCURVE",
+"149 -8 CURVE SMOOTH"
 );
 },
 {
@@ -44205,9 +44494,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "finalmem-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:35:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{304, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{304, 260}";
+},
+{
+name = top;
+position = "{304, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 853}";
@@ -44356,9 +44667,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "mem-hb";
-lastChange = "2015-09-03 10:31:01 +0000";
+lastChange = "2015-09-14 23:35:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{307, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{307, 260}";
+},
+{
+name = top;
+position = "{307, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 angle = 90;
@@ -44389,16 +44722,16 @@ nodes = (
 "536 22 CURVE SMOOTH",
 "536 327 LINE SMOOTH",
 "536 482 OFFCURVE",
-"449 571 OFFCURVE",
-"329 571 CURVE",
-"221 572 OFFCURVE",
+"449 578 OFFCURVE",
+"329 578 CURVE",
+"221 579 OFFCURVE",
 "154 499 OFFCURVE",
 "126 420 CURVE",
 "140 349 LINE",
 "166 428 OFFCURVE",
-"218 514 OFFCURVE",
-"324 513 CURVE",
-"410 513 OFFCURVE",
+"218 521 OFFCURVE",
+"324 520 CURVE",
+"410 520 OFFCURVE",
 "475 442 OFFCURVE",
 "475 322 CURVE SMOOTH",
 "475 58 LINE",
@@ -44415,29 +44748,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"94 492 OFFCURVE",
-"120 449 OFFCURVE",
-"130 394 CURVE",
-"180 435 LINE",
-"172 475 OFFCURVE",
-"146 523 OFFCURVE",
-"104 563 CURVE",
-"95 571 OFFCURVE",
-"80 571 OFFCURVE",
-"73 561 CURVE SMOOTH",
-"64 549 LINE SMOOTH",
-"56 538 OFFCURVE",
-"57 526 OFFCURVE",
-"66 518 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"99 -4 LINE SMOOTH",
-"111 -7 OFFCURVE",
-"122 1 OFFCURVE",
-"124 14 CURVE SMOOTH",
+"99 0 LINE SMOOTH",
+"111 0 OFFCURVE",
+"122 10 OFFCURVE",
+"124 23 CURVE SMOOTH",
 "189 457 LINE",
 "192 469 OFFCURVE",
 "184 480 OFFCURVE",
@@ -44449,7 +44763,28 @@ nodes = (
 "63 23 LINE SMOOTH",
 "61 10 OFFCURVE",
 "69 0 OFFCURVE",
-"81 -2 CURVE SMOOTH"
+"81 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"85 571 OFFCURVE",
+"73 561 OFFCURVE",
+"79 548 CURVE SMOOTH",
+"126 437 LINE SMOOTH",
+"131 424 OFFCURVE",
+"139 417 OFFCURVE",
+"151 419 CURVE SMOOTH",
+"168 422 LINE SMOOTH",
+"181 424 OFFCURVE",
+"189 434 OFFCURVE",
+"186 446 CURVE",
+"143 548 LINE SMOOTH",
+"137 561 OFFCURVE",
+"130 571 OFFCURVE",
+"118 571 CURVE SMOOTH",
+"97 571 LINE SMOOTH"
 );
 }
 );
@@ -44562,9 +44897,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "finalnun-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:35:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{115, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{115, 260}";
+},
+{
+name = top;
+position = "{115, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -44652,9 +45009,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "nun-hb";
-lastChange = "2015-09-03 10:20:56 +0000";
+lastChange = "2015-09-14 23:34:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{197, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{180, 260}";
+},
+{
+name = top;
+position = "{197, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 angle = 90;
@@ -44678,14 +45057,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"313 -5 LINE SMOOTH",
-"326 -5 OFFCURVE",
+"313 0 LINE SMOOTH",
+"326 0 OFFCURVE",
 "335 4 OFFCURVE",
 "335 17 CURVE SMOOTH",
-"335 53 LINE",
-"274 53 LINE",
-"112 58 LINE SMOOTH",
-"57 60 OFFCURVE",
+"335 58 LINE",
+"70 58 LINE SMOOTH",
+"57 58 OFFCURVE",
 "48 49 OFFCURVE",
 "48 36 CURVE SMOOTH",
 "48 22 LINE SMOOTH",
@@ -44820,9 +45198,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "samekh-hb";
-lastChange = "2015-09-01 23:57:00 +0000";
+lastChange = "2015-09-14 23:35:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{316, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{315, 260}";
+},
+{
+name = top;
+position = "{316, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 angle = 90;
@@ -44988,9 +45388,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "ayin-hb";
-lastChange = "2015-09-02 02:10:19 +0000";
+lastChange = "2015-09-14 23:37:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{354, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{354, 260}";
+},
+{
+name = top;
+position = "{354, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -45154,9 +45576,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "finalpe-hb";
-lastChange = "2015-09-02 23:14:39 +0000";
+lastChange = "2015-09-14 23:40:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{285, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{362, 260}";
+},
+{
+name = top;
+position = "{285, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -45340,9 +45784,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "pe-hb";
-lastChange = "2015-09-02 23:13:41 +0000";
+lastChange = "2015-09-12 01:07:26 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{277, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{360, 260}";
+},
+{
+name = top;
+position = "{277, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 angle = 90;
@@ -45404,14 +45870,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"141 568 OFFCURVE",
-"149 573 OFFCURVE",
-"162 568 CURVE",
-"175 562 LINE",
-"186 558 OFFCURVE",
-"193 544 OFFCURVE",
-"186 534 CURVE SMOOTH",
-"164 502 OFFCURVE",
+"144 569 OFFCURVE",
+"152 574 OFFCURVE",
+"165 569 CURVE",
+"178 563 LINE",
+"189 559 OFFCURVE",
+"196 545 OFFCURVE",
+"189 535 CURVE SMOOTH",
+"167 503 OFFCURVE",
 "140 460 OFFCURVE",
 "140 389 CURVE SMOOTH",
 "140 326 OFFCURVE",
@@ -45430,8 +45896,8 @@ nodes = (
 "79 288 OFFCURVE",
 "79 384 CURVE SMOOTH",
 "79 458 OFFCURVE",
-"115 528 OFFCURVE",
-"133 556 CURVE SMOOTH"
+"118 529 OFFCURVE",
+"136 557 CURVE SMOOTH"
 );
 }
 );
@@ -45539,9 +46005,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "finaltsadi-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:35:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{239, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{239, 260}";
+},
+{
+name = top;
+position = "{239, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -45717,9 +46205,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "tsadi-hb";
-lastChange = "2015-09-01 23:46:27 +0000";
+lastChange = "2015-09-14 23:40:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{256, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{142, 204}";
+},
+{
+name = top;
+position = "{256, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 angle = 90;
@@ -45878,9 +46388,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "qof-hb";
-lastChange = "2015-09-02 01:47:33 +0000";
+lastChange = "2015-09-14 23:36:52 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{275, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{275, 260}";
+},
+{
+name = top;
+position = "{275, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, -191}";
@@ -45933,9 +46465,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"531 462 OFFCURVE",
-"454 571 OFFCURVE",
-"284 571 CURVE",
+"321 7 LINE SMOOTH",
+"431 46 OFFCURVE",
+"536 119 OFFCURVE",
+"536 307 CURVE",
+"536 503 OFFCURVE",
+"472 571 OFFCURVE",
+"289 571 CURVE",
 "106 571 LINE",
 "93 571 OFFCURVE",
 "84 562 OFFCURVE",
@@ -45944,25 +46480,21 @@ nodes = (
 "84 522 OFFCURVE",
 "93 513 OFFCURVE",
 "106 513 CURVE",
-"279 513 LINE",
-"414 513 OFFCURVE",
-"470 422 OFFCURVE",
-"470 314 CURVE",
-"470 162 OFFCURVE",
-"400 105 OFFCURVE",
-"312 66 CURVE SMOOTH",
-"271 48 LINE SMOOTH",
-"256 42 OFFCURVE",
-"247 32 OFFCURVE",
-"250 22 CURVE SMOOTH",
-"256 5 LINE SMOOTH",
-"259 -4 OFFCURVE",
-"272 -10 OFFCURVE",
-"284 -5 CURVE SMOOTH",
-"316 7 LINE SMOOTH",
-"426 49 OFFCURVE",
-"531 119 OFFCURVE",
-"531 307 CURVE"
+"284 513 LINE",
+"426 513 OFFCURVE",
+"475 462 OFFCURVE",
+"475 314 CURVE",
+"475 162 OFFCURVE",
+"407 108 OFFCURVE",
+"317 73 CURVE SMOOTH",
+"276 57 LINE SMOOTH",
+"261 51 OFFCURVE",
+"255 42 OFFCURVE",
+"255 32 CURVE SMOOTH",
+"255 7 LINE SMOOTH",
+"255 -7 OFFCURVE",
+"267 -12 OFFCURVE",
+"279 -8 CURVE SMOOTH"
 );
 }
 );
@@ -46093,9 +46625,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "resh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:35:51 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{245, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{202, 260}";
+},
+{
+name = top;
+position = "{245, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 571}";
@@ -46243,9 +46797,35 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "shin-hb";
-lastChange = "2015-09-01 23:42:25 +0000";
+lastChange = "2015-09-14 23:41:56 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{355, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{470, 260}";
+},
+{
+name = top;
+position = "{355, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+},
+{
+name = topright;
+position = "{689, 520}";
+}
+);
 guideLines = (
 {
 position = "{0, 952}";
@@ -46273,18 +46853,18 @@ nodes = (
 "145 129 OFFCURVE",
 "145 182 CURVE",
 "315 188 OFFCURVE",
-"394 286 OFFCURVE",
+"391 286 OFFCURVE",
 "391 398 CURVE SMOOTH",
-"387 549 LINE SMOOTH",
-"387 562 OFFCURVE",
-"378 571 OFFCURVE",
-"365 571 CURVE SMOOTH",
-"348 571 LINE SMOOTH",
-"335 571 OFFCURVE",
-"326 562 OFFCURVE",
-"326 549 CURVE SMOOTH",
+"391 549 LINE SMOOTH",
+"391 562 OFFCURVE",
+"382 571 OFFCURVE",
+"369 571 CURVE SMOOTH",
+"352 571 LINE SMOOTH",
+"339 571 OFFCURVE",
+"330 562 OFFCURVE",
+"330 549 CURVE SMOOTH",
 "330 403 LINE SMOOTH",
-"332 323 OFFCURVE",
+"330 323 OFFCURVE",
 "294 250 OFFCURVE",
 "145 240 CURVE",
 "141 549 LINE",
@@ -46425,9 +47005,31 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "tav-hb";
-lastChange = "2015-09-02 23:16:36 +0000";
+lastChange = "2015-09-14 23:36:18 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{359, 0}";
+},
+{
+name = bottomleft;
+position = "{20, 0}";
+},
+{
+name = center;
+position = "{359, 260}";
+},
+{
+name = top;
+position = "{359, 520}";
+},
+{
+name = topleft;
+position = "{20, 520}";
+}
+);
 guideLines = (
 {
 position = "{-30, 571}";
@@ -46455,22 +47057,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"289 513 LINE",
-"424 513 OFFCURVE",
-"480 442 OFFCURVE",
-"480 322 CURVE SMOOTH",
-"480 22 LINE SMOOTH",
-"480 9 OFFCURVE",
-"489 0 OFFCURVE",
-"502 0 CURVE SMOOTH",
-"519 0 LINE SMOOTH",
-"532 0 OFFCURVE",
-"541 9 OFFCURVE",
-"541 22 CURVE SMOOTH",
-"541 327 LINE SMOOTH",
-"541 482 OFFCURVE",
-"464 571 OFFCURVE",
-"294 571 CURVE SMOOTH",
+"309 513 LINE",
+"444 513 OFFCURVE",
+"500 442 OFFCURVE",
+"500 322 CURVE SMOOTH",
+"500 22 LINE SMOOTH",
+"500 9 OFFCURVE",
+"509 0 OFFCURVE",
+"522 0 CURVE SMOOTH",
+"539 0 LINE SMOOTH",
+"552 0 OFFCURVE",
+"561 9 OFFCURVE",
+"561 22 CURVE SMOOTH",
+"561 327 LINE SMOOTH",
+"561 482 OFFCURVE",
+"484 571 OFFCURVE",
+"314 571 CURVE SMOOTH",
 "122 571 LINE SMOOTH",
 "109 571 OFFCURVE",
 "100 562 OFFCURVE",
@@ -46519,7 +47121,7 @@ nodes = (
 );
 }
 );
-width = 619;
+width = 639;
 },
 {
 guideLines = (
@@ -46633,47 +47235,20 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "shinshindot-hb";
-lastChange = "2015-08-24 22:02:27 +0000";
+lastChange = "2015-09-15 00:03:39 +0000";
 layers = (
 {
 components = (
 {
 name = "shin-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "shindot-hb";
+transform = "{1, 0, 0, 1, 666, 105}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"610 633 LINE SMOOTH",
-"623 633 OFFCURVE",
-"632 642 OFFCURVE",
-"632 655 CURVE SMOOTH",
-"632 678 LINE SMOOTH",
-"632 691 OFFCURVE",
-"623 700 OFFCURVE",
-"610 700 CURVE SMOOTH",
-"587 700 LINE SMOOTH",
-"574 700 OFFCURVE",
-"565 691 OFFCURVE",
-"565 678 CURVE SMOOTH",
-"565 655 LINE SMOOTH",
-"565 642 OFFCURVE",
-"574 633 OFFCURVE",
-"587 633 CURVE SMOOTH"
-);
-}
-);
 width = 709;
 },
 {
@@ -46743,53 +47318,20 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "shinsindot-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-15 00:02:54 +0000";
 layers = (
 {
 components = (
 {
 name = "shin-hb";
-}
-);
-guideLines = (
+},
 {
-angle = 90;
-position = "{65, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "sindot-hb";
+transform = "{1, 0, 0, 1, 90, 105}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"122 633 LINE SMOOTH",
-"135 633 OFFCURVE",
-"144 642 OFFCURVE",
-"144 655 CURVE SMOOTH",
-"144 678 LINE SMOOTH",
-"144 691 OFFCURVE",
-"135 700 OFFCURVE",
-"122 700 CURVE SMOOTH",
-"99 700 LINE SMOOTH",
-"86 700 OFFCURVE",
-"77 691 OFFCURVE",
-"77 678 CURVE SMOOTH",
-"77 655 LINE SMOOTH",
-"77 642 OFFCURVE",
-"86 633 OFFCURVE",
-"99 633 CURVE SMOOTH"
-);
-}
-);
 width = 709;
 },
 {
@@ -46868,68 +47410,24 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "shindageshshindot-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-15 00:03:41 +0000";
 layers = (
 {
 components = (
 {
 name = "shin-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 469, -29}";
+},
+{
+name = "shindot-hb";
+transform = "{1, 0, 0, 1, 666, 105}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"610 633 LINE SMOOTH",
-"623 633 OFFCURVE",
-"632 642 OFFCURVE",
-"632 655 CURVE SMOOTH",
-"632 678 LINE SMOOTH",
-"632 691 OFFCURVE",
-"623 700 OFFCURVE",
-"610 700 CURVE SMOOTH",
-"587 700 LINE SMOOTH",
-"574 700 OFFCURVE",
-"565 691 OFFCURVE",
-"565 678 CURVE SMOOTH",
-"565 655 LINE SMOOTH",
-"565 642 OFFCURVE",
-"574 633 OFFCURVE",
-"587 633 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"459 251 LINE SMOOTH",
-"472 251 OFFCURVE",
-"481 260 OFFCURVE",
-"481 273 CURVE SMOOTH",
-"481 296 LINE SMOOTH",
-"481 309 OFFCURVE",
-"472 318 OFFCURVE",
-"459 318 CURVE SMOOTH",
-"436 318 LINE SMOOTH",
-"423 318 OFFCURVE",
-"414 309 OFFCURVE",
-"414 296 CURVE SMOOTH",
-"414 273 LINE SMOOTH",
-"414 260 OFFCURVE",
-"423 251 OFFCURVE",
-"436 251 CURVE SMOOTH"
-);
-}
-);
 width = 709;
 },
 {
@@ -47020,68 +47518,24 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "shindageshsindot-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-15 00:02:27 +0000";
 layers = (
 {
 components = (
 {
 name = "shin-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{1, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 469, -29}";
+},
+{
+name = "sindot-hb";
+transform = "{1, 0, 0, 1, 90, 105}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"122 633 LINE SMOOTH",
-"135 633 OFFCURVE",
-"144 642 OFFCURVE",
-"144 655 CURVE SMOOTH",
-"144 678 LINE SMOOTH",
-"144 691 OFFCURVE",
-"135 700 OFFCURVE",
-"122 700 CURVE SMOOTH",
-"99 700 LINE SMOOTH",
-"86 700 OFFCURVE",
-"77 691 OFFCURVE",
-"77 678 CURVE SMOOTH",
-"77 655 LINE SMOOTH",
-"77 642 OFFCURVE",
-"86 633 OFFCURVE",
-"99 633 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"459 251 LINE SMOOTH",
-"472 251 OFFCURVE",
-"481 260 OFFCURVE",
-"481 273 CURVE SMOOTH",
-"481 296 LINE SMOOTH",
-"481 309 OFFCURVE",
-"472 318 OFFCURVE",
-"459 318 CURVE SMOOTH",
-"436 318 LINE SMOOTH",
-"423 318 OFFCURVE",
-"414 309 OFFCURVE",
-"414 296 CURVE SMOOTH",
-"414 273 LINE SMOOTH",
-"414 260 OFFCURVE",
-"423 251 OFFCURVE",
-"436 251 CURVE SMOOTH"
-);
-}
-);
 width = 709;
 },
 {
@@ -47161,11 +47615,21 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = "alefpatah-hb";
+lastChange = "2015-09-15 00:03:52 +0000";
 layers = (
 {
+components = (
+{
+name = "alef-hb";
+},
+{
+name = "patah-hb";
+transform = "{1, 0, 0, 1, 280, 5}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-width = 600;
+width = 563;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -47177,11 +47641,21 @@ unicode = FB2E;
 },
 {
 glyphname = "alefqamats-hb";
+lastChange = "2015-09-15 00:03:52 +0000";
 layers = (
 {
+components = (
+{
+name = "alef-hb";
+},
+{
+name = "qamats-hb";
+transform = "{1, 0, 0, 1, 280, 5}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-width = 600;
+width = 563;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -47193,11 +47667,21 @@ unicode = FB2F;
 },
 {
 glyphname = "alefdagesh-hb";
+lastChange = "2015-09-15 00:05:53 +0000";
 layers = (
 {
+components = (
+{
+name = "alef-hb";
+},
+{
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 223, -147}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-width = 600;
+width = 563;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -47210,48 +47694,21 @@ unicode = FB30;
 {
 color = (153,155,255,1);
 glyphname = "betdagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:35:18 +0000";
 layers = (
 {
 components = (
 {
 name = "bet-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 214, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"163 251 LINE SMOOTH",
-"176 251 OFFCURVE",
-"185 260 OFFCURVE",
-"185 273 CURVE SMOOTH",
-"185 296 LINE SMOOTH",
-"185 309 OFFCURVE",
-"176 318 OFFCURVE",
-"163 318 CURVE SMOOTH",
-"140 318 LINE SMOOTH",
-"127 318 OFFCURVE",
-"118 309 OFFCURVE",
-"118 296 CURVE SMOOTH",
-"118 273 LINE SMOOTH",
-"118 260 OFFCURVE",
-"127 251 OFFCURVE",
-"140 251 CURVE SMOOTH"
-);
-}
-);
-width = 548;
+width = 532;
 },
 {
 components = (
@@ -47310,47 +47767,20 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "gimeldagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:41:43 +0000";
 layers = (
 {
 components = (
 {
 name = "gimel-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 151, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"189 344 LINE SMOOTH",
-"202 344 OFFCURVE",
-"211 353 OFFCURVE",
-"211 366 CURVE SMOOTH",
-"211 389 LINE SMOOTH",
-"211 402 OFFCURVE",
-"202 411 OFFCURVE",
-"189 411 CURVE SMOOTH",
-"166 411 LINE SMOOTH",
-"153 411 OFFCURVE",
-"144 402 OFFCURVE",
-"144 389 CURVE SMOOTH",
-"144 366 LINE SMOOTH",
-"144 353 OFFCURVE",
-"153 344 OFFCURVE",
-"166 344 CURVE SMOOTH"
-);
-}
-);
 width = 500;
 },
 {
@@ -47416,47 +47846,20 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "daletdagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:41:11 +0000";
 layers = (
 {
 components = (
 {
 name = "dalet-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 169, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"177 251 LINE SMOOTH",
-"190 251 OFFCURVE",
-"199 260 OFFCURVE",
-"199 273 CURVE SMOOTH",
-"199 296 LINE SMOOTH",
-"199 309 OFFCURVE",
-"190 318 OFFCURVE",
-"177 318 CURVE SMOOTH",
-"154 318 LINE SMOOTH",
-"141 318 OFFCURVE",
-"132 309 OFFCURVE",
-"132 296 CURVE SMOOTH",
-"132 273 LINE SMOOTH",
-"132 260 OFFCURVE",
-"141 251 OFFCURVE",
-"154 251 CURVE SMOOTH"
-);
-}
-);
 width = 499;
 },
 {
@@ -47516,54 +47919,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "hedagesh-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:35:18 +0000";
 layers = (
 {
 components = (
 {
 name = "he-hb";
-transform = "{1, 0, 0, 1, -2, 0}";
-}
-);
-guideLines = (
+},
 {
-position = "{0, 640}";
-}
-);
-hints = (
-{
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 303, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"315 251 LINE SMOOTH",
-"328 251 OFFCURVE",
-"337 260 OFFCURVE",
-"337 273 CURVE SMOOTH",
-"337 296 LINE SMOOTH",
-"337 309 OFFCURVE",
-"328 318 OFFCURVE",
-"315 318 CURVE SMOOTH",
-"292 318 LINE SMOOTH",
-"279 318 OFFCURVE",
-"270 309 OFFCURVE",
-"270 296 CURVE SMOOTH",
-"270 273 LINE SMOOTH",
-"270 260 OFFCURVE",
-"279 251 OFFCURVE",
-"292 251 CURVE SMOOTH"
-);
-}
-);
-width = 606;
+width = 608;
 },
 {
 components = (
@@ -47631,49 +48001,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "vavdagesh-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:38:17 +0000";
 layers = (
 {
 components = (
 {
 name = "vav-hb";
-transform = "{1, 0, 0, 1, 57, 0}";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 12, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"89 251 LINE SMOOTH",
-"102 251 OFFCURVE",
-"111 260 OFFCURVE",
-"111 273 CURVE SMOOTH",
-"111 296 LINE SMOOTH",
-"111 309 OFFCURVE",
-"102 318 OFFCURVE",
-"89 318 CURVE SMOOTH",
-"66 318 LINE SMOOTH",
-"53 318 OFFCURVE",
-"44 309 OFFCURVE",
-"44 296 CURVE SMOOTH",
-"44 273 LINE SMOOTH",
-"44 260 OFFCURVE",
-"53 251 OFFCURVE",
-"66 251 CURVE SMOOTH"
-);
-}
-);
-width = 286;
+width = 229;
 },
 {
 components = (
@@ -47732,48 +48074,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "zayindagesh-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:38:24 +0000";
 layers = (
 {
 components = (
 {
 name = "zayin-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 25, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"127 251 LINE SMOOTH",
-"140 251 OFFCURVE",
-"149 260 OFFCURVE",
-"149 273 CURVE SMOOTH",
-"149 296 LINE SMOOTH",
-"149 309 OFFCURVE",
-"140 318 OFFCURVE",
-"127 318 CURVE SMOOTH",
-"104 318 LINE SMOOTH",
-"91 318 OFFCURVE",
-"82 309 OFFCURVE",
-"82 296 CURVE SMOOTH",
-"82 273 LINE SMOOTH",
-"82 260 OFFCURVE",
-"91 251 OFFCURVE",
-"104 251 CURVE SMOOTH"
-);
-}
-);
-width = 449;
+width = 294;
 },
 {
 components = (
@@ -47832,47 +48147,20 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "tetdagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:37:49 +0000";
 layers = (
 {
 components = (
 {
 name = "tet-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 321, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"335 251 LINE SMOOTH",
-"348 251 OFFCURVE",
-"357 260 OFFCURVE",
-"357 273 CURVE SMOOTH",
-"357 296 LINE SMOOTH",
-"357 309 OFFCURVE",
-"348 318 OFFCURVE",
-"335 318 CURVE SMOOTH",
-"312 318 LINE SMOOTH",
-"299 318 OFFCURVE",
-"290 309 OFFCURVE",
-"290 296 CURVE SMOOTH",
-"290 273 LINE SMOOTH",
-"290 260 OFFCURVE",
-"299 251 OFFCURVE",
-"312 251 CURVE SMOOTH"
-);
-}
-);
 width = 624;
 },
 {
@@ -47932,54 +48220,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "yoddagesh-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:39:17 +0000";
 layers = (
 {
 components = (
 {
 name = "yod-hb";
-transform = "{1, 0, 0, 1, 73, 0}";
-}
-);
-guideLines = (
+},
 {
-position = "{0, 240}";
-}
-);
-hints = (
-{
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 16, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"97 251 LINE SMOOTH",
-"110 251 OFFCURVE",
-"119 260 OFFCURVE",
-"119 273 CURVE SMOOTH",
-"119 296 LINE SMOOTH",
-"119 309 OFFCURVE",
-"110 318 OFFCURVE",
-"97 318 CURVE SMOOTH",
-"74 318 LINE SMOOTH",
-"61 318 OFFCURVE",
-"52 309 OFFCURVE",
-"52 296 CURVE SMOOTH",
-"52 273 LINE SMOOTH",
-"52 260 OFFCURVE",
-"61 251 OFFCURVE",
-"74 251 CURVE SMOOTH"
-);
-}
-);
-width = 287;
+width = 213;
 },
 {
 components = (
@@ -48053,49 +48308,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "finalkafdagesh-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:35:18 +0000";
 layers = (
 {
 components = (
 {
 name = "finalkaf-hb";
-transform = "{1, 0, 0, 1, -5, 0}";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 249, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"172 251 LINE SMOOTH",
-"185 251 OFFCURVE",
-"194 260 OFFCURVE",
-"194 273 CURVE SMOOTH",
-"194 296 LINE SMOOTH",
-"194 309 OFFCURVE",
-"185 318 OFFCURVE",
-"172 318 CURVE SMOOTH",
-"149 318 LINE SMOOTH",
-"136 318 OFFCURVE",
-"127 309 OFFCURVE",
-"127 296 CURVE SMOOTH",
-"127 273 LINE SMOOTH",
-"127 260 OFFCURVE",
-"136 251 OFFCURVE",
-"149 251 CURVE SMOOTH"
-);
-}
-);
-width = 495;
+width = 500;
 },
 {
 components = (
@@ -48155,48 +48382,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "kafdagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:37:21 +0000";
 layers = (
 {
 components = (
 {
 name = "kaf-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 217, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"183 251 LINE SMOOTH",
-"196 251 OFFCURVE",
-"205 260 OFFCURVE",
-"205 273 CURVE SMOOTH",
-"205 296 LINE SMOOTH",
-"205 309 OFFCURVE",
-"196 318 OFFCURVE",
-"183 318 CURVE SMOOTH",
-"160 318 LINE SMOOTH",
-"147 318 OFFCURVE",
-"138 309 OFFCURVE",
-"138 296 CURVE SMOOTH",
-"138 273 LINE SMOOTH",
-"138 260 OFFCURVE",
-"147 251 OFFCURVE",
-"160 251 CURVE SMOOTH"
-);
-}
-);
-width = 552;
+width = 522;
 },
 {
 components = (
@@ -48255,48 +48455,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "lameddagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:37:28 +0000";
 layers = (
 {
 components = (
 {
 name = "lamed-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 170, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"148 251 LINE SMOOTH",
-"161 251 OFFCURVE",
-"170 260 OFFCURVE",
-"170 273 CURVE SMOOTH",
-"170 296 LINE SMOOTH",
-"170 309 OFFCURVE",
-"161 318 OFFCURVE",
-"148 318 CURVE SMOOTH",
-"125 318 LINE SMOOTH",
-"112 318 OFFCURVE",
-"103 309 OFFCURVE",
-"103 296 CURVE SMOOTH",
-"103 273 LINE SMOOTH",
-"103 260 OFFCURVE",
-"112 251 OFFCURVE",
-"125 251 CURVE SMOOTH"
-);
-}
-);
-width = 513;
+width = 483;
 },
 {
 components = (
@@ -48355,48 +48528,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "memdagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:35:18 +0000";
 layers = (
 {
 components = (
 {
 name = "mem-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 306, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"373 251 LINE SMOOTH",
-"386 251 OFFCURVE",
-"395 260 OFFCURVE",
-"395 273 CURVE SMOOTH",
-"395 296 LINE SMOOTH",
-"395 309 OFFCURVE",
-"386 318 OFFCURVE",
-"373 318 CURVE SMOOTH",
-"350 318 LINE SMOOTH",
-"337 318 OFFCURVE",
-"328 309 OFFCURVE",
-"328 296 CURVE SMOOTH",
-"328 273 LINE SMOOTH",
-"328 260 OFFCURVE",
-"337 251 OFFCURVE",
-"350 251 CURVE SMOOTH"
-);
-}
-);
-width = 654;
+width = 614;
 },
 {
 components = (
@@ -48455,48 +48601,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "nundagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:35:18 +0000";
 layers = (
 {
 components = (
 {
 name = "nun-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 179, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"170 251 LINE SMOOTH",
-"183 251 OFFCURVE",
-"192 260 OFFCURVE",
-"192 273 CURVE SMOOTH",
-"192 296 LINE SMOOTH",
-"192 309 OFFCURVE",
-"183 318 OFFCURVE",
-"170 318 CURVE SMOOTH",
-"147 318 LINE SMOOTH",
-"134 318 OFFCURVE",
-"125 309 OFFCURVE",
-"125 296 CURVE SMOOTH",
-"125 273 LINE SMOOTH",
-"125 260 OFFCURVE",
-"134 251 OFFCURVE",
-"147 251 CURVE SMOOTH"
-);
-}
-);
-width = 436;
+width = 393;
 },
 {
 components = (
@@ -48555,48 +48674,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "samekhdagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:35:43 +0000";
 layers = (
 {
 components = (
 {
 name = "samekh-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 314, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"306 251 LINE SMOOTH",
-"319 251 OFFCURVE",
-"328 260 OFFCURVE",
-"328 273 CURVE SMOOTH",
-"328 296 LINE SMOOTH",
-"328 309 OFFCURVE",
-"319 318 OFFCURVE",
-"306 318 CURVE SMOOTH",
-"283 318 LINE SMOOTH",
-"270 318 OFFCURVE",
-"261 309 OFFCURVE",
-"261 296 CURVE SMOOTH",
-"261 273 LINE SMOOTH",
-"261 260 OFFCURVE",
-"270 251 OFFCURVE",
-"283 251 CURVE SMOOTH"
-);
-}
-);
-width = 583;
+width = 631;
 },
 {
 components = (
@@ -48654,11 +48746,21 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = "finalpedagesh-hb";
+lastChange = "2015-09-14 23:40:13 +0000";
 layers = (
 {
+components = (
+{
+name = "finalpe-hb";
+},
+{
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 361, -29}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-width = 600;
+width = 569;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -48671,48 +48773,21 @@ unicode = FB43;
 {
 color = (153,155,255,1);
 glyphname = "pedagesh-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:35:18 +0000";
 layers = (
 {
 components = (
 {
 name = "pe-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 359, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"439 255 LINE SMOOTH",
-"452 255 OFFCURVE",
-"461 264 OFFCURVE",
-"461 277 CURVE SMOOTH",
-"461 300 LINE SMOOTH",
-"461 313 OFFCURVE",
-"452 322 OFFCURVE",
-"439 322 CURVE SMOOTH",
-"416 322 LINE SMOOTH",
-"403 322 OFFCURVE",
-"394 313 OFFCURVE",
-"394 300 CURVE SMOOTH",
-"394 277 LINE SMOOTH",
-"394 264 OFFCURVE",
-"403 255 OFFCURVE",
-"416 255 CURVE SMOOTH"
-);
-}
-);
-width = 635;
+width = 554;
 },
 {
 components = (
@@ -48771,47 +48846,20 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "tsadidagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:40:39 +0000";
 layers = (
 {
 components = (
 {
 name = "tsadi-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 141, -85}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"127 251 LINE SMOOTH",
-"140 251 OFFCURVE",
-"149 260 OFFCURVE",
-"149 273 CURVE SMOOTH",
-"149 296 LINE SMOOTH",
-"149 309 OFFCURVE",
-"140 318 OFFCURVE",
-"127 318 CURVE SMOOTH",
-"104 318 LINE SMOOTH",
-"91 318 OFFCURVE",
-"82 309 OFFCURVE",
-"82 296 CURVE SMOOTH",
-"82 273 LINE SMOOTH",
-"82 260 OFFCURVE",
-"91 251 OFFCURVE",
-"104 251 CURVE SMOOTH"
-);
-}
-);
 width = 511;
 },
 {
@@ -48871,47 +48919,20 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "qofdagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:37:21 +0000";
 layers = (
 {
 components = (
 {
 name = "qof-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 274, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"321 251 LINE SMOOTH",
-"334 251 OFFCURVE",
-"343 260 OFFCURVE",
-"343 273 CURVE SMOOTH",
-"343 296 LINE SMOOTH",
-"343 309 OFFCURVE",
-"334 318 OFFCURVE",
-"321 318 CURVE SMOOTH",
-"298 318 LINE SMOOTH",
-"285 318 OFFCURVE",
-"276 309 OFFCURVE",
-"276 296 CURVE SMOOTH",
-"276 273 LINE SMOOTH",
-"276 260 OFFCURVE",
-"285 251 OFFCURVE",
-"298 251 CURVE SMOOTH"
-);
-}
-);
 width = 610;
 },
 {
@@ -48970,11 +48991,21 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = "reshdagesh-hb";
+lastChange = "2015-09-14 23:35:57 +0000";
 layers = (
 {
+components = (
+{
+name = "resh-hb";
+},
+{
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 201, -29}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-width = 600;
+width = 489;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -48987,47 +49018,20 @@ unicode = FB48;
 {
 color = (153,155,255,1);
 glyphname = "shindagesh-hb";
-lastChange = "2015-08-24 22:01:40 +0000";
+lastChange = "2015-09-14 23:41:58 +0000";
 layers = (
 {
 components = (
 {
 name = "shin-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 4}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 469, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"462 251 LINE SMOOTH",
-"475 251 OFFCURVE",
-"484 260 OFFCURVE",
-"484 273 CURVE SMOOTH",
-"484 296 LINE SMOOTH",
-"484 309 OFFCURVE",
-"475 318 OFFCURVE",
-"462 318 CURVE SMOOTH",
-"439 318 LINE SMOOTH",
-"426 318 OFFCURVE",
-"417 309 OFFCURVE",
-"417 296 CURVE SMOOTH",
-"417 273 LINE SMOOTH",
-"417 260 OFFCURVE",
-"426 251 OFFCURVE",
-"439 251 CURVE SMOOTH"
-);
-}
-);
 width = 709;
 },
 {
@@ -49087,48 +49091,21 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = "tavdagesh-hb";
-lastChange = "2015-08-24 22:01:39 +0000";
+lastChange = "2015-09-14 23:37:21 +0000";
 layers = (
 {
 components = (
 {
 name = "tav-hb";
-}
-);
-hints = (
+},
 {
-horizontal = 1;
-origin = "{0, 8}";
-type = Tag;
-name = hr00;
+name = "dagesh-hb";
+transform = "{1, 0, 0, 1, 358, -29}";
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-paths = (
-{
-closed = 1;
-nodes = (
-"355 251 LINE SMOOTH",
-"368 251 OFFCURVE",
-"377 260 OFFCURVE",
-"377 273 CURVE SMOOTH",
-"377 296 LINE SMOOTH",
-"377 309 OFFCURVE",
-"368 318 OFFCURVE",
-"355 318 CURVE SMOOTH",
-"332 318 LINE SMOOTH",
-"319 318 OFFCURVE",
-"310 309 OFFCURVE",
-"310 296 CURVE SMOOTH",
-"310 273 LINE SMOOTH",
-"310 260 OFFCURVE",
-"319 251 OFFCURVE",
-"332 251 CURVE SMOOTH"
-);
-}
-);
-width = 649;
+width = 639;
 },
 {
 components = (
@@ -49186,11 +49163,21 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = "vavholam-hb";
+lastChange = "2015-09-15 00:01:04 +0000";
 layers = (
 {
+components = (
+{
+name = "vav-hb";
+},
+{
+name = "holam-hb";
+transform = "{1, 0, 0, 1, 67, 105}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-width = 600;
+width = 229;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -76726,12 +76713,41 @@ unicode = 05B3;
 },
 {
 glyphname = "hiriq-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-14 23:43:26 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{0, -5}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"12 -116 LINE SMOOTH",
+"25 -116 OFFCURVE",
+"34 -107 OFFCURVE",
+"34 -94 CURVE SMOOTH",
+"34 -71 LINE SMOOTH",
+"34 -58 OFFCURVE",
+"25 -49 OFFCURVE",
+"12 -49 CURVE SMOOTH",
+"-11 -49 LINE SMOOTH",
+"-24 -49 OFFCURVE",
+"-33 -58 OFFCURVE",
+"-33 -71 CURVE SMOOTH",
+"-33 -94 LINE SMOOTH",
+"-33 -107 OFFCURVE",
+"-24 -116 OFFCURVE",
+"-11 -116 CURVE SMOOTH"
+);
+}
+);
+width = 0;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -76743,11 +76759,61 @@ unicode = 05B4;
 },
 {
 glyphname = "tsere-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-14 23:44:53 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{1, -5}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"-29 -116 LINE SMOOTH",
+"-16 -116 OFFCURVE",
+"-7 -107 OFFCURVE",
+"-7 -94 CURVE SMOOTH",
+"-7 -71 LINE SMOOTH",
+"-7 -58 OFFCURVE",
+"-16 -49 OFFCURVE",
+"-29 -49 CURVE SMOOTH",
+"-52 -49 LINE SMOOTH",
+"-65 -49 OFFCURVE",
+"-74 -58 OFFCURVE",
+"-74 -71 CURVE SMOOTH",
+"-74 -94 LINE SMOOTH",
+"-74 -107 OFFCURVE",
+"-65 -116 OFFCURVE",
+"-52 -116 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"56 -116 LINE SMOOTH",
+"69 -116 OFFCURVE",
+"78 -107 OFFCURVE",
+"78 -94 CURVE SMOOTH",
+"78 -71 LINE SMOOTH",
+"78 -58 OFFCURVE",
+"69 -49 OFFCURVE",
+"56 -49 CURVE SMOOTH",
+"33 -49 LINE SMOOTH",
+"20 -49 OFFCURVE",
+"11 -58 OFFCURVE",
+"11 -71 CURVE SMOOTH",
+"11 -94 LINE SMOOTH",
+"11 -107 OFFCURVE",
+"20 -116 OFFCURVE",
+"33 -116 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -76760,11 +76826,82 @@ unicode = 05B5;
 },
 {
 glyphname = "segol-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-14 23:45:10 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{1, -5}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"12 -195 LINE SMOOTH",
+"25 -195 OFFCURVE",
+"34 -186 OFFCURVE",
+"34 -173 CURVE SMOOTH",
+"34 -150 LINE SMOOTH",
+"34 -137 OFFCURVE",
+"25 -128 OFFCURVE",
+"12 -128 CURVE SMOOTH",
+"-11 -128 LINE SMOOTH",
+"-24 -128 OFFCURVE",
+"-33 -137 OFFCURVE",
+"-33 -150 CURVE SMOOTH",
+"-33 -173 LINE SMOOTH",
+"-33 -186 OFFCURVE",
+"-24 -195 OFFCURVE",
+"-11 -195 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-29 -116 LINE SMOOTH",
+"-16 -116 OFFCURVE",
+"-7 -107 OFFCURVE",
+"-7 -94 CURVE SMOOTH",
+"-7 -71 LINE SMOOTH",
+"-7 -58 OFFCURVE",
+"-16 -49 OFFCURVE",
+"-29 -49 CURVE SMOOTH",
+"-52 -49 LINE SMOOTH",
+"-65 -49 OFFCURVE",
+"-74 -58 OFFCURVE",
+"-74 -71 CURVE SMOOTH",
+"-74 -94 LINE SMOOTH",
+"-74 -107 OFFCURVE",
+"-65 -116 OFFCURVE",
+"-52 -116 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"56 -116 LINE SMOOTH",
+"69 -116 OFFCURVE",
+"78 -107 OFFCURVE",
+"78 -94 CURVE SMOOTH",
+"78 -71 LINE SMOOTH",
+"78 -58 OFFCURVE",
+"69 -49 OFFCURVE",
+"56 -49 CURVE SMOOTH",
+"33 -49 LINE SMOOTH",
+"20 -49 OFFCURVE",
+"11 -58 OFFCURVE",
+"11 -71 CURVE SMOOTH",
+"11 -94 LINE SMOOTH",
+"11 -107 OFFCURVE",
+"20 -116 OFFCURVE",
+"33 -116 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -76777,11 +76914,40 @@ unicode = 05B6;
 },
 {
 glyphname = "patah-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-15 00:05:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{2, -5}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"66 -101 LINE SMOOTH",
+"79 -101 OFFCURVE",
+"88 -92 OFFCURVE",
+"88 -79 CURVE SMOOTH",
+"88 -71 LINE SMOOTH",
+"88 -58 OFFCURVE",
+"79 -49 OFFCURVE",
+"66 -49 CURVE SMOOTH",
+"-62 -49 LINE SMOOTH",
+"-75 -49 OFFCURVE",
+"-84 -58 OFFCURVE",
+"-84 -71 CURVE SMOOTH",
+"-84 -79 LINE SMOOTH",
+"-84 -92 OFFCURVE",
+"-75 -101 OFFCURVE",
+"-62 -101 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -76794,11 +76960,61 @@ unicode = 05B7;
 },
 {
 glyphname = "qamats-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-15 00:05:01 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{2, -5}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"66 -101 LINE SMOOTH",
+"79 -101 OFFCURVE",
+"88 -92 OFFCURVE",
+"88 -79 CURVE SMOOTH",
+"88 -71 LINE SMOOTH",
+"88 -58 OFFCURVE",
+"79 -49 OFFCURVE",
+"66 -49 CURVE SMOOTH",
+"-62 -49 LINE SMOOTH",
+"-75 -49 OFFCURVE",
+"-84 -58 OFFCURVE",
+"-84 -71 CURVE SMOOTH",
+"-84 -79 LINE SMOOTH",
+"-84 -92 OFFCURVE",
+"-75 -101 OFFCURVE",
+"-62 -101 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"4 -195 LINE SMOOTH",
+"17 -195 OFFCURVE",
+"26 -186 OFFCURVE",
+"26 -173 CURVE SMOOTH",
+"26 -104 LINE SMOOTH",
+"26 -81 OFFCURVE",
+"17 -82 OFFCURVE",
+"4 -82 CURVE SMOOTH",
+"-3 -82 LINE SMOOTH",
+"-16 -82 OFFCURVE",
+"-25 -81 OFFCURVE",
+"-25 -104 CURVE SMOOTH",
+"-25 -173 LINE SMOOTH",
+"-25 -186 OFFCURVE",
+"-16 -195 OFFCURVE",
+"-3 -195 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -76811,11 +77027,40 @@ unicode = 05B8;
 },
 {
 glyphname = "holam-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-14 23:49:29 +0000";
 layers = (
 {
+anchors = (
+{
+name = _topleft;
+position = "{51, 415}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"12 513 LINE SMOOTH",
+"25 513 OFFCURVE",
+"34 522 OFFCURVE",
+"34 535 CURVE SMOOTH",
+"34 558 LINE SMOOTH",
+"34 571 OFFCURVE",
+"25 580 OFFCURVE",
+"12 580 CURVE SMOOTH",
+"-11 580 LINE SMOOTH",
+"-24 580 OFFCURVE",
+"-33 571 OFFCURVE",
+"-33 558 CURVE SMOOTH",
+"-33 535 LINE SMOOTH",
+"-33 522 OFFCURVE",
+"-24 513 OFFCURVE",
+"-11 513 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -76828,11 +77073,40 @@ unicode = 05B9;
 },
 {
 glyphname = "holamhaser-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-14 23:58:05 +0000";
 layers = (
 {
+anchors = (
+{
+name = _topleft;
+position = "{-3, 415}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"-58 513 LINE SMOOTH",
+"-45 513 OFFCURVE",
+"-36 522 OFFCURVE",
+"-36 535 CURVE SMOOTH",
+"-36 558 LINE SMOOTH",
+"-36 571 OFFCURVE",
+"-45 580 OFFCURVE",
+"-58 580 CURVE SMOOTH",
+"-81 580 LINE SMOOTH",
+"-94 580 OFFCURVE",
+"-103 571 OFFCURVE",
+"-103 558 CURVE SMOOTH",
+"-103 535 LINE SMOOTH",
+"-103 522 OFFCURVE",
+"-94 513 OFFCURVE",
+"-81 513 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -76845,11 +77119,82 @@ unicode = 05BA;
 },
 {
 glyphname = "qubuts-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-15 00:00:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{2, 0}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"51 -176 LINE SMOOTH",
+"64 -176 OFFCURVE",
+"73 -167 OFFCURVE",
+"73 -154 CURVE SMOOTH",
+"73 -131 LINE SMOOTH",
+"73 -118 OFFCURVE",
+"64 -109 OFFCURVE",
+"51 -109 CURVE SMOOTH",
+"28 -109 LINE SMOOTH",
+"15 -109 OFFCURVE",
+"6 -118 OFFCURVE",
+"6 -131 CURVE SMOOTH",
+"6 -154 LINE SMOOTH",
+"6 -167 OFFCURVE",
+"15 -176 OFFCURVE",
+"28 -176 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-19 -116 LINE SMOOTH",
+"-6 -116 OFFCURVE",
+"3 -107 OFFCURVE",
+"3 -94 CURVE SMOOTH",
+"3 -71 LINE SMOOTH",
+"3 -58 OFFCURVE",
+"-6 -49 OFFCURVE",
+"-19 -49 CURVE SMOOTH",
+"-42 -49 LINE SMOOTH",
+"-55 -49 OFFCURVE",
+"-64 -58 OFFCURVE",
+"-64 -71 CURVE SMOOTH",
+"-64 -94 LINE SMOOTH",
+"-64 -107 OFFCURVE",
+"-55 -116 OFFCURVE",
+"-42 -116 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"121 -234 LINE SMOOTH",
+"134 -234 OFFCURVE",
+"143 -225 OFFCURVE",
+"143 -212 CURVE SMOOTH",
+"143 -189 LINE SMOOTH",
+"143 -176 OFFCURVE",
+"134 -167 OFFCURVE",
+"121 -167 CURVE SMOOTH",
+"98 -167 LINE SMOOTH",
+"85 -167 OFFCURVE",
+"76 -176 OFFCURVE",
+"76 -189 CURVE SMOOTH",
+"76 -212 LINE SMOOTH",
+"76 -225 OFFCURVE",
+"85 -234 OFFCURVE",
+"98 -234 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -76862,12 +77207,41 @@ unicode = 05BB;
 },
 {
 glyphname = "dagesh-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-14 23:33:53 +0000";
 layers = (
 {
+anchors = (
+{
+name = _center;
+position = "{1, 289}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"12 285 LINE SMOOTH",
+"25 285 OFFCURVE",
+"34 294 OFFCURVE",
+"34 307 CURVE SMOOTH",
+"34 330 LINE SMOOTH",
+"34 343 OFFCURVE",
+"25 352 OFFCURVE",
+"12 352 CURVE SMOOTH",
+"-11 352 LINE SMOOTH",
+"-24 352 OFFCURVE",
+"-33 343 OFFCURVE",
+"-33 330 CURVE SMOOTH",
+"-33 307 LINE SMOOTH",
+"-33 294 OFFCURVE",
+"-24 285 OFFCURVE",
+"-11 285 CURVE SMOOTH"
+);
+}
+);
+width = 0;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -76879,11 +77253,40 @@ unicode = 05BC;
 },
 {
 glyphname = "shindot-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-15 00:03:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = _topright;
+position = "{23, 415}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"-58 513 LINE SMOOTH",
+"-45 513 OFFCURVE",
+"-36 522 OFFCURVE",
+"-36 535 CURVE SMOOTH",
+"-36 558 LINE SMOOTH",
+"-36 571 OFFCURVE",
+"-45 580 OFFCURVE",
+"-58 580 CURVE SMOOTH",
+"-81 580 LINE SMOOTH",
+"-94 580 OFFCURVE",
+"-103 571 OFFCURVE",
+"-103 558 CURVE SMOOTH",
+"-103 535 LINE SMOOTH",
+"-103 522 OFFCURVE",
+"-94 513 OFFCURVE",
+"-81 513 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -76896,11 +77299,40 @@ unicode = 05C1;
 },
 {
 glyphname = "sindot-hb";
-lastChange = "2015-08-24 22:02:09 +0000";
+lastChange = "2015-09-15 00:02:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = _topleft;
+position = "{-70, 415}";
+}
+);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
 name = Light;
+paths = (
+{
+closed = 1;
+nodes = (
+"31 513 LINE SMOOTH",
+"44 513 OFFCURVE",
+"53 522 OFFCURVE",
+"53 535 CURVE SMOOTH",
+"53 558 LINE SMOOTH",
+"53 571 OFFCURVE",
+"44 580 OFFCURVE",
+"31 580 CURVE SMOOTH",
+"8 580 LINE SMOOTH",
+"-5 580 OFFCURVE",
+"-14 571 OFFCURVE",
+"-14 558 CURVE SMOOTH",
+"-14 535 LINE SMOOTH",
+"-14 522 OFFCURVE",
+"-5 513 OFFCURVE",
+"8 513 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 },
 {
@@ -78720,20 +79152,6 @@ unicode = F6D0;
 disablesNiceNames = 1;
 instances = (
 {
-customParameters = (
-{
-name = postscriptFontName;
-value = "Rubik-Light";
-},
-{
-name = postscriptFullName;
-value = "Rubik Light";
-},
-{
-name = styleMapFamilyName;
-value = Rubik;
-}
-);
 interpolationWeight = 200;
 name = Light;
 },
@@ -78753,6 +79171,7 @@ interpolationWeight = 700;
 name = Bold;
 },
 {
+active = 0;
 interpolationWeight = 800;
 name = Black;
 }
