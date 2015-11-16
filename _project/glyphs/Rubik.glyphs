@@ -1,6 +1,7 @@
 {
 DisplayStrings = (
-"/alef-hb/bet-hb/gimel-hb/dalet-hb/he-hb/vav-hb nt/zayin-hb/het-hb/tet-hb/yod-hb/kaf-hb/lamed-hb/mem-hb/nun-hb/samekh-hb/ayin-hb/pe-hb/tsadi-hb/qof-hb/resh-hb/shin-hb/tav-hb/finalkaf-hb/finalmem-hb/finalpe-hb/finaltsadi-hb/finalnun-hb"
+"/alef-hb/bet-hb/gimel-hb/dalet-hb/he-hb/vav-hb cnt/zayin-hb/het-hb/tet-hb/yod-hb/kaf-hb/lamed-hb/mem-hb/nun-hb/samekh-hb/ayin-hb/pe-hb/tsadi-hb/qof-hb/resh-hb/shin-hb/tav-hb/finalkaf-hb/finalmem-hb/finalpe-hb/finaltsadi-hb/finalnun-hb",
+"/pe-hb"
 );
 classes = (
 {
@@ -46492,7 +46493,7 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "pe-hb";
-lastChange = "2015-10-21 15:01:37 +0000";
+lastChange = "2015-11-16 16:08:52 +0000";
 layers = (
 {
 anchors = (
@@ -47648,7 +47649,7 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = "shin-hb";
-lastChange = "2015-10-21 15:34:50 +0000";
+lastChange = "2015-10-26 13:48:47 +0000";
 layers = (
 {
 anchors = (
@@ -47717,8 +47718,8 @@ nodes = (
 "300 -5 CURVE SMOOTH",
 "367 -5 LINE",
 "528 -10 OFFCURVE",
-"633 69 OFFCURVE",
-"633 340 CURVE SMOOTH",
+"633 98 OFFCURVE",
+"633 265 CURVE SMOOTH",
 "633 549 LINE",
 "633 562 OFFCURVE",
 "624 571 OFFCURVE",
@@ -47727,8 +47728,8 @@ nodes = (
 "581 571 OFFCURVE",
 "572 562 OFFCURVE",
 "572 549 CURVE",
-"572 347 LINE SMOOTH",
-"572 112 OFFCURVE",
+"572 272 LINE SMOOTH",
+"572 141 OFFCURVE",
 "501 51 OFFCURVE",
 "363 54 CURVE"
 );
@@ -47824,9 +47825,9 @@ nodes = (
 "143 -10 OFFCURVE",
 "333 -10 CURVE SMOOTH",
 "443 -10 LINE SMOOTH",
-"668 -10 OFFCURVE",
-"764 141 OFFCURVE",
-"764 372 CURVE SMOOTH",
+"615 -10 OFFCURVE",
+"764 107 OFFCURVE",
+"764 293 CURVE SMOOTH",
 "764 544 LINE SMOOTH",
 "764 559 OFFCURVE",
 "752 571 OFFCURVE",
@@ -47835,9 +47836,9 @@ nodes = (
 "573 571 OFFCURVE",
 "561 560 OFFCURVE",
 "561 545 CURVE SMOOTH",
-"561 377 LINE SMOOTH",
-"561 255 OFFCURVE",
-"521 164 OFFCURVE",
+"561 298 LINE SMOOTH",
+"561 223 OFFCURVE",
+"485 164 OFFCURVE",
 "398 164 CURVE"
 );
 },
