@@ -56,7 +56,7 @@
       <point x="118" y="192" type="line"/>
     </contour>
     <contour>
-      <point x="309" y="0" type="move" name="bottom"/>
+      <point x="479" y="260" type="move" name="center"/>
     </contour>
     <contour>
       <point x="420" y="520" type="move" name="top"/>
@@ -71,7 +71,7 @@
       <point x="754" y="520" type="move" name="topright"/>
     </contour>
     <contour>
-      <point x="479" y="260" type="move" name="center"/>
+      <point x="309" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>

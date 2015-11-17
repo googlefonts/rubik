@@ -45,7 +45,7 @@
       <point x="259" y="0" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="218" y="0" type="move" name="bottom"/>
+      <point x="133" y="260" type="move" name="center"/>
     </contour>
     <contour>
       <point x="218" y="520" type="move" name="top"/>
@@ -57,7 +57,7 @@
       <point x="20" y="520" type="move" name="topleft"/>
     </contour>
     <contour>
-      <point x="133" y="260" type="move" name="center"/>
+      <point x="218" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
@@ -70,9 +70,7 @@
           <key>angle</key>
           <integer>90</integer>
           <key>isGlobal</key>
-          <integer>0</integer>
-          <key>magnetic</key>
-          <integer>5</integer>
+          <false/>
           <key>x</key>
           <integer>361</integer>
           <key>y</key>
@@ -82,9 +80,7 @@
           <key>angle</key>
           <integer>90</integer>
           <key>isGlobal</key>
-          <integer>0</integer>
-          <key>magnetic</key>
-          <integer>5</integer>
+          <false/>
           <key>x</key>
           <integer>45</integer>
           <key>y</key>

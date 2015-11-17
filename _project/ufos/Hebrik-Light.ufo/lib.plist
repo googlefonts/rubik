@@ -841,6 +841,8 @@
 	</array>
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<integer>0</integer>
+	<key>com.schriftgestaltung.weight</key>
+	<string>Light</string>
 	<key>com.typemytype.robofont.guides</key>
 	<array>
 		<dict>

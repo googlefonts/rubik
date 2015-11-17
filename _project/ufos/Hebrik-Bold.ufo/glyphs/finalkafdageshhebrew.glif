@@ -4,7 +4,7 @@
   <unicode hex="FB3A"/>
   <outline>
     <component base="finalkafhebrew"/>
-    <component base="dageshhebrew" xOffset="184" yOffset="-29"/>
+    <component base="dageshhebrew" xOffset="202" yOffset="-27"/>
   </outline>
   <lib>
     <dict>

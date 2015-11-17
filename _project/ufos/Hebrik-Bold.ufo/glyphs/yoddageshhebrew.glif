@@ -16,9 +16,7 @@
           <key>angle</key>
           <integer>0</integer>
           <key>isGlobal</key>
-          <integer>0</integer>
-          <key>magnetic</key>
-          <integer>5</integer>
+          <false/>
           <key>x</key>
           <integer>0</integer>
           <key>y</key>
