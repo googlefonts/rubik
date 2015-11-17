@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefqamats-hb" format="1">
+  <advance width="612"/>
+  <unicode hex="FB2F"/>
+  <outline>
+    <component base="alef-hb"/>
+    <component base="qamats-hb" xOffset="298" yOffset="3"/>
+  </outline>
+</glyph>

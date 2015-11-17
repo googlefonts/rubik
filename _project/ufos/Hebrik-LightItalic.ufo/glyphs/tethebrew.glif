@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tethebrew" format="1">
+  <advance width="624"/>
+  <unicode hex="05D8"/>
+  <outline>
+    <contour>
+      <point x="444" y="-10"/>
+      <point x="524" y="69"/>
+      <point x="561" y="224" type="curve"/>
+      <point x="566" y="244"/>
+      <point x="584" y="327"/>
+      <point x="587" y="347" type="curve" smooth="yes"/>
+      <point x="617" y="507"/>
+      <point x="557" y="576"/>
+      <point x="436" y="576" type="curve"/>
+      <point x="387" y="576"/>
+      <point x="356" y="565"/>
+      <point x="323" y="546" type="curve" smooth="yes"/>
+      <point x="311" y="539"/>
+      <point x="310" y="530"/>
+      <point x="307" y="518" type="curve" smooth="yes"/>
+      <point x="304" y="505" type="line" smooth="yes"/>
+      <point x="302" y="492"/>
+      <point x="316" y="485"/>
+      <point x="329" y="492" type="curve" smooth="yes"/>
+      <point x="356" y="508"/>
+      <point x="395" y="518"/>
+      <point x="419" y="518" type="curve" smooth="yes"/>
+      <point x="502" y="518"/>
+      <point x="548" y="467"/>
+      <point x="525" y="342" type="curve" smooth="yes"/>
+      <point x="520" y="322"/>
+      <point x="506" y="249"/>
+      <point x="501" y="229" type="curve" smooth="yes"/>
+      <point x="472" y="109"/>
+      <point x="406" y="48"/>
+      <point x="281" y="48" type="curve" smooth="yes"/>
+      <point x="156" y="48"/>
+      <point x="115" y="119"/>
+      <point x="141" y="239" type="curve" smooth="yes"/>
+      <point x="207" y="549" type="line" smooth="yes"/>
+      <point x="209" y="562"/>
+      <point x="202" y="571"/>
+      <point x="189" y="571" type="curve" smooth="yes"/>
+      <point x="172" y="571" type="line" smooth="yes"/>
+      <point x="159" y="571"/>
+      <point x="148" y="562"/>
+      <point x="146" y="549" type="curve" smooth="yes"/>
+      <point x="79" y="234" type="line" smooth="yes"/>
+      <point x="46" y="79"/>
+      <point x="94" y="-10"/>
+      <point x="269" y="-10" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="272" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="383" y="520" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="-30" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="81" y="520" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="327" y="260" type="move" name="center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=kaf-hb</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>-100</integer>
+          <key>y</key>
+          <integer>571</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>-100</integer>
+          <key>y</key>
+          <integer>581</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>96</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>-35</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.741</real>
+        <real>0.6</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

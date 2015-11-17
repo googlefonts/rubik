@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="1">
+  <advance width="431"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="346" y="614" type="line" smooth="yes"/>
+      <point x="359" y="614"/>
+      <point x="369" y="623"/>
+      <point x="369" y="636" type="curve" smooth="yes"/>
+      <point x="369" y="710" type="line" smooth="yes"/>
+      <point x="369" y="723"/>
+      <point x="359" y="733"/>
+      <point x="346" y="733" type="curve" smooth="yes"/>
+      <point x="272" y="733" type="line" smooth="yes"/>
+      <point x="259" y="733"/>
+      <point x="250" y="723"/>
+      <point x="250" y="710" type="curve" smooth="yes"/>
+      <point x="250" y="636" type="line" smooth="yes"/>
+      <point x="250" y="623"/>
+      <point x="259" y="614"/>
+      <point x="272" y="614" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="158" y="614" type="line" smooth="yes"/>
+      <point x="171" y="614"/>
+      <point x="181" y="623"/>
+      <point x="181" y="636" type="curve" smooth="yes"/>
+      <point x="181" y="710" type="line" smooth="yes"/>
+      <point x="181" y="723"/>
+      <point x="171" y="733"/>
+      <point x="158" y="733" type="curve" smooth="yes"/>
+      <point x="84" y="733" type="line" smooth="yes"/>
+      <point x="71" y="733"/>
+      <point x="62" y="723"/>
+      <point x="62" y="710" type="curve" smooth="yes"/>
+      <point x="62" y="636" type="line" smooth="yes"/>
+      <point x="62" y="623"/>
+      <point x="71" y="614"/>
+      <point x="84" y="614" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>575</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>153</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
