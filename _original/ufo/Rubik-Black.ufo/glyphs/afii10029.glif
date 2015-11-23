@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10029" format="1">
+  <advance width="796"/>
+  <unicode hex="041B"/>
+  <outline>
+    <contour>
+      <point x="46" y="-10" type="curve" smooth="yes"/>
+      <point x="236" y="-10"/>
+      <point x="369" y="75"/>
+      <point x="369" y="264" type="curve" smooth="yes"/>
+      <point x="369" y="480" type="line"/>
+      <point x="491" y="480" type="line"/>
+      <point x="491" y="27" type="line" smooth="yes"/>
+      <point x="491" y="12"/>
+      <point x="503" y="0"/>
+      <point x="518" y="0" type="curve" smooth="yes" name="hr01"/>
+      <point x="714" y="0" type="line" smooth="yes"/>
+      <point x="729" y="0"/>
+      <point x="741" y="12"/>
+      <point x="741" y="27" type="curve" smooth="yes"/>
+      <point x="741" y="673" type="line" smooth="yes"/>
+      <point x="741" y="688"/>
+      <point x="729" y="700"/>
+      <point x="714" y="700" type="curve" smooth="yes"/>
+      <point x="146" y="700" type="line" smooth="yes"/>
+      <point x="131" y="700"/>
+      <point x="119" y="688"/>
+      <point x="119" y="673" type="curve" smooth="yes"/>
+      <point x="119" y="268" type="line" smooth="yes"/>
+      <point x="119" y="218"/>
+      <point x="94" y="191"/>
+      <point x="45" y="191" type="curve" smooth="yes" name="hr02"/>
+      <point x="30" y="191"/>
+      <point x="18" y="179"/>
+      <point x="18" y="164" type="curve" smooth="yes"/>
+      <point x="18" y="17" type="line" smooth="yes"/>
+      <point x="18" y="2"/>
+      <point x="31" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  <key>com.typemytype.robofont.guides</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <real>0</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>0</real>
+      <key>y</key>
+      <real>268</real>
+    </dict>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr01">
+      <hstem pos="21" width="-21" />
+      <hstem pos="480" width="220" />
+      <vstem pos="119" width="250" />
+      <vstem pos="491" width="250" />
+    </hintset>
+    <hintset pointTag="hr02">
+      <hstem pos="-10" width="201" />
+      <hstem pos="480" width="220" />
+      <vstem pos="119" width="250" />
+      <vstem pos="491" width="250" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

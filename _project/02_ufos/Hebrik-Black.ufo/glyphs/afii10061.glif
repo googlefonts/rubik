@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10061" format="1">
+  <advance width="715"/>
+  <unicode hex="040C"/>
+  <outline>
+    <component base="Acute" xOffset="228"/>
+    <component base="K"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>394</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.6</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

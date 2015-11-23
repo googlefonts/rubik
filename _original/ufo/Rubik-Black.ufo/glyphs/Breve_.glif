@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Breve" format="1">
+  <advance width="454"/>
+  <outline>
+    <contour>
+      <point x="267" y="901" type="curve" smooth="yes"/>
+      <point x="267" y="871"/>
+      <point x="259" y="846"/>
+      <point x="227" y="846" type="curve" smooth="yes"/>
+      <point x="195" y="846"/>
+      <point x="187" y="871"/>
+      <point x="187" y="901" type="curve" smooth="yes"/>
+      <point x="187" y="911"/>
+      <point x="180" y="920"/>
+      <point x="168" y="920" type="curve" smooth="yes" name="hr01"/>
+      <point x="69" y="920" type="line" smooth="yes"/>
+      <point x="57" y="920"/>
+      <point x="50" y="911"/>
+      <point x="50" y="901" type="curve" smooth="yes"/>
+      <point x="50" y="811"/>
+      <point x="107" y="745"/>
+      <point x="227" y="745" type="curve" smooth="yes"/>
+      <point x="347" y="745"/>
+      <point x="404" y="811"/>
+      <point x="404" y="901" type="curve" smooth="yes"/>
+      <point x="404" y="911"/>
+      <point x="397" y="920"/>
+      <point x="385" y="920" type="curve" smooth="yes"/>
+      <point x="286" y="920" type="line" smooth="yes"/>
+      <point x="274" y="920"/>
+      <point x="267" y="911"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.guides</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <real>0</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>0</real>
+      <key>y</key>
+      <real>915</real>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <real>0</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>0</real>
+      <key>y</key>
+      <real>875</real>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <real>0</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>0</real>
+      <key>y</key>
+      <real>920</real>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <real>0</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>0</real>
+      <key>y</key>
+      <real>745</real>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <real>90</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>227</real>
+      <key>y</key>
+      <real>0</real>
+    </dict>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr01">
+      <hstem pos="745" width="175" />
+      <vstem pos="50" width="137" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

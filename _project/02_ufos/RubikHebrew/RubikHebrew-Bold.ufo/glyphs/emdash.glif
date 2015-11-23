@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emdash" format="1">
+  <advance width="756"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="675" y="225" type="line" smooth="yes"/>
+      <point x="690" y="225"/>
+      <point x="701" y="236"/>
+      <point x="701" y="250" type="curve" smooth="yes"/>
+      <point x="701" y="350" type="line" smooth="yes"/>
+      <point x="701" y="364"/>
+      <point x="690" y="375"/>
+      <point x="675" y="375" type="curve" smooth="yes"/>
+      <point x="80" y="375" type="line" smooth="yes"/>
+      <point x="66" y="375"/>
+      <point x="55" y="364"/>
+      <point x="55" y="350" type="curve" smooth="yes"/>
+      <point x="55" y="250" type="line" smooth="yes"/>
+      <point x="55" y="236"/>
+      <point x="66" y="225"/>
+      <point x="80" y="225" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>300</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

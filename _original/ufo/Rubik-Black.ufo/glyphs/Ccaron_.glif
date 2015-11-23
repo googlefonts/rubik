@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ccaron" format="1">
+  <advance width="733"/>
+  <unicode hex="010C"/>
+  <outline>
+    <component base="C"/>
+    <component base="Caron" xOffset="96"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.guides</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <real>90</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>382</real>
+      <key>y</key>
+      <real>0</real>
+    </dict>
+  </array>
+  </dict>
+  </lib>
+</glyph>

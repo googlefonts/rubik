@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar" format="1">
+  <advance width="268"/>
+  <unicode hex="007C"/>
+  <outline>
+    <contour>
+      <point x="181" y="-208" type="line" smooth="yes"/>
+      <point x="196" y="-208"/>
+      <point x="207" y="-197"/>
+      <point x="207" y="-183" type="curve" smooth="yes"/>
+      <point x="207" y="871" type="line" smooth="yes"/>
+      <point x="207" y="885"/>
+      <point x="196" y="896"/>
+      <point x="181" y="896" type="curve" smooth="yes"/>
+      <point x="86" y="896" type="line"/>
+      <point x="72" y="896"/>
+      <point x="61" y="885"/>
+      <point x="61" y="871" type="curve" smooth="yes"/>
+      <point x="61" y="-183" type="line" smooth="yes"/>
+      <point x="61" y="-197"/>
+      <point x="72" y="-208"/>
+      <point x="86" y="-208" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-208</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

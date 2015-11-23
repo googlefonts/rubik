@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hatafpatah-hb" format="1">
+  <advance width="0"/>
+  <unicode hex="05B2"/>
+  <outline>
+    <component base="sheva-hb" xOffset="113"/>
+    <component base="patah-hb" xOffset="-79"/>
+    <contour>
+      <point x="2" y="0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright.cap" format="1">
+  <advance width="340"/>
+  <outline>
+    <contour>
+      <point x="239" y="-117" type="line" smooth="yes"/>
+      <point x="253" y="-117"/>
+      <point x="262" y="-108"/>
+      <point x="262" y="-94" type="curve" smooth="yes"/>
+      <point x="262" y="795" type="line" smooth="yes"/>
+      <point x="262" y="809"/>
+      <point x="253" y="818"/>
+      <point x="239" y="818" type="curve" smooth="yes"/>
+      <point x="63" y="818" type="line" smooth="yes"/>
+      <point x="50" y="818"/>
+      <point x="40" y="809"/>
+      <point x="40" y="795" type="curve" smooth="yes"/>
+      <point x="40" y="762" type="line" smooth="yes"/>
+      <point x="40" y="749"/>
+      <point x="50" y="739"/>
+      <point x="63" y="739" type="curve" smooth="yes"/>
+      <point x="176" y="739" type="line"/>
+      <point x="176" y="-35" type="line"/>
+      <point x="63" y="-35" type="line" smooth="yes"/>
+      <point x="50" y="-35"/>
+      <point x="40" y="-45"/>
+      <point x="40" y="-58" type="curve" smooth="yes"/>
+      <point x="40" y="-94" type="line" smooth="yes"/>
+      <point x="40" y="-108"/>
+      <point x="50" y="-117"/>
+      <point x="63" y="-117" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

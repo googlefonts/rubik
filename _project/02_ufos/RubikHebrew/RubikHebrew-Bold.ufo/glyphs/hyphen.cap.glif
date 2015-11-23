@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen.cap" format="1">
+  <advance width="486"/>
+  <outline>
+    <contour>
+      <point x="400" y="275" type="line" smooth="yes"/>
+      <point x="415" y="275"/>
+      <point x="426" y="286"/>
+      <point x="426" y="300" type="curve" smooth="yes"/>
+      <point x="426" y="400" type="line" smooth="yes"/>
+      <point x="426" y="414"/>
+      <point x="415" y="425"/>
+      <point x="400" y="425" type="curve" smooth="yes"/>
+      <point x="85" y="425" type="line" smooth="yes"/>
+      <point x="71" y="425"/>
+      <point x="60" y="414"/>
+      <point x="60" y="400" type="curve" smooth="yes"/>
+      <point x="60" y="300" type="line" smooth="yes"/>
+      <point x="60" y="286"/>
+      <point x="71" y="275"/>
+      <point x="85" y="275" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

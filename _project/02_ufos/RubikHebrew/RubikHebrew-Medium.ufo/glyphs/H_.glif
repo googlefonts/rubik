@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="H" format="1">
+  <advance width="730"/>
+  <unicode hex="0048"/>
+  <outline>
+    <contour>
+      <point x="194" y="0" type="line" smooth="yes"/>
+      <point x="209" y="0"/>
+      <point x="219" y="10"/>
+      <point x="219" y="24" type="curve" smooth="yes"/>
+      <point x="219" y="291" type="line"/>
+      <point x="512" y="291" type="line"/>
+      <point x="512" y="24" type="line" smooth="yes"/>
+      <point x="512" y="10"/>
+      <point x="522" y="0"/>
+      <point x="536" y="0" type="curve" smooth="yes"/>
+      <point x="628" y="0" type="line" smooth="yes"/>
+      <point x="642" y="0"/>
+      <point x="653" y="10"/>
+      <point x="653" y="24" type="curve" smooth="yes"/>
+      <point x="653" y="675" type="line" smooth="yes"/>
+      <point x="653" y="690"/>
+      <point x="642" y="700"/>
+      <point x="628" y="700" type="curve" smooth="yes"/>
+      <point x="536" y="700" type="line" smooth="yes"/>
+      <point x="522" y="700"/>
+      <point x="512" y="690"/>
+      <point x="512" y="675" type="curve" smooth="yes"/>
+      <point x="512" y="418" type="line"/>
+      <point x="219" y="418" type="line"/>
+      <point x="219" y="675" type="line" smooth="yes"/>
+      <point x="219" y="690"/>
+      <point x="209" y="700"/>
+      <point x="194" y="700" type="curve" smooth="yes"/>
+      <point x="102" y="700" type="line" smooth="yes"/>
+      <point x="88" y="700"/>
+      <point x="78" y="690"/>
+      <point x="78" y="675" type="curve" smooth="yes"/>
+      <point x="78" y="24" type="line" smooth="yes"/>
+      <point x="78" y="10"/>
+      <point x="88" y="0"/>
+      <point x="102" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>350</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>9</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>691</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>94</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>139</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>543</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>588</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gje-cy" format="1">
+  <advance width="503"/>
+  <unicode hex="0453"/>
+  <outline>
+    <component base="ge-cy"/>
+    <component base="acute" xOffset="138"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>268</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
