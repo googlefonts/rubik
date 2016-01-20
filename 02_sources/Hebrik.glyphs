@@ -4,7 +4,11 @@ DisplayStrings = (
 /shevahebrew,
 /pedageshhebrew.001,
 /pedageshhebrew/pehebrew/vavhebrew/shinhebrew,
-/shinhebrew/memhebrew/qofhebrew/hehebrew/lamedhebrew/gimelhebrew/hethebrew/tavhebrew/alefhebrew
+/vavhebrew/vavhebrew/dageshhebrew/yodhebrew/dageshhebrew/shinhebrew/vavhebrew/dageshhebrew/memhebrew/qofhebrew/hehebrew/lamedhebrew/gimelhebrew/hethebrew/tavhebrew/alefhebrew,
+/sindothebrew,
+/vavdageshhebrew,
+/tavhebrew,
+/yoddageshhebrew
 );
 classes = (
 {
@@ -30,6 +34,10 @@ name = denominator;
 {
 code = "zero.otlf one.otlf two.otlf three.otlf four.otlf five.otlf six.otlf seven.otlf eight.otlf nine.otlf parenleft.otlf parenright.otlf";
 name = tnum1;
+},
+{
+code = "alefhebrew bethebrew gimelhebrew dalethebrew hehebrew vavhebrew zayinhebrew hethebrew tethebrew yodhebrew finalkafhebrew kafhebrew lamedhebrew finalmemhebrew memhebrew finalnunhebrew nunhebrew samekhhebrew ayinhebrew finalpehebrew pehebrew finaltsadihebrew tsadihebrew qofhebrew reshhebrew shinhebrew tavhebrew ";
+name = HebrewLetters;
 }
 );
 copyright = "Copyright (c) 2015 by Hubert & Fischer. All rights reserved. Copyright (c) 2016 by Meir Sadan.";
@@ -222,7 +230,7 @@ name = Languagesystems;
 );
 features = (
 {
-code = "";
+code = "sub yodhebrew dageshhebrew by yoddageshhebrew;\012sub vavhebrew dageshhebrew by vavdageshhebrew;";
 name = ccmp;
 },
 {
@@ -44903,7 +44911,7 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = lamedhebrew;
-lastChange = "2016-01-20 15:08:09 +0000";
+lastChange = "2016-01-20 15:45:38 +0000";
 layers = (
 {
 anchors = (
@@ -44925,7 +44933,7 @@ position = "{224, 520}";
 },
 {
 name = topleft;
-position = "{73, 520}";
+position = "{31, 520}";
 }
 );
 guideLines = (
@@ -44935,14 +44943,6 @@ position = "{53, 710}";
 {
 angle = 90;
 position = "{517, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-origin = "{1, 2}";
-type = Tag;
-name = hr00;
 }
 );
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
@@ -45026,7 +45026,7 @@ position = "{279, 520}";
 },
 {
 name = topleft;
-position = "{20, 520}";
+position = "{-36, 520}";
 }
 );
 guideLines = (
@@ -47706,7 +47706,7 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = shinhebrew;
-lastChange = "2016-01-20 15:04:13 +0000";
+lastChange = "2016-01-20 15:46:17 +0000";
 layers = (
 {
 anchors = (
@@ -47839,7 +47839,7 @@ position = "{-18, 520}";
 },
 {
 name = topright;
-position = "{824, 520}";
+position = "{737, 520}";
 }
 );
 guideLines = (
@@ -47957,7 +47957,7 @@ com.typemytype.robofont.mark = (
 {
 color = (189,153,255,1);
 glyphname = tavhebrew;
-lastChange = "2016-01-20 15:12:23 +0000";
+lastChange = "2016-01-20 16:17:33 +0000";
 layers = (
 {
 anchors = (
@@ -48082,7 +48082,7 @@ position = "{20, 0}";
 },
 {
 name = center;
-position = "{397, 260}";
+position = "{413, 260}";
 },
 {
 name = top;
@@ -48220,7 +48220,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = shinshindothebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 15:48:40 +0000";
 layers = (
 {
 components = (
@@ -48243,7 +48243,7 @@ name = shinhebrew;
 },
 {
 name = shindothebrew;
-transform = "{1, 0, 0, 1, 803, 105}";
+transform = "{1, 0, 0, 1, 716, 105}";
 }
 );
 guideLines = (
@@ -48357,7 +48357,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = shindageshshindothebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48384,11 +48384,11 @@ name = shinhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 508, -26}";
+transform = "{1, 0, 0, 1, 451, -26}";
 },
 {
 name = shindothebrew;
-transform = "{1, 0, 0, 1, 803, 105}";
+transform = "{1, 0, 0, 1, 716, 105}";
 }
 );
 guideLines = (
@@ -48429,7 +48429,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = shindageshsindothebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48456,7 +48456,7 @@ name = shinhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 508, -26}";
+transform = "{1, 0, 0, 1, 451, -26}";
 },
 {
 name = sindothebrew;
@@ -48560,7 +48560,7 @@ unicode = FB2F;
 },
 {
 glyphname = alefdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48583,7 +48583,7 @@ name = alefhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 295, -262}";
+transform = "{1, 0, 0, 1, 238, -262}";
 }
 );
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -48596,7 +48596,7 @@ unicode = FB30;
 {
 color = (153,155,255,1);
 glyphname = betdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48619,7 +48619,7 @@ name = bethebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 166, -26}";
+transform = "{1, 0, 0, 1, 109, -26}";
 }
 );
 hints = (
@@ -48650,7 +48650,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = gimeldageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48673,7 +48673,7 @@ name = gimelhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 127, -26}";
+transform = "{1, 0, 0, 1, 70, -26}";
 }
 );
 guideLines = (
@@ -48710,7 +48710,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = daletdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48733,7 +48733,7 @@ name = dalethebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 132, -26}";
+transform = "{1, 0, 0, 1, 75, -26}";
 }
 );
 hints = (
@@ -48764,7 +48764,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = hedageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48787,7 +48787,7 @@ name = hehebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 333, -26}";
+transform = "{1, 0, 0, 1, 276, -26}";
 }
 );
 hints = (
@@ -48827,7 +48827,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = vavdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:16:17 +0000";
 layers = (
 {
 components = (
@@ -48846,11 +48846,13 @@ width = 229;
 {
 components = (
 {
+disableAlignment = 1;
 name = vavhebrew;
+transform = "{1, 0, 0, 1, 89, 0}";
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, -37, -26}";
+transform = "{1, 0, 0, 1, -5, -26}";
 }
 );
 hints = (
@@ -48863,7 +48865,7 @@ name = hr00;
 );
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
 name = Bold;
-width = 327;
+width = 416;
 }
 );
 leftKerningGroup = vavhebrew;
@@ -48880,7 +48882,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = zayindageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48903,7 +48905,7 @@ name = zayinhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 29, -26}";
+transform = "{1, 0, 0, 1, -28, -26}";
 }
 );
 hints = (
@@ -48934,7 +48936,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = tetdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -48957,7 +48959,7 @@ name = tethebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 327, -26}";
+transform = "{1, 0, 0, 1, 270, -26}";
 }
 );
 hints = (
@@ -48988,7 +48990,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = yoddageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:18:22 +0000";
 layers = (
 {
 components = (
@@ -49007,16 +49009,19 @@ width = 213;
 {
 components = (
 {
+disableAlignment = 1;
 name = yodhebrew;
+transform = "{1, 0, 0, 1, 112, 0}";
 },
 {
+disableAlignment = 1;
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, -20, -26}";
+transform = "{1, 0, 0, 1, 15, -26}";
 }
 );
 guideLines = (
 {
-position = "{0, 240}";
+position = "{112, 240}";
 }
 );
 hints = (
@@ -49029,7 +49034,7 @@ name = hr00;
 );
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
 name = Bold;
-width = 323;
+width = 435;
 }
 );
 leftKerningGroup = yodhebrew;
@@ -49112,7 +49117,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = kafdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49135,7 +49140,7 @@ name = kafhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 172, -26}";
+transform = "{1, 0, 0, 1, 115, -26}";
 }
 );
 hints = (
@@ -49166,7 +49171,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = lameddageshhebrew;
-lastChange = "2016-01-20 15:21:46 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49189,7 +49194,7 @@ name = lamedhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 151, -26}";
+transform = "{1, 0, 0, 1, 94, -26}";
 }
 );
 hints = (
@@ -49220,7 +49225,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = memdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49243,7 +49248,7 @@ name = memhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 385, -56}";
+transform = "{1, 0, 0, 1, 328, -56}";
 }
 );
 hints = (
@@ -49274,7 +49279,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = nundageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49297,7 +49302,7 @@ name = nunhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 108, -26}";
+transform = "{1, 0, 0, 1, 51, -26}";
 }
 );
 hints = (
@@ -49328,7 +49333,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = samekhdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49351,7 +49356,7 @@ name = samekhhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 323, -26}";
+transform = "{1, 0, 0, 1, 266, -26}";
 }
 );
 hints = (
@@ -49381,7 +49386,7 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = finalpedageshhebrew;
-lastChange = "2016-01-19 16:25:46 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49406,7 +49411,7 @@ name = finalpehebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 286, -44}";
+transform = "{1, 0, 0, 1, 229, -44}";
 }
 );
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -49419,7 +49424,7 @@ unicode = FB43;
 {
 color = (153,155,255,1);
 glyphname = pedageshhebrew;
-lastChange = "2016-01-20 14:49:12 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49442,7 +49447,7 @@ name = pehebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 310, -36}";
+transform = "{1, 0, 0, 1, 253, -36}";
 }
 );
 hints = (
@@ -49473,7 +49478,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = tsadidageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49496,7 +49501,7 @@ name = tsadihebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 122, -51}";
+transform = "{1, 0, 0, 1, 65, -51}";
 }
 );
 hints = (
@@ -49527,7 +49532,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = qofdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49550,7 +49555,7 @@ name = qofhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 347, -26}";
+transform = "{1, 0, 0, 1, 290, -26}";
 }
 );
 hints = (
@@ -49580,7 +49585,7 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = reshdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49603,7 +49608,7 @@ name = reshhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 180, -26}";
+transform = "{1, 0, 0, 1, 123, -26}";
 }
 );
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -49616,7 +49621,7 @@ unicode = FB48;
 {
 color = (153,155,255,1);
 glyphname = shindageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:14:08 +0000";
 layers = (
 {
 components = (
@@ -49639,7 +49644,7 @@ name = shinhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 508, -26}";
+transform = "{1, 0, 0, 1, 451, -26}";
 }
 );
 hints = (
@@ -49670,7 +49675,7 @@ com.typemytype.robofont.mark = (
 {
 color = (153,155,255,1);
 glyphname = tavdageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:17:59 +0000";
 layers = (
 {
 components = (
@@ -49694,7 +49699,7 @@ name = tavhebrew;
 },
 {
 name = dageshhebrew;
-transform = "{1, 0, 0, 1, 396, -26}";
+transform = "{1, 0, 0, 1, 355, -26}";
 }
 );
 hints = (
@@ -78743,7 +78748,7 @@ unicode = 05BB;
 },
 {
 glyphname = dageshhebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 16:06:55 +0000";
 layers = (
 {
 anchors = (
@@ -78783,7 +78788,7 @@ width = 0;
 anchors = (
 {
 name = _center;
-position = "{1, 286}";
+position = "{58, 286}";
 }
 );
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -78792,26 +78797,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"33 265 LINE SMOOTH",
-"46 265 OFFCURVE",
-"55 274 OFFCURVE",
-"55 287 CURVE SMOOTH",
-"55 350 LINE SMOOTH",
-"55 363 OFFCURVE",
-"46 372 OFFCURVE",
-"33 372 CURVE SMOOTH",
-"-30 372 LINE SMOOTH",
-"-43 372 OFFCURVE",
-"-52 363 OFFCURVE",
-"-52 350 CURVE SMOOTH",
-"-52 287 LINE SMOOTH",
-"-52 274 OFFCURVE",
-"-43 265 OFFCURVE",
-"-30 265 CURVE SMOOTH"
+"90 265 LINE SMOOTH",
+"103 265 OFFCURVE",
+"112 274 OFFCURVE",
+"112 287 CURVE SMOOTH",
+"112 350 LINE SMOOTH",
+"112 363 OFFCURVE",
+"103 372 OFFCURVE",
+"90 372 CURVE SMOOTH",
+"27 372 LINE SMOOTH",
+"14 372 OFFCURVE",
+"5 363 OFFCURVE",
+"5 350 CURVE SMOOTH",
+"5 287 LINE SMOOTH",
+"5 274 OFFCURVE",
+"14 265 OFFCURVE",
+"27 265 CURVE SMOOTH"
 );
 }
 );
-width = 0;
+width = 117;
 }
 );
 unicode = 05BC;
@@ -78893,7 +78898,7 @@ unicode = 05C1;
 },
 {
 glyphname = sindothebrew;
-lastChange = "2016-01-19 16:24:32 +0000";
+lastChange = "2016-01-20 15:44:23 +0000";
 layers = (
 {
 anchors = (
@@ -78942,22 +78947,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"81 493 LINE SMOOTH",
-"94 493 OFFCURVE",
-"103 502 OFFCURVE",
-"103 515 CURVE SMOOTH",
-"103 578 LINE SMOOTH",
-"103 591 OFFCURVE",
-"94 600 OFFCURVE",
-"81 600 CURVE SMOOTH",
-"18 600 LINE SMOOTH",
-"5 600 OFFCURVE",
-"-4 591 OFFCURVE",
-"-4 578 CURVE SMOOTH",
-"-4 515 LINE SMOOTH",
-"-4 502 OFFCURVE",
-"5 493 OFFCURVE",
-"18 493 CURVE SMOOTH"
+"161 493 LINE SMOOTH",
+"174 493 OFFCURVE",
+"183 502 OFFCURVE",
+"183 515 CURVE SMOOTH",
+"183 578 LINE SMOOTH",
+"183 591 OFFCURVE",
+"174 600 OFFCURVE",
+"161 600 CURVE SMOOTH",
+"98 600 LINE SMOOTH",
+"85 600 OFFCURVE",
+"76 591 OFFCURVE",
+"76 578 CURVE SMOOTH",
+"76 515 LINE SMOOTH",
+"76 502 OFFCURVE",
+"85 493 OFFCURVE",
+"98 493 CURVE SMOOTH"
 );
 }
 );
@@ -80897,7 +80902,7 @@ weightClass = Bold;
 customParameters = (
 {
 name = "Replace Feature";
-value = "ccmp; sub pehebrew dageshhebrew by pedageshhebrew.001; sub finalpehebrew dageshhebrew by finalpedageshhebrew.001;";
+value = "ccmp; sub pehebrew dageshhebrew by pedageshhebrew.001; sub finalpehebrew dageshhebrew by finalpedageshhebrew.001; sub vavhebrew dageshhebrew by vavdageshhebrew; sub yodhebrew dageshhebrew by yoddageshhebrew;";
 }
 );
 interpolationWeight = 800;
