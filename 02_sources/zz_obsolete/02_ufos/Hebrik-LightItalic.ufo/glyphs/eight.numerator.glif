@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eight.numerator" format="1">
-  <advance width="340"/>
-  <outline>
-    <component base="eightinferior" xOffset="111" yOffset="520"/>
-  </outline>
-</glyph>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="three.numerator" format="1">
-  <advance width="333"/>
-  <outline>
-    <component base="threeinferior" xOffset="111" yOffset="520"/>
-  </outline>
-</glyph>

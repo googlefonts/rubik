@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="finalpedageshhebrew" format="1">
+  <advance width="569"/>
+  <unicode hex="FB43"/>
+  <outline>
+    <component base="finalpehebrew"/>
+    <component base="dageshhebrew" xOffset="332" yOffset="-39"/>
+  </outline>
+</glyph>

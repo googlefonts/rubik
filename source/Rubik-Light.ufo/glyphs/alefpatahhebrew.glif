@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefpatahhebrew" format="1">
+  <advance width="568"/>
+  <unicode hex="FB2E"/>
+  <outline>
+    <component base="alefhebrew"/>
+    <component base="patahhebrew" xOffset="285" yOffset="5"/>
+  </outline>
+</glyph>

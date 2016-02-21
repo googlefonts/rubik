@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nundageshhebrew" format="1">
+  <advance width="469"/>
+  <unicode hex="FB40"/>
+  <outline>
+    <component base="nunhebrew"/>
+    <component base="dageshhebrew" xOffset="45" yOffset="-26"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

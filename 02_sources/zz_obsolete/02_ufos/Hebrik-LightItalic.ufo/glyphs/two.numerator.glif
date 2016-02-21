@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="two.numerator" format="1">
-  <advance width="334"/>
-  <outline>
-    <component base="twoinferior" xOffset="110" yOffset="520"/>
-  </outline>
-</glyph>

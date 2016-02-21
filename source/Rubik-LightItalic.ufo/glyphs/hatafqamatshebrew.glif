@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hatafqamatshebrew" format="1">
+  <advance width="100"/>
+  <unicode hex="05B3"/>
+  <outline>
+    <component base="shevahebrew" xOffset="114"/>
+    <component base="qamatsqatanhebrew" xOffset="-81"/>
+    <contour>
+      <point x="-50" y="0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+</glyph>
