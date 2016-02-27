@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vavholamhebrew" format="1">
+  <advance width="294"/>
+  <unicode hex="FB4B"/>
+  <outline>
+    <component base="vavhebrew"/>
+    <component base="holamhebrew" xOffset="165" yOffset="105"/>
+  </outline>
+</glyph>

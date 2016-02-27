@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seveneighths" format="1">
+  <advance width="734"/>
+  <unicode hex="215E"/>
+  <outline>
+    <component base="eightinferior" xOffset="380" yOffset="170"/>
+    <component base="seveninferior" xOffset="29" yOffset="520"/>
+    <component base="fraction" xOffset="259"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-5</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
