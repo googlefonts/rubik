@@ -22,7 +22,7 @@
     </contour>
     <component base="finalpehebrew"/>
     <contour>
-      <point x="287" y="242" type="move" name="center"/>
+      <point x="284" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="284" y="520" type="move" name="top"/>
@@ -37,13 +37,15 @@
       <point x="20" y="520" type="move" name="topleft"/>
     </contour>
     <contour>
-      <point x="284" y="0" type="move" name="bottom"/>
+      <point x="287" y="242" type="move" name="center"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:18:50 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>hethebrew</string>
       <key>com.typemytype.robofont.guides</key>

@@ -201,10 +201,14 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+	<true/>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>8C28F14C-5975-4D9E-900A-A9EE9E607AA3</string>
+	<key>com.schriftgestaltung.glyphOrder</key>
+	<false/>
 	<key>com.schriftgestaltung.useNiceNames</key>
-	<integer>0</integer>
+	<false/>
 	<key>com.schriftgestaltung.weight</key>
 	<string>Bold</string>
 	<key>com.typemytype.robofont.guides</key>
@@ -711,16 +715,6 @@
 		<string>seven.otlf</string>
 		<string>eight.otlf</string>
 		<string>nine.otlf</string>
-		<string>fraction</string>
-		<string>onehalf</string>
-		<string>onethird</string>
-		<string>twothirds</string>
-		<string>onequarter</string>
-		<string>threequarters</string>
-		<string>oneeighth</string>
-		<string>threeeighths</string>
-		<string>fiveeighths</string>
-		<string>seveneighths</string>
 		<string>zeroinferior</string>
 		<string>oneinferior</string>
 		<string>twoinferior</string>
@@ -741,6 +735,16 @@
 		<string>sevensuperior</string>
 		<string>eightsuperior</string>
 		<string>ninesuperior</string>
+		<string>fraction</string>
+		<string>onehalf</string>
+		<string>onethird</string>
+		<string>twothirds</string>
+		<string>onequarter</string>
+		<string>threequarters</string>
+		<string>oneeighth</string>
+		<string>threeeighths</string>
+		<string>fiveeighths</string>
+		<string>seveneighths</string>
 		<string>asterisk</string>
 		<string>backslash</string>
 		<string>periodcentered</string>
@@ -817,54 +821,54 @@
 		<string>sheqel</string>
 		<string>sterling</string>
 		<string>yen</string>
-		<string>approxequal</string>
-		<string>asciitilde</string>
+		<string>plus</string>
+		<string>minus</string>
+		<string>multiply</string>
 		<string>divide</string>
 		<string>equal</string>
+		<string>notequal</string>
 		<string>greater</string>
+		<string>less</string>
 		<string>greaterequal</string>
+		<string>lessequal</string>
+		<string>plusminus</string>
+		<string>approxequal</string>
+		<string>asciitilde</string>
+		<string>logicalnot</string>
 		<string>infinity</string>
 		<string>integral</string>
-		<string>less</string>
-		<string>lessequal</string>
-		<string>logicalnot</string>
-		<string>minus</string>
+		<string>uni2206</string>
+		<string>product</string>
+		<string>summation</string>
+		<string>radical</string>
 		<string>mu</string>
-		<string>multiply</string>
-		<string>notequal</string>
 		<string>partialdiff</string>
 		<string>percent</string>
 		<string>perthousand</string>
-		<string>plus</string>
-		<string>plusminus</string>
-		<string>product</string>
-		<string>radical</string>
-		<string>summation</string>
-		<string>uni2206</string>
-		<string>approxequal.cap</string>
-		<string>asciitilde.cap</string>
-		<string>divide.cap</string>
-		<string>equal.cap</string>
+		<string>plus.cap</string>
 		<string>minus.cap</string>
 		<string>multiply.cap</string>
+		<string>divide.cap</string>
+		<string>equal.cap</string>
 		<string>notequal.cap</string>
-		<string>plus.cap</string>
+		<string>approxequal.cap</string>
+		<string>asciitilde.cap</string>
 		<string>lozenge</string>
-		<string>bar</string>
-		<string>brokenbar</string>
 		<string>at</string>
 		<string>ampersand</string>
 		<string>paragraph</string>
+		<string>section</string>
 		<string>copyright</string>
 		<string>registered</string>
-		<string>section</string>
 		<string>trademark</string>
 		<string>degree</string>
-		<string>estimated</string>
-		<string>afii61352</string>
-		<string>asciicircum</string>
+		<string>bar</string>
+		<string>brokenbar</string>
 		<string>dagger</string>
 		<string>daggerdbl</string>
+		<string>afii61352</string>
+		<string>estimated</string>
+		<string>asciicircum</string>
 		<string>at.cap</string>
 		<string>commaaccent</string>
 		<string>commaaccent.cap</string>
@@ -889,13 +893,13 @@
 		<string>tserehebrew</string>
 		<string>segolhebrew</string>
 		<string>patahhebrew</string>
+		<string>qamatshebrew</string>
 		<string>holamhebrew</string>
 		<string>holamhaserhebrew</string>
 		<string>qubutshebrew</string>
 		<string>dageshhebrew</string>
 		<string>shindothebrew</string>
 		<string>sindothebrew</string>
-		<string>qamatsqatanhebrew</string>
 		<string>Breve</string>
 		<string>Cedilla</string>
 		<string>Circumflex</string>

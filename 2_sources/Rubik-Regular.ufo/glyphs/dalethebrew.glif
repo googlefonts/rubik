@@ -40,7 +40,7 @@
       <point x="60" y="494" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="352" y="0" type="move" name="bottom"/>
+      <point x="354" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="278" y="520" type="move" name="top"/>
@@ -59,6 +59,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:18:05 +0000</string>
       <key>com.typemytype.robofont.guides</key>
       <array>
         <dict>
