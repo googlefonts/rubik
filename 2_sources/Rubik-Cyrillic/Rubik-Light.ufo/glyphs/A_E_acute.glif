@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AEacute" format="1">
+  <advance width="920"/>
+  <unicode hex="01FC"/>
+  <outline>
+    <component base="uniF6C9" xOffset="343"/>
+    <component base="AE"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-08-26 14:16:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

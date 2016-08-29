@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.denominator" format="1">
+  <advance width="399"/>
+  <outline>
+    <component base="uni2084" xOffset="-1" yOffset="170"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-08-26 14:16:45 +0000</string>
+    </dict>
+  </lib>
+</glyph>

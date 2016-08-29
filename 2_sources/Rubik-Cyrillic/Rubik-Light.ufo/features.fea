@@ -1,0 +1,105 @@
+@standard = [ zero one two three four five six seven eight nine parenleft parenright ];
+
+@sups = [ uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079 uni207D uni207E ];
+
+@subs = [ uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 uni208D uni208E ];
+
+@numerator = [ zero.numerator one.numerator two.numerator three.numerator four.numerator five.numerator six.numerator seven.numerator eight.numerator nine.numerator parenleft.numerator parenright.numerator ];
+
+@denominator = [ zero.denominator one.denominator two.denominator three.denominator four.denominator five.denominator six.denominator seven.denominator eight.denominator nine.denominator parenleft.denominator parenright.denominator ];
+
+@tnum1 = [ zero.otlf one.otlf two.otlf three.otlf four.otlf five.otlf six.otlf seven.otlf eight.otlf nine.otlf parenleft.otlf parenright.otlf ];
+
+@HebrewLetters = [ uni05D0 uni05D1 uni05D2 uni05D3 uni05D4 uni05D5 uni05D6 uni05D7 uni05D8 uni05D9 uni05DA uni05DB uni05DC uni05DD uni05DE uni05DF uni05E0 uni05E1 uni05E2 uni05E3 uni05E4 uni05E5 uni05E6 uni05E7 uni05E8 uni05E9 uni05EA ];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn CAT;
+languagesystem latn ROM;
+languagesystem latn MOL;
+
+feature ccmp {
+sub yodhebrew dageshhebrew by yoddageshhebrew;
+sub vavhebrew dageshhebrew by vavdageshhebrew;
+} ccmp;
+
+feature sups {
+	sub @standard by @sups;
+} sups;
+
+feature liga {
+# Standard Ligatures
+  sub f i by fi;
+  sub f l by fl;
+  sub f f by f_f;
+  sub f f i by f_f_i;
+  sub f f l by f_f_l;
+} liga;
+
+feature subs {
+# automatic
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+sub parenleft by parenleftinferior;
+sub parenright by parenrightinferior;
+} subs;
+
+feature dlig {
+ 
+	sub a e by ae;
+	sub A E by AE;
+	sub o e by oe;
+	sub O E by OE;
+	sub i j by ij;
+	sub I J by IJ;
+	sub period period period by ellipsis;
+} dlig;
+
+feature aalt {
+# automatic
+feature sups;
+feature subs;
+feature locl;
+feature ordn;
+feature case;
+} aalt;
+
+feature locl {
+# automatic
+script latn;
+language CAT;
+sub  l' periodcentered' l by ldot;
+sub  L' periodcentered' L by Ldot;
+language ROM;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+language MOL;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+} locl;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+} ordn;
+
+feature case {
+# automatic
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+sub commaaccentcomb by commaaccentcomb.case;
+sub brevecomb-cy by brevecomb-cy.case;
+} case;
+
