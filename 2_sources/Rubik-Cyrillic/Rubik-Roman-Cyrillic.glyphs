@@ -1,5 +1,8 @@
 {
 .appVersion = "919";
+DisplayStrings = (
+"/Ka-cy/Zhe-cy/ka-cy/zhe-cy"
+);
 classes = (
 {
 code = "zero one two three four five six seven eight nine parenleft parenright";
