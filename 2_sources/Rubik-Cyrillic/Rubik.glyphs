@@ -207,7 +207,7 @@ name = year;
 value = 2015;
 }
 );
-date = "2016-01-19 16:24:23 +0000";
+date = "2016-09-09 15:22:33 +0000";
 designer = "Hubert & Fischer, Meir Sadan (Cyrillic expansion: Cyreal)";
 designerURL = www.hubertfischer.com;
 familyName = Rubik;
@@ -279,11 +279,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 945;
 },
 {
 name = typoDescender;
-value = -225;
+value = -307;
 },
 {
 name = typoLineGap;
@@ -291,11 +291,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 935;
+value = 945;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -307;
 },
 {
 name = hheaLineGap;
@@ -303,11 +303,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 935;
+value = 945;
 },
 {
 name = winDescent;
-value = 250;
+value = 0;
 },
 {
 name = underlineThickness;
@@ -364,11 +364,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 945;
 },
 {
 name = typoDescender;
-value = -225;
+value = -307;
 },
 {
 name = typoLineGap;
@@ -376,11 +376,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 935;
+value = 945;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -307;
 },
 {
 name = hheaLineGap;
@@ -388,11 +388,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 935;
+value = 945;
 },
 {
 name = winDescent;
-value = 250;
+value = 0;
 },
 {
 name = underlineThickness;
@@ -99999,6 +99999,6 @@ width = 10;
 };
 };
 };
-versionMajor = 1;
-versionMinor = 150;
+versionMajor = 2;
+versionMinor = 0;
 }
