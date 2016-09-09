@@ -49665,7 +49665,7 @@ unicode = 0418;
 {
 color = 4;
 glyphname = "Iishort-cy";
-lastChange = "2016-09-09 16:11:46 +0000";
+lastChange = "2016-09-09 16:14:04 +0000";
 layers = (
 {
 anchors = (
@@ -49684,7 +49684,7 @@ name = "Ii-cy";
 },
 {
 name = "brevecomb-cy.case";
-transform = "{1, 0, 0, 1, 270, 0}";
+transform = "{1, 0, 0, 1, 281, 0}";
 }
 );
 guideLines = (
@@ -49755,7 +49755,7 @@ y = 0;
 {
 color = 4;
 glyphname = "Iigrave-cy";
-lastChange = "2016-09-09 16:11:46 +0000";
+lastChange = "2016-09-09 16:14:04 +0000";
 layers = (
 {
 anchors = (
@@ -49774,7 +49774,7 @@ name = "Ii-cy";
 },
 {
 name = gravecomb.case;
-transform = "{1, 0, 0, 1, 278, 0}";
+transform = "{1, 0, 0, 1, 289, 0}";
 }
 );
 guideLines = (
@@ -59969,7 +59969,7 @@ unicode = 04DC;
 {
 color = 4;
 glyphname = "Zedieresis-cy";
-lastChange = "2016-09-09 16:12:59 +0000";
+lastChange = "2016-09-09 16:14:04 +0000";
 layers = (
 {
 anchors = (
@@ -60000,7 +60000,7 @@ name = hr00;
 }
 );
 layerId = UUID0;
-width = 599;
+width = 591;
 },
 {
 anchors = (
@@ -60039,7 +60039,7 @@ unicode = 04DE;
 {
 color = 4;
 glyphname = "Imacron-cy";
-lastChange = "2016-09-09 16:12:59 +0000";
+lastChange = "2016-09-09 16:14:04 +0000";
 layers = (
 {
 anchors = (
@@ -60058,7 +60058,7 @@ name = "Ii-cy";
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 306, 180}";
+transform = "{1, 0, 0, 1, 317, 180}";
 }
 );
 hints = (
@@ -60109,7 +60109,7 @@ unicode = 04E2;
 {
 color = 4;
 glyphname = "Idieresis-cy";
-lastChange = "2016-09-09 16:12:59 +0000";
+lastChange = "2016-09-09 16:14:04 +0000";
 layers = (
 {
 anchors = (
@@ -60128,7 +60128,7 @@ name = "Ii-cy";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 310, 180}";
+transform = "{1, 0, 0, 1, 321, 180}";
 }
 );
 hints = (
@@ -60889,7 +60889,7 @@ unicode = 04F6;
 {
 color = 4;
 glyphname = "Yerudieresis-cy";
-lastChange = "2016-09-09 16:12:59 +0000";
+lastChange = "2016-09-09 16:14:04 +0000";
 layers = (
 {
 anchors = (
@@ -60916,7 +60916,7 @@ name = "Yeru-cy";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 338, 180}";
+transform = "{1, 0, 0, 1, 349, 180}";
 }
 );
 hints = (
