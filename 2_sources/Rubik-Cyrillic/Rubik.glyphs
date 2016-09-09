@@ -1,8 +1,5 @@
 {
 .appVersion = "919";
-DisplayStrings = (
-"/Sha-cy/Shcha-cy"
-);
 classes = (
 {
 code = "zero one two three four five six seven eight nine parenleft parenright";
