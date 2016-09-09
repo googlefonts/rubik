@@ -205,10 +205,14 @@ value = "";
 {
 name = year;
 value = 2015;
+},
+{
+name = fsType;
+value = "New Parameter";
 }
 );
 date = "2016-09-09 15:22:33 +0000";
-designer = "Hubert & Fischer, Meir Sadan (Cyrillic expansion: Cyreal)";
+designer = "Hubert & Fischer, Meir Sadan, Cyreal";
 designerURL = www.hubertfischer.com;
 familyName = Rubik;
 featurePrefixes = (
