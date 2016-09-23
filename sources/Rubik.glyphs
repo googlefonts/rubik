@@ -30,190 +30,28 @@ code = "alefhebrew bethebrew gimelhebrew dalethebrew hehebrew vavhebrew zayinheb
 name = HebrewLetters;
 }
 );
-copyright = "Copyright (c) 2015 by Hubert & Fischer. All rights reserved. Copyright (c) 2016 by Meir Sadan. Copyright (c) 2016 Cyreal.";
+copyright = "Copyright 2015 The Rubik Project Authors (meir@sadan.com)";
 customParameters = (
 {
-name = macintoshFONDFamilyID;
-value = 128;
-},
-{
-name = openTypeHeadFlags;
-value = (
-);
-},
-{
-name = openTypeNameDescription;
-value = "";
-},
-{
-name = openTypeNameLicense;
+name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
-name = openTypeNameLicenseURL;
+name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-name = openTypeNameSampleText;
-value = "";
-},
-{
-name = openTypeNameUniqueID;
-value = "Hubert&Fischer: Rubik Light: 2015";
-},
-{
-name = openTypeNameVersion;
-value = "Version 1.002";
-},
-{
-name = openTypeOS2CodePageRanges;
-value = (
-0,
-1,
-2,
-4,
-5,
-7
-);
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = openTypeOS2Panose;
-value = (
-2,
-0,
-6,
-4,
-0,
-0,
-0,
-2,
-0,
-4
-);
-},
-{
-name = openTypeOS2Selection;
-value = (
-);
-},
-{
-name = openTypeOS2StrikeoutPosition;
-value = 250;
-},
-{
-name = openTypeOS2StrikeoutSize;
-value = 50;
-},
-{
-name = openTypeOS2SubscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SubscriptXSize;
-value = 700;
-},
-{
-name = openTypeOS2SubscriptYOffset;
-value = 140;
-},
-{
-name = openTypeOS2SubscriptYSize;
-value = 650;
-},
-{
-name = openTypeOS2SuperscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SuperscriptXSize;
-value = 700;
-},
-{
-name = openTypeOS2SuperscriptYOffset;
-value = 477;
-},
-{
-name = openTypeOS2SuperscriptYSize;
-value = 650;
-},
-{
-name = openTypeOS2Type;
-value = (
-);
-},
-{
-name = openTypeOS2UnicodeRanges;
-value = (
-0,
-1,
-2,
-3,
-5,
-9,
-11,
-29,
-31,
-32,
-33,
-35,
-36,
-38,
-45,
-60,
-62
-);
-},
-{
-name = openTypeOS2VendorID;
-value = pyrs;
-},
-{
-name = postscriptBlueFuzz;
-value = 1;
-},
-{
-name = postscriptBlueScale;
-value = 0.039625;
-},
-{
-name = postscriptBlueShift;
-value = 7;
-},
-{
-name = postscriptForceBold;
-value = 0;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = postscriptUniqueID;
-value = -1;
-},
-{
-name = trademark;
-value = "";
-},
-{
-name = year;
-value = 2015;
-},
-{
 name = fsType;
-value = "New Parameter";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2016-09-09 15:22:33 +0000";
 designer = "Hubert & Fischer, Meir Sadan, Cyreal";
-designerURL = www.hubertfischer.com;
+designerURL = "http://www.hubertfischer.com";
 familyName = Rubik;
 featurePrefixes = (
 {
@@ -59033,113 +58871,6 @@ width = 327;
 unicode = FB4B;
 },
 {
-color = 0;
-glyphname = pedageshhebrew.001;
-lastChange = "2016-09-09 19:35:26 +0000";
-layers = (
-{
-guideLines = (
-{
-angle = 90;
-position = "{69, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{327, 186}";
-type = Tag;
-name = hr00;
-}
-);
-layerId = "581BC726-83A6-4935-8633-5A6508251040";
-width = 623;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{280, 0}";
-},
-{
-name = bottomleft;
-position = "{30, 0}";
-},
-{
-name = center;
-position = "{310, 260}";
-},
-{
-name = top;
-position = "{280, 520}";
-},
-{
-name = topleft;
-position = "{30, 520}";
-}
-);
-components = (
-{
-name = pehebrew;
-}
-);
-guideLines = (
-{
-position = "{10, 571}";
-},
-{
-position = "{10, 336}";
-}
-);
-layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
-paths = (
-{
-closed = 1;
-nodes = (
-"319 226 LINE SMOOTH",
-"332 226 OFFCURVE",
-"341 235 OFFCURVE",
-"341 248 CURVE SMOOTH",
-"341 311 LINE SMOOTH",
-"341 324 OFFCURVE",
-"332 333 OFFCURVE",
-"319 333 CURVE SMOOTH",
-"306 333 LINE SMOOTH",
-"293 333 OFFCURVE",
-"284 324 OFFCURVE",
-"284 311 CURVE SMOOTH",
-"284 248 LINE SMOOTH",
-"284 235 OFFCURVE",
-"293 226 OFFCURVE",
-"306 226 CURVE SMOOTH"
-);
-}
-);
-width = 597;
-}
-);
-leftKerningGroup = tethebrew;
-rightKerningGroup = pehebrew;
-rightMetricsKey = kafhebrew;
-userData = {
-com.typemytype.robofont.guides = (
-{
-angle = 90;
-isGlobal = 0;
-magnetic = 5;
-x = 70;
-y = 0;
-}
-);
-com.typemytype.robofont.mark = (
-0.741,
-0.6000,
-1,
-1
-);
-};
-},
-{
 glyphname = zero;
 lastChange = "2016-09-09 19:35:26 +0000";
 layers = (
@@ -72878,15 +72609,15 @@ unicode = 00A0;
 },
 {
 glyphname = CR;
-lastChange = "2015-08-24 21:44:06 +0000";
+lastChange = "2016-09-23 11:18:37 +0000";
 layers = (
 {
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
-width = 290;
+width = 258;
 },
 {
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
-width = 290;
+width = 186;
 }
 );
 unicode = 000D;
@@ -90590,122 +90321,6 @@ unicode = 05B7;
 },
 {
 color = 8;
-glyphname = qamatsqatanhebrew;
-lastChange = "2016-09-09 10:54:54 +0000";
-layers = (
-{
-anchors = (
-{
-name = _bottom;
-position = "{2, 0}";
-}
-);
-layerId = "581BC726-83A6-4935-8633-5A6508251040";
-paths = (
-{
-closed = 1;
-nodes = (
-"106 -131 LINE SMOOTH",
-"119 -131 OFFCURVE",
-"128 -122 OFFCURVE",
-"128 -109 CURVE SMOOTH",
-"128 -101 LINE SMOOTH",
-"128 -88 OFFCURVE",
-"119 -79 OFFCURVE",
-"106 -79 CURVE SMOOTH",
-"-102 -79 LINE SMOOTH",
-"-115 -79 OFFCURVE",
-"-124 -88 OFFCURVE",
-"-124 -101 CURVE SMOOTH",
-"-124 -109 LINE SMOOTH",
-"-124 -122 OFFCURVE",
-"-115 -131 OFFCURVE",
-"-102 -131 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"4 -245 LINE SMOOTH",
-"17 -245 OFFCURVE",
-"26 -236 OFFCURVE",
-"26 -223 CURVE SMOOTH",
-"26 -134 LINE SMOOTH",
-"26 -111 OFFCURVE",
-"17 -112 OFFCURVE",
-"4 -112 CURVE SMOOTH",
-"-3 -112 LINE SMOOTH",
-"-16 -112 OFFCURVE",
-"-25 -111 OFFCURVE",
-"-25 -134 CURVE SMOOTH",
-"-25 -223 LINE SMOOTH",
-"-25 -236 OFFCURVE",
-"-16 -245 OFFCURVE",
-"-3 -245 CURVE SMOOTH"
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
-position = "{2, 0}";
-}
-);
-layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
-paths = (
-{
-closed = 1;
-nodes = (
-"106 -182 LINE SMOOTH",
-"119 -182 OFFCURVE",
-"128 -173 OFFCURVE",
-"128 -160 CURVE SMOOTH",
-"128 -97 LINE SMOOTH",
-"128 -84 OFFCURVE",
-"119 -75 OFFCURVE",
-"106 -75 CURVE SMOOTH",
-"-102 -75 LINE SMOOTH",
-"-115 -75 OFFCURVE",
-"-124 -84 OFFCURVE",
-"-124 -97 CURVE SMOOTH",
-"-124 -160 LINE SMOOTH",
-"-124 -173 OFFCURVE",
-"-115 -182 OFFCURVE",
-"-102 -182 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"24 -261 LINE SMOOTH",
-"37 -261 OFFCURVE",
-"46 -252 OFFCURVE",
-"46 -239 CURVE SMOOTH",
-"46 -150 LINE SMOOTH",
-"46 -127 OFFCURVE",
-"37 -128 OFFCURVE",
-"24 -128 CURVE SMOOTH",
-"-23 -128 LINE SMOOTH",
-"-36 -128 OFFCURVE",
-"-45 -127 OFFCURVE",
-"-45 -150 CURVE SMOOTH",
-"-45 -239 LINE SMOOTH",
-"-45 -252 OFFCURVE",
-"-36 -261 OFFCURVE",
-"-23 -261 CURVE SMOOTH"
-);
-}
-);
-width = 0;
-}
-);
-unicode = 05B8;
-},
-{
-color = 8;
 glyphname = holamhebrew;
 lastChange = "2016-09-09 10:54:54 +0000";
 layers = (
@@ -91233,6 +90848,122 @@ width = 0;
 unicode = 05C2;
 },
 {
+color = 8;
+glyphname = qamatsqatanhebrew;
+lastChange = "2016-09-09 10:54:54 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{2, 0}";
+}
+);
+layerId = "581BC726-83A6-4935-8633-5A6508251040";
+paths = (
+{
+closed = 1;
+nodes = (
+"106 -131 LINE SMOOTH",
+"119 -131 OFFCURVE",
+"128 -122 OFFCURVE",
+"128 -109 CURVE SMOOTH",
+"128 -101 LINE SMOOTH",
+"128 -88 OFFCURVE",
+"119 -79 OFFCURVE",
+"106 -79 CURVE SMOOTH",
+"-102 -79 LINE SMOOTH",
+"-115 -79 OFFCURVE",
+"-124 -88 OFFCURVE",
+"-124 -101 CURVE SMOOTH",
+"-124 -109 LINE SMOOTH",
+"-124 -122 OFFCURVE",
+"-115 -131 OFFCURVE",
+"-102 -131 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"4 -245 LINE SMOOTH",
+"17 -245 OFFCURVE",
+"26 -236 OFFCURVE",
+"26 -223 CURVE SMOOTH",
+"26 -134 LINE SMOOTH",
+"26 -111 OFFCURVE",
+"17 -112 OFFCURVE",
+"4 -112 CURVE SMOOTH",
+"-3 -112 LINE SMOOTH",
+"-16 -112 OFFCURVE",
+"-25 -111 OFFCURVE",
+"-25 -134 CURVE SMOOTH",
+"-25 -223 LINE SMOOTH",
+"-25 -236 OFFCURVE",
+"-16 -245 OFFCURVE",
+"-3 -245 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{2, 0}";
+}
+);
+layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
+paths = (
+{
+closed = 1;
+nodes = (
+"106 -182 LINE SMOOTH",
+"119 -182 OFFCURVE",
+"128 -173 OFFCURVE",
+"128 -160 CURVE SMOOTH",
+"128 -97 LINE SMOOTH",
+"128 -84 OFFCURVE",
+"119 -75 OFFCURVE",
+"106 -75 CURVE SMOOTH",
+"-102 -75 LINE SMOOTH",
+"-115 -75 OFFCURVE",
+"-124 -84 OFFCURVE",
+"-124 -97 CURVE SMOOTH",
+"-124 -160 LINE SMOOTH",
+"-124 -173 OFFCURVE",
+"-115 -182 OFFCURVE",
+"-102 -182 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"24 -261 LINE SMOOTH",
+"37 -261 OFFCURVE",
+"46 -252 OFFCURVE",
+"46 -239 CURVE SMOOTH",
+"46 -150 LINE SMOOTH",
+"46 -127 OFFCURVE",
+"37 -128 OFFCURVE",
+"24 -128 CURVE SMOOTH",
+"-23 -128 LINE SMOOTH",
+"-36 -128 OFFCURVE",
+"-45 -127 OFFCURVE",
+"-45 -150 CURVE SMOOTH",
+"-45 -239 LINE SMOOTH",
+"-45 -252 OFFCURVE",
+"-36 -261 OFFCURVE",
+"-23 -261 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+unicode = 05B8;
+},
+{
 color = 4;
 glyphname = "brevecomb-cy";
 lastChange = "2016-09-09 15:30:08 +0000";
@@ -91586,6 +91317,78 @@ nodes = (
 }
 );
 width = 349;
+}
+);
+},
+{
+color = 4;
+export = 0;
+glyphname = "descender-cy.case";
+lastChange = "2016-09-09 15:30:08 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bottomright;
+position = "{0, 0}";
+}
+);
+layerId = "581BC726-83A6-4935-8633-5A6508251040";
+paths = (
+{
+closed = 1;
+nodes = (
+"113 -140 LINE SMOOTH",
+"127 -140 OFFCURVE",
+"136 -131 OFFCURVE",
+"136 -118 CURVE SMOOTH",
+"136 38 LINE SMOOTH",
+"136 51 OFFCURVE",
+"127 60 OFFCURVE",
+"113 60 CURVE SMOOTH",
+"0 60 LINE",
+"30 0 LINE",
+"73 0 LINE",
+"73 -118 LINE SMOOTH",
+"73 -131 OFFCURVE",
+"82 -140 OFFCURVE",
+"95 -140 CURVE SMOOTH"
+);
+}
+);
+width = 186;
+},
+{
+anchors = (
+{
+name = _bottomright;
+position = "{0, 0}";
+}
+);
+layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
+paths = (
+{
+closed = 1;
+nodes = (
+"295 -140 LINE SMOOTH",
+"310 -140 OFFCURVE",
+"322 -128 OFFCURVE",
+"322 -113 CURVE SMOOTH",
+"322 193 LINE SMOOTH",
+"322 208 OFFCURVE",
+"310 220 OFFCURVE",
+"295 220 CURVE SMOOTH",
+"0 220 LINE",
+"50 0 LINE",
+"72 0 LINE",
+"72 -113 LINE SMOOTH",
+"72 -128 OFFCURVE",
+"84 -140 OFFCURVE",
+"99 -140 CURVE SMOOTH"
+);
+}
+);
+width = 372;
 }
 );
 },
@@ -91946,204 +91749,33 @@ width = 266;
 );
 },
 {
-color = 4;
-export = 0;
-glyphname = "descender-cy.case";
-lastChange = "2016-09-09 15:30:08 +0000";
+glyphname = NULL;
+lastChange = "2016-09-23 11:18:37 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottomright;
-position = "{0, 0}";
-}
-);
 layerId = "581BC726-83A6-4935-8633-5A6508251040";
-paths = (
-{
-closed = 1;
-nodes = (
-"113 -140 LINE SMOOTH",
-"127 -140 OFFCURVE",
-"136 -131 OFFCURVE",
-"136 -118 CURVE SMOOTH",
-"136 38 LINE SMOOTH",
-"136 51 OFFCURVE",
-"127 60 OFFCURVE",
-"113 60 CURVE SMOOTH",
-"0 60 LINE",
-"30 0 LINE",
-"73 0 LINE",
-"73 -118 LINE SMOOTH",
-"73 -131 OFFCURVE",
-"82 -140 OFFCURVE",
-"95 -140 CURVE SMOOTH"
-);
-}
-);
-width = 186;
+width = 0;
 },
 {
-anchors = (
-{
-name = _bottomright;
-position = "{0, 0}";
-}
-);
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
-paths = (
-{
-closed = 1;
-nodes = (
-"295 -140 LINE SMOOTH",
-"310 -140 OFFCURVE",
-"322 -128 OFFCURVE",
-"322 -113 CURVE SMOOTH",
-"322 193 LINE SMOOTH",
-"322 208 OFFCURVE",
-"310 220 OFFCURVE",
-"295 220 CURVE SMOOTH",
-"0 220 LINE",
-"50 0 LINE",
-"72 0 LINE",
-"72 -113 LINE SMOOTH",
-"72 -128 OFFCURVE",
-"84 -140 OFFCURVE",
-"99 -140 CURVE SMOOTH"
-);
+width = 0;
 }
 );
-width = 372;
-}
-);
-},
-{
-color = 0;
-glyphname = finalpedageshhebrew.001;
-lastChange = "2016-09-09 19:38:57 +0000";
-layers = (
-{
-guideLines = (
-{
-position = "{0, 571}";
-},
-{
-angle = 90;
-position = "{1818, 0}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{199, 0}";
-type = Tag;
-name = hr00;
-}
-);
-layerId = "581BC726-83A6-4935-8633-5A6508251040";
-width = 570;
-},
-{
-anchors = (
-{
-name = _center;
-position = "{273, 229}";
-},
-{
-name = bottom;
-position = "{284, 0}";
-},
-{
-name = bottomleft;
-position = "{20, 0}";
-},
-{
-name = center;
-position = "{287, 242}";
-},
-{
-name = top;
-position = "{284, 520}";
-},
-{
-name = topleft;
-position = "{20, 520}";
-}
-);
-components = (
-{
-locked = 1;
-name = finalpehebrew;
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{-426, 0}";
-},
-{
-angle = 90;
-position = "{1307, 0}";
-}
-);
-layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
-paths = (
-{
-closed = 1;
-nodes = (
-"303 205 LINE SMOOTH",
-"316 205 OFFCURVE",
-"325 214 OFFCURVE",
-"325 227 CURVE SMOOTH",
-"325 290 LINE SMOOTH",
-"325 303 OFFCURVE",
-"316 312 OFFCURVE",
-"303 312 CURVE SMOOTH",
-"290 312 LINE SMOOTH",
-"277 312 OFFCURVE",
-"268 303 OFFCURVE",
-"268 290 CURVE SMOOTH",
-"268 227 LINE SMOOTH",
-"268 214 OFFCURVE",
-"277 205 OFFCURVE",
-"290 205 CURVE SMOOTH"
-);
-}
-);
-width = 590;
-}
-);
-leftKerningGroup = hethebrew;
-rightMetricsKey = hethebrew;
-userData = {
-com.typemytype.robofont.guides = (
-{
-angle = 0;
-isGlobal = 0;
-magnetic = 5;
-x = 0;
-y = 571;
-},
-{
-angle = 90;
-isGlobal = 0;
-magnetic = 5;
-x = 1818;
-y = 0;
-}
-);
-com.typemytype.robofont.mark = (
-0.741,
-0.6000,
-1,
-1
-);
-};
 }
 );
 disablesNiceNames = 1;
 instances = (
 {
+customParameters = (
+{
+name = postscriptFullName;
+value = "Rubik Light";
+},
+{
+name = compatibleFullName;
+value = "Rubik Light";
+}
+);
 interpolationWeight = 200;
 instanceInterpolations = {
 "581BC726-83A6-4935-8633-5A6508251040" = 1;
@@ -92152,6 +91784,16 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = postscriptFullName;
+value = "Rubik Regular";
+},
+{
+name = compatibleFullName;
+value = "Rubik Regular";
+}
+);
 interpolationWeight = 300;
 instanceInterpolations = {
 "EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.166667;
@@ -92160,6 +91802,16 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = postscriptFullName;
+value = "Rubik Medium";
+},
+{
+name = compatibleFullName;
+value = "Rubik Medium";
+}
+);
 interpolationWeight = 450;
 instanceInterpolations = {
 "EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.416667;
@@ -92169,6 +91821,16 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = postscriptFullName;
+value = "Rubik Bold";
+},
+{
+name = compatibleFullName;
+value = "Rubik Bold";
+}
+);
 interpolationWeight = 600;
 instanceInterpolations = {
 "EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.666667;
@@ -92183,6 +91845,14 @@ customParameters = (
 {
 name = "Replace Feature";
 value = "ccmp; sub pehebrew dageshhebrew by pedageshhebrew.001; sub finalpehebrew dageshhebrew by finalpedageshhebrew.001; sub vavhebrew dageshhebrew by vavdageshhebrew; sub yodhebrew dageshhebrew by yoddageshhebrew;";
+},
+{
+name = postscriptFullName;
+value = "Rubik Black";
+},
+{
+name = compatibleFullName;
+value = "Rubik Black";
 }
 );
 interpolationWeight = 800;
@@ -94295,8 +93965,6 @@ one = -18;
 parenright = -26;
 parenright.case = -33;
 seven = -15;
-};
-fraction = {
 };
 germandbls = {
 "@MMK_R_period" = -9;
@@ -96742,8 +96410,6 @@ parenright.case = -24;
 seven = -30;
 slash = -12;
 };
-fraction = {
-};
 g = {
 j = 21;
 };
@@ -97362,7 +97028,7 @@ slash = -31;
 };
 };
 manufacturer = "Hubert & Fischer";
-manufacturerURL = www.google.com/fonts;
+manufacturerURL = "http://www.google.com/fonts";
 unitsPerEm = 1000;
 userData = {
 com.fontlab.v2.tth = {
