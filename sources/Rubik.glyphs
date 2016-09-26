@@ -30,7 +30,7 @@ code = "alefhebrew bethebrew gimelhebrew dalethebrew hehebrew vavhebrew zayinheb
 name = HebrewLetters;
 }
 );
-copyright = "Copyright 2015 The Rubik Project Authors (meir@sadan.com)";
+copyright = "Copyright 2015 The Rubik Project Authors";
 customParameters = (
 {
 name = license;
