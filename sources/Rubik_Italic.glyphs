@@ -1,5 +1,5 @@
 {
-.appVersion = "919";
+.appVersion = "924";
 classes = (
 {
 code = "zero one two three four five six seven eight nine parenleft parenright";
@@ -38,7 +38,8 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = fsType;
-value = 0;
+value = (
+);
 },
 {
 name = "Use Typo Metrics";
@@ -80457,20 +80458,6 @@ width = 266;
 );
 },
 {
-glyphname = NULL;
-lastChange = "2016-09-23 13:22:37 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 0;
-},
-{
-layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
-width = 0;
-}
-);
-},
-{
 glyphname = finalpedageshhebrew.001;
 lastChange = "2016-09-23 13:22:37 +0000";
 layers = (
@@ -80594,21 +80581,26 @@ y = 0;
 }
 );
 };
+},
+{
+glyphname = NULL;
+lastChange = "2016-10-02 10:50:57 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 0;
+},
+{
+layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
+width = 0;
+}
+);
+unicode = 0000;
 }
 );
 disablesAutomaticAlignment = 1;
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Rubik Light Italic";
-},
-{
-name = compatibleFullName;
-value = "Rubik Light Italic";
-}
-);
 interpolationWeight = 200;
 instanceInterpolations = {
 UUID0 = 1;
@@ -80619,16 +80611,6 @@ name = "Light Italic";
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Rubik Italic";
-},
-{
-name = compatibleFullName;
-value = "Rubik Italic";
-}
-);
 interpolationWeight = 300;
 instanceInterpolations = {
 UUID0 = 0.833333;
@@ -80639,16 +80621,6 @@ linkStyle = Regular;
 name = Italic;
 },
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Rubik Medium Italic";
-},
-{
-name = compatibleFullName;
-value = "Rubik Medium Italic";
-}
-);
 interpolationWeight = 450;
 instanceInterpolations = {
 UUID0 = 0.583333;
@@ -80660,16 +80632,6 @@ name = "Medium Italic";
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Rubik Bold Italic";
-},
-{
-name = compatibleFullName;
-value = "Rubik Bold Italic";
-}
-);
 interpolationWeight = 600;
 instanceInterpolations = {
 UUID0 = 0.333333;
@@ -80683,14 +80645,6 @@ weightClass = Bold;
 },
 {
 customParameters = (
-{
-name = "Replace Feature";
-value = "ccmp; sub pehebrew dageshhebrew by pedageshhebrew.001; sub finalpehebrew dageshhebrew by finalpedageshhebrew.001; sub vavhebrew dageshhebrew by vavdageshhebrew; sub yodhebrew dageshhebrew by yoddageshhebrew;";
-},
-{
-name = postscriptFullName;
-value = "Rubik Black Italic";
-},
 {
 name = compatibleFullName;
 value = "Rubik Black Italic";
