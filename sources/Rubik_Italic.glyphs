@@ -212,14 +212,7 @@ code = "# Standard Ligatures
 name = liga;
 },
 {
-code = " 
-	sub a e by ae;
-	sub A E by AE;
-	sub o e by oe;
-	sub O E by OE;
-	sub i j by ij;
-	sub I J by IJ;
-	sub period period period by ellipsis;";
+code = "";
 name = dlig;
 },
 {
@@ -80042,7 +80035,6 @@ UUID0 = 0.833333;
 "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.166667;
 };
 isItalic = 1;
-linkStyle = Regular;
 name = Italic;
 },
 {
