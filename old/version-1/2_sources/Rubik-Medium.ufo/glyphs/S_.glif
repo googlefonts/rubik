@@ -58,6 +58,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:43 +0000</string>
       <key>com.typemytype.robofont.guides</key>
       <array>
         <dict>

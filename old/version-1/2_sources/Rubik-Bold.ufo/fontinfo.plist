@@ -12,9 +12,6 @@
 	<integer>-225</integer>
 	<key>familyName</key>
 	<string>Rubik</string>
-	<key>fsType</key>
-	<array>
-	</array>
 	<key>macintoshFONDFamilyID</key>
 	<integer>128</integer>
 	<key>macintoshFONDName</key>

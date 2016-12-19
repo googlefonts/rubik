@@ -201,6 +201,8 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+	<true/>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>0BB4E8BB-35C3-44AE-8D01-40F5DE723B21</string>
 	<key>com.schriftgestaltung.glyphOrder</key>
@@ -840,7 +842,7 @@
 		<string>guilsinglright.cap</string>
 	</array>
 	<key>com.schriftgestaltung.useNiceNames</key>
-	<integer>0</integer>
+	<false/>
 	<key>com.schriftgestaltung.weight</key>
 	<string>Light</string>
 	<key>com.typemytype.robofont.guides</key>
@@ -1528,13 +1530,13 @@
 		<string>tserehebrew</string>
 		<string>segolhebrew</string>
 		<string>patahhebrew</string>
+		<string>qamatshebrew</string>
 		<string>holamhebrew</string>
 		<string>holamhaserhebrew</string>
 		<string>qubutshebrew</string>
 		<string>dageshhebrew</string>
 		<string>shindothebrew</string>
 		<string>sindothebrew</string>
-		<string>qamatsqatanhebrew</string>
 	</array>
 </dict>
 </plist>

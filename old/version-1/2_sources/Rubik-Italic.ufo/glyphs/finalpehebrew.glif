@@ -43,7 +43,7 @@
       <point x="205" y="492" type="line"/>
     </contour>
     <contour>
-      <point x="236" y="0" type="move" name="bottom"/>
+      <point x="330" y="249" type="move" name="center"/>
     </contour>
     <contour>
       <point x="347" y="520" type="move" name="top"/>
@@ -55,13 +55,15 @@
       <point x="82" y="520" type="move" name="topleft"/>
     </contour>
     <contour>
-      <point x="330" y="249" type="move" name="center"/>
+      <point x="236" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:59:48 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>hethebrew</string>
       <key>com.typemytype.robofont.guides</key>

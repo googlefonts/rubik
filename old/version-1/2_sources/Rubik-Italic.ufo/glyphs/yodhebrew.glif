@@ -22,7 +22,7 @@
       <point x="94" y="232" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="66" y="0" type="move" name="bottom"/>
+      <point x="17" y="260" type="move" name="center"/>
     </contour>
     <contour>
       <point x="178" y="520" type="move" name="top"/>
@@ -34,13 +34,15 @@
       <point x="82" y="520" type="move" name="topleft"/>
     </contour>
     <contour>
-      <point x="17" y="260" type="move" name="center"/>
+      <point x="66" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:59:48 +0000</string>
       <key>com.typemytype.robofont.guides</key>
       <array>
         <dict>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qamatsqatanhebrew" format="1">
+<glyph name="qamatshebrew" format="1">
   <advance width="0"/>
-  <unicode hex="05C7"/>
+  <unicode hex="05B8"/>
   <outline>
     <contour>
       <point x="106" y="-152" type="line" smooth="yes"/>
@@ -43,4 +43,10 @@
       <point x="2" y="0" type="move" name="_bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:51 +0000</string>
+    </dict>
+  </lib>
 </glyph>
