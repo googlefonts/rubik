@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10069" format="1">
+  <advance width="519"/>
+  <unicode hex="0434"/>
+  <outline>
+    <contour>
+      <point x="469" y="38" type="line"/>
+      <point x="469" y="51"/>
+      <point x="460" y="60"/>
+      <point x="447" y="60" type="curve" smooth="yes"/>
+      <point x="427" y="60" type="line" name="hr01"/>
+      <point x="427" y="498" type="line" smooth="yes"/>
+      <point x="427" y="511"/>
+      <point x="418" y="520"/>
+      <point x="405" y="520" type="curve" smooth="yes"/>
+      <point x="148" y="520" type="line" smooth="yes"/>
+      <point x="135" y="520"/>
+      <point x="126" y="511"/>
+      <point x="126" y="498" type="curve" smooth="yes"/>
+      <point x="126" y="152" type="line" smooth="yes"/>
+      <point x="126" y="77"/>
+      <point x="108" y="59"/>
+      <point x="60" y="58" type="curve" smooth="yes"/>
+      <point x="43" y="58" type="line" smooth="yes"/>
+      <point x="30" y="58"/>
+      <point x="21" y="49"/>
+      <point x="21" y="36" type="curve" smooth="yes"/>
+      <point x="21" y="-88" type="line" smooth="yes"/>
+      <point x="21" y="-101"/>
+      <point x="30" y="-110"/>
+      <point x="43" y="-110" type="curve" smooth="yes"/>
+      <point x="60" y="-110" type="line" smooth="yes"/>
+      <point x="73" y="-110"/>
+      <point x="82" y="-101"/>
+      <point x="82" y="-88" type="curve" smooth="yes"/>
+      <point x="82" y="0" type="line" name="hr02"/>
+      <point x="408" y="0" type="line"/>
+      <point x="408" y="-88" type="line" smooth="yes"/>
+      <point x="408" y="-101"/>
+      <point x="417" y="-110"/>
+      <point x="430" y="-110" type="curve" name="hr03" smooth="yes"/>
+      <point x="447" y="-110" type="line" smooth="yes"/>
+      <point x="460" y="-110"/>
+      <point x="469" y="-101"/>
+      <point x="469" y="-88" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="187" y="125" type="curve"/>
+      <point x="187" y="462" type="line"/>
+      <point x="366" y="462" type="line" name="hr04"/>
+      <point x="366" y="58" type="line"/>
+      <point x="169" y="58" type="line"/>
+      <point x="169" y="58"/>
+      <point x="187" y="78"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:05 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-110</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>466</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>60</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>508</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

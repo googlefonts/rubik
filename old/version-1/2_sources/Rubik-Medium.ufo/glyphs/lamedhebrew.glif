@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamedhebrew" format="1">
+  <advance width="530"/>
+  <unicode hex="05DC"/>
+  <outline>
+    <contour>
+      <point x="238" y="2" type="line" smooth="yes"/>
+      <point x="364" y="40"/>
+      <point x="483" y="132"/>
+      <point x="483" y="315" type="curve" smooth="yes"/>
+      <point x="483" y="490"/>
+      <point x="418" y="571"/>
+      <point x="238" y="571" type="curve" smooth="yes"/>
+      <point x="187" y="571" type="line"/>
+      <point x="174" y="571"/>
+      <point x="163" y="561"/>
+      <point x="163" y="548" type="curve"/>
+      <point x="163" y="484" type="line"/>
+      <point x="163" y="470"/>
+      <point x="174" y="460"/>
+      <point x="187" y="460" type="curve"/>
+      <point x="214" y="460" type="line"/>
+      <point x="318" y="460"/>
+      <point x="351" y="422"/>
+      <point x="351" y="314" type="curve" smooth="yes"/>
+      <point x="351" y="198"/>
+      <point x="297" y="154"/>
+      <point x="230" y="127" type="curve" smooth="yes"/>
+      <point x="194" y="113" type="line" smooth="yes"/>
+      <point x="180" y="107"/>
+      <point x="171" y="96"/>
+      <point x="171" y="84" type="curve" smooth="yes"/>
+      <point x="171" y="11" type="line" smooth="yes"/>
+      <point x="171" y="-3"/>
+      <point x="184" y="-15"/>
+      <point x="197" y="-11" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="218" y="571" type="line"/>
+      <point x="169" y="571" type="line"/>
+      <point x="169" y="686" type="line" smooth="yes"/>
+      <point x="169" y="700"/>
+      <point x="159" y="710"/>
+      <point x="145" y="710" type="curve" smooth="yes"/>
+      <point x="71" y="710" type="line" smooth="yes"/>
+      <point x="57" y="710"/>
+      <point x="47" y="700"/>
+      <point x="47" y="686" type="curve" smooth="yes"/>
+      <point x="47" y="484" type="line" smooth="yes"/>
+      <point x="47" y="470"/>
+      <point x="57" y="461"/>
+      <point x="71" y="461" type="curve" smooth="yes"/>
+      <point x="216" y="460" type="line"/>
+    </contour>
+    <contour>
+      <point x="194" y="260" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="247" y="520" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="51" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="3" y="520" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="250" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:43 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>kafhebrew</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>710</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>464</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.741</real>
+        <real>0.6</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

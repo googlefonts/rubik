@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Breve" format="1">
+  <advance width="372"/>
+  <outline>
+    <contour>
+      <point x="181" y="745" type="curve" smooth="yes"/>
+      <point x="314" y="745"/>
+      <point x="357" y="826"/>
+      <point x="371" y="891" type="curve" smooth="yes"/>
+      <point x="373" y="901"/>
+      <point x="368" y="910"/>
+      <point x="356" y="910" type="curve" smooth="yes"/>
+      <point x="272" y="910" type="line" smooth="yes"/>
+      <point x="260" y="910"/>
+      <point x="251" y="901"/>
+      <point x="249" y="891" type="curve" smooth="yes"/>
+      <point x="244" y="866"/>
+      <point x="222" y="841"/>
+      <point x="191" y="841" type="curve" name="hr01" smooth="yes"/>
+      <point x="160" y="841"/>
+      <point x="150" y="866"/>
+      <point x="155" y="891" type="curve" smooth="yes"/>
+      <point x="157" y="901"/>
+      <point x="152" y="910"/>
+      <point x="140" y="910" type="curve" name="hr02" smooth="yes"/>
+      <point x="56" y="910" type="line" smooth="yes"/>
+      <point x="44" y="910"/>
+      <point x="35" y="901"/>
+      <point x="33" y="891" type="curve" smooth="yes"/>
+      <point x="19" y="826"/>
+      <point x="68" y="745"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

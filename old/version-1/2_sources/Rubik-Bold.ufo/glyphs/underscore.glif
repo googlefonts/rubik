@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="1">
+  <advance width="737"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="666" y="-77" type="line" name="hr00"/>
+      <point x="681" y="-77"/>
+      <point x="693" y="-65"/>
+      <point x="693" y="-50" type="curve" smooth="yes"/>
+      <point x="693" y="51" type="line" smooth="yes"/>
+      <point x="693" y="66"/>
+      <point x="681" y="78"/>
+      <point x="666" y="78" type="curve" smooth="yes"/>
+      <point x="71" y="78" type="line" smooth="yes"/>
+      <point x="56" y="78"/>
+      <point x="44" y="66"/>
+      <point x="44" y="51" type="curve" smooth="yes"/>
+      <point x="44" y="-50" type="line" smooth="yes"/>
+      <point x="44" y="-65"/>
+      <point x="56" y="-77"/>
+      <point x="71" y="-77" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:19:49 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>694</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>45</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

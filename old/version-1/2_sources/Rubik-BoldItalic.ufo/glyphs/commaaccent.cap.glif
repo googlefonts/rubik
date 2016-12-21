@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaaccent.cap" format="1">
+  <advance width="277"/>
+  <outline>
+    <contour>
+      <point x="32" y="-226" type="line" name="hr00" smooth="yes"/>
+      <point x="27" y="-238"/>
+      <point x="33" y="-250"/>
+      <point x="49" y="-250" type="curve" smooth="yes"/>
+      <point x="138" y="-250" type="line" smooth="yes"/>
+      <point x="164" y="-250"/>
+      <point x="180" y="-231"/>
+      <point x="188" y="-218" type="curve"/>
+      <point x="273" y="-79" type="line"/>
+      <point x="280" y="-67"/>
+      <point x="275" y="-50"/>
+      <point x="258" y="-50" type="curve" smooth="yes"/>
+      <point x="135" y="-50" type="line" smooth="yes"/>
+      <point x="108" y="-50"/>
+      <point x="90" y="-71"/>
+      <point x="84" y="-89" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

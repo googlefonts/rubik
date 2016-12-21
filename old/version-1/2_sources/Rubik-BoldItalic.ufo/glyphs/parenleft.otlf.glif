@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft.otlf" format="1">
+  <advance width="660"/>
+  <outline>
+    <contour>
+      <point x="177" y="371" type="curve" name="hr00" smooth="yes"/>
+      <point x="109" y="51"/>
+      <point x="217" y="-117"/>
+      <point x="389" y="-117" type="curve" smooth="yes"/>
+      <point x="404" y="-117"/>
+      <point x="418" y="-105"/>
+      <point x="421" y="-90" type="curve" smooth="yes"/>
+      <point x="443" y="11" type="line" smooth="yes"/>
+      <point x="446" y="26"/>
+      <point x="436" y="37"/>
+      <point x="422" y="38" type="curve" smooth="yes"/>
+      <point x="316" y="48"/>
+      <point x="316" y="177"/>
+      <point x="353" y="351" type="curve" smooth="yes"/>
+      <point x="390" y="525"/>
+      <point x="444" y="653"/>
+      <point x="554" y="663" type="curve" smooth="yes"/>
+      <point x="570" y="664"/>
+      <point x="584" y="675"/>
+      <point x="587" y="690" type="curve" smooth="yes"/>
+      <point x="609" y="791" type="line" smooth="yes"/>
+      <point x="612" y="806"/>
+      <point x="602" y="818"/>
+      <point x="587" y="818" type="curve" smooth="yes"/>
+      <point x="355" y="818"/>
+      <point x="245" y="691"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

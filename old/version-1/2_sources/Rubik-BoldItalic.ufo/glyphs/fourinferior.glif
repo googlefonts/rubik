@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourinferior" format="1">
+  <advance width="406"/>
+  <unicode hex="2084"/>
+  <outline>
+    <contour>
+      <point x="138" y="162" type="curve"/>
+      <point x="-33" y="-11" type="line" smooth="yes"/>
+      <point x="-48" y="-27"/>
+      <point x="-51" y="-38"/>
+      <point x="-51" y="-41" type="curve"/>
+      <point x="-62" y="-91" type="line"/>
+      <point x="-64" y="-104"/>
+      <point x="-58" y="-113"/>
+      <point x="-45" y="-113" type="curve" smooth="yes"/>
+      <point x="123" y="-113" type="line"/>
+      <point x="116" y="-148" type="line" smooth="yes"/>
+      <point x="113" y="-161"/>
+      <point x="120" y="-170"/>
+      <point x="133" y="-170" type="curve" name="hr01" smooth="yes"/>
+      <point x="205" y="-170" type="line" smooth="yes"/>
+      <point x="218" y="-170"/>
+      <point x="229" y="-161"/>
+      <point x="232" y="-148" type="curve" smooth="yes"/>
+      <point x="239" y="-113" type="line" name="hr02"/>
+      <point x="274" y="-113" type="line" smooth="yes"/>
+      <point x="287" y="-113"/>
+      <point x="298" y="-104"/>
+      <point x="301" y="-91" type="curve" smooth="yes"/>
+      <point x="312" y="-40" type="line" smooth="yes"/>
+      <point x="315" y="-27"/>
+      <point x="308" y="-18"/>
+      <point x="295" y="-18" type="curve" smooth="yes"/>
+      <point x="260" y="-18" type="line"/>
+      <point x="297" y="158" type="line" smooth="yes"/>
+      <point x="300" y="171"/>
+      <point x="293" y="180"/>
+      <point x="280" y="180" type="curve" smooth="yes"/>
+      <point x="172" y="180" type="line" smooth="yes"/>
+      <point x="163" y="180"/>
+      <point x="151" y="176"/>
+    </contour>
+    <contour>
+      <point x="163" y="62" type="line"/>
+      <point x="146" y="-18" type="line"/>
+      <point x="84" y="-18" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

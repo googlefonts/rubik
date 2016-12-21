@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tethebrew" format="1">
+  <advance width="641"/>
+  <unicode hex="05D8"/>
+  <outline>
+    <contour>
+      <point x="513" y="-10"/>
+      <point x="586" y="78"/>
+      <point x="592" y="231" type="curve" smooth="yes"/>
+      <point x="593" y="251"/>
+      <point x="593" y="323"/>
+      <point x="592" y="343" type="curve" smooth="yes"/>
+      <point x="590" y="500"/>
+      <point x="527" y="575"/>
+      <point x="388" y="575" type="curve" smooth="yes"/>
+      <point x="337" y="575"/>
+      <point x="310" y="566"/>
+      <point x="288" y="552" type="curve" smooth="yes"/>
+      <point x="274" y="544"/>
+      <point x="272" y="532"/>
+      <point x="272" y="519" type="curve" smooth="yes"/>
+      <point x="272" y="464" type="line" smooth="yes"/>
+      <point x="272" y="448"/>
+      <point x="288" y="440"/>
+      <point x="302" y="447" type="curve" smooth="yes"/>
+      <point x="319" y="457"/>
+      <point x="348" y="465"/>
+      <point x="368" y="465" type="curve" smooth="yes"/>
+      <point x="428" y="465"/>
+      <point x="465" y="419"/>
+      <point x="466" y="325" type="curve" smooth="yes"/>
+      <point x="466" y="305"/>
+      <point x="467" y="257"/>
+      <point x="466" y="236" type="curve" smooth="yes"/>
+      <point x="465" y="145"/>
+      <point x="420" y="101"/>
+      <point x="328" y="101" type="curve" smooth="yes"/>
+      <point x="234" y="101"/>
+      <point x="183" y="149"/>
+      <point x="183" y="242" type="curve" smooth="yes"/>
+      <point x="183" y="547" type="line" smooth="yes"/>
+      <point x="183" y="561"/>
+      <point x="173" y="571"/>
+      <point x="159" y="571" type="curve" smooth="yes"/>
+      <point x="87" y="571" type="line" smooth="yes"/>
+      <point x="73" y="571"/>
+      <point x="63" y="561"/>
+      <point x="63" y="547" type="curve" smooth="yes"/>
+      <point x="63" y="237" type="line" smooth="yes"/>
+      <point x="63" y="82"/>
+      <point x="144" y="-10"/>
+      <point x="328" y="-10" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="325" y="260" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="327" y="520" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="20" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="20" y="520" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="327" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:43 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>kafhebrew</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>571</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>581</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>196</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>65</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.741</real>
+        <real>0.6</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign" format="1">
+  <advance width="698"/>
+  <unicode hex="0023"/>
+  <outline>
+    <contour>
+      <point x="657" y="445" type="line"/>
+      <point x="670" y="445"/>
+      <point x="681" y="454"/>
+      <point x="684" y="467" type="curve"/>
+      <point x="687" y="481" type="line"/>
+      <point x="690" y="494"/>
+      <point x="682" y="503"/>
+      <point x="669" y="503" type="curve"/>
+      <point x="560" y="503" type="line"/>
+      <point x="608" y="634" type="line"/>
+      <point x="612" y="646"/>
+      <point x="605" y="655"/>
+      <point x="593" y="655" type="curve" name="hr01"/>
+      <point x="575" y="655" type="line"/>
+      <point x="562" y="655"/>
+      <point x="553" y="645"/>
+      <point x="548" y="634" type="curve"/>
+      <point x="500" y="503" type="line" name="hr02"/>
+      <point x="333" y="503" type="line"/>
+      <point x="381" y="634" type="line"/>
+      <point x="385" y="646"/>
+      <point x="378" y="655"/>
+      <point x="366" y="655" type="curve" name="hr03"/>
+      <point x="348" y="655" type="line"/>
+      <point x="335" y="655"/>
+      <point x="326" y="645"/>
+      <point x="321" y="634" type="curve"/>
+      <point x="273" y="503" type="line" name="hr04"/>
+      <point x="142" y="503" type="line"/>
+      <point x="129" y="503"/>
+      <point x="119" y="494"/>
+      <point x="116" y="481" type="curve"/>
+      <point x="113" y="467" type="line"/>
+      <point x="110" y="454"/>
+      <point x="117" y="445"/>
+      <point x="130" y="445" type="curve"/>
+      <point x="252" y="445" type="line"/>
+      <point x="181" y="249" type="line"/>
+      <point x="62" y="249" type="line"/>
+      <point x="49" y="249"/>
+      <point x="39" y="240"/>
+      <point x="36" y="227" type="curve"/>
+      <point x="33" y="213" type="line"/>
+      <point x="30" y="200"/>
+      <point x="37" y="191"/>
+      <point x="50" y="191" type="curve" name="hr05"/>
+      <point x="161" y="191" type="line"/>
+      <point x="120" y="79"/>
+      <point x="113" y="60"/>
+      <point x="113" y="60" type="curve"/>
+      <point x="109" y="48"/>
+      <point x="117" y="39"/>
+      <point x="129" y="39" type="curve" name="hr06"/>
+      <point x="147" y="39" type="line"/>
+      <point x="160" y="39"/>
+      <point x="170" y="48"/>
+      <point x="174" y="60" type="curve"/>
+      <point x="221" y="191" type="line" name="hr07"/>
+      <point x="388" y="191" type="line"/>
+      <point x="347" y="79"/>
+      <point x="340" y="60"/>
+      <point x="340" y="60" type="curve"/>
+      <point x="336" y="48"/>
+      <point x="344" y="39"/>
+      <point x="356" y="39" type="curve" name="hr08"/>
+      <point x="374" y="39" type="line"/>
+      <point x="387" y="39"/>
+      <point x="397" y="48"/>
+      <point x="401" y="60" type="curve"/>
+      <point x="448" y="191" type="line" name="hr09"/>
+      <point x="577" y="191" type="line"/>
+      <point x="590" y="191"/>
+      <point x="601" y="200"/>
+      <point x="604" y="213" type="curve"/>
+      <point x="607" y="227" type="line"/>
+      <point x="610" y="240"/>
+      <point x="602" y="249"/>
+      <point x="589" y="249" type="curve"/>
+      <point x="469" y="249" type="line"/>
+      <point x="540" y="445" type="line"/>
+    </contour>
+    <contour>
+      <point x="242" y="249" type="line"/>
+      <point x="313" y="445" type="line"/>
+      <point x="479" y="445" type="line"/>
+      <point x="408" y="249" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:33 +0000</string>
+    </dict>
+  </lib>
+</glyph>

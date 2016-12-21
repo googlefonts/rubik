@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qofhebrew" format="1">
+  <advance width="646"/>
+  <unicode hex="05E7"/>
+  <outline>
+    <contour>
+      <point x="171" y="-191" type="line" smooth="yes"/>
+      <point x="185" y="-191"/>
+      <point x="195" y="-181"/>
+      <point x="195" y="-167" type="curve"/>
+      <point x="195" y="338" type="line" smooth="yes"/>
+      <point x="195" y="352"/>
+      <point x="185" y="362"/>
+      <point x="171" y="362" type="curve" smooth="yes"/>
+      <point x="93" y="362" type="line" smooth="yes"/>
+      <point x="79" y="362"/>
+      <point x="69" y="352"/>
+      <point x="69" y="338" type="curve" smooth="yes"/>
+      <point x="69" y="-167" type="line" smooth="yes"/>
+      <point x="69" y="-181"/>
+      <point x="79" y="-191"/>
+      <point x="93" y="-191" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="350" y="2" type="line" smooth="yes"/>
+      <point x="476" y="40"/>
+      <point x="595" y="132"/>
+      <point x="595" y="315" type="curve" smooth="yes"/>
+      <point x="595" y="490"/>
+      <point x="530" y="571"/>
+      <point x="350" y="571" type="curve" smooth="yes"/>
+      <point x="93" y="571" type="line"/>
+      <point x="80" y="571"/>
+      <point x="69" y="561"/>
+      <point x="69" y="548" type="curve"/>
+      <point x="69" y="484" type="line"/>
+      <point x="69" y="470"/>
+      <point x="80" y="460"/>
+      <point x="93" y="460" type="curve"/>
+      <point x="327" y="460" type="line"/>
+      <point x="430" y="460"/>
+      <point x="463" y="422"/>
+      <point x="463" y="314" type="curve" smooth="yes"/>
+      <point x="463" y="198"/>
+      <point x="410" y="154"/>
+      <point x="342" y="127" type="curve" smooth="yes"/>
+      <point x="307" y="113" type="line" smooth="yes"/>
+      <point x="292" y="107"/>
+      <point x="283" y="96"/>
+      <point x="283" y="84" type="curve" smooth="yes"/>
+      <point x="283" y="11" type="line" smooth="yes"/>
+      <point x="283" y="-3"/>
+      <point x="296" y="-15"/>
+      <point x="309" y="-11" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="305" y="260" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="305" y="520" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="20" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="20" y="520" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="402" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:43 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-191</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>70</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>516</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>70</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.741</real>
+        <real>0.6</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

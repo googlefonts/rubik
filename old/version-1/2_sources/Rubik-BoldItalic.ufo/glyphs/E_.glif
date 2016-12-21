@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E" format="1">
+  <advance width="642"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="542" y="160" type="line" name="hr00" smooth="yes"/>
+      <point x="557" y="160"/>
+      <point x="566" y="148"/>
+      <point x="563" y="133" type="curve" smooth="yes"/>
+      <point x="540" y="27" type="line" smooth="yes"/>
+      <point x="537" y="12"/>
+      <point x="523" y="0"/>
+      <point x="508" y="0" type="curve" smooth="yes"/>
+      <point x="34" y="0" type="line" smooth="yes"/>
+      <point x="19" y="0"/>
+      <point x="9" y="12"/>
+      <point x="12" y="27" type="curve" smooth="yes"/>
+      <point x="150" y="673" type="line" smooth="yes"/>
+      <point x="153" y="688"/>
+      <point x="167" y="700"/>
+      <point x="182" y="700" type="curve" smooth="yes"/>
+      <point x="648" y="700" type="line" smooth="yes"/>
+      <point x="663" y="700"/>
+      <point x="673" y="688"/>
+      <point x="670" y="673" type="curve" smooth="yes"/>
+      <point x="647" y="567" type="line" smooth="yes"/>
+      <point x="644" y="552"/>
+      <point x="629" y="540"/>
+      <point x="614" y="540" type="curve" smooth="yes"/>
+      <point x="306" y="540" type="line"/>
+      <point x="283" y="432" type="line"/>
+      <point x="569" y="432" type="line" smooth="yes"/>
+      <point x="584" y="432"/>
+      <point x="594" y="420"/>
+      <point x="591" y="405" type="curve" smooth="yes"/>
+      <point x="568" y="299" type="line" smooth="yes"/>
+      <point x="565" y="284"/>
+      <point x="550" y="272"/>
+      <point x="535" y="272" type="curve" smooth="yes"/>
+      <point x="249" y="272" type="line"/>
+      <point x="226" y="160" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

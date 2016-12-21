@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="maqafhebrew" format="1">
+  <advance width="377"/>
+  <unicode hex="05BE"/>
+  <outline>
+    <contour>
+      <point x="295" y="493" type="line" smooth="yes"/>
+      <point x="308" y="493"/>
+      <point x="317" y="502"/>
+      <point x="317" y="515" type="curve" smooth="yes"/>
+      <point x="317" y="549" type="line" smooth="yes"/>
+      <point x="317" y="562"/>
+      <point x="308" y="571"/>
+      <point x="295" y="571" type="curve" smooth="yes"/>
+      <point x="82" y="571" type="line" smooth="yes"/>
+      <point x="69" y="571"/>
+      <point x="60" y="562"/>
+      <point x="60" y="549" type="curve" smooth="yes"/>
+      <point x="60" y="515" type="line" smooth="yes"/>
+      <point x="60" y="502"/>
+      <point x="69" y="493"/>
+      <point x="82" y="493" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:16:56 +0000</string>
+    </dict>
+  </lib>
+</glyph>

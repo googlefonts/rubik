@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="finalkafhebrew" format="1">
+  <advance width="544"/>
+  <unicode hex="05DA"/>
+  <outline>
+    <contour>
+      <point x="280" y="-98" type="line" smooth="yes"/>
+      <point x="280" y="-113"/>
+      <point x="292" y="-124"/>
+      <point x="307" y="-124" type="curve" smooth="yes"/>
+      <point x="476" y="-124" type="line" smooth="yes"/>
+      <point x="491" y="-124"/>
+      <point x="503" y="-112"/>
+      <point x="503" y="-97" type="curve" smooth="yes"/>
+      <point x="503" y="327" type="line" smooth="yes"/>
+      <point x="503" y="516"/>
+      <point x="397" y="571"/>
+      <point x="212" y="571" type="curve" smooth="yes"/>
+      <point x="39" y="571" type="line"/>
+      <point x="24" y="571"/>
+      <point x="12" y="559"/>
+      <point x="12" y="544" type="curve" smooth="yes"/>
+      <point x="12" y="423" type="line" smooth="yes"/>
+      <point x="12" y="408"/>
+      <point x="24" y="396"/>
+      <point x="39" y="396" type="curve" smooth="yes"/>
+      <point x="206" y="396" type="line" smooth="yes"/>
+      <point x="255" y="396"/>
+      <point x="280" y="371"/>
+      <point x="280" y="321" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="131" y="231" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="270" y="520" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="20" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="20" y="520" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="149" y="260" type="move" name="center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:18:50 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>hethebrew</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>61</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.741</real>
+        <real>0.6</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

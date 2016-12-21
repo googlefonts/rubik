@@ -1,0 +1,166 @@
+@standard = [ zero one two three four five six seven eight nine parenleft parenright ];
+
+@sups = [ zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior parenleftsuperior parenrightsuperior ];
+
+@subs = [ zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior parenleftinferior parenrightinferior ];
+
+@numerator = [ zero.numerator one.numerator two.numerator three.numerator four.numerator five.numerator six.numerator seven.numerator eight.numerator nine.numerator parenleft.numerator parenright.numerator ];
+
+@denominator = [ zero.denominator one.denominator two.denominator three.denominator four.denominator five.denominator six.denominator seven.denominator eight.denominator nine.denominator parenleft.denominator parenright.denominator ];
+
+@tnum1 = [ zero.otlf one.otlf two.otlf three.otlf four.otlf five.otlf six.otlf seven.otlf eight.otlf nine.otlf parenleft.otlf parenright.otlf ];
+
+# Prefix: Prefix
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem hebr dflt;
+languagesystem latn CAT;
+languagesystem latn ROM;
+languagesystem latn MOL;
+
+feature ccmp {
+sub yodhebrew dageshhebrew by yoddageshhebrew;
+sub vavhebrew dageshhebrew by vavdageshhebrew;
+sub pehebrew dageshhebrew by pedageshhebrew.001;
+sub finalpehebrew dageshhebrew by finalpedageshhebrew.001;
+} ccmp;
+
+feature case {
+	sub parenleft by parenleft.cap;
+	sub parenright by parenright.cap;
+	sub plus by plus.cap;
+	sub hyphen by hyphen.cap;
+	sub equal by equal.cap;
+	sub bracketleft by bracketleft.cap;
+	sub bracketright by bracketright.cap;
+	sub braceleft by braceleft.cap;
+	sub braceright by braceright.cap;
+	sub asciitilde by asciitilde.cap;
+	sub multiply by multiply.cap;
+	sub divide by divide.cap;
+	sub endash by endash.cap;
+	sub emdash by emdash.cap;
+	sub approxequal by approxequal.cap;
+	sub notequal by notequal.cap;
+	sub minus by minus.cap;
+	sub at by at.cap;
+	sub guillemotleft by guillemotleft.cap;
+	sub guillemotright by guillemotright.cap;
+	sub guilsinglleft by guilsinglleft.cap;
+	sub guilsinglright by guilsinglright.cap;
+} case;
+
+feature sups {
+	sub @standard by @sups;
+} sups;
+
+feature frac {
+    lookup FractionBar {
+        ignore sub slash @standard @standard @standard @standard @standard @standard @standard @standard @standard @standard slash';
+        ignore sub slash' @standard @standard @standard @standard @standard @standard @standard @standard @standard @standard slash;
+        ignore sub slash @standard @standard @standard @standard @standard @standard @standard @standard @standard slash';
+        ignore sub slash' @standard @standard @standard @standard @standard @standard @standard @standard @standard slash;
+        ignore sub slash @standard @standard @standard @standard @standard @standard @standard @standard slash';
+        ignore sub slash' @standard @standard @standard @standard @standard @standard @standard @standard slash;
+        ignore sub slash @standard @standard @standard @standard @standard @standard @standard slash';
+        ignore sub slash' @standard @standard @standard @standard @standard @standard @standard slash;
+        ignore sub slash @standard @standard @standard @standard @standard @standard slash';
+        ignore sub slash' @standard @standard @standard @standard @standard @standard slash;
+        ignore sub slash @standard @standard @standard @standard @standard slash';
+        ignore sub slash' @standard @standard @standard @standard @standard slash;
+        ignore sub slash @standard @standard @standard @standard slash';
+        ignore sub slash' @standard @standard @standard @standard slash;
+        ignore sub slash @standard @standard @standard slash';
+        ignore sub slash' @standard @standard @standard slash;
+        ignore sub slash @standard @standard slash';
+        ignore sub slash' @standard @standard slash;
+        ignore sub slash @standard slash';
+        ignore sub slash' @standard slash;
+        ignore sub slash slash';
+        ignore sub slash' slash;
+        sub @standard slash' @standard by fraction;
+    } FractionBar;
+
+    lookup Numerator1 {
+        sub @standard' fraction by @numerator;
+    } Numerator1;
+
+    lookup Numerator2 {
+        sub @standard' @numerator fraction by @numerator;
+    } Numerator2;
+
+    lookup Numerator3 {
+        sub @standard' @numerator @numerator fraction by @numerator;
+    } Numerator3;
+
+    lookup Numerator4 {
+        sub @standard' @numerator @numerator @numerator fraction by @numerator;
+    } Numerator4;
+
+    lookup Numerator5 {
+        sub @standard' @numerator @numerator @numerator @numerator fraction by @numerator;
+    } Numerator5;
+
+    lookup Numerator6 {
+        sub @standard' @numerator @numerator @numerator @numerator @numerator fraction by @numerator;
+    } Numerator6;
+
+    lookup Numerator7 {
+        sub @standard' @numerator @numerator @numerator @numerator @numerator @numerator fraction by @numerator;
+    } Numerator7;
+
+    lookup Numerator8 {
+        sub @standard' @numerator @numerator @numerator @numerator @numerator @numerator @numerator fraction by @numerator;
+    } Numerator8;
+
+    lookup Numerator9 {
+        sub @standard' @numerator @numerator @numerator @numerator @numerator @numerator @numerator @numerator fraction by @numerator;
+    } Numerator9;
+
+    lookup Numerator10 {      
+    sub @standard' @numerator @numerator @numerator @numerator @numerator @numerator @numerator @numerator @numerator fraction by @numerator;
+    } Numerator10;
+
+    lookup Denominator {
+        sub [fraction @denominator] @standard' by @denominator;
+    } Denominator;
+
+    sub @standard space' @numerator by space;
+} frac;
+
+feature tnum {
+  sub @standard by @tnum1;
+} tnum;
+
+feature liga {
+# Standard Ligatures
+  sub f i by fi;
+  sub f l by fl;
+  sub f f by f_f;
+  sub f f i by f_f_i;
+  sub f f l by f_f_l;
+} liga;
+
+feature subs {
+	sub @standard by @subs;
+} subs;
+
+feature numr {
+    sub @standard by @numerator;
+} numr;
+
+feature dnom {
+    sub @standard by @denominator;
+} dnom;
+
+feature dlig {
+ 
+	sub a e by ae;
+	sub A E by AE;
+	sub o e by oe;
+	sub O E by OE;
+	sub i j by ij;
+	sub I J by IJ;
+	sub period period period by ellipsis;
+} dlig;
+

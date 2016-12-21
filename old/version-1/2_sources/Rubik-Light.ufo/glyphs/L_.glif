@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L" format="1">
+  <advance width="548"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="157" y="678" type="line" name="hr00"/>
+      <point x="157" y="691"/>
+      <point x="148" y="700"/>
+      <point x="135" y="700" type="curve"/>
+      <point x="116" y="700" type="line"/>
+      <point x="103" y="700"/>
+      <point x="94" y="691"/>
+      <point x="94" y="678" type="curve"/>
+      <point x="94" y="22" type="line"/>
+      <point x="94" y="9"/>
+      <point x="103" y="0"/>
+      <point x="116" y="0" type="curve"/>
+      <point x="502" y="0" type="line"/>
+      <point x="516" y="0"/>
+      <point x="525" y="9"/>
+      <point x="525" y="22" type="curve"/>
+      <point x="525" y="37" type="line"/>
+      <point x="525" y="51"/>
+      <point x="516" y="60"/>
+      <point x="502" y="60" type="curve"/>
+      <point x="157" y="60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:05 +0000</string>
+    </dict>
+  </lib>
+</glyph>

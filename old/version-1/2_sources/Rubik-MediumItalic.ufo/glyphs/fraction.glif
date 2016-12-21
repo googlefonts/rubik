@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="1">
+  <advance width="160"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="-283" y="31" type="line" name="hr00" smooth="yes"/>
+      <point x="-297" y="17"/>
+      <point x="-289" y="0"/>
+      <point x="-269" y="0" type="curve"/>
+      <point x="-208" y="0" type="line" smooth="yes"/>
+      <point x="-189" y="0"/>
+      <point x="-180" y="7"/>
+      <point x="-168" y="19" type="curve"/>
+      <point x="464" y="669" type="line" smooth="yes"/>
+      <point x="478" y="683"/>
+      <point x="470" y="700"/>
+      <point x="450" y="700" type="curve"/>
+      <point x="389" y="700" type="line" smooth="yes"/>
+      <point x="370" y="700"/>
+      <point x="361" y="693"/>
+      <point x="349" y="681" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:55 +0000</string>
+    </dict>
+  </lib>
+</glyph>

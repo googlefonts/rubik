@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciitilde.cap" format="1">
+  <advance width="561"/>
+  <outline>
+    <contour>
+      <point x="526" y="419" type="line"/>
+      <point x="531" y="442"/>
+      <point x="508" y="448"/>
+      <point x="487" y="433" type="curve" smooth="yes"/>
+      <point x="475" y="424"/>
+      <point x="446" y="407"/>
+      <point x="415" y="407" type="curve" smooth="yes"/>
+      <point x="322" y="407"/>
+      <point x="292" y="449"/>
+      <point x="193" y="449" type="curve" name="hr01" smooth="yes"/>
+      <point x="125" y="449"/>
+      <point x="86" y="413"/>
+      <point x="76" y="369" type="curve"/>
+      <point x="58" y="282" type="line"/>
+      <point x="53" y="259"/>
+      <point x="76" y="253"/>
+      <point x="97" y="268" type="curve" smooth="yes"/>
+      <point x="109" y="277"/>
+      <point x="138" y="294"/>
+      <point x="169" y="294" type="curve" smooth="yes"/>
+      <point x="262" y="294"/>
+      <point x="292" y="252"/>
+      <point x="391" y="252" type="curve" name="hr02" smooth="yes"/>
+      <point x="459" y="252"/>
+      <point x="499" y="288"/>
+      <point x="508" y="332" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

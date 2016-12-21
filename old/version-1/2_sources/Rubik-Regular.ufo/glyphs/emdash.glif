@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emdash" format="1">
+  <advance width="771"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="673" y="257" type="line" name="hr00" smooth="yes"/>
+      <point x="688" y="257"/>
+      <point x="700" y="269"/>
+      <point x="700" y="284" type="curve" smooth="yes"/>
+      <point x="700" y="316" type="line" smooth="yes"/>
+      <point x="700" y="331"/>
+      <point x="688" y="343"/>
+      <point x="673" y="343" type="curve" smooth="yes"/>
+      <point x="98" y="343" type="line" smooth="yes"/>
+      <point x="83" y="343"/>
+      <point x="71" y="331"/>
+      <point x="71" y="316" type="curve" smooth="yes"/>
+      <point x="71" y="284" type="line" smooth="yes"/>
+      <point x="71" y="269"/>
+      <point x="83" y="257"/>
+      <point x="98" y="257" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:16:56 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="577"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="513" y="323" type="line" name="hr00" smooth="yes"/>
+      <point x="513" y="338"/>
+      <point x="501" y="350"/>
+      <point x="486" y="350" type="curve" smooth="yes"/>
+      <point x="81" y="350" type="line" smooth="yes"/>
+      <point x="66" y="350"/>
+      <point x="54" y="338"/>
+      <point x="54" y="323" type="curve" smooth="yes"/>
+      <point x="54" y="222" type="line" smooth="yes"/>
+      <point x="54" y="207"/>
+      <point x="66" y="195"/>
+      <point x="81" y="195" type="curve" smooth="yes"/>
+      <point x="333" y="195" type="line"/>
+      <point x="333" y="100" type="line" smooth="yes"/>
+      <point x="333" y="85"/>
+      <point x="345" y="73"/>
+      <point x="360" y="73" type="curve" smooth="yes"/>
+      <point x="486" y="73" type="line" smooth="yes"/>
+      <point x="501" y="73"/>
+      <point x="513" y="85"/>
+      <point x="513" y="100" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:19:49 +0000</string>
+    </dict>
+  </lib>
+</glyph>

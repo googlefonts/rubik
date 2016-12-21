@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="samekhhebrew" format="1">
+  <advance width="633"/>
+  <unicode hex="05E1"/>
+  <outline>
+    <contour>
+      <point x="444" y="-10"/>
+      <point x="534" y="69"/>
+      <point x="571" y="224" type="curve"/>
+      <point x="576" y="244"/>
+      <point x="592" y="317"/>
+      <point x="595" y="337" type="curve" smooth="yes"/>
+      <point x="622" y="492"/>
+      <point x="578" y="571"/>
+      <point x="408" y="571" type="curve"/>
+      <point x="173" y="571" type="line" smooth="yes"/>
+      <point x="160" y="571"/>
+      <point x="149" y="562"/>
+      <point x="146" y="549" type="curve" smooth="yes"/>
+      <point x="80" y="239" type="line" smooth="yes"/>
+      <point x="46" y="79"/>
+      <point x="104" y="-10"/>
+      <point x="264" y="-10" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="156" y="48"/>
+      <point x="116" y="119"/>
+      <point x="141" y="239" type="curve" smooth="yes"/>
+      <point x="199" y="513" type="line"/>
+      <point x="390" y="513" type="line" smooth="yes"/>
+      <point x="495" y="513"/>
+      <point x="555" y="452"/>
+      <point x="533" y="332" type="curve"/>
+      <point x="530" y="312"/>
+      <point x="516" y="249"/>
+      <point x="511" y="229" type="curve"/>
+      <point x="482" y="109"/>
+      <point x="416" y="48"/>
+      <point x="276" y="48" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="267" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="378" y="520" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="-29" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="82" y="520" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="321" y="260" type="move" name="center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:33 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>kafhebrew</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>65</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>509</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.741</real>
+        <real>0.6</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="1">
+  <advance width="331"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="195" y="716" type="line" name="hr00" smooth="yes"/>
+      <point x="180" y="733"/>
+      <point x="173" y="735"/>
+      <point x="158" y="735" type="curve" smooth="yes"/>
+      <point x="84" y="735" type="line" smooth="yes"/>
+      <point x="72" y="735"/>
+      <point x="65" y="727"/>
+      <point x="65" y="715" type="curve" smooth="yes"/>
+      <point x="65" y="710"/>
+      <point x="67" y="706"/>
+      <point x="70" y="703" type="curve" smooth="yes"/>
+      <point x="181" y="612" type="line" smooth="yes"/>
+      <point x="192" y="603"/>
+      <point x="202" y="595"/>
+      <point x="223" y="595" type="curve" smooth="yes"/>
+      <point x="260" y="595" type="line" smooth="yes"/>
+      <point x="270" y="595"/>
+      <point x="276" y="601"/>
+      <point x="276" y="611" type="curve" smooth="yes"/>
+      <point x="276" y="616"/>
+      <point x="274" y="621"/>
+      <point x="271" y="624" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:16:56 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>876</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>595</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

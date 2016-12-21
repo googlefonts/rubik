@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tserehebrew" format="1">
+  <advance width="100"/>
+  <unicode hex="05B5"/>
+  <outline>
+    <contour>
+      <point x="-126" y="-161" type="line" smooth="yes"/>
+      <point x="-113" y="-161"/>
+      <point x="-102" y="-152"/>
+      <point x="-99" y="-139" type="curve" smooth="yes"/>
+      <point x="-90" y="-99" type="line" smooth="yes"/>
+      <point x="-88" y="-86"/>
+      <point x="-95" y="-77"/>
+      <point x="-108" y="-77" type="curve" smooth="yes"/>
+      <point x="-152" y="-77" type="line" smooth="yes"/>
+      <point x="-165" y="-77"/>
+      <point x="-176" y="-86"/>
+      <point x="-178" y="-99" type="curve" smooth="yes"/>
+      <point x="-187" y="-139" type="line" smooth="yes"/>
+      <point x="-190" y="-152"/>
+      <point x="-183" y="-161"/>
+      <point x="-170" y="-161" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="8" y="-161" type="line" smooth="yes"/>
+      <point x="21" y="-161"/>
+      <point x="32" y="-152"/>
+      <point x="35" y="-139" type="curve" smooth="yes"/>
+      <point x="43" y="-99" type="line" smooth="yes"/>
+      <point x="46" y="-86"/>
+      <point x="38" y="-77"/>
+      <point x="25" y="-77" type="curve" smooth="yes"/>
+      <point x="-18" y="-77" type="line" smooth="yes"/>
+      <point x="-31" y="-77"/>
+      <point x="-42" y="-86"/>
+      <point x="-44" y="-99" type="curve" smooth="yes"/>
+      <point x="-53" y="-139" type="line" smooth="yes"/>
+      <point x="-56" y="-152"/>
+      <point x="-49" y="-161"/>
+      <point x="-36" y="-161" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-48" y="0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:56 +0000</string>
+    </dict>
+  </lib>
+</glyph>

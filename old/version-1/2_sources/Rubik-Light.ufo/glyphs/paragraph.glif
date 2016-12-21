@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="paragraph" format="1">
+  <advance width="491"/>
+  <unicode hex="00B6"/>
+  <outline>
+    <contour>
+      <point x="32" y="523" type="curve" smooth="yes"/>
+      <point x="32" y="425"/>
+      <point x="111" y="346"/>
+      <point x="209" y="346" type="curve" name="hr01"/>
+      <point x="209" y="-78" type="line" smooth="yes"/>
+      <point x="209" y="-91"/>
+      <point x="218" y="-100"/>
+      <point x="231" y="-100" type="curve" smooth="yes"/>
+      <point x="248" y="-100" type="line" smooth="yes"/>
+      <point x="261" y="-100"/>
+      <point x="270" y="-91"/>
+      <point x="270" y="-78" type="curve" smooth="yes"/>
+      <point x="270" y="642" type="line"/>
+      <point x="349" y="642" type="line"/>
+      <point x="349" y="-78" type="line" smooth="yes"/>
+      <point x="349" y="-91"/>
+      <point x="358" y="-100"/>
+      <point x="371" y="-100" type="curve" smooth="yes"/>
+      <point x="388" y="-100" type="line" smooth="yes"/>
+      <point x="401" y="-100"/>
+      <point x="410" y="-91"/>
+      <point x="410" y="-78" type="curve" smooth="yes"/>
+      <point x="410" y="678" type="line" smooth="yes"/>
+      <point x="410" y="691"/>
+      <point x="401" y="700"/>
+      <point x="388" y="700" type="curve" smooth="yes"/>
+      <point x="209" y="700" type="line" smooth="yes"/>
+      <point x="111" y="700"/>
+      <point x="32" y="621"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:05 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-100</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>346</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>522</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>237</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

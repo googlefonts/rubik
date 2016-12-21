@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tbar" format="1">
+  <advance width="640"/>
+  <unicode hex="0166"/>
+  <outline>
+    <contour>
+      <point x="505" y="287" type="line" name="hr00"/>
+      <point x="520" y="287"/>
+      <point x="532" y="299"/>
+      <point x="532" y="314" type="curve"/>
+      <point x="532" y="367" type="line"/>
+      <point x="532" y="382"/>
+      <point x="520" y="394"/>
+      <point x="505" y="394" type="curve"/>
+      <point x="412" y="394" type="line"/>
+      <point x="412" y="540" type="line"/>
+      <point x="588" y="540" type="line"/>
+      <point x="603" y="540"/>
+      <point x="615" y="552"/>
+      <point x="615" y="567" type="curve"/>
+      <point x="615" y="673" type="line"/>
+      <point x="615" y="688"/>
+      <point x="603" y="700"/>
+      <point x="588" y="700" type="curve"/>
+      <point x="51" y="700" type="line"/>
+      <point x="36" y="700"/>
+      <point x="24" y="688"/>
+      <point x="24" y="673" type="curve"/>
+      <point x="24" y="567" type="line"/>
+      <point x="24" y="552"/>
+      <point x="36" y="540"/>
+      <point x="51" y="540" type="curve"/>
+      <point x="227" y="540" type="line"/>
+      <point x="227" y="394" type="line"/>
+      <point x="134" y="394" type="line"/>
+      <point x="119" y="394"/>
+      <point x="107" y="382"/>
+      <point x="107" y="367" type="curve"/>
+      <point x="107" y="314" type="line"/>
+      <point x="107" y="299"/>
+      <point x="119" y="287"/>
+      <point x="134" y="287" type="curve"/>
+      <point x="227" y="287" type="line"/>
+      <point x="227" y="27" type="line"/>
+      <point x="227" y="12"/>
+      <point x="239" y="0"/>
+      <point x="254" y="0" type="curve"/>
+      <point x="385" y="0" type="line"/>
+      <point x="400" y="0"/>
+      <point x="412" y="12"/>
+      <point x="412" y="27" type="curve"/>
+      <point x="412" y="287" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:19:49 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>340</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>330</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

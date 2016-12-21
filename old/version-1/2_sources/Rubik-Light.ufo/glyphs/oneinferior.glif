@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oneinferior" format="1">
+  <advance width="231"/>
+  <unicode hex="2081"/>
+  <outline>
+    <contour>
+      <point x="182" y="158" type="line" name="hr00" smooth="yes"/>
+      <point x="182" y="171"/>
+      <point x="173" y="180"/>
+      <point x="160" y="180" type="curve" smooth="yes"/>
+      <point x="146" y="180" type="line" smooth="yes"/>
+      <point x="136" y="180"/>
+      <point x="130" y="178"/>
+      <point x="123" y="173" type="curve" smooth="yes"/>
+      <point x="27" y="102" type="line" smooth="yes"/>
+      <point x="17" y="94"/>
+      <point x="15" y="81"/>
+      <point x="23" y="71" type="curve" smooth="yes"/>
+      <point x="30" y="61" type="line" smooth="yes"/>
+      <point x="38" y="50"/>
+      <point x="51" y="49"/>
+      <point x="61" y="56" type="curve" smooth="yes"/>
+      <point x="124" y="103" type="line"/>
+      <point x="124" y="-148" type="line" smooth="yes"/>
+      <point x="124" y="-161"/>
+      <point x="133" y="-170"/>
+      <point x="146" y="-170" type="curve" smooth="yes"/>
+      <point x="160" y="-170" type="line" smooth="yes"/>
+      <point x="173" y="-170"/>
+      <point x="182" y="-161"/>
+      <point x="182" y="-148" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:05 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-170</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>180</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>174</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>9</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

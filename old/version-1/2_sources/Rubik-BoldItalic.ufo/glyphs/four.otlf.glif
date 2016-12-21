@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.otlf" format="1">
+  <advance width="660"/>
+  <outline>
+    <contour>
+      <point x="462" y="0" type="line" name="hr00" smooth="yes"/>
+      <point x="477" y="0"/>
+      <point x="491" y="12"/>
+      <point x="494" y="27" type="curve" smooth="yes"/>
+      <point x="516" y="129" type="line"/>
+      <point x="592" y="129" type="line" smooth="yes"/>
+      <point x="607" y="129"/>
+      <point x="621" y="141"/>
+      <point x="625" y="156" type="curve"/>
+      <point x="647" y="262" type="line" smooth="yes"/>
+      <point x="650" y="277"/>
+      <point x="641" y="289"/>
+      <point x="626" y="289" type="curve" smooth="yes"/>
+      <point x="550" y="289" type="line"/>
+      <point x="632" y="673" type="line" smooth="yes"/>
+      <point x="635" y="688"/>
+      <point x="625" y="700"/>
+      <point x="610" y="700" type="curve" smooth="yes"/>
+      <point x="439" y="700" type="line" smooth="yes"/>
+      <point x="422" y="700"/>
+      <point x="414" y="697"/>
+      <point x="398" y="682" type="curve" smooth="yes"/>
+      <point x="19" y="305" type="line"/>
+      <point x="8" y="293"/>
+      <point x="1" y="280"/>
+      <point x="-3" y="262" type="curve" smooth="yes"/>
+      <point x="-25" y="156" type="line"/>
+      <point x="-29" y="141"/>
+      <point x="-19" y="129"/>
+      <point x="-4" y="129" type="curve" smooth="yes"/>
+      <point x="331" y="129" type="line"/>
+      <point x="309" y="27" type="line" smooth="yes"/>
+      <point x="306" y="12"/>
+      <point x="316" y="0"/>
+      <point x="331" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="225" y="289" type="line"/>
+      <point x="409" y="473" type="line"/>
+      <point x="370" y="289" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

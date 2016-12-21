@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j" format="1">
+  <advance width="307"/>
+  <unicode hex="006A"/>
+  <outline>
+    <contour>
+      <point x="249" y="703" type="line" name="hr00" smooth="yes"/>
+      <point x="249" y="718"/>
+      <point x="237" y="730"/>
+      <point x="222" y="730" type="curve" smooth="yes"/>
+      <point x="96" y="730" type="line" smooth="yes"/>
+      <point x="81" y="730"/>
+      <point x="69" y="718"/>
+      <point x="69" y="703" type="curve" smooth="yes"/>
+      <point x="69" y="602" type="line" smooth="yes"/>
+      <point x="69" y="587"/>
+      <point x="81" y="575"/>
+      <point x="96" y="575" type="curve" smooth="yes"/>
+      <point x="222" y="575" type="line" smooth="yes"/>
+      <point x="237" y="575"/>
+      <point x="249" y="587"/>
+      <point x="249" y="602" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="69" y="13" type="line" smooth="yes"/>
+      <point x="69" y="-12"/>
+      <point x="58" y="-35"/>
+      <point x="26" y="-35" type="curve" smooth="yes"/>
+      <point x="-14" y="-35" type="line" smooth="yes"/>
+      <point x="-29" y="-35"/>
+      <point x="-41" y="-52"/>
+      <point x="-41" y="-67" type="curve" smooth="yes"/>
+      <point x="-41" y="-163" type="line" smooth="yes"/>
+      <point x="-41" y="-178"/>
+      <point x="-29" y="-190"/>
+      <point x="-14" y="-190" type="curve" smooth="yes"/>
+      <point x="36" y="-190" type="line" smooth="yes"/>
+      <point x="161" y="-190"/>
+      <point x="249" y="-115"/>
+      <point x="249" y="8" type="curve" smooth="yes"/>
+      <point x="249" y="493" type="line" smooth="yes"/>
+      <point x="249" y="508"/>
+      <point x="237" y="520"/>
+      <point x="222" y="520" type="curve" smooth="yes"/>
+      <point x="96" y="520" type="line" smooth="yes"/>
+      <point x="81" y="520"/>
+      <point x="69" y="508"/>
+      <point x="69" y="493" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:19:49 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>-190</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>12</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>147</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>26</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>268</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>-55</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

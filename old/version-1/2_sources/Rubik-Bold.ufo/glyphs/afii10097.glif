@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10097" format="1">
+  <advance width="601"/>
+  <unicode hex="044F"/>
+  <outline>
+    <contour>
+      <point x="46" y="324" type="curve" name="hr00" smooth="yes"/>
+      <point x="46" y="257"/>
+      <point x="72" y="206"/>
+      <point x="117" y="172" type="curve"/>
+      <point x="30" y="37" type="line" smooth="yes"/>
+      <point x="28" y="34"/>
+      <point x="26" y="30"/>
+      <point x="26" y="23" type="curve" smooth="yes"/>
+      <point x="26" y="11"/>
+      <point x="37" y="0"/>
+      <point x="50" y="0" type="curve" smooth="yes"/>
+      <point x="194" y="0" type="line" smooth="yes"/>
+      <point x="211" y="0"/>
+      <point x="222" y="12"/>
+      <point x="226" y="19" type="curve" smooth="yes"/>
+      <point x="295" y="127" type="line"/>
+      <point x="363" y="127" type="line"/>
+      <point x="363" y="27" type="line" smooth="yes"/>
+      <point x="363" y="12"/>
+      <point x="375" y="0"/>
+      <point x="390" y="0" type="curve" smooth="yes"/>
+      <point x="516" y="0" type="line" smooth="yes"/>
+      <point x="531" y="0"/>
+      <point x="543" y="12"/>
+      <point x="543" y="27" type="curve" smooth="yes"/>
+      <point x="543" y="493" type="line" smooth="yes"/>
+      <point x="543" y="508"/>
+      <point x="531" y="520"/>
+      <point x="516" y="520" type="curve" smooth="yes"/>
+      <point x="276" y="520" type="line" smooth="yes"/>
+      <point x="140" y="520"/>
+      <point x="46" y="450"/>
+    </contour>
+    <contour>
+      <point x="363" y="282" type="line"/>
+      <point x="277" y="282" type="line" smooth="yes"/>
+      <point x="244" y="282"/>
+      <point x="226" y="294"/>
+      <point x="226" y="324" type="curve" smooth="yes"/>
+      <point x="226" y="354"/>
+      <point x="244" y="365"/>
+      <point x="277" y="365" type="curve" smooth="yes"/>
+      <point x="363" y="365" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:19:49 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>25</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>552</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

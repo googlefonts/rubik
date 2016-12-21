@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10072" format="1">
+  <advance width="699"/>
+  <unicode hex="0436"/>
+  <outline>
+    <contour>
+      <point x="465" y="19" type="line" name="hr00"/>
+      <point x="474" y="3"/>
+      <point x="488" y="0"/>
+      <point x="505" y="0" type="curve"/>
+      <point x="567" y="0" type="line"/>
+      <point x="588" y="0"/>
+      <point x="608" y="23"/>
+      <point x="597" y="42" type="curve"/>
+      <point x="478" y="247" type="line"/>
+      <point x="715" y="478" type="line"/>
+      <point x="728" y="490"/>
+      <point x="726" y="520"/>
+      <point x="702" y="520" type="curve"/>
+      <point x="612" y="520" type="line"/>
+      <point x="595" y="520"/>
+      <point x="580" y="517"/>
+      <point x="564" y="501" type="curve"/>
+      <point x="431" y="370" type="line"/>
+      <point x="457" y="493" type="line"/>
+      <point x="460" y="508"/>
+      <point x="451" y="520"/>
+      <point x="436" y="520" type="curve"/>
+      <point x="360" y="520" type="line"/>
+      <point x="345" y="520"/>
+      <point x="330" y="508"/>
+      <point x="327" y="493" type="curve"/>
+      <point x="301" y="371" type="line"/>
+      <point x="226" y="501" type="line"/>
+      <point x="217" y="517"/>
+      <point x="203" y="520"/>
+      <point x="186" y="520" type="curve"/>
+      <point x="125" y="520" type="line"/>
+      <point x="101" y="520"/>
+      <point x="86" y="492"/>
+      <point x="95" y="476" type="curve"/>
+      <point x="209" y="282" type="line"/>
+      <point x="-35" y="42" type="line"/>
+      <point x="-48" y="29"/>
+      <point x="-44" y="0"/>
+      <point x="-22" y="0" type="curve"/>
+      <point x="67" y="0" type="line"/>
+      <point x="84" y="0"/>
+      <point x="98" y="3"/>
+      <point x="115" y="19" type="curve"/>
+      <point x="255" y="157" type="line"/>
+      <point x="228" y="27" type="line"/>
+      <point x="225" y="12"/>
+      <point x="235" y="0"/>
+      <point x="250" y="0" type="curve"/>
+      <point x="326" y="0" type="line"/>
+      <point x="341" y="0"/>
+      <point x="355" y="12"/>
+      <point x="358" y="27" type="curve"/>
+      <point x="385" y="157" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:55 +0000</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

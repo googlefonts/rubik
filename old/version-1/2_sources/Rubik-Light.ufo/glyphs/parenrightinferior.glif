@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenrightinferior" format="1">
+  <advance width="222"/>
+  <unicode hex="208E"/>
+  <outline>
+    <contour>
+      <point x="55" y="-169" type="curve" smooth="yes"/>
+      <point x="38" y="-169"/>
+      <point x="28" y="-177"/>
+      <point x="28" y="-192" type="curve" smooth="yes"/>
+      <point x="28" y="-203" type="line" smooth="yes"/>
+      <point x="28" y="-218"/>
+      <point x="37" y="-225"/>
+      <point x="52" y="-225" type="curve" smooth="yes"/>
+      <point x="138" y="-225"/>
+      <point x="183" y="-161"/>
+      <point x="183" y="11" type="curve" smooth="yes"/>
+      <point x="183" y="183"/>
+      <point x="138" y="245"/>
+      <point x="52" y="245" type="curve" smooth="yes"/>
+      <point x="37" y="245"/>
+      <point x="28" y="238"/>
+      <point x="28" y="223" type="curve" smooth="yes"/>
+      <point x="28" y="212" type="line" smooth="yes"/>
+      <point x="28" y="197"/>
+      <point x="38" y="189"/>
+      <point x="55" y="189" type="curve" smooth="yes"/>
+      <point x="100" y="189"/>
+      <point x="125" y="131"/>
+      <point x="125" y="11" type="curve" name="hr01" smooth="yes"/>
+      <point x="125" y="-109"/>
+      <point x="100" y="-169"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:05 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>245</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10078" format="1">
+  <advance width="644"/>
+  <unicode hex="043C"/>
+  <outline>
+    <contour>
+      <point x="541" y="0" type="line" name="hr00" smooth="yes"/>
+      <point x="554" y="0"/>
+      <point x="563" y="9"/>
+      <point x="563" y="22" type="curve" smooth="yes"/>
+      <point x="563" y="501" type="line" smooth="yes"/>
+      <point x="563" y="511"/>
+      <point x="553" y="520"/>
+      <point x="543" y="520" type="curve" smooth="yes"/>
+      <point x="520" y="520" type="line" smooth="yes"/>
+      <point x="509" y="520"/>
+      <point x="502" y="514"/>
+      <point x="497" y="505" type="curve" smooth="yes"/>
+      <point x="322" y="155" type="line"/>
+      <point x="147" y="505" type="line" smooth="yes"/>
+      <point x="142" y="514"/>
+      <point x="135" y="520"/>
+      <point x="124" y="520" type="curve" smooth="yes"/>
+      <point x="101" y="520" type="line" smooth="yes"/>
+      <point x="91" y="520"/>
+      <point x="81" y="511"/>
+      <point x="81" y="501" type="curve" smooth="yes"/>
+      <point x="81" y="22" type="line" smooth="yes"/>
+      <point x="81" y="9"/>
+      <point x="90" y="0"/>
+      <point x="103" y="0" type="curve" smooth="yes"/>
+      <point x="120" y="0" type="line" smooth="yes"/>
+      <point x="133" y="0"/>
+      <point x="142" y="9"/>
+      <point x="142" y="22" type="curve" smooth="yes"/>
+      <point x="142" y="385" type="line"/>
+      <point x="278" y="113" type="line" smooth="yes"/>
+      <point x="285" y="100"/>
+      <point x="292" y="85"/>
+      <point x="312" y="85" type="curve" smooth="yes"/>
+      <point x="332" y="85" type="line" smooth="yes"/>
+      <point x="352" y="85"/>
+      <point x="359" y="100"/>
+      <point x="366" y="113" type="curve" smooth="yes"/>
+      <point x="502" y="385" type="line"/>
+      <point x="502" y="22" type="line" smooth="yes"/>
+      <point x="502" y="9"/>
+      <point x="511" y="0"/>
+      <point x="524" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:05 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>85</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>113</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

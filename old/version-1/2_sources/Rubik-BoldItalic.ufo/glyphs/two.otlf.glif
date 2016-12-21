@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two.otlf" format="1">
+  <advance width="660"/>
+  <outline>
+    <contour>
+      <point x="636" y="465" type="curve" name="hr00" smooth="yes"/>
+      <point x="662" y="587"/>
+      <point x="574" y="710"/>
+      <point x="407" y="710" type="curve" smooth="yes"/>
+      <point x="200" y="710"/>
+      <point x="117" y="586"/>
+      <point x="90" y="475" type="curve"/>
+      <point x="88" y="463"/>
+      <point x="96" y="453"/>
+      <point x="108" y="453" type="curve" smooth="yes"/>
+      <point x="231" y="453" type="line" smooth="yes"/>
+      <point x="249" y="453"/>
+      <point x="265" y="457"/>
+      <point x="276" y="476" type="curve" smooth="yes"/>
+      <point x="285" y="492"/>
+      <point x="309" y="550"/>
+      <point x="384" y="550" type="curve" smooth="yes"/>
+      <point x="459" y="550"/>
+      <point x="457" y="494"/>
+      <point x="452" y="475" type="curve"/>
+      <point x="447" y="448"/>
+      <point x="439" y="418"/>
+      <point x="385" y="383" type="curve"/>
+      <point x="46" y="172" type="line" smooth="yes"/>
+      <point x="22" y="157"/>
+      <point x="9" y="134"/>
+      <point x="5" y="113" type="curve" smooth="yes"/>
+      <point x="-14" y="27" type="line" smooth="yes"/>
+      <point x="-17" y="12"/>
+      <point x="-7" y="0"/>
+      <point x="8" y="0" type="curve" smooth="yes"/>
+      <point x="526" y="0" type="line" smooth="yes"/>
+      <point x="541" y="0"/>
+      <point x="555" y="12"/>
+      <point x="558" y="27" type="curve" smooth="yes"/>
+      <point x="581" y="133" type="line" smooth="yes"/>
+      <point x="584" y="148"/>
+      <point x="575" y="160"/>
+      <point x="560" y="160" type="curve" smooth="yes"/>
+      <point x="329" y="160" type="line"/>
+      <point x="486" y="252" type="line" smooth="yes"/>
+      <point x="592" y="320"/>
+      <point x="620" y="387"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>78</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>573</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

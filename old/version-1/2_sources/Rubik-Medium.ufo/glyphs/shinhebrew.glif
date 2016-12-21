@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shinhebrew" format="1">
+  <advance width="739"/>
+  <unicode hex="05E9"/>
+  <outline>
+    <contour>
+      <point x="344" y="100" type="line"/>
+      <point x="253" y="100"/>
+      <point x="186" y="163"/>
+      <point x="186" y="276" type="curve"/>
+      <point x="183" y="547" type="line" smooth="yes"/>
+      <point x="183" y="561"/>
+      <point x="173" y="571"/>
+      <point x="159" y="571" type="curve" smooth="yes"/>
+      <point x="87" y="571" type="line" smooth="yes"/>
+      <point x="73" y="571"/>
+      <point x="63" y="561"/>
+      <point x="63" y="547" type="curve" smooth="yes"/>
+      <point x="63" y="229" type="line" smooth="yes"/>
+      <point x="63" y="94"/>
+      <point x="161" y="-7"/>
+      <point x="308" y="-7" type="curve" smooth="yes"/>
+      <point x="393" y="-7" type="line" smooth="yes"/>
+      <point x="559" y="-10"/>
+      <point x="682" y="102"/>
+      <point x="682" y="277" type="curve" smooth="yes"/>
+      <point x="682" y="547" type="line" smooth="yes"/>
+      <point x="682" y="561"/>
+      <point x="672" y="571"/>
+      <point x="658" y="571" type="curve" smooth="yes"/>
+      <point x="586" y="571" type="line" smooth="yes"/>
+      <point x="572" y="571"/>
+      <point x="562" y="561"/>
+      <point x="562" y="547" type="curve" smooth="yes"/>
+      <point x="562" y="283" type="line" smooth="yes"/>
+      <point x="562" y="175"/>
+      <point x="489" y="98"/>
+      <point x="372" y="100" type="curve"/>
+    </contour>
+    <contour>
+      <point x="343" y="190"/>
+      <point x="435" y="287"/>
+      <point x="435" y="434" type="curve" smooth="yes"/>
+      <point x="435" y="546" type="line" smooth="yes"/>
+      <point x="435" y="560"/>
+      <point x="425" y="571"/>
+      <point x="411" y="571" type="curve" smooth="yes"/>
+      <point x="339" y="571" type="line" smooth="yes"/>
+      <point x="326" y="571"/>
+      <point x="315" y="561"/>
+      <point x="315" y="546" type="curve" smooth="yes"/>
+      <point x="315" y="437" type="line" smooth="yes"/>
+      <point x="315" y="348"/>
+      <point x="283" y="286"/>
+      <point x="165" y="284" type="curve"/>
+      <point x="166" y="191" type="line"/>
+    </contour>
+    <contour>
+      <point x="483" y="260" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="388" y="520" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="19" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="1" y="520" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="706" y="520" type="move" name="topright"/>
+    </contour>
+    <contour>
+      <point x="370" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:43 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=hethebrew-10</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=hethebrew-10</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>952</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>571</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.741</real>
+        <real>0.6</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="multiply" format="1">
+  <advance width="618"/>
+  <unicode hex="00D7"/>
+  <outline>
+    <contour>
+      <point x="35" y="217" type="line" smooth="yes"/>
+      <point x="21" y="206"/>
+      <point x="18" y="190"/>
+      <point x="27" y="179" type="curve" smooth="yes"/>
+      <point x="104" y="81" type="line"/>
+      <point x="111" y="70"/>
+      <point x="128" y="70"/>
+      <point x="142" y="81" type="curve" smooth="yes"/>
+      <point x="301" y="209" type="line"/>
+      <point x="400" y="82" type="line" smooth="yes"/>
+      <point x="409" y="71"/>
+      <point x="425" y="71"/>
+      <point x="438" y="82" type="curve" smooth="yes"/>
+      <point x="531" y="160" type="line" smooth="yes"/>
+      <point x="544" y="170"/>
+      <point x="548" y="187"/>
+      <point x="539" y="198" type="curve" smooth="yes"/>
+      <point x="440" y="325" type="line"/>
+      <point x="596" y="450" type="line" smooth="yes"/>
+      <point x="610" y="461"/>
+      <point x="613" y="478"/>
+      <point x="605" y="488" type="curve" smooth="yes"/>
+      <point x="527" y="586" type="line" smooth="yes"/>
+      <point x="519" y="597"/>
+      <point x="503" y="597"/>
+      <point x="489" y="586" type="curve" smooth="yes"/>
+      <point x="333" y="461" type="line"/>
+      <point x="236" y="583" type="line" smooth="yes"/>
+      <point x="227" y="594"/>
+      <point x="210" y="594"/>
+      <point x="198" y="583" type="curve" smooth="yes"/>
+      <point x="105" y="505" type="line" smooth="yes"/>
+      <point x="91" y="494"/>
+      <point x="88" y="478"/>
+      <point x="97" y="467" type="curve" smooth="yes"/>
+      <point x="194" y="345" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>589</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

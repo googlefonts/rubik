@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="C" format="1">
+  <advance width="703"/>
+  <unicode hex="0043"/>
+  <outline>
+    <contour>
+      <point x="262" y="434" type="curve" name="hr00" smooth="yes"/>
+      <point x="280" y="495"/>
+      <point x="322" y="550"/>
+      <point x="412" y="550" type="curve" smooth="yes"/>
+      <point x="502" y="550"/>
+      <point x="516" y="503"/>
+      <point x="521" y="471" type="curve"/>
+      <point x="523" y="450"/>
+      <point x="526" y="442"/>
+      <point x="548" y="442" type="curve" smooth="yes"/>
+      <point x="679" y="442" type="line" smooth="yes"/>
+      <point x="691" y="442"/>
+      <point x="704" y="452"/>
+      <point x="706" y="464" type="curve" smooth="yes"/>
+      <point x="732" y="600"/>
+      <point x="592" y="710"/>
+      <point x="436" y="710" type="curve" smooth="yes"/>
+      <point x="224" y="710"/>
+      <point x="115" y="586"/>
+      <point x="78" y="439" type="curve" smooth="yes"/>
+      <point x="64" y="382"/>
+      <point x="48" y="315"/>
+      <point x="40" y="261" type="curve"/>
+      <point x="16" y="114"/>
+      <point x="131" y="-10"/>
+      <point x="303" y="-10" type="curve" smooth="yes"/>
+      <point x="499" y="-10"/>
+      <point x="626" y="100"/>
+      <point x="658" y="236" type="curve"/>
+      <point x="660" y="248"/>
+      <point x="652" y="258"/>
+      <point x="640" y="258" type="curve" smooth="yes"/>
+      <point x="509" y="258" type="line" smooth="yes"/>
+      <point x="487" y="258"/>
+      <point x="481" y="250"/>
+      <point x="469" y="229" type="curve" smooth="yes"/>
+      <point x="451" y="197"/>
+      <point x="417" y="150"/>
+      <point x="327" y="150" type="curve" smooth="yes"/>
+      <point x="237" y="150"/>
+      <point x="218" y="205"/>
+      <point x="226" y="266" type="curve" smooth="yes"/>
+      <point x="231" y="302"/>
+      <point x="251" y="399"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglright.cap" format="1">
+  <advance width="364"/>
+  <outline>
+    <contour>
+      <point x="339" y="382" type="line" smooth="yes"/>
+      <point x="341" y="394"/>
+      <point x="337" y="403"/>
+      <point x="331" y="410" type="curve" smooth="yes"/>
+      <point x="167" y="610" type="line" smooth="yes"/>
+      <point x="155" y="624"/>
+      <point x="132" y="618"/>
+      <point x="128" y="597" type="curve" smooth="yes"/>
+      <point x="106" y="490" type="line" smooth="yes"/>
+      <point x="101" y="467"/>
+      <point x="104" y="458"/>
+      <point x="114" y="445" type="curve" smooth="yes"/>
+      <point x="180" y="364" type="line"/>
+      <point x="78" y="283" type="line" smooth="yes"/>
+      <point x="62" y="270"/>
+      <point x="55" y="261"/>
+      <point x="51" y="238" type="curve"/>
+      <point x="22" y="104" type="line" smooth="yes"/>
+      <point x="18" y="85"/>
+      <point x="40" y="75"/>
+      <point x="55" y="87" type="curve" smooth="yes"/>
+      <point x="305" y="288" type="line" smooth="yes"/>
+      <point x="314" y="295"/>
+      <point x="322" y="304"/>
+      <point x="325" y="316" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+    </dict>
+  </lib>
+</glyph>

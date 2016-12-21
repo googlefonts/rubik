@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nunhebrew" format="1">
+  <advance width="393"/>
+  <unicode hex="05E0"/>
+  <outline>
+    <contour>
+      <point x="313" y="0" type="line" smooth="yes"/>
+      <point x="326" y="0"/>
+      <point x="335" y="4"/>
+      <point x="335" y="17" type="curve" smooth="yes"/>
+      <point x="335" y="58" type="line"/>
+      <point x="70" y="58" type="line" smooth="yes"/>
+      <point x="57" y="58"/>
+      <point x="48" y="49"/>
+      <point x="48" y="36" type="curve" smooth="yes"/>
+      <point x="48" y="22" type="line" smooth="yes"/>
+      <point x="48" y="9"/>
+      <point x="57" y="0"/>
+      <point x="70" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="318" y="0" type="line" smooth="yes"/>
+      <point x="331" y="0"/>
+      <point x="342" y="9"/>
+      <point x="340" y="22" type="curve"/>
+      <point x="319" y="337" type="line" smooth="yes"/>
+      <point x="310" y="470"/>
+      <point x="301" y="571"/>
+      <point x="160" y="571" type="curve" smooth="yes"/>
+      <point x="123" y="571" type="line" smooth="yes"/>
+      <point x="110" y="571"/>
+      <point x="101" y="562"/>
+      <point x="101" y="549" type="curve" smooth="yes"/>
+      <point x="101" y="535" type="line" smooth="yes"/>
+      <point x="101" y="522"/>
+      <point x="110" y="513"/>
+      <point x="123" y="513" type="curve" smooth="yes"/>
+      <point x="160" y="513" type="line" smooth="yes"/>
+      <point x="253" y="513"/>
+      <point x="251" y="440"/>
+      <point x="258" y="332" type="curve" smooth="yes"/>
+      <point x="279" y="22" type="line"/>
+      <point x="282" y="9"/>
+      <point x="288" y="0"/>
+      <point x="301" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="197" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="197" y="520" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="20" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="20" y="520" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="180" y="260" type="move" name="center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:05 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>361</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>45</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.741</real>
+        <real>0.6</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

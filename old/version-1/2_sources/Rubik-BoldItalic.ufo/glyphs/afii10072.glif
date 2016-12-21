@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10072" format="1">
+  <advance width="808"/>
+  <unicode hex="0436"/>
+  <outline>
+    <contour>
+      <point x="837" y="484" type="line"/>
+      <point x="851" y="498"/>
+      <point x="849" y="521"/>
+      <point x="825" y="521" type="curve"/>
+      <point x="651" y="521" type="line"/>
+      <point x="634" y="521"/>
+      <point x="621" y="508"/>
+      <point x="615" y="502" type="curve"/>
+      <point x="518" y="403" type="line"/>
+      <point x="537" y="493" type="line"/>
+      <point x="540" y="508"/>
+      <point x="531" y="520"/>
+      <point x="516" y="520" type="curve" name="hr01"/>
+      <point x="390" y="520" type="line"/>
+      <point x="375" y="520"/>
+      <point x="360" y="508"/>
+      <point x="357" y="493" type="curve"/>
+      <point x="337" y="403" type="line"/>
+      <point x="284" y="501" type="line" name="hr02"/>
+      <point x="278" y="512"/>
+      <point x="273" y="520"/>
+      <point x="256" y="520" type="curve" name="hr03"/>
+      <point x="121" y="520" type="line"/>
+      <point x="94" y="520"/>
+      <point x="84" y="499"/>
+      <point x="93" y="483" type="curve"/>
+      <point x="205" y="286" type="line"/>
+      <point x="-50" y="37" type="line"/>
+      <point x="-64" y="23"/>
+      <point x="-61" y="0"/>
+      <point x="-37" y="0" type="curve"/>
+      <point x="135" y="0" type="line"/>
+      <point x="152" y="0"/>
+      <point x="164" y="13"/>
+      <point x="171" y="19" type="curve"/>
+      <point x="278" y="123" type="line"/>
+      <point x="258" y="27" type="line"/>
+      <point x="255" y="12"/>
+      <point x="265" y="0"/>
+      <point x="280" y="0" type="curve"/>
+      <point x="406" y="0" type="line"/>
+      <point x="421" y="0"/>
+      <point x="435" y="12"/>
+      <point x="438" y="27" type="curve"/>
+      <point x="459" y="123" type="line"/>
+      <point x="522" y="19" type="line"/>
+      <point x="529" y="7"/>
+      <point x="533" y="0"/>
+      <point x="550" y="0" type="curve"/>
+      <point x="686" y="0" type="line"/>
+      <point x="711" y="0"/>
+      <point x="722" y="21"/>
+      <point x="713" y="37" type="curve"/>
+      <point x="594" y="242" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:20:21 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>403</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>123</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less" format="1">
+  <advance width="476"/>
+  <unicode hex="003C"/>
+  <outline>
+    <contour>
+      <point x="46" y="343" type="line" smooth="yes"/>
+      <point x="42" y="325"/>
+      <point x="47" y="312"/>
+      <point x="65" y="297" type="curve" smooth="yes"/>
+      <point x="322" y="89" type="line" smooth="yes"/>
+      <point x="338" y="76"/>
+      <point x="362" y="79"/>
+      <point x="366" y="101" type="curve" smooth="yes"/>
+      <point x="368" y="111" type="line" smooth="yes"/>
+      <point x="371" y="124"/>
+      <point x="367" y="131"/>
+      <point x="354" y="142" type="curve" smooth="yes"/>
+      <point x="107" y="342" type="line"/>
+      <point x="438" y="541" type="line" smooth="yes"/>
+      <point x="456" y="552"/>
+      <point x="462" y="559"/>
+      <point x="465" y="572" type="curve" smooth="yes"/>
+      <point x="471" y="597" type="line" smooth="yes"/>
+      <point x="475" y="615"/>
+      <point x="459" y="625"/>
+      <point x="433" y="609" type="curve" smooth="yes"/>
+      <point x="87" y="401" type="line" smooth="yes"/>
+      <point x="63" y="386"/>
+      <point x="53" y="372"/>
+      <point x="49" y="355" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:33 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>617</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

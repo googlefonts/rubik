@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10074" format="1">
+  <advance width="597"/>
+  <unicode hex="0438"/>
+  <outline>
+    <contour>
+      <point x="559" y="501" type="line" name="hr00"/>
+      <point x="561" y="511"/>
+      <point x="553" y="520"/>
+      <point x="543" y="520" type="curve" smooth="yes"/>
+      <point x="514" y="520" type="line" smooth="yes"/>
+      <point x="501" y="520"/>
+      <point x="493" y="513"/>
+      <point x="485" y="505" type="curve" smooth="yes"/>
+      <point x="102" y="106" type="line"/>
+      <point x="185" y="498" type="line" smooth="yes"/>
+      <point x="188" y="511"/>
+      <point x="181" y="520"/>
+      <point x="168" y="520" type="curve" smooth="yes"/>
+      <point x="151" y="520" type="line"/>
+      <point x="138" y="520"/>
+      <point x="127" y="511"/>
+      <point x="124" y="498" type="curve" smooth="yes"/>
+      <point x="23" y="20" type="line" smooth="yes"/>
+      <point x="21" y="9"/>
+      <point x="28" y="0"/>
+      <point x="39" y="0" type="curve"/>
+      <point x="68" y="0" type="line"/>
+      <point x="81" y="0"/>
+      <point x="90" y="8"/>
+      <point x="97" y="15" type="curve" smooth="yes"/>
+      <point x="479" y="414" type="line"/>
+      <point x="396" y="22" type="line"/>
+      <point x="393" y="9"/>
+      <point x="401" y="0"/>
+      <point x="414" y="0" type="curve" smooth="yes"/>
+      <point x="431" y="0" type="line" smooth="yes"/>
+      <point x="444" y="0"/>
+      <point x="454" y="9"/>
+      <point x="457" y="22" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 18:00:33 +0000</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

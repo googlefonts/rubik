@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10037" format="1">
+  <advance width="701"/>
+  <unicode hex="0423"/>
+  <outline>
+    <contour>
+      <point x="85" y="214" type="line" name="hr00"/>
+      <point x="70" y="214"/>
+      <point x="58" y="202"/>
+      <point x="58" y="187" type="curve" smooth="yes"/>
+      <point x="58" y="27" type="line" smooth="yes"/>
+      <point x="58" y="12"/>
+      <point x="70" y="0"/>
+      <point x="85" y="0" type="curve" smooth="yes"/>
+      <point x="210" y="0" type="line" smooth="yes"/>
+      <point x="381" y="0"/>
+      <point x="435" y="45"/>
+      <point x="503" y="204" type="curve" smooth="yes"/>
+      <point x="702" y="669" type="line" smooth="yes"/>
+      <point x="704" y="673"/>
+      <point x="703" y="676"/>
+      <point x="703" y="679" type="curve" smooth="yes"/>
+      <point x="703" y="690"/>
+      <point x="692" y="700"/>
+      <point x="680" y="700" type="curve" smooth="yes"/>
+      <point x="473" y="700" type="line" smooth="yes"/>
+      <point x="453" y="700"/>
+      <point x="444" y="688"/>
+      <point x="439" y="676" type="curve" smooth="yes"/>
+      <point x="365" y="479" type="line"/>
+      <point x="272" y="676" type="line" smooth="yes"/>
+      <point x="267" y="687"/>
+      <point x="260" y="700"/>
+      <point x="240" y="700" type="curve" smooth="yes"/>
+      <point x="31" y="700" type="line" smooth="yes"/>
+      <point x="18" y="700"/>
+      <point x="8" y="689"/>
+      <point x="6" y="676" type="curve" smooth="yes"/>
+      <point x="6" y="674"/>
+      <point x="6" y="672"/>
+      <point x="7" y="669" type="curve" smooth="yes"/>
+      <point x="240" y="228" type="line"/>
+      <point x="235" y="213"/>
+      <point x="206" y="214"/>
+      <point x="185" y="214" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:18:50 +0000</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.6</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

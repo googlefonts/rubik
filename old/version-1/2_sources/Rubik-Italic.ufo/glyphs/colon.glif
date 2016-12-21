@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon" format="1">
+  <advance width="258"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="133" y="471" type="line" name="hr00" smooth="yes"/>
+      <point x="118" y="471"/>
+      <point x="103" y="459"/>
+      <point x="100" y="444" type="curve" smooth="yes"/>
+      <point x="86" y="377" type="line" smooth="yes"/>
+      <point x="82" y="362"/>
+      <point x="92" y="350"/>
+      <point x="107" y="350" type="curve" smooth="yes"/>
+      <point x="174" y="350" type="line" smooth="yes"/>
+      <point x="189" y="350"/>
+      <point x="203" y="362"/>
+      <point x="207" y="377" type="curve" smooth="yes"/>
+      <point x="221" y="444" type="line" smooth="yes"/>
+      <point x="224" y="459"/>
+      <point x="215" y="471"/>
+      <point x="200" y="471" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="58" y="121" type="line" smooth="yes"/>
+      <point x="43" y="121"/>
+      <point x="29" y="109"/>
+      <point x="25" y="94" type="curve" smooth="yes"/>
+      <point x="11" y="27" type="line" smooth="yes"/>
+      <point x="8" y="12"/>
+      <point x="18" y="0"/>
+      <point x="33" y="0" type="curve" smooth="yes"/>
+      <point x="100" y="0" type="line" smooth="yes"/>
+      <point x="115" y="0"/>
+      <point x="129" y="12"/>
+      <point x="132" y="27" type="curve" smooth="yes"/>
+      <point x="146" y="94" type="line" smooth="yes"/>
+      <point x="150" y="109"/>
+      <point x="140" y="121"/>
+      <point x="125" y="121" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-06-15 17:59:48 +0000</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>0</integer>
+          <key>y</key>
+          <integer>350</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
