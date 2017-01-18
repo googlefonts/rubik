@@ -1,5 +1,5 @@
 {
-.appVersion = "926";
+.appVersion = "939";
 classes = (
 {
 code = "zero one two three four five six seven eight nine parenleft parenright";
@@ -58,7 +58,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2016-09-09 15:22:33 +0000";
+date = "2017-01-18 11:09:28 +0000";
 designer = "Hubert and Fischer";
 designerURL = "http://www.hubertfischer.com";
 disablesNiceNames = 1;
@@ -366,7 +366,7 @@ verticalStems = (
 233
 );
 weight = Light;
-weightValue = 200;
+weightValue = 60;
 xHeight = 520;
 },
 {
@@ -456,7 +456,7 @@ verticalStems = (
 233
 );
 weight = Bold;
-weightValue = 800;
+weightValue = 220;
 xHeight = 520;
 }
 );
@@ -71664,6 +71664,7 @@ layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
 width = 186;
 }
 );
+widthMetricsKey = space;
 unicode = 00A0;
 },
 {
@@ -90728,7 +90729,7 @@ y = 0;
 );
 instances = (
 {
-interpolationWeight = 200;
+interpolationWeight = 60;
 instanceInterpolations = {
 "581BC726-83A6-4935-8633-5A6508251040" = 1;
 };
@@ -90736,27 +90737,27 @@ name = Light;
 weightClass = Light;
 },
 {
-interpolationWeight = 300;
+interpolationWeight = 90;
 instanceInterpolations = {
-"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.166667;
-"581BC726-83A6-4935-8633-5A6508251040" = 0.833333;
+"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.1875;
+"581BC726-83A6-4935-8633-5A6508251040" = 0.8125;
 };
 name = Regular;
 },
 {
-interpolationWeight = 450;
+interpolationWeight = 125;
 instanceInterpolations = {
-"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.416667;
-"581BC726-83A6-4935-8633-5A6508251040" = 0.583333;
+"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.40625;
+"581BC726-83A6-4935-8633-5A6508251040" = 0.59375;
 };
 name = Medium;
 weightClass = Medium;
 },
 {
-interpolationWeight = 600;
+interpolationWeight = 160;
 instanceInterpolations = {
-"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.666667;
-"581BC726-83A6-4935-8633-5A6508251040" = 0.333333;
+"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.625;
+"581BC726-83A6-4935-8633-5A6508251040" = 0.375;
 };
 isBold = 1;
 name = Bold;
@@ -90769,7 +90770,7 @@ name = "Replace Feature";
 value = "ccmp; sub pehebrew dageshhebrew by pedageshhebrew.001; sub finalpehebrew dageshhebrew by finalpedageshhebrew.001; sub vavhebrew dageshhebrew by vavdageshhebrew; sub yodhebrew dageshhebrew by yoddageshhebrew;";
 }
 );
-interpolationWeight = 800;
+interpolationWeight = 220;
 instanceInterpolations = {
 "EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 1;
 };
@@ -96057,5 +96058,5 @@ width = 10;
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }

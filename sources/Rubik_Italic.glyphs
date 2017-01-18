@@ -1,5 +1,5 @@
 {
-.appVersion = "926";
+.appVersion = "939";
 classes = (
 {
 code = "zero one two three four five six seven eight nine parenleft parenright";
@@ -358,7 +358,7 @@ verticalStems = (
 79,
 233
 );
-weightValue = 200;
+weightValue = 60;
 xHeight = 520;
 },
 {
@@ -441,7 +441,7 @@ verticalStems = (
 233
 );
 weight = Bold;
-weightValue = 800;
+weightValue = 220;
 xHeight = 520;
 }
 );
@@ -63697,6 +63697,7 @@ layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 width = 188;
 }
 );
+widthMetricsKey = space;
 unicode = 00A0;
 },
 {
@@ -80019,7 +80020,7 @@ y = 0;
 );
 instances = (
 {
-interpolationWeight = 200;
+interpolationWeight = 60;
 instanceInterpolations = {
 UUID0 = 1;
 };
@@ -80029,19 +80030,19 @@ name = "Light Italic";
 weightClass = Light;
 },
 {
-interpolationWeight = 300;
+interpolationWeight = 90;
 instanceInterpolations = {
-UUID0 = 0.833333;
-"A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.166667;
+UUID0 = 0.8125;
+"A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.1875;
 };
 isItalic = 1;
 name = Italic;
 },
 {
-interpolationWeight = 450;
+interpolationWeight = 125;
 instanceInterpolations = {
-UUID0 = 0.583333;
-"A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.416667;
+UUID0 = 0.59375;
+"A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.40625;
 };
 isItalic = 1;
 linkStyle = Medium;
@@ -80049,10 +80050,10 @@ name = "Medium Italic";
 weightClass = Medium;
 },
 {
-interpolationWeight = 600;
+interpolationWeight = 160;
 instanceInterpolations = {
-UUID0 = 0.333333;
-"A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.666667;
+UUID0 = 0.375;
+"A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.625;
 };
 isBold = 1;
 isItalic = 1;
@@ -80067,7 +80068,7 @@ name = compatibleFullName;
 value = "Rubik Black Italic";
 }
 );
-interpolationWeight = 800;
+interpolationWeight = 220;
 instanceInterpolations = {
 "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 1;
 };
