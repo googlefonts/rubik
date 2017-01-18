@@ -38,7 +38,21 @@ The Cyrillic revision was undertaken in 2016 and included:
 3. The fonts were reviewed by Philipp and Sebastian. 
 4. Existing source files were ported to Glyphs App, and made compatible. Existing hinting was removed, and fonts were ttfautohinted in Glyphs App. 
 
+#### Source Files v.2.001
+In January 2017 all the source files have moved to `.glyphs` format.
+
+Hebrew uses a different interpolation gain than Latin for better interscript coherency. To accomodate these differences `Local Interpolation` parameter has been applied to the Hebrew range in the sources files.
+
+Style | Hebrew scheme | Latin scheme | Local Interpolation for Hebrew
+--|--|--|--|--
+**Light (M)** | 200 | 60
+Regular | 300 | 90  | 86
+Medium | 450 | 125 | 126.5
+Bold | 600 | 160  | 166
+**Black (M)**| 800 | 220
+
+
 #### Todo
 
-Merge the new Cyrillic glyphs into the original Rubik source files, and re-hint the new Cyrillic. 
+[ ] Re-hint the updated Cyrillic glyphs. 
 
