@@ -90741,6 +90741,12 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "Local Interpolation";
+value = "87; include: yodyodhebrew, alefhebrew, bethebrew, gimelhebrew, dalethebrew, hehebrew, vavhebrew, zayinhebrew, hethebrew, tethebrew, yodhebrew, finalkafhebrew, kafhebrew, lamedhebrew, finalmemhebrew, memhebrew, finalnunhebrew, nunhebrew, samekhhebrew, ayinhebrew, finalpehebrew, pehebrew, finaltsadihebrew, tsadihebrew, qofhebrew, reshhebrew, shinhebrew, tavhebrew, shinshindothebrew, shinsindothebrew, shindageshshindothebrew, shindageshsindothebrew, alefpatahhebrew, alefqamatshebrew, alefdageshhebrew, betdageshhebrew, gimeldageshhebrew, daletdageshhebrew, hedageshhebrew, vavdageshhebrew, zayindageshhebrew, tetdageshhebrew, yoddageshhebrew, finalkafdageshhebrew, kafdageshhebrew, lameddageshhebrew, memdageshhebrew, nundageshhebrew, samekhdageshhebrew, finalpedageshhebrew, pedageshhebrew, tsadidageshhebrew, qofdageshhebrew, reshdageshhebrew, shindageshhebrew, tavdageshhebrew, vavholamhebrew, gereshhebrew, gershayimhebrew, maqafhebrew, shevahebrew, hatafsegolhebrew, hatafpatahhebrew, hatafqamatshebrew, hiriqhebrew, tserehebrew, segolhebrew, patahhebrew, holamhebrew, holamhaserhebrew, qubutshebrew, dageshhebrew, shindothebrew, sindothebrew, qamatsqatanhebrew, ";
+}
+);
 interpolationWeight = 90;
 instanceInterpolations = {
 "EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.1875;
@@ -90749,6 +90755,12 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "Local Interpolation";
+value = "127; include: yodyodhebrew, alefhebrew, bethebrew, gimelhebrew, dalethebrew, hehebrew, vavhebrew, zayinhebrew, hethebrew, tethebrew, yodhebrew, finalkafhebrew, kafhebrew, lamedhebrew, finalmemhebrew, memhebrew, finalnunhebrew, nunhebrew, samekhhebrew, ayinhebrew, finalpehebrew, pehebrew, finaltsadihebrew, tsadihebrew, qofhebrew, reshhebrew, shinhebrew, tavhebrew, shinshindothebrew, shinsindothebrew, shindageshshindothebrew, shindageshsindothebrew, alefpatahhebrew, alefqamatshebrew, alefdageshhebrew, betdageshhebrew, gimeldageshhebrew, daletdageshhebrew, hedageshhebrew, vavdageshhebrew, zayindageshhebrew, tetdageshhebrew, yoddageshhebrew, finalkafdageshhebrew, kafdageshhebrew, lameddageshhebrew, memdageshhebrew, nundageshhebrew, samekhdageshhebrew, finalpedageshhebrew, pedageshhebrew, tsadidageshhebrew, qofdageshhebrew, reshdageshhebrew, shindageshhebrew, tavdageshhebrew, vavholamhebrew, gereshhebrew, gershayimhebrew, maqafhebrew, shevahebrew, hatafsegolhebrew, hatafpatahhebrew, hatafqamatshebrew, hiriqhebrew, tserehebrew, segolhebrew, patahhebrew, holamhebrew, holamhaserhebrew, qubutshebrew, dageshhebrew, shindothebrew, sindothebrew, qamatsqatanhebrew, ";
+}
+);
 interpolationWeight = 125;
 instanceInterpolations = {
 "EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.40625;
@@ -90758,6 +90770,12 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = "Local Interpolation";
+value = "167; include: yodyodhebrew, alefhebrew, bethebrew, gimelhebrew, dalethebrew, hehebrew, vavhebrew, zayinhebrew, hethebrew, tethebrew, yodhebrew, finalkafhebrew, kafhebrew, lamedhebrew, finalmemhebrew, memhebrew, finalnunhebrew, nunhebrew, samekhhebrew, ayinhebrew, finalpehebrew, pehebrew, finaltsadihebrew, tsadihebrew, qofhebrew, reshhebrew, shinhebrew, tavhebrew, shinshindothebrew, shinsindothebrew, shindageshshindothebrew, shindageshsindothebrew, alefpatahhebrew, alefqamatshebrew, alefdageshhebrew, betdageshhebrew, gimeldageshhebrew, daletdageshhebrew, hedageshhebrew, vavdageshhebrew, zayindageshhebrew, tetdageshhebrew, yoddageshhebrew, finalkafdageshhebrew, kafdageshhebrew, lameddageshhebrew, memdageshhebrew, nundageshhebrew, samekhdageshhebrew, finalpedageshhebrew, pedageshhebrew, tsadidageshhebrew, qofdageshhebrew, reshdageshhebrew, shindageshhebrew, tavdageshhebrew, vavholamhebrew, gereshhebrew, gershayimhebrew, maqafhebrew, shevahebrew, hatafsegolhebrew, hatafpatahhebrew, hatafqamatshebrew, hiriqhebrew, tserehebrew, segolhebrew, patahhebrew, holamhebrew, holamhaserhebrew, qubutshebrew, dageshhebrew, shindothebrew, sindothebrew, qamatsqatanhebrew, ";
+}
+);
 interpolationWeight = 160;
 instanceInterpolations = {
 "EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.625;
