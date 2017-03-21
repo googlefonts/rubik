@@ -1,5 +1,5 @@
 {
-.appVersion = "939";
+.appVersion = "965";
 classes = (
 {
 code = "zero one two three four five six seven eight nine parenleft parenright";
@@ -58,7 +58,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2017-01-18 11:09:28 +0000";
+date = "2017-03-21 06:32:22 +0000";
 designer = "Hubert and Fischer";
 designerURL = "http://www.hubertfischer.com";
 disablesNiceNames = 1;
@@ -59954,7 +59954,7 @@ width = 330;
 components = (
 {
 name = fourinferior;
-transform = "{1, 0, 0, 1, -1, 170}";
+transform = "{1, 0, 0, 1, 0, 170}";
 }
 );
 layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
@@ -72941,7 +72941,7 @@ position = "{0, 349}";
 }
 );
 layerId = "6F7BFBF2-EF17-4840-8720-29203728ABB2";
-name = "Light [500]";
+name = "Light [125]";
 paths = (
 {
 closed = 1;
@@ -73015,7 +73015,7 @@ width = 726;
 {
 associatedMasterId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
 layerId = "00CC776E-EF85-49DB-9E07-85324153C785";
-name = "Bold [500]";
+name = "Bold [125]";
 paths = (
 {
 closed = 1;
@@ -73637,7 +73637,7 @@ nodes = (
 );
 };
 layerId = "E39AE0F1-AC63-47FB-852B-838252524C1A";
-name = "Light [500]";
+name = "Light [125]";
 paths = (
 {
 closed = 1;
@@ -73819,7 +73819,7 @@ nodes = (
 );
 };
 layerId = "E619DDAC-D227-41FA-A13F-ACB5A7445C83";
-name = "Bold [500]";
+name = "Bold [125]";
 paths = (
 {
 closed = 1;
@@ -75447,7 +75447,7 @@ nodes = (
 );
 };
 layerId = "E585684C-E547-47A0-BC91-677D7E1F0287";
-name = "Bold [500]";
+name = "Bold [125]";
 paths = (
 {
 closed = 1;
@@ -75642,7 +75642,7 @@ position = "{322, 0}";
 }
 );
 layerId = "E381F3B8-8BD0-4B1B-92ED-53083F684BED";
-name = "Light [500]";
+name = "Light [125]";
 paths = (
 {
 closed = 1;
@@ -96264,5 +96264,5 @@ width = 10;
 };
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
