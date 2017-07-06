@@ -37,6 +37,13 @@ def main():
         unhinted_fonts[name]['cvt '] = hinted_fonts[name]['cvt ']
         unhinted_fonts[name]['fpgm'] = hinted_fonts[name]['fpgm']
         unhinted_fonts[name]['prep'] = hinted_fonts[name]['prep']
+        unhinted_fonts[name]['gasp'] = hinted_fonts[name]['gasp']
+
+
+        unhinted_fonts[name]['TSI0'] = hinted_fonts[name]['TSI0']
+        unhinted_fonts[name]['TSI1'] = hinted_fonts[name]['TSI1']
+        unhinted_fonts[name]['TSI2'] = hinted_fonts[name]['TSI2']
+        unhinted_fonts[name]['TSI3'] = hinted_fonts[name]['TSI3']
         
         os.remove(shipped_font_path)
         unhinted_fonts[name].save(shipped_font_path)
