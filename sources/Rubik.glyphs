@@ -30,7 +30,7 @@ code = "alef-hb bet-hb gimel-hb dalet-hb he-hb vav-hb zayin-hb het-hb tet-hb yod
 name = HebrewLetters;
 }
 );
-copyright = "Copyright 2015 The Rubik Project Authors";
+copyright = "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)";
 customParameters = (
 {
 name = license;
