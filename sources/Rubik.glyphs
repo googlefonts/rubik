@@ -1,5 +1,5 @@
 {
-.appVersion = "965";
+.appVersion = "1038";
 classes = (
 {
 code = "zero one two three four five six seven eight nine parenleft parenright";
@@ -30,7 +30,7 @@ code = "alef-hb bet-hb gimel-hb dalet-hb he-hb vav-hb zayin-hb het-hb tet-hb yod
 name = HebrewLetters;
 }
 );
-copyright = "Copyright 2015 The Rubik Project Authors";
+copyright = "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)";
 customParameters = (
 {
 name = license;
@@ -90926,8 +90926,8 @@ value = "86; include: yodyod-hb, alef-hb, bet-hb, gimel-hb, dalet-hb, he-hb, vav
 );
 interpolationWeight = 90;
 instanceInterpolations = {
-"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.1875;
 "581BC726-83A6-4935-8633-5A6508251040" = 0.8125;
+"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.1875;
 };
 name = Regular;
 },
@@ -90940,8 +90940,8 @@ value = "126.5; include: yodyod-hb, alef-hb, bet-hb, gimel-hb, dalet-hb, he-hb, 
 );
 interpolationWeight = 125;
 instanceInterpolations = {
-"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.40625;
 "581BC726-83A6-4935-8633-5A6508251040" = 0.59375;
+"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.40625;
 };
 name = Medium;
 weightClass = Medium;
@@ -90955,8 +90955,8 @@ value = "166; include: yodyod-hb, alef-hb, bet-hb, gimel-hb, dalet-hb, he-hb, va
 );
 interpolationWeight = 160;
 instanceInterpolations = {
-"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.625;
 "581BC726-83A6-4935-8633-5A6508251040" = 0.375;
+"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.625;
 };
 isBold = 1;
 name = Bold;
@@ -96264,5 +96264,5 @@ width = 10;
 };
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 100;
 }

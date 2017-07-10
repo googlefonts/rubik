@@ -52,7 +52,15 @@ Medium | 450 | 125 | 126.5
 Bold | 600 | 160 | 166
 Black (Master) | 800 | 220 | - 
 
-#### Todo
 
-- [ ] Re-hint the updated Cyrillic glyphs. 
+#### Source Files v2.100
+In June 2017 the .ttfs are now manually hinted using [VTT](https://www.microsoft.com/en-us/Typography/vtt.aspx). To build the manually hinted fonts, follow the Generating hinted ttfs instructions.
 
+
+#### Generating hinted ttfs
+```
+# fontTools is the only required dependency.
+
+$ cd sources
+$ python generate_hinted_ttfs.py
+```
