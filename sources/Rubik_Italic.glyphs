@@ -1,5 +1,5 @@
 {
-.appVersion = "939";
+.appVersion = "965";
 classes = (
 {
 code = "zero one two three four five six seven eight nine parenleft parenright";
@@ -54,7 +54,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2016-09-09 18:30:11 +0000";
+date = "2017-03-21 06:38:53 +0000";
 designer = "Hubert and Fischer";
 designerURL = "http://www.hubertfischer.com";
 disablesAutomaticAlignment = 1;
@@ -64794,7 +64794,7 @@ nodes = (
 );
 };
 layerId = "35F6D0D2-2D19-4B9F-BAF8-D1819E499FE5";
-name = "Regular Italic [500]";
+name = "Regular Italic [125]";
 paths = (
 {
 closed = 1;
@@ -64868,7 +64868,7 @@ width = 723;
 {
 associatedMasterId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 layerId = "69B1A939-7214-496B-91A2-5210C72CF4EF";
-name = "Bold Italic [500]";
+name = "Bold Italic [125]";
 paths = (
 {
 closed = 1;
@@ -65455,7 +65455,7 @@ nodes = (
 );
 };
 layerId = "E39AE0F1-AC63-47FB-852B-838252524C1A";
-name = "Light [500]";
+name = "Light [125]";
 paths = (
 {
 closed = 1;
@@ -65637,7 +65637,7 @@ nodes = (
 );
 };
 layerId = "E619DDAC-D227-41FA-A13F-ACB5A7445C83";
-name = "Bold [500]";
+name = "Bold [125]";
 paths = (
 {
 closed = 1;
@@ -67175,7 +67175,7 @@ nodes = (
 );
 };
 layerId = "E585684C-E547-47A0-BC91-677D7E1F0287";
-name = "Bold [500]";
+name = "Bold [125]";
 paths = (
 {
 closed = 1;
@@ -67311,7 +67311,7 @@ position = "{322, 0}";
 }
 );
 layerId = "E381F3B8-8BD0-4B1B-92ED-53083F684BED";
-name = "Light [500]";
+name = "Light [125]";
 paths = (
 {
 closed = 1;
@@ -84438,5 +84438,5 @@ manufacturer = "Hubert & Fischer";
 manufacturerURL = "http://www.google.com/fonts";
 unitsPerEm = 1000;
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 2;
 }
