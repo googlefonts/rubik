@@ -16,7 +16,7 @@ def transfer_glyfs(from_font, to_font):
     glyphs = to_font['glyf'].keys()
 
     for glyph in glyphs:
-        print 'Transferring %s' % glyph
+        print('Transferring %s' % glyph)
         to_font['glyf'][glyph] = from_font['glyf'][glyph]
 
 
@@ -49,7 +49,7 @@ def main():
         unhinted_fonts[name].save(shipped_font_path)
     
 
-    print 'done'
+    print('done')
 
 if __name__ == '__main__':
     main()
