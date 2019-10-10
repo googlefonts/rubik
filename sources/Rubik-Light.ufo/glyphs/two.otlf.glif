@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.otlf" format="2">
+  <advance width="600"/>
+  <guideline x="538"/>
+  <guideline x="73"/>
+  <guideline x="513"/>
+  <outline>
+    <contour>
+      <point x="94" y="0" type="curve" smooth="yes"/>
+      <point x="504" y="0" type="line" smooth="yes"/>
+      <point x="518" y="0"/>
+      <point x="527" y="9"/>
+      <point x="527" y="22" type="curve" smooth="yes"/>
+      <point x="527" y="37" type="line" smooth="yes"/>
+      <point x="527" y="51"/>
+      <point x="518" y="60"/>
+      <point x="504" y="60" type="curve" smooth="yes"/>
+      <point x="169" y="60" type="line"/>
+      <point x="403" y="298" type="line" smooth="yes"/>
+      <point x="476" y="366"/>
+      <point x="512" y="425"/>
+      <point x="512" y="507" type="curve" smooth="yes"/>
+      <point x="512" y="612"/>
+      <point x="453" y="710"/>
+      <point x="301" y="710" type="curve" smooth="yes"/>
+      <point x="149" y="710"/>
+      <point x="85" y="593"/>
+      <point x="82" y="502" type="curve" smooth="yes"/>
+      <point x="82" y="491"/>
+      <point x="90" y="483"/>
+      <point x="103" y="483" type="curve"/>
+      <point x="123" y="483" type="line" smooth="yes"/>
+      <point x="131" y="483"/>
+      <point x="144" y="490"/>
+      <point x="146" y="506" type="curve" smooth="yes"/>
+      <point x="157" y="592"/>
+      <point x="210" y="650"/>
+      <point x="301" y="650" type="curve" smooth="yes"/>
+      <point x="396" y="650"/>
+      <point x="449" y="596"/>
+      <point x="449" y="507" type="curve" smooth="yes"/>
+      <point x="449" y="445"/>
+      <point x="431" y="407"/>
+      <point x="356" y="338" type="curve" smooth="yes"/>
+      <point x="97" y="79" type="line" smooth="yes"/>
+      <point x="78" y="62"/>
+      <point x="72" y="50"/>
+      <point x="72" y="37" type="curve" smooth="yes"/>
+      <point x="72" y="22" type="line" smooth="yes"/>
+      <point x="72" y="9"/>
+      <point x="81" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

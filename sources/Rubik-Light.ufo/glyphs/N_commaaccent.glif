@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ncommaaccent" format="2">
+  <advance width="684"/>
+  <unicode hex="0145"/>
+  <guideline y="-50"/>
+  <guideline x="333"/>
+  <outline>
+    <component base="N"/>
+    <component base="commaaccentcomb.case" xOffset="210"/>
+  </outline>
+</glyph>

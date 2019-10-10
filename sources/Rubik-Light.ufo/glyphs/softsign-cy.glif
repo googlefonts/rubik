@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="softsign-cy" format="2">
+  <advance width="476"/>
+  <unicode hex="044C"/>
+  <guideline x="70"/>
+  <guideline x="142" y="542" angle="90"/>
+  <outline>
+    <contour>
+      <point x="103" y="0" type="curve" smooth="yes"/>
+      <point x="247" y="0" type="line" smooth="yes"/>
+      <point x="387" y="0"/>
+      <point x="451" y="51"/>
+      <point x="451" y="169" type="curve" smooth="yes"/>
+      <point x="451" y="277"/>
+      <point x="398" y="346"/>
+      <point x="262" y="346" type="curve" smooth="yes"/>
+      <point x="142" y="346" type="line"/>
+      <point x="142" y="498" type="line"/>
+      <point x="142" y="511"/>
+      <point x="133" y="520"/>
+      <point x="120" y="520" type="curve" smooth="yes"/>
+      <point x="103" y="520" type="line" smooth="yes"/>
+      <point x="90" y="520"/>
+      <point x="81" y="511"/>
+      <point x="81" y="498" type="curve" smooth="yes"/>
+      <point x="81" y="22" type="line" smooth="yes"/>
+      <point x="81" y="9"/>
+      <point x="90" y="0"/>
+    </contour>
+    <contour>
+      <point x="142" y="58" type="line"/>
+      <point x="142" y="288" type="line"/>
+      <point x="256" y="288" type="line" smooth="yes"/>
+      <point x="352" y="288"/>
+      <point x="390" y="249"/>
+      <point x="390" y="169" type="curve" smooth="yes"/>
+      <point x="390" y="86"/>
+      <point x="349" y="58"/>
+      <point x="256" y="58" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>en-cy</string>
+    </dict>
+  </lib>
+</glyph>

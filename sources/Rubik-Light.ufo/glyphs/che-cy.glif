@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="che-cy" format="2">
+  <advance width="527"/>
+  <unicode hex="0447"/>
+  <anchor x="385" y="0" name="bottomright"/>
+  <anchor x="230" y="200" name="center"/>
+  <anchor x="252" y="520" name="top"/>
+  <outline>
+    <contour>
+      <point x="407" y="0" type="curve" smooth="yes"/>
+      <point x="424" y="0" type="line" smooth="yes"/>
+      <point x="437" y="0"/>
+      <point x="446" y="9"/>
+      <point x="446" y="22" type="curve" smooth="yes"/>
+      <point x="446" y="498" type="line" smooth="yes"/>
+      <point x="446" y="511"/>
+      <point x="437" y="520"/>
+      <point x="424" y="520" type="curve" smooth="yes"/>
+      <point x="407" y="520" type="line" smooth="yes"/>
+      <point x="394" y="520"/>
+      <point x="385" y="511"/>
+      <point x="385" y="498" type="curve" smooth="yes"/>
+      <point x="385" y="311" type="line" smooth="yes"/>
+      <point x="385" y="250"/>
+      <point x="323" y="231"/>
+      <point x="229" y="231" type="curve" smooth="yes"/>
+      <point x="146" y="231"/>
+      <point x="106" y="261"/>
+      <point x="106" y="327" type="curve" smooth="yes"/>
+      <point x="106" y="498" type="line" smooth="yes"/>
+      <point x="106" y="511"/>
+      <point x="97" y="520"/>
+      <point x="84" y="520" type="curve" smooth="yes"/>
+      <point x="67" y="520" type="line" smooth="yes"/>
+      <point x="54" y="520"/>
+      <point x="45" y="511"/>
+      <point x="45" y="498" type="curve" smooth="yes"/>
+      <point x="45" y="322" type="line" smooth="yes"/>
+      <point x="45" y="217"/>
+      <point x="111" y="173"/>
+      <point x="225" y="173" type="curve" smooth="yes"/>
+      <point x="294" y="173"/>
+      <point x="347" y="188"/>
+      <point x="385" y="226" type="curve"/>
+      <point x="385" y="22" type="line" smooth="yes"/>
+      <point x="385" y="9"/>
+      <point x="394" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>en-cy</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet" format="2">
+  <advance width="380"/>
+  <unicode hex="2022"/>
+  <guideline y="300"/>
+  <guideline x="150"/>
+  <guideline x="50"/>
+  <outline>
+    <contour>
+      <point x="190" y="200" type="curve" smooth="yes"/>
+      <point x="245" y="200"/>
+      <point x="290" y="245"/>
+      <point x="290" y="300" type="curve" smooth="yes"/>
+      <point x="290" y="355"/>
+      <point x="245" y="400"/>
+      <point x="190" y="400" type="curve" smooth="yes"/>
+      <point x="135" y="400"/>
+      <point x="90" y="355"/>
+      <point x="90" y="300" type="curve" smooth="yes"/>
+      <point x="90" y="245"/>
+      <point x="135" y="200"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>8</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

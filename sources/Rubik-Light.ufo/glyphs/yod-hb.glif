@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yod-hb" format="2">
+  <advance width="213"/>
+  <unicode hex="05D9"/>
+  <guideline y="240"/>
+  <anchor x="107" y="0" name="bottom"/>
+  <anchor x="20" y="0" name="bottomleft"/>
+  <anchor x="17" y="260" name="center"/>
+  <anchor x="107" y="520" name="top"/>
+  <anchor x="20" y="520" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="98" y="230" type="curve" smooth="yes"/>
+      <point x="115" y="230" type="line" smooth="yes"/>
+      <point x="128" y="230"/>
+      <point x="137" y="239"/>
+      <point x="137" y="252" type="curve" smooth="yes"/>
+      <point x="137" y="549" type="line"/>
+      <point x="137" y="562"/>
+      <point x="128" y="571"/>
+      <point x="115" y="571" type="curve" smooth="yes"/>
+      <point x="98" y="571" type="line" smooth="yes"/>
+      <point x="85" y="571"/>
+      <point x="76" y="562"/>
+      <point x="76" y="549" type="curve" smooth="yes"/>
+      <point x="76" y="252" type="line" smooth="yes"/>
+      <point x="76" y="239"/>
+      <point x="85" y="230"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>4</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

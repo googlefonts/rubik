@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.numerator" format="2">
+  <advance width="362"/>
+  <guideline y="705"/>
+  <outline>
+    <component base="zeroinferior" yOffset="520"/>
+  </outline>
+</glyph>
