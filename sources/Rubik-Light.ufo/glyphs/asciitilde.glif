@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde" format="2">
+  <advance width="563"/>
+  <unicode hex="007E"/>
+  <guideline y="300"/>
+  <guideline x="70"/>
+  <guideline x="480"/>
+  <guideline x="275"/>
+  <outline>
+    <contour>
+      <point x="94" y="252" type="curve" smooth="yes"/>
+      <point x="98" y="252"/>
+      <point x="102" y="254"/>
+      <point x="107" y="256" type="curve" smooth="yes"/>
+      <point x="123" y="265"/>
+      <point x="145" y="287"/>
+      <point x="186" y="287" type="curve" smooth="yes"/>
+      <point x="261" y="287"/>
+      <point x="297" y="252"/>
+      <point x="377" y="252" type="curve" smooth="yes"/>
+      <point x="433" y="252"/>
+      <point x="487" y="282"/>
+      <point x="487" y="307" type="curve" smooth="yes"/>
+      <point x="487" y="330" type="line" smooth="yes"/>
+      <point x="487" y="340"/>
+      <point x="480" y="347"/>
+      <point x="470" y="347" type="curve" smooth="yes"/>
+      <point x="466" y="347"/>
+      <point x="462" y="345"/>
+      <point x="457" y="343" type="curve" smooth="yes"/>
+      <point x="441" y="334"/>
+      <point x="419" y="312"/>
+      <point x="378" y="312" type="curve" smooth="yes"/>
+      <point x="306" y="312"/>
+      <point x="271" y="347"/>
+      <point x="187" y="347" type="curve" smooth="yes"/>
+      <point x="131" y="347"/>
+      <point x="77" y="317"/>
+      <point x="77" y="292" type="curve" smooth="yes"/>
+      <point x="77" y="269" type="line" smooth="yes"/>
+      <point x="77" y="259"/>
+      <point x="84" y="252"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>15</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>24</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>31</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

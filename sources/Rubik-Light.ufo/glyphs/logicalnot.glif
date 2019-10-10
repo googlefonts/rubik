@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="logicalnot" format="2">
+  <advance width="581"/>
+  <unicode hex="00AC"/>
+  <guideline y="350"/>
+  <guideline x="439"/>
+  <outline>
+    <contour>
+      <point x="465" y="170" type="curve"/>
+      <point x="483" y="170" type="line" smooth="yes"/>
+      <point x="496" y="170"/>
+      <point x="505" y="179"/>
+      <point x="505" y="192" type="curve" smooth="yes"/>
+      <point x="505" y="328" type="line" smooth="yes"/>
+      <point x="505" y="341"/>
+      <point x="496" y="350"/>
+      <point x="483" y="350" type="curve" smooth="yes"/>
+      <point x="98" y="350" type="line" smooth="yes"/>
+      <point x="85" y="350"/>
+      <point x="76" y="341"/>
+      <point x="76" y="328" type="curve" smooth="yes"/>
+      <point x="76" y="314" type="line" smooth="yes"/>
+      <point x="76" y="301"/>
+      <point x="85" y="292"/>
+      <point x="98" y="292" type="curve" smooth="yes"/>
+      <point x="443" y="292" type="line"/>
+      <point x="443" y="192" type="line" smooth="yes"/>
+      <point x="443" y="179"/>
+      <point x="452" y="170"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>20</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shcha-cy" format="2">
+  <outline>
+    <contour>
+      <point x="711" y="-110" type="curve" smooth="yes"/>
+      <point x="728" y="-110" type="line" smooth="yes"/>
+      <point x="741" y="-110"/>
+      <point x="750" y="-101"/>
+      <point x="750" y="-88" type="curve" smooth="yes"/>
+      <point x="750" y="36" type="line" smooth="yes"/>
+      <point x="750" y="49"/>
+      <point x="741" y="58"/>
+      <point x="728" y="58" type="curve" smooth="yes"/>
+      <point x="678" y="58" type="line"/>
+      <point x="679" y="498" type="line" smooth="yes"/>
+      <point x="679" y="511"/>
+      <point x="670" y="520"/>
+      <point x="657" y="520" type="curve" smooth="yes"/>
+      <point x="640" y="520" type="line" smooth="yes"/>
+      <point x="627" y="520"/>
+      <point x="618" y="511"/>
+      <point x="618" y="498" type="curve" smooth="yes"/>
+      <point x="618" y="58" type="line"/>
+      <point x="346" y="58" type="line"/>
+      <point x="346" y="498" type="line"/>
+      <point x="346" y="511"/>
+      <point x="337" y="520"/>
+      <point x="324" y="520" type="curve" smooth="yes"/>
+      <point x="307" y="520" type="line" smooth="yes"/>
+      <point x="294" y="520"/>
+      <point x="285" y="511"/>
+      <point x="285" y="498" type="curve" smooth="yes"/>
+      <point x="285" y="22" type="line" smooth="yes"/>
+      <point x="285" y="9"/>
+      <point x="294" y="0"/>
+      <point x="307" y="0" type="curve" smooth="yes"/>
+      <point x="689" y="0" type="line"/>
+      <point x="689" y="-88" type="line" smooth="yes"/>
+      <point x="689" y="-101"/>
+      <point x="698" y="-110"/>
+    </contour>
+  </outline>
+</glyph>

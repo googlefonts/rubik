@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summation" format="2">
+  <advance width="509"/>
+  <unicode hex="2211"/>
+  <guideline y="-200"/>
+  <guideline y="250"/>
+  <guideline x="476"/>
+  <outline>
+    <contour>
+      <point x="63" y="-200" type="curve" smooth="yes"/>
+      <point x="425" y="-200" type="line" smooth="yes"/>
+      <point x="438" y="-200"/>
+      <point x="447" y="-191"/>
+      <point x="447" y="-178" type="curve" smooth="yes"/>
+      <point x="447" y="-164" type="line" smooth="yes"/>
+      <point x="447" y="-151"/>
+      <point x="438" y="-142"/>
+      <point x="425" y="-142" type="curve" smooth="yes"/>
+      <point x="123" y="-142" type="line"/>
+      <point x="432" y="198" type="line" smooth="yes"/>
+      <point x="441" y="208"/>
+      <point x="447" y="216"/>
+      <point x="447" y="231" type="curve" smooth="yes"/>
+      <point x="447" y="269" type="line" smooth="yes"/>
+      <point x="447" y="284"/>
+      <point x="441" y="292"/>
+      <point x="432" y="302" type="curve" smooth="yes"/>
+      <point x="123" y="642" type="line"/>
+      <point x="425" y="642" type="line" smooth="yes"/>
+      <point x="438" y="642"/>
+      <point x="447" y="651"/>
+      <point x="447" y="664" type="curve" smooth="yes"/>
+      <point x="447" y="678" type="line" smooth="yes"/>
+      <point x="447" y="691"/>
+      <point x="438" y="700"/>
+      <point x="425" y="700" type="curve" smooth="yes"/>
+      <point x="63" y="700" type="line" smooth="yes"/>
+      <point x="50" y="700"/>
+      <point x="41" y="691"/>
+      <point x="41" y="678" type="curve" smooth="yes"/>
+      <point x="41" y="661" type="line" smooth="yes"/>
+      <point x="41" y="651"/>
+      <point x="45" y="642"/>
+      <point x="55" y="630" type="curve" smooth="yes"/>
+      <point x="392" y="257" type="line"/>
+      <point x="392" y="243" type="line"/>
+      <point x="55" y="-130" type="line" smooth="yes"/>
+      <point x="45" y="-142"/>
+      <point x="41" y="-151"/>
+      <point x="41" y="-161" type="curve" smooth="yes"/>
+      <point x="41" y="-178" type="line"/>
+      <point x="41" y="-191"/>
+      <point x="50" y="-200"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>40</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

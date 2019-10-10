@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sixsuperior" format="2">
+  <advance width="336"/>
+  <unicode hex="2076"/>
+  <guideline y="350"/>
+  <outline>
+    <component base="sixinferior" yOffset="520"/>
+  </outline>
+</glyph>

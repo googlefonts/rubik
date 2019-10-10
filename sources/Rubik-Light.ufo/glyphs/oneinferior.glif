@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oneinferior" format="2">
+  <advance width="231"/>
+  <unicode hex="2081"/>
+  <guideline y="-170"/>
+  <guideline y="180"/>
+  <guideline x="174"/>
+  <guideline x="9"/>
+  <outline>
+    <contour>
+      <point x="146" y="-170" type="curve" smooth="yes"/>
+      <point x="160" y="-170" type="line" smooth="yes"/>
+      <point x="173" y="-170"/>
+      <point x="182" y="-161"/>
+      <point x="182" y="-148" type="curve" smooth="yes"/>
+      <point x="182" y="158" type="line" smooth="yes"/>
+      <point x="182" y="171"/>
+      <point x="173" y="180"/>
+      <point x="160" y="180" type="curve" smooth="yes"/>
+      <point x="146" y="180" type="line" smooth="yes"/>
+      <point x="136" y="180"/>
+      <point x="130" y="178"/>
+      <point x="123" y="173" type="curve" smooth="yes"/>
+      <point x="27" y="102" type="line" smooth="yes"/>
+      <point x="17" y="94"/>
+      <point x="15" y="81"/>
+      <point x="23" y="71" type="curve" smooth="yes"/>
+      <point x="30" y="61" type="line" smooth="yes"/>
+      <point x="38" y="50"/>
+      <point x="51" y="49"/>
+      <point x="61" y="56" type="curve" smooth="yes"/>
+      <point x="124" y="103" type="line"/>
+      <point x="124" y="-148" type="line" smooth="yes"/>
+      <point x="124" y="-161"/>
+      <point x="133" y="-170"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>4</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

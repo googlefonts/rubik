@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eightsuperior" format="2">
+  <advance width="343"/>
+  <unicode hex="2078"/>
+  <guideline y="705"/>
+  <guideline y="350"/>
+  <outline>
+    <component base="eightinferior" yOffset="520"/>
+  </outline>
+</glyph>

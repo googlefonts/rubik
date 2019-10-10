@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalbar-cy.case" format="2">
+  <advance width="248"/>
+  <anchor x="124" y="358" name="_center"/>
+  <outline>
+    <contour>
+      <point x="100" y="490" type="curve" smooth="yes"/>
+      <point x="100" y="225" type="line" smooth="yes"/>
+      <point x="100" y="212"/>
+      <point x="109" y="203"/>
+      <point x="122" y="203" type="curve" smooth="yes"/>
+      <point x="126" y="203" type="line" smooth="yes"/>
+      <point x="139" y="203"/>
+      <point x="148" y="212"/>
+      <point x="148" y="225" type="curve" smooth="yes"/>
+      <point x="148" y="490" type="line" smooth="yes"/>
+      <point x="148" y="503"/>
+      <point x="139" y="512"/>
+      <point x="126" y="512" type="curve" smooth="yes"/>
+      <point x="122" y="512" type="line" smooth="yes"/>
+      <point x="109" y="512"/>
+      <point x="100" y="503"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.0</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

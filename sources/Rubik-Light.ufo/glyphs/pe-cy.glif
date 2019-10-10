@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pe-cy" format="2">
+  <advance width="576"/>
+  <unicode hex="043F"/>
+  <guideline x="70"/>
+  <anchor x="424" y="0" name="bottomright"/>
+  <outline>
+    <contour>
+      <point x="103" y="0" type="curve"/>
+      <point x="120" y="0" type="line" smooth="yes"/>
+      <point x="133" y="0"/>
+      <point x="142" y="9"/>
+      <point x="142" y="22" type="curve" smooth="yes"/>
+      <point x="142" y="462" type="line"/>
+      <point x="434" y="462" type="line"/>
+      <point x="434" y="22" type="line" smooth="yes"/>
+      <point x="434" y="9"/>
+      <point x="443" y="0"/>
+      <point x="456" y="0" type="curve" smooth="yes"/>
+      <point x="473" y="0" type="line" smooth="yes"/>
+      <point x="486" y="0"/>
+      <point x="495" y="9"/>
+      <point x="495" y="22" type="curve" smooth="yes"/>
+      <point x="495" y="498" type="line" smooth="yes"/>
+      <point x="495" y="511"/>
+      <point x="486" y="520"/>
+      <point x="473" y="520" type="curve" smooth="yes"/>
+      <point x="103" y="520" type="line" smooth="yes"/>
+      <point x="90" y="520"/>
+      <point x="81" y="511"/>
+      <point x="81" y="498" type="curve" smooth="yes"/>
+      <point x="81" y="22" type="line" smooth="yes"/>
+      <point x="81" y="9"/>
+      <point x="90" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>en-cy</string>
+    </dict>
+  </lib>
+</glyph>

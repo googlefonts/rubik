@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z" format="2">
+  <advance width="490"/>
+  <unicode hex="007A"/>
+  <guideline y="36"/>
+  <guideline x="480"/>
+  <guideline x="70"/>
+  <outline>
+    <contour>
+      <point x="64" y="0" type="curve" smooth="yes"/>
+      <point x="430" y="0" type="line" smooth="yes"/>
+      <point x="443" y="0"/>
+      <point x="452" y="9"/>
+      <point x="452" y="22" type="curve" smooth="yes"/>
+      <point x="452" y="36" type="line" smooth="yes"/>
+      <point x="452" y="49"/>
+      <point x="443" y="58"/>
+      <point x="430" y="58" type="curve" smooth="yes"/>
+      <point x="126" y="58" type="line"/>
+      <point x="418" y="450" type="line" smooth="yes"/>
+      <point x="425" y="460"/>
+      <point x="432" y="470"/>
+      <point x="432" y="481" type="curve" smooth="yes"/>
+      <point x="432" y="498" type="line" smooth="yes"/>
+      <point x="432" y="511"/>
+      <point x="423" y="520"/>
+      <point x="410" y="520" type="curve" smooth="yes"/>
+      <point x="74" y="520" type="line" smooth="yes"/>
+      <point x="61" y="520"/>
+      <point x="52" y="511"/>
+      <point x="52" y="498" type="curve" smooth="yes"/>
+      <point x="52" y="484" type="line" smooth="yes"/>
+      <point x="52" y="471"/>
+      <point x="61" y="462"/>
+      <point x="74" y="462" type="curve" smooth="yes"/>
+      <point x="350" y="462" type="line"/>
+      <point x="56" y="70" type="line" smooth="yes"/>
+      <point x="49" y="60"/>
+      <point x="42" y="50"/>
+      <point x="42" y="39" type="curve" smooth="yes"/>
+      <point x="42" y="22" type="line" smooth="yes"/>
+      <point x="42" y="9"/>
+      <point x="51" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>8</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

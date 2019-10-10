@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hardsign-cy" format="2">
+  <advance width="539"/>
+  <unicode hex="044A"/>
+  <outline>
+    <contour>
+      <point x="186" y="0" type="curve" smooth="yes"/>
+      <point x="310" y="0" type="line" smooth="yes"/>
+      <point x="450" y="0"/>
+      <point x="514" y="51"/>
+      <point x="514" y="169" type="curve" smooth="yes"/>
+      <point x="514" y="277"/>
+      <point x="461" y="346"/>
+      <point x="325" y="346" type="curve" smooth="yes"/>
+      <point x="225" y="346" type="line"/>
+      <point x="225" y="498" type="line" smooth="yes"/>
+      <point x="225" y="511"/>
+      <point x="216" y="520"/>
+      <point x="203" y="520" type="curve" smooth="yes"/>
+      <point x="35" y="520" type="line" smooth="yes"/>
+      <point x="22" y="520"/>
+      <point x="13" y="511"/>
+      <point x="13" y="498" type="curve" smooth="yes"/>
+      <point x="13" y="484" type="line" smooth="yes"/>
+      <point x="13" y="471"/>
+      <point x="22" y="462"/>
+      <point x="35" y="462" type="curve" smooth="yes"/>
+      <point x="164" y="462" type="line"/>
+      <point x="164" y="22" type="line" smooth="yes"/>
+      <point x="164" y="9"/>
+      <point x="173" y="0"/>
+    </contour>
+    <contour>
+      <point x="225" y="58" type="line"/>
+      <point x="225" y="288" type="line"/>
+      <point x="319" y="288" type="line" smooth="yes"/>
+      <point x="415" y="288"/>
+      <point x="453" y="249"/>
+      <point x="453" y="169" type="curve" smooth="yes"/>
+      <point x="453" y="86"/>
+      <point x="412" y="58"/>
+      <point x="319" y="58" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>te-cy</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>softsign-cy</string>
+    </dict>
+  </lib>
+</glyph>

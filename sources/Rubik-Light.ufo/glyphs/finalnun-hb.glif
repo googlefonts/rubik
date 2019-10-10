@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="finalnun-hb" format="2">
+  <advance width="229"/>
+  <unicode hex="05DF"/>
+  <anchor x="115" y="0" name="bottom"/>
+  <anchor x="20" y="0" name="bottomleft"/>
+  <anchor x="115" y="260" name="center"/>
+  <anchor x="115" y="520" name="top"/>
+  <anchor x="20" y="520" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="106" y="-124" type="curve" smooth="yes"/>
+      <point x="123" y="-124" type="line" smooth="yes"/>
+      <point x="136" y="-124"/>
+      <point x="145" y="-115"/>
+      <point x="145" y="-102" type="curve"/>
+      <point x="145" y="549" type="line" smooth="yes"/>
+      <point x="145" y="562"/>
+      <point x="136" y="571"/>
+      <point x="123" y="571" type="curve" smooth="yes"/>
+      <point x="106" y="571" type="line" smooth="yes"/>
+      <point x="93" y="571"/>
+      <point x="84" y="562"/>
+      <point x="84" y="549" type="curve" smooth="yes"/>
+      <point x="84" y="-102" type="line" smooth="yes"/>
+      <point x="84" y="-115"/>
+      <point x="93" y="-124"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
