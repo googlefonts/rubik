@@ -5573,6 +5573,8 @@
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
+    <key>com.typemytype.robofont.segmentType</key>
+    <string>curve</string>
     <key>public.glyphOrder</key>
     <array>
       <string>A</string>
@@ -6343,7 +6345,6 @@
       <string>brevecomb-cy.case</string>
       <string>descender-cy</string>
       <string>descender-cy.case</string>
-      <string>finalpedageshhebrew.black.black.001</string>
       <string>NULL</string>
       <string>verticalbar-cy</string>
       <string>verticalbar-cy.case</string>
