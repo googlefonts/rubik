@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shinshindot-hb" format="2">
-  <advance width="711"/>
+  <advance width="691"/>
   <unicode hex="FB2A"/>
   <outline>
     <component base="shin-hb"/>
