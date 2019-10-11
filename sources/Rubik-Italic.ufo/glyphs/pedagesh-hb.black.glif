@@ -1,8 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pedagesh-hb.black" format="2">
-  <advance width="671"/>
-  <guideline x="369"/>
+  <advance width="563"/>
+  <guideline x="310" y="571" angle="0"/>
+  <guideline x="310" y="336" angle="0"/>
+  <anchor x="230" y="0" name="bottom"/>
+  <anchor x="-20" y="0" name="bottomleft"/>
+  <anchor x="315" y="260" name="center"/>
+  <anchor x="341" y="520" name="top"/>
+  <anchor x="91" y="520" name="topleft"/>
   <outline>
+    <contour>
+      <point x="304" y="226" type="curve" smooth="yes"/>
+      <point x="317" y="226" type="line" smooth="yes"/>
+      <point x="330" y="226"/>
+      <point x="341" y="235"/>
+      <point x="344" y="248" type="curve" smooth="yes"/>
+      <point x="357" y="311" type="line" smooth="yes"/>
+      <point x="360" y="324"/>
+      <point x="353" y="333"/>
+      <point x="340" y="333" type="curve" smooth="yes"/>
+      <point x="327" y="333" type="line" smooth="yes"/>
+      <point x="314" y="333"/>
+      <point x="303" y="324"/>
+      <point x="300" y="311" type="curve" smooth="yes"/>
+      <point x="287" y="248" type="line" smooth="yes"/>
+      <point x="284" y="235"/>
+      <point x="291" y="226"/>
+    </contour>
+    <component base="pe-hb"/>
   </outline>
   <lib>
     <dict>
@@ -19,8 +44,8 @@
           <integer>0</integer>
           <key>place</key>
           <array>
-            <integer>627</integer>
-            <integer>186</integer>
+            <integer>-2147483648</integer>
+            <integer>0</integer>
           </array>
           <key>stem</key>
           <integer>-2</integer>
