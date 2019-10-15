@@ -5573,6 +5573,22 @@
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
+    <key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
+    <false/>
+    <key>com.typemytype.robofont.compileSettings.autohint</key>
+    <integer>0</integer>
+    <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
+    <integer>1</integer>
+    <key>com.typemytype.robofont.compileSettings.decompose</key>
+    <integer>0</integer>
+    <key>com.typemytype.robofont.compileSettings.generateFormat</key>
+    <integer>1</integer>
+    <key>com.typemytype.robofont.compileSettings.layerName</key>
+    <string>public.default</string>
+    <key>com.typemytype.robofont.compileSettings.path</key>
+    <string>/Volumes/SD_Drive/Design/Work/Font Bureau/GitCloner_Repos/rubik/sources/master_ufo/TTF/Rubik-BoldItalic.ttf</string>
+    <key>com.typemytype.robofont.compileSettings.releaseMode</key>
+    <integer>1</integer>
     <key>com.typemytype.robofont.segmentType</key>
     <string>curve</string>
     <key>public.glyphOrder</key>
