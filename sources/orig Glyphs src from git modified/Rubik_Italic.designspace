@@ -44,6 +44,13 @@
       <info/>
       <lib>
         <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>compatibleFullName</string>
+              <string>Rubik Light Italic</string>
+            </array>
+          </array>
           <key>com.schriftgestaltung.export</key>
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
