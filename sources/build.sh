@@ -5,9 +5,9 @@ set -e
 echo "Generating Static fonts"
 mkdir -p ../fonts
 fontmake -m Rubik.designspace -i -o ttf --output-dir ../fonts/ttf/
+fontmake -m Rubik_Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
 fontmake -m Rubik.designspace -i -o otf --output-dir ../fonts/otf/
-fontmake -m Rubik_Italic.designspace -o ttf --output-dir ../fonts/ttf/
-fontmake -m Rubik_Italic.designspace -o otf --output-dir ../fonts/otf/
+fontmake -m Rubik_Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 fontmake -m Rubik.designspace -o variable --output-path ../fonts/ttf/Rubik[wght].ttf
@@ -24,6 +24,14 @@ do
 	ttfautohint $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 done
+
+for ttf in $ttfs
+do
+	gftools fix-hinting $ttf;
+	mv "$ttf.fix" $ttf;
+done
+
+
 
 vfs=$(ls ../fonts/ttf/*\[wght\].ttf)
 
@@ -62,8 +70,7 @@ do
 	gftools fix-hinting $vf;
 	mv "$vf.fix" $vf;
 done
-for ttf in $ttfs
-do
-	gftools fix-hinting $ttf;
-	#mv "$ttf.fix" $ttf;
-done
+
+
+echo "Checking TYPOGRAPHIC_SUBFAMILY_NAME (aka f.info.openTypeNamePreferredSubfamilyName) in VFs"
+python fixTypographicSubfamilyName.py
