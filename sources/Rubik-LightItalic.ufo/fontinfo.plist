@@ -36,6 +36,8 @@
     <string>Hubert &amp; Fischer</string>
     <key>openTypeNameManufacturerURL</key>
     <string>http://www.google.com/fonts</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Light Italic</string>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
@@ -86,6 +88,8 @@
     <integer>-75</integer>
     <key>postscriptUnderlineThickness</key>
     <integer>50</integer>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
     <key>styleName</key>
     <string>Italic</string>
     <key>unitsPerEm</key>
