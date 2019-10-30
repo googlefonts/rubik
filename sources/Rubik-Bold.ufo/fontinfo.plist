@@ -61,6 +61,19 @@
     <string>Hubert &amp; Fischer</string>
     <key>openTypeNameManufacturerURL</key>
     <string>http://www.google.com/fonts</string>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
@@ -73,6 +86,8 @@
     <integer>-250</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>300</integer>
     <key>openTypeOS2WinAscent</key>
     <integer>945</integer>
     <key>openTypeOS2WinDescent</key>
@@ -113,7 +128,7 @@
     <key>postscriptUnderlineThickness</key>
     <integer>50</integer>
     <key>styleName</key>
-    <string>Bold</string>
+    <string>Black</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>versionMajor</key>

@@ -58,8 +58,6 @@
     <string>ef-cy.glif</string>
     <key>el-cy</key>
     <string>el-cy.glif</string>
-    <key>euro.BRACKET.125</key>
-    <string>euro.B_R_A_C_K_E_T_.125.glif</string>
     <key>fiveeighths</key>
     <string>fiveeighths.glif</string>
     <key>ghemiddlehook-cy</key>
@@ -68,8 +66,6 @@
     <string>hardsign-cy.glif</string>
     <key>hryvnia</key>
     <string>hryvnia.glif</string>
-    <key>hryvnia.BRACKET.125</key>
-    <string>hryvnia.B_R_A_C_K_E_T_.125.glif</string>
     <key>ia-cy</key>
     <string>ia-cy.glif</string>
     <key>iu-cy</key>
@@ -106,8 +102,6 @@
     <string>yat-cy.glif</string>
     <key>yen</key>
     <string>yen.glif</string>
-    <key>yen.BRACKET.125</key>
-    <string>yen.B_R_A_C_K_E_T_.125.glif</string>
     <key>yeru-cy</key>
     <string>yeru-cy.glif</string>
     <key>yusbig-cy</key>

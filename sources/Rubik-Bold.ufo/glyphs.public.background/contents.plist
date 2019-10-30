@@ -156,8 +156,6 @@
     <string>hardsign-cy.glif</string>
     <key>hryvnia</key>
     <string>hryvnia.glif</string>
-    <key>hryvnia.BRACKET.125</key>
-    <string>hryvnia.B_R_A_C_K_E_T_.125.glif</string>
     <key>i-cy</key>
     <string>i-cy.glif</string>
     <key>ia-cy</key>
@@ -230,8 +228,6 @@
     <string>yat-cy.glif</string>
     <key>yen</key>
     <string>yen.glif</string>
-    <key>yen.BRACKET.125</key>
-    <string>yen.B_R_A_C_K_E_T_.125.glif</string>
     <key>yeru-cy</key>
     <string>yeru-cy.glif</string>
     <key>yi-cy</key>
