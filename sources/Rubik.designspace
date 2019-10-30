@@ -29,7 +29,7 @@
         <dimension name="Weight" xvalue="60"/>
       </location>
     </source>
-    <source filename="Rubik-Bold.ufo" name="Rubik Bold" familyname="Rubik" stylename="Bold">
+    <source filename="Rubik-Bold.ufo" name="Rubik Black" familyname="Rubik" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="220"/>
       </location>

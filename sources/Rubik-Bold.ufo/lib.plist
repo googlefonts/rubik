@@ -15326,7 +15326,9 @@
       </array>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1230</string>
+    <string>1268</string>
+    <key>com.schriftgestaltung.customName</key>
+    <string>Black</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
       <string>/lcaron/lcaron/tcaron/tcaron</string>
@@ -15335,7 +15337,7 @@
     <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <false/>
+    <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -15408,7 +15410,7 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-    <string></string>
+    <string>Bold</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
     <integer>220</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
@@ -15422,7 +15424,7 @@
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
-    <string>Bold</string>
+    <string>Regular</string>
     <key>com.schriftgestaltung.weightValue</key>
     <integer>220</integer>
     <key>com.schriftgestaltung.width</key>
@@ -16522,7 +16524,7 @@
       <key>euro</key>
       <string>Euro</string>
       <key>euro.BRACKET.125</key>
-      <string>Euro.BRACKET.125</string>
+      <string>Euro</string>
       <key>finalkaf-hb</key>
       <string>uni05DA</string>
       <key>finalkafdagesh-hb</key>
@@ -16604,7 +16606,7 @@
       <key>hryvnia</key>
       <string>uni20B4</string>
       <key>hryvnia.BRACKET.125</key>
-      <string>uni20B4.BRACKET.125</string>
+      <string>uni20B4</string>
       <key>hungarumlautcomb</key>
       <string>uni030B</string>
       <key>hungarumlautcomb.case</key>

@@ -15326,7 +15326,7 @@
       </array>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1230</string>
+    <string>1268</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
       <string>/lcaron/lcaron/tcaron/tcaron</string>
@@ -15335,7 +15335,7 @@
     <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <false/>
+    <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -15430,17 +15430,17 @@
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
-    <true/>
+    <integer>1</integer>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
-    <false/>
+    <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
-    <true/>
+    <integer>1</integer>
     <key>com.typemytype.robofont.compileSettings.decompose</key>
-    <false/>
+    <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
-    <false/>
+    <integer>0</integer>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.segmentType</key>
@@ -16538,7 +16538,7 @@
       <key>euro</key>
       <string>Euro</string>
       <key>euro.BRACKET.125</key>
-      <string>Euro.BRACKET.125</string>
+      <string>Euro</string>
       <key>finalkaf-hb</key>
       <string>uni05DA</string>
       <key>finalkafdagesh-hb</key>
@@ -16620,7 +16620,7 @@
       <key>hryvnia</key>
       <string>uni20B4</string>
       <key>hryvnia.BRACKET.125</key>
-      <string>uni20B4.BRACKET.125</string>
+      <string>uni20B4</string>
       <key>hungarumlautcomb</key>
       <string>uni030B</string>
       <key>hungarumlautcomb.case</key>
