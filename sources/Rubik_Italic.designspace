@@ -20,7 +20,7 @@
     </rule>
   </rules>
   <sources>
-    <source filename="Rubik-Italic.ufo" name="Rubik Italic" familyname="Rubik" stylename="Italic">
+    <source filename="Rubik-LightItalic.ufo" name="Rubik Light Italic" familyname="Rubik" stylename="Light Italic">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
