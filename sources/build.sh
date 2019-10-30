@@ -10,8 +10,9 @@ fontmake -m Rubik.designspace -i -o otf --output-dir ../fonts/otf/
 fontmake -m Rubik_Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
-fontmake -m Rubik.designspace -o variable --output-path ../fonts/ttf/Rubik[wght].ttf
-fontmake -m Rubik_Italic.designspace -o variable --output-path ../fonts/ttf/Rubik-Italic[wght].ttf
+mkdir -p ../fonts/vf
+fontmake -m Rubik.designspace -o variable --output-path ../fonts/vf/Rubik[wght].ttf
+fontmake -m Rubik_Italic.designspace -o variable --output-path ../fonts/vf/Rubik-Italic[wght].ttf
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 
@@ -33,24 +34,22 @@ done
 
 
 
-vfs=$(ls ../fonts/ttf/*\[wght\].ttf)
+vfs=$(ls ../fonts/vf/*\[wght\].ttf)
 
 echo "Post processing VFs"
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
 	ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
+
 	mv "$vf.fix" $vf;
 done
 
 
 
 echo "Fixing VF Meta"
-for vf in $vfs
-do 
-	gftools fix-vf-meta $vf ;
-	
-done
+gftools fix-vf-meta $vfs;
+
 
 echo "Dropping MVAR"
 for vf in $vfs
@@ -58,7 +57,7 @@ do
 	mv "$vf.fix" $vf;
 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
 	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/ttf/$rtrip.ttx;
+	new_file=../fonts/vf/$rtrip.ttx;
 	rm $vf;
 	ttx $new_file
 	rm $new_file
@@ -72,5 +71,4 @@ do
 done
 
 
-echo "Checking TYPOGRAPHIC_SUBFAMILY_NAME (aka f.info.openTypeNamePreferredSubfamilyName) in VFs"
-python fixTypographicSubfamilyName.py
+
