@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="900" default="300">
+      <map input="300" output="60"/>
+      <map input="400" output="90"/>
+      <map input="500" output="125"/>
+      <map input="700" output="160"/>
+      <map input="900" output="220"/>
+    </axis>
+  </axes>
+  <rules>
+    <rule name="BRACKET.125.220">
+      <conditionset>
+        <condition name="Weight" minimum="125" maximum="220"/>
+      </conditionset>
+      <sub name="euro" with="euro.BRACKET.125"/>
+      <sub name="hryvnia" with="hryvnia.BRACKET.125"/>
+      <sub name="yen" with="yen.BRACKET.125"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="Rubik-Italic.ufo" name="Rubik Italic" familyname="Rubik" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </source>
+    <source filename="Rubik-BoldItalic.ufo" name="Rubik Bold Italic" familyname="Rubik" stylename="Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Rubik Light Italic" familyname="Rubik" stylename="Light Italic" filename="instance_ufos/Rubik-LightItalic.ufo" stylemapfamilyname="Rubik Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>compatibleFullName</string>
+              <string>Rubik Light Italic</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>UUID0</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Rubik Italic" familyname="Rubik" stylename="Italic" filename="instance_ufos/Rubik-Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Local Interpolation</string>
+              <string>86; include: yodyod-hb, alef-hb, bet-hb, gimel-hb, dalet-hb, he-hb, vav-hb, zayin-hb, het-hb, tet-hb, yod-hb, finalkaf-hb, kaf-hb, lamed-hb, finalmem-hb, mem-hb, finalnun-hb, nun-hb, samekh-hb, ayin-hb, finalpe-hb, pe-hb, finaltsadi-hb, tsadi-hb, qof-hb, resh-hb, shin-hb, tav-hb, shinshindot-hb, shinsindot-hb, shindageshshindot-hb, shindageshsindot-hb, alefpatah-hb, alefqamats-hb, alefdagesh-hb, betdagesh-hb, gimeldagesh-hb, daletdagesh-hb, hedagesh-hb, vavdagesh-hb, zayindagesh-hb, tetdagesh-hb, yoddagesh-hb, finalkafdagesh-hb, kafdagesh-hb, lameddagesh-hb, memdagesh-hb, nundagesh-hb, samekhdagesh-hb, finalpedagesh-hb, pedagesh-hb, tsadidagesh-hb, qofdagesh-hb, reshdagesh-hb, shindagesh-hb, tavdagesh-hb, vavholam-hb, geresh-hb, gershayim-hb, maqaf-hb, sheva-hb, hatafsegol-hb, hatafpatah-hb, hatafqamats-hb, hiriq-hb, tsere-hb, segol-hb, patah-hb, holam-hb, holamhaser-hb, qubuts-hb, dagesh-hb, shindot-hb, sindot-hb, qamatsqatan-hb, </string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3</key>
+            <real>0.1875</real>
+            <key>UUID0</key>
+            <real>0.8125</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Rubik Medium Italic" familyname="Rubik" stylename="Medium Italic" filename="instance_ufos/Rubik-MediumItalic.ufo" stylemapfamilyname="Rubik Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="125"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Local Interpolation</string>
+              <string>126.5; include: yodyod-hb, alef-hb, bet-hb, gimel-hb, dalet-hb, he-hb, vav-hb, zayin-hb, het-hb, tet-hb, yod-hb, finalkaf-hb, kaf-hb, lamed-hb, finalmem-hb, mem-hb, finalnun-hb, nun-hb, samekh-hb, ayin-hb, finalpe-hb, pe-hb, finaltsadi-hb, tsadi-hb, qof-hb, resh-hb, shin-hb, tav-hb, shinshindot-hb, shinsindot-hb, shindageshshindot-hb, shindageshsindot-hb, alefpatah-hb, alefqamats-hb, alefdagesh-hb, betdagesh-hb, gimeldagesh-hb, daletdagesh-hb, hedagesh-hb, vavdagesh-hb, zayindagesh-hb, tetdagesh-hb, yoddagesh-hb, finalkafdagesh-hb, kafdagesh-hb, lameddagesh-hb, memdagesh-hb, nundagesh-hb, samekhdagesh-hb, finalpedagesh-hb, pedagesh-hb, tsadidagesh-hb, qofdagesh-hb, reshdagesh-hb, shindagesh-hb, tavdagesh-hb, vavholam-hb, geresh-hb, gershayim-hb, maqaf-hb, sheva-hb, hatafsegol-hb, hatafpatah-hb, hatafqamats-hb, hiriq-hb, tsere-hb, segol-hb, patah-hb, holam-hb, holamhaser-hb, qubuts-hb, dagesh-hb, shindot-hb, sindot-hb, qamatsqatan-hb, </string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3</key>
+            <real>0.40625</real>
+            <key>UUID0</key>
+            <real>0.59375</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Rubik Bold Italic" familyname="Rubik" stylename="Bold Italic" filename="instance_ufos/Rubik-BoldItalic.ufo" stylemapfamilyname="Rubik Bold" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Local Interpolation</string>
+              <string>166; include: yodyod-hb, alef-hb, bet-hb, gimel-hb, dalet-hb, he-hb, vav-hb, zayin-hb, het-hb, tet-hb, yod-hb, finalkaf-hb, kaf-hb, lamed-hb, finalmem-hb, mem-hb, finalnun-hb, nun-hb, samekh-hb, ayin-hb, finalpe-hb, pe-hb, finaltsadi-hb, tsadi-hb, qof-hb, resh-hb, shin-hb, tav-hb, shinshindot-hb, shinsindot-hb, shindageshshindot-hb, shindageshsindot-hb, alefpatah-hb, alefqamats-hb, alefdagesh-hb, betdagesh-hb, gimeldagesh-hb, daletdagesh-hb, hedagesh-hb, vavdagesh-hb, zayindagesh-hb, tetdagesh-hb, yoddagesh-hb, finalkafdagesh-hb, kafdagesh-hb, lameddagesh-hb, memdagesh-hb, nundagesh-hb, samekhdagesh-hb, finalpedagesh-hb, pedagesh-hb, tsadidagesh-hb, qofdagesh-hb, reshdagesh-hb, shindagesh-hb, tavdagesh-hb, vavholam-hb, geresh-hb, gershayim-hb, maqaf-hb, sheva-hb, hatafsegol-hb, hatafpatah-hb, hatafqamats-hb, hiriq-hb, tsere-hb, segol-hb, patah-hb, holam-hb, holamhaser-hb, qubuts-hb, dagesh-hb, shindot-hb, sindot-hb, qamatsqatan-hb, </string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3</key>
+            <real>0.625</real>
+            <key>UUID0</key>
+            <real>0.375</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Rubik Black Italic" familyname="Rubik" stylename="Black Italic" filename="instance_ufos/Rubik-BlackItalic.ufo" stylemapfamilyname="Rubik Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="220"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>compatibleFullName</string>
+              <string>Rubik Black Italic</string>
+            </array>
+            <array>
+              <string>Replace Feature</string>
+              <string>ccmp; sub pe-hb dagesh-hb by pedagesh-hb; sub finalpe-hb dagesh-hb by finalpedagesh-hb; sub vav-hb dagesh-hb by vavdagesh-hb; sub yod-hb dagesh-hb by yoddagesh-hb;</string>
+            </array>
+            <array>
+              <string>Rename Glyphs</string>
+              <array>
+                <string>pedagesh-hb.black=pedagesh-hb</string>
+                <string>finalpedagesh-hb.black=finalpedagesh-hb</string>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>

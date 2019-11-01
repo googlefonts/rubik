@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="descender-cy" format="2">
+  <advance width="186"/>
+  <guideline x="32" y="60" angle="0"/>
+  <guideline x="0" y="369" angle="90"/>
+  <anchor x="0" y="0" name="_bottomright"/>
+  <outline>
+    <contour>
+      <point x="93" y="-130" type="curve" smooth="yes"/>
+      <point x="110" y="-130" type="line" smooth="yes"/>
+      <point x="123" y="-130"/>
+      <point x="132" y="-121"/>
+      <point x="132" y="-108" type="curve" smooth="yes"/>
+      <point x="132" y="36" type="line" smooth="yes"/>
+      <point x="132" y="49"/>
+      <point x="123" y="58"/>
+      <point x="110" y="58" type="curve" smooth="yes"/>
+      <point x="0" y="58" type="line"/>
+      <point x="31" y="0" type="line"/>
+      <point x="71" y="0" type="line"/>
+      <point x="71" y="-108" type="line" smooth="yes"/>
+      <point x="71" y="-121"/>
+      <point x="80" y="-130"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

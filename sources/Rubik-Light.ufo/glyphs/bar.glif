@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar" format="2">
+  <advance width="219"/>
+  <unicode hex="007C"/>
+  <guideline y="-208"/>
+  <outline>
+    <contour>
+      <point x="101" y="-208" type="curve" smooth="yes"/>
+      <point x="118" y="-208" type="line" smooth="yes"/>
+      <point x="131" y="-208"/>
+      <point x="140" y="-199"/>
+      <point x="140" y="-186" type="curve" smooth="yes"/>
+      <point x="140" y="874" type="line" smooth="yes"/>
+      <point x="140" y="887"/>
+      <point x="131" y="896"/>
+      <point x="118" y="896" type="curve" smooth="yes"/>
+      <point x="101" y="896" type="line" smooth="yes"/>
+      <point x="88" y="896"/>
+      <point x="79" y="887"/>
+      <point x="79" y="874" type="curve" smooth="yes"/>
+      <point x="79" y="-186" type="line" smooth="yes"/>
+      <point x="79" y="-199"/>
+      <point x="88" y="-208"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>4</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="napostrophe" format="2">
+  <advance width="590"/>
+  <unicode hex="0149"/>
+  <guideline y="575"/>
+  <guideline x="286"/>
+  <outline>
+    <component base="n"/>
+    <component base="commaaccentcomb" xOffset="15" yOffset="792"/>
+  </outline>
+</glyph>

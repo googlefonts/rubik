@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iegrave-cy" format="2">
+  <advance width="546"/>
+  <unicode hex="0450"/>
+  <guideline y="595"/>
+  <guideline x="275"/>
+  <outline>
+    <component base="ie-cy"/>
+    <component base="gravecomb" xOffset="63"/>
+  </outline>
+</glyph>

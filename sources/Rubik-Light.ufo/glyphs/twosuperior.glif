@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twosuperior" format="2">
+  <advance width="335"/>
+  <unicode hex="00B2"/>
+  <guideline y="350"/>
+  <guideline y="705"/>
+  <outline>
+    <component base="twoinferior" yOffset="520"/>
+  </outline>
+</glyph>

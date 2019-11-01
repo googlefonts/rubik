@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb.case" format="2">
+  <guideline y="-210"/>
+  <guideline y="-50"/>
+  <outline>
+    <contour>
+      <point x="85" y="-210" type="curve" smooth="yes"/>
+      <point x="103" y="-210" type="line" smooth="yes"/>
+      <point x="118" y="-210"/>
+      <point x="123" y="-202"/>
+      <point x="129" y="-189" type="curve"/>
+      <point x="169" y="-84" type="line" smooth="yes"/>
+      <point x="172" y="-77"/>
+      <point x="173" y="-71"/>
+      <point x="173" y="-66" type="curve" smooth="yes"/>
+      <point x="173" y="-58"/>
+      <point x="167" y="-50"/>
+      <point x="158" y="-50" type="curve" smooth="yes"/>
+      <point x="113" y="-50" type="line" smooth="yes"/>
+      <point x="97" y="-50"/>
+      <point x="90" y="-61"/>
+      <point x="88" y="-77" type="curve" smooth="yes"/>
+      <point x="71" y="-189" type="line" smooth="yes"/>
+      <point x="69" y="-201"/>
+      <point x="74" y="-210"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>243</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>15</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Tag</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

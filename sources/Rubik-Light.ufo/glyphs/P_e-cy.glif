@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pe-cy" format="2">
+  <advance width="700"/>
+  <unicode hex="041F"/>
+  <guideline x="85"/>
+  <anchor x="543" y="0" name="bottomright"/>
+  <outline>
+    <contour>
+      <point x="116" y="0" type="curve"/>
+      <point x="134" y="0" type="line" smooth="yes"/>
+      <point x="148" y="0"/>
+      <point x="157" y="9"/>
+      <point x="157" y="22" type="curve" smooth="yes"/>
+      <point x="157" y="640" type="line"/>
+      <point x="543" y="640" type="line"/>
+      <point x="543" y="22" type="line" smooth="yes"/>
+      <point x="543" y="9"/>
+      <point x="552" y="0"/>
+      <point x="565" y="0" type="curve" smooth="yes"/>
+      <point x="583" y="0" type="line" smooth="yes"/>
+      <point x="597" y="0"/>
+      <point x="606" y="9"/>
+      <point x="606" y="22" type="curve" smooth="yes"/>
+      <point x="606" y="677" type="line" smooth="yes"/>
+      <point x="606" y="691"/>
+      <point x="597" y="700"/>
+      <point x="583" y="700" type="curve" smooth="yes"/>
+      <point x="116" y="700" type="line" smooth="yes"/>
+      <point x="103" y="700"/>
+      <point x="94" y="691"/>
+      <point x="94" y="677" type="curve" smooth="yes"/>
+      <point x="94" y="22" type="line" smooth="yes"/>
+      <point x="94" y="9"/>
+      <point x="103" y="0"/>
+    </contour>
+  </outline>
+</glyph>
