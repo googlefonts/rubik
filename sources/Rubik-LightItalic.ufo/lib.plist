@@ -7151,6 +7151,7 @@
       <string>euro.BRACKET.125</string>
       <string>hryvnia.BRACKET.125</string>
       <string>yen.BRACKET.125</string>
+      <string>uni05C7</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
