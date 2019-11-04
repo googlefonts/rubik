@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="finalpedagesh-hb" format="2">
   <advance width="600"/>
+  <unicode hex="FB43"/>
   <outline>
     <component base="finalpe-hb"/>
     <component base="dagesh-hb" xOffset="232" yOffset="-44"/>
