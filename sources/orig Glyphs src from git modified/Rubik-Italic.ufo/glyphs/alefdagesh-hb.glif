@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="alefdagesh-hb" format="2">
-  <advance width="568"/>
-  <unicode hex="FB30"/>
-  <outline>
-    <component base="alef-hb"/>
-    <component base="dagesh-hb" xOffset="196" yOffset="-147"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="vavdagesh-hb" format="2">
-  <advance width="229"/>
-  <unicode hex="FB35"/>
-  <outline>
-    <component base="vav-hb"/>
-    <component base="dagesh-hb" xOffset="5" yOffset="-29"/>
-  </outline>
-</glyph>

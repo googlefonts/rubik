@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="reshdagesh-hb" format="2">
-  <advance width="562"/>
-  <unicode hex="FB48"/>
-  <outline>
-    <component base="resh-hb"/>
-    <component base="dagesh-hb" xOffset="117" yOffset="-26"/>
-  </outline>
-</glyph>
