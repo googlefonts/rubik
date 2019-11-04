@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="tsadidagesh-hb" format="2">
-  <advance width="629"/>
-  <unicode hex="FB46"/>
-  <outline>
-    <component base="tsadi-hb"/>
-    <component base="dagesh-hb" xOffset="65" yOffset="-51"/>
-  </outline>
-</glyph>

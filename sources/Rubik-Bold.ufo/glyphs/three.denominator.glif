@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="three.denominator" format="2">
-  <advance width="365"/>
-  <guideline y="350"/>
-  <guideline y="340"/>
-  <outline>
-    <component base="threeinferior" yOffset="170"/>
-  </outline>
-</glyph>

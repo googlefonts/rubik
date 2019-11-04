@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="nundagesh-hb" format="2">
-  <advance width="469"/>
-  <unicode hex="FB40"/>
-  <outline>
-    <component base="nun-hb"/>
-    <component base="dagesh-hb" xOffset="45" yOffset="-26"/>
-  </outline>
-</glyph>

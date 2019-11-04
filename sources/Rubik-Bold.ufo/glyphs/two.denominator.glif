@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="two.denominator" format="2">
-  <advance width="369"/>
-  <guideline y="350"/>
-  <guideline y="710"/>
-  <outline>
-    <component base="twoinferior" yOffset="170"/>
-  </outline>
-</glyph>

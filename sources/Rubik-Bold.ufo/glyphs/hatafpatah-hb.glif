@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="hatafpatah-hb" format="2">
-  <unicode hex="05B2"/>
-  <anchor x="2" y="0" name="_bottom"/>
-  <outline>
-    <component base="sheva-hb" xOffset="173"/>
-    <component base="patah-hb" xOffset="-39"/>
-  </outline>
-</glyph>

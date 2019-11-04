@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="hatafsegol-hb" format="2">
-  <unicode hex="05B1"/>
-  <anchor x="5" y="0" name="_bottom"/>
-  <outline>
-    <component base="sheva-hb" xOffset="153"/>
-    <component base="segol-hb" xOffset="-66"/>
-  </outline>
-</glyph>

@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="nine.denominator" format="2">
-  <advance width="362"/>
-  <guideline y="350"/>
-  <outline>
-    <component base="nineinferior" yOffset="171"/>
-  </outline>
-</glyph>
