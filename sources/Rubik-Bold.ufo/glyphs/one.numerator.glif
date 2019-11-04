@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="one.numerator" format="2">
-  <advance width="297"/>
-  <guideline y="350"/>
-  <outline>
-    <component base="oneinferior" yOffset="520"/>
-  </outline>
-</glyph>

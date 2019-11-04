@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="five.numerator" format="2">
-  <advance width="365"/>
-  <guideline y="340"/>
-  <outline>
-    <component base="fiveinferior" yOffset="520"/>
-  </outline>
-</glyph>
