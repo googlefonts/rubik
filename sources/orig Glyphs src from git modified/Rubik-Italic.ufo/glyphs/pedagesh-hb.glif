@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="pedagesh-hb" format="2">
-  <advance width="563"/>
-  <unicode hex="FB44"/>
-  <outline>
-    <component base="pe-hb"/>
-    <component base="dagesh-hb" xOffset="327" yOffset="-47"/>
-  </outline>
-</glyph>

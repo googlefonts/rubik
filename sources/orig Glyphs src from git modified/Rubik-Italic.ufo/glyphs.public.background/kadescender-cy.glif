@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="kadescender-cy" format="2">
-  <outline>
-    <component base="ka-cy"/>
-    <component base="descender-cy"/>
-  </outline>
-</glyph>

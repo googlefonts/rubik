@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="memdagesh-hb" format="2">
-  <advance width="720"/>
-  <unicode hex="FB3E"/>
-  <outline>
-    <component base="mem-hb"/>
-    <component base="dagesh-hb" xOffset="316" yOffset="-56"/>
-  </outline>
-</glyph>

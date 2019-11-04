@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="five.denominator" format="2">
-  <advance width="365"/>
-  <outline>
-    <component base="fiveinferior" xOffset="36" yOffset="170"/>
-  </outline>
-</glyph>
