@@ -15,12 +15,16 @@
     <key>guidelines</key>
     <array>
       <dict>
+        <key>identifier</key>
+        <string>ubrny5iIgC</string>
         <key>y</key>
         <integer>2431</integer>
       </dict>
       <dict>
         <key>angle</key>
         <integer>0</integer>
+        <key>identifier</key>
+        <string>TMRrzUgskY</string>
         <key>x</key>
         <integer>74</integer>
         <key>y</key>
@@ -29,12 +33,16 @@
       <dict>
         <key>angle</key>
         <integer>0</integer>
+        <key>identifier</key>
+        <string>ZMRYsD1GtT</string>
         <key>x</key>
         <integer>146</integer>
         <key>y</key>
         <integer>-75</integer>
       </dict>
       <dict>
+        <key>identifier</key>
+        <string>ns5b0H4oCh</string>
         <key>y</key>
         <integer>415</integer>
       </dict>
