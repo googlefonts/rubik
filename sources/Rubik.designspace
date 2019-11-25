@@ -12,7 +12,7 @@
   <rules>
     <rule name="BRACKET.125.220">
       <conditionset>
-        <condition name="Weight" minimum="125" maximum="220"/>
+        <condition name="Weight" minimum="125.4" maximum="220"/>
       </conditionset>
       <sub name="euro" with="euro.BRACKET.125"/>
       <sub name="hryvnia" with="hryvnia.BRACKET.125"/>
@@ -29,7 +29,7 @@
         <dimension name="Weight" xvalue="60"/>
       </location>
     </source>
-    <source filename="Rubik-Bold.ufo" name="Rubik Black" familyname="Rubik" stylename="Black">
+    <source filename="Rubik-Black.ufo" name="Rubik Black" familyname="Rubik" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="220"/>
       </location>
