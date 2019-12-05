@@ -40,7 +40,7 @@ echo "Post processing VFs"
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
-	ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
+	ttfautohint --stem-width-mode nnn $vf "$vf.fix";
 
 	mv "$vf.fix" $vf;
 done
