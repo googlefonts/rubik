@@ -22,14 +22,8 @@ ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	ttfautohint $ttf "$ttf.fix";
-	mv "$ttf.fix" $ttf;
-done
-
-for ttf in $ttfs
-do
-	gftools fix-hinting $ttf;
-	mv "$ttf.fix" $ttf;
+	#ttfautohint $ttf "$ttf.fix";
+	#mv "$ttf.fix" $ttf;
 done
 
 
@@ -40,9 +34,8 @@ echo "Post processing VFs"
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
-	ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
-
-	mv "$vf.fix" $vf;
+	#ttfautohint --stem-width-mode nnn $vf "$vf.fix";
+	#mv "$vf.fix" $vf;
 done
 
 
@@ -66,9 +59,19 @@ done
 echo "Fixing Hinting"
 for vf in $vfs
 do
-	gftools fix-hinting $vf;
-	mv "$vf.fix" $vf;
+	gftools fix-nonhinting $vf "$vf.fix";
+	if [ -f "$vf.fix" ]; then mv "$vf.fix" $vf; fi
 done
 
+for ttf in $ttfs
+do
+	gftools fix-nonhinting $ttf "$ttf.fix";
+	if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
+done
+
+rm -f ../fonts/vf/*.ttx
+rm -f ../fonts/ttf/*.ttx
+rm -f ../fonts/vf/*gasp.ttf
+rm -f ../fonts/ttf/*gasp.ttf
 
 
