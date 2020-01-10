@@ -56,11 +56,6 @@ Black (Master) | 800 | 220 | -
 #### Source Files v2.100
 In June 2017 the .ttfs are now manually hinted using [VTT](https://www.microsoft.com/en-us/Typography/vtt.aspx). To build the manually hinted fonts, follow the Generating hinted ttfs instructions.
 
+#### Source Files v2.200
+In Dec 2019 all the source files moved to Robofont `.ufo` format.   The best rendering for .ttfs was determined to be unhinted.
 
-#### Generating hinted ttfs
-```
-# fontTools is the only required dependency.
-
-$ cd sources
-$ python generate_hinted_ttfs.py
-```
