@@ -45,11 +45,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>v</string>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.34</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
     </dict>
   </lib>
 </glyph>

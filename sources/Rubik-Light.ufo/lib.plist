@@ -16098,11 +16098,11 @@
       </array>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1268</string>
+    <string>1267</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
       <string>/lcaron/lcaron/tcaron/tcaron</string>
-      <string>/tugrik</string>
+      <string>/Aogonek W</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
     <integer>1</integer>
@@ -16189,8 +16189,6 @@
     <string>581BC726-83A6-4935-8633-5A6508251040</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
-    <key>com.schriftgestaltung.glyphOrder</key>
-    <false/>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
@@ -16991,9 +16989,6 @@
       <string>NULL</string>
       <string>verticalbar-cy</string>
       <string>verticalbar-cy.case</string>
-      <string>euro.BRACKET.125</string>
-      <string>hryvnia.BRACKET.125</string>
-      <string>yen.BRACKET.125</string>
       <string>uni05B8</string>
     </array>
     <key>public.postscriptNames</key>

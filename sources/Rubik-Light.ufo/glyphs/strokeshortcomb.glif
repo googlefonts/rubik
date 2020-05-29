@@ -24,11 +24,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.0</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>529</integer>
     </dict>

@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>color</key>
-    <string>1,0.75,0,0.7</string>
     <key>lib</key>
     <dict>
       <key>com.schriftgestaltung.layerId</key>
@@ -1441,6 +1439,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.umacron-cy</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.underscore</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.uni05B8</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uogonek</key>
       <integer>0</integer>
