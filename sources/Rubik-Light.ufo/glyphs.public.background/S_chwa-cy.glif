@@ -36,13 +36,4 @@
       <point x="157" y="-10"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.6</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
