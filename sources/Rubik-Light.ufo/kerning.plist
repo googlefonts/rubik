@@ -6655,6 +6655,8 @@
       <integer>-14</integer>
       <key>hyphen</key>
       <integer>-37</integer>
+      <key>igrave</key>
+      <integer>35</integer>
       <key>o</key>
       <integer>-11</integer>
       <key>oacute</key>
