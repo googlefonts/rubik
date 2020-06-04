@@ -16217,6 +16217,8 @@
     <string>curve</string>
     <key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
     <integer>1</integer>
+    <key>com.typemytype.robofont.smartSets.uniqueKey</key>
+    <string>4957720720</string>
     <key>public.glyphOrder</key>
     <array>
       <string>space</string>
@@ -16990,6 +16992,9 @@
       <string>verticalbar-cy</string>
       <string>verticalbar-cy.case</string>
       <string>uni05B8</string>
+      <string>yen.BRACKET.125</string>
+      <string>euro.BRACKET.125</string>
+      <string>hryvnia.BRACKET.125</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>

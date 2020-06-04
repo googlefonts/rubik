@@ -5976,6 +5976,8 @@
       <integer>-4</integer>
       <key>eth</key>
       <integer>-14</integer>
+      <key>igrave</key>
+      <integer>80</integer>
       <key>o</key>
       <integer>-4</integer>
       <key>oacute</key>
