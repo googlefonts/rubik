@@ -66,11 +66,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>Che-cy</string>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.1.12</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
     </dict>
   </lib>
 </glyph>

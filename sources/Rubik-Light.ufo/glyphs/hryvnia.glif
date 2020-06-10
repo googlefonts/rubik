@@ -92,13 +92,4 @@
       <point x="50" y="378"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.24</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

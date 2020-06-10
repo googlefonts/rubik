@@ -59,11 +59,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>softsign-cy</string>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.2.0</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
     </dict>
   </lib>
 </glyph>

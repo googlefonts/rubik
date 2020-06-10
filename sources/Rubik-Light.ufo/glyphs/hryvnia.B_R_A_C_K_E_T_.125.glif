@@ -83,11 +83,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
       <string>Light [125]</string>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.24</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
     </dict>
   </lib>
 </glyph>

@@ -10,14 +10,19 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>eightinferior</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>oneeighth</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

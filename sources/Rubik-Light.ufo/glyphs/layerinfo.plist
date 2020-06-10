@@ -1442,6 +1442,8 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.underscore</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.uni05B8</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uogonek</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uring</key>

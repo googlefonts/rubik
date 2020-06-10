@@ -77,11 +77,6 @@
       <string>en-cy</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ka-cy</string>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.2.12</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
     </dict>
   </lib>
 </glyph>

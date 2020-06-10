@@ -56,16 +56,6 @@
       <string>T</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>T</string>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.13</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
-      <key>com.schriftgestaltung.Glyphs.nodeUserData.1.8</key>
-      <dict>
-        <key>name</key>
-        <string>hr00</string>
-      </dict>
     </dict>
   </lib>
 </glyph>

@@ -16098,13 +16098,13 @@
       </array>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1268</string>
+    <string>1267</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Black</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
       <string>/lcaron/lcaron/tcaron/tcaron</string>
-      <string>/tugrik</string>
+      <string>/Aogonek W</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
     <integer>1</integer>
@@ -16191,8 +16191,6 @@
     <string>EC64484B-0978-4CB1-9EE9-C40A2D8C4059</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>1</integer>
-    <key>com.schriftgestaltung.glyphOrder</key>
-    <false/>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
@@ -16205,6 +16203,8 @@
     <integer>100</integer>
     <key>com.typemytype.robofont.segmentType</key>
     <string>curve</string>
+    <key>com.typemytype.robofont.smartSets.uniqueKey</key>
+    <string>4646187664</string>
     <key>public.glyphOrder</key>
     <array>
       <string>space</string>
@@ -16977,10 +16977,10 @@
       <string>NULL</string>
       <string>verticalbar-cy</string>
       <string>verticalbar-cy.case</string>
+      <string>uni05B8</string>
+      <string>yen.BRACKET.125</string>
       <string>euro.BRACKET.125</string>
       <string>hryvnia.BRACKET.125</string>
-      <string>yen.BRACKET.125</string>
-      <string>uni05B8</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
