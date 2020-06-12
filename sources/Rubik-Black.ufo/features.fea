@@ -149,6 +149,10 @@ lookup FractionBar {
     sub @standard space' @numerator by space;
 } frac;
 
+feature tnum {
+    sub @standard by @tnum1;
+    } tnum;
+
 feature liga {
 # Standard Ligatures
   sub f i by fi;
