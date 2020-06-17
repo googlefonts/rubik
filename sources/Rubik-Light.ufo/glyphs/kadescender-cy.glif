@@ -3,8 +3,8 @@
   <advance width="537"/>
   <unicode hex="049B"/>
   <outline>
-    <component base="ka-cy"/>
     <component base="descender-cy" xOffset="405"/>
+    <component base="ka-cy"/>
   </outline>
   <lib>
     <dict>

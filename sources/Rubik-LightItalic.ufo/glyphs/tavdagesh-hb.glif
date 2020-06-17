@@ -4,7 +4,7 @@
   <unicode hex="FB4A"/>
   <outline>
     <component base="tav-hb"/>
-    <component base="dagesh-hb" xOffset="188" yOffset="-29"/>
+    <component base="dagesh-hb" xOffset="342" yOffset="-29"/>
   </outline>
   <lib>
     <dict>
