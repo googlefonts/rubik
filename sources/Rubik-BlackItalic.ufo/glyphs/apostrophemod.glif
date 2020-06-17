@@ -3,6 +3,26 @@
   <advance width="226"/>
   <unicode hex="02BC"/>
   <outline>
-    <component base="commaaccentcomb" yxScale="0.2126" xOffset="-18" yOffset="845"/>
+    <contour>
+      <point x="-101.15" y="595" type="curve" smooth="yes"/>
+      <point x="3.8499999999999943" y="595" type="line" smooth="yes"/>
+      <point x="29.849999999999994" y="595"/>
+      <point x="49.889399999999995" y="614"/>
+      <point x="60.6532" y="627" type="curve" smooth="yes"/>
+      <point x="174.2046" y="766" type="line" smooth="yes"/>
+      <point x="176.8424" y="769"/>
+      <point x="177.2676" y="771"/>
+      <point x="178.6928" y="773" type="curve" smooth="yes"/>
+      <point x="183.244" y="785"/>
+      <point x="178.37" y="795"/>
+      <point x="166.37" y="795" type="curve" smooth="yes"/>
+      <point x="26.369999999999997" y="795" type="line" smooth="yes"/>
+      <point x="-0.6300000000000026" y="795"/>
+      <point x="-23.0946" y="774"/>
+      <point x="-33.921400000000006" y="756" type="curve"/>
+      <point x="-113.4728" y="617" type="line"/>
+      <point x="-119.024" y="605"/>
+      <point x="-113.15" y="595"/>
+    </contour>
   </outline>
 </glyph>
