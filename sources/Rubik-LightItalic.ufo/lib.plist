@@ -794,6 +794,19 @@
         <string>glyphList</string>
       </dict>
     </array>
+    <key>com.github.googlei18n.ufo2ft.filters</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>propagateAnchors</string>
+        <key>pre</key>
+        <true/>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>flattenComponents</string>
+      </dict>
+    </array>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.Be-cy</key>
     <dict>
       <key>com.typemytype.robofont.guides</key>
