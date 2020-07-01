@@ -3,12 +3,6 @@
   <advance width="569"/>
   <guideline x="-426"/>
   <guideline x="1307"/>
-  <anchor x="273" y="229" name="_center"/>
-  <anchor x="284" y="0" name="bottom"/>
-  <anchor x="20" y="0" name="bottomleft"/>
-  <anchor x="287" y="242" name="center"/>
-  <anchor x="284" y="520" name="top"/>
-  <anchor x="20" y="520" name="topleft"/>
   <outline>
     <contour>
       <point x="290" y="205" type="curve" smooth="yes"/>

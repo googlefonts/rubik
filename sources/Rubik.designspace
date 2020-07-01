@@ -18,6 +18,13 @@
       <sub name="hryvnia" with="hryvnia.BRACKET.125"/>
       <sub name="yen" with="yen.BRACKET.125"/>
     </rule>
+    <rule name="BRACKET.160.220">
+      <conditionset>
+        <condition name="Weight" minimum="160" maximum="220"/>
+      </conditionset>
+      <sub name="pedagesh-hb" with="pedagesh-hb.black"/>
+      <sub name="finalpedagesh-hb" with="finalpedagesh-hb.black"/>
+    </rule>
   </rules>
   <sources>
     <source filename="Rubik-Light.ufo" name="Rubik Light" familyname="Rubik" stylename="Light">
