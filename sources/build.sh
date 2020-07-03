@@ -4,10 +4,10 @@ set -e
 
 echo "Generating Static fonts"
 mkdir -p ../fonts
-fontmake -m Rubik.designspace -i -o ttf --output-dir ../fonts/ttf/
-fontmake -m Rubik_Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
-fontmake -m Rubik.designspace -i -o otf --output-dir ../fonts/otf/
-fontmake -m Rubik_Italic.designspace -i -o otf --output-dir ../fonts/otf/
+#fontmake -m Rubik.designspace -i -o ttf --output-dir ../fonts/ttf/
+#fontmake -m Rubik_Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
+#fontmake -m Rubik.designspace -i -o otf --output-dir ../fonts/otf/
+#fontmake -m Rubik_Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
