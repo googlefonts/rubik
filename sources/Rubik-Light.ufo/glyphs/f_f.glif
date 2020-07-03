@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f_f" format="2">
   <advance width="642"/>
+  <unicode hex="FB00"/>
   <guideline y="345"/>
   <guideline y="9"/>
   <guideline y="740"/>
