@@ -25,6 +25,10 @@ languagesystem latn MOL;
 feature ccmp {
 sub yod-hb dagesh-hb by yoddagesh-hb;
 sub vav-hb dagesh-hb by vavdagesh-hb;
+
+sub pe-hb dagesh-hb by pedagesh-hb;
+sub finalpe-hb dagesh-hb by finalpedagesh-hb; 
+
 } ccmp;
 
 feature sups {
