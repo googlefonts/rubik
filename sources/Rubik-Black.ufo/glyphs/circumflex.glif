@@ -2,9 +2,9 @@
 <glyph name="circumflex" format="2">
   <advance width="528"/>
   <unicode hex="02C6"/>
-  <guideline y="720"/>
-  <guideline y="595"/>
-  <guideline x="264"/>
+  <guideline y="720" identifier="8kw7o10zT1"/>
+  <guideline y="595" identifier="n808dsZj1P"/>
+  <guideline x="264" identifier="yvaGVmueO4"/>
   <outline>
     <contour>
       <point x="66" y="595" type="curve" smooth="yes"/>
