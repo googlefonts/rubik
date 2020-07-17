@@ -4,6 +4,8 @@
   <guideline y="591"/>
   <guideline x="300"/>
   <guideline x="185"/>
+  <anchor x="206" y="520" name="_top"/>
+  <anchor x="206" y="725" name="top"/>
   <outline>
     <component base="breve"/>
   </outline>

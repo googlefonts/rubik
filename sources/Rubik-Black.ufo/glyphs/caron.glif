@@ -2,7 +2,7 @@
 <glyph name="caron" format="2">
   <advance width="528"/>
   <unicode hex="02C7"/>
-  <guideline y="595"/>
+  <guideline y="595" identifier="FxXqajUD05"/>
   <outline>
     <contour>
       <point x="204" y="595" type="curve" smooth="yes"/>

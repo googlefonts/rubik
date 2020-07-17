@@ -2,7 +2,7 @@
 <glyph name="breve" format="2">
   <advance width="445"/>
   <unicode hex="02D8"/>
-  <guideline y="590"/>
+  <guideline y="590" identifier="SgU4spaAps"/>
   <outline>
     <contour>
       <point x="222" y="590" type="curve" smooth="yes"/>
