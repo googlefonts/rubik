@@ -2,11 +2,6 @@
 <glyph name="a" format="2">
   <advance width="622"/>
   <unicode hex="0061"/>
-  <guideline y="530" identifier="nYoDd8hafv"/>
-  <guideline y="335" identifier="M5MnqxrQ80"/>
-  <guideline y="390" identifier="pLbYoIavjj"/>
-  <guideline y="-10" identifier="ctqy88HnjK"/>
-  <guideline y="55" identifier="Mbc1qXp9Hh"/>
   <outline>
     <contour>
       <point x="211" y="-10" type="curve" smooth="yes"/>
@@ -32,11 +27,11 @@
       <point x="60" y="358"/>
       <point x="73" y="358" type="curve"/>
       <point x="243" y="358" type="line"/>
-      <point x="255" y="358"/>
-      <point x="264" y="362"/>
+      <point x="255.0" y="358.0"/>
+      <point x="263" y="363"/>
       <point x="271" y="369" type="curve" smooth="yes"/>
-      <point x="284" y="382"/>
-      <point x="293" y="390"/>
+      <point x="282" y="378"/>
+      <point x="291" y="390"/>
       <point x="312" y="390" type="curve" smooth="yes"/>
       <point x="340" y="390"/>
       <point x="342" y="375"/>
@@ -63,41 +58,4 @@
       <point x="319" y="138"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>-2147483648</integer>
-            <integer>0</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Tag</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>-2147483648</integer>
-            <integer>0</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Tag</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>
