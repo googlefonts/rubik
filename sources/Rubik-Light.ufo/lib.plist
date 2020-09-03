@@ -17710,5 +17710,7 @@
       <key>zhedieresis-cy</key>
       <string>uni04DD</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array/>
   </dict>
 </plist>
