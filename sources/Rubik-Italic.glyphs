@@ -7,7 +7,7 @@ name = HebrewLetters;
 },
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy Gedescender-cy Ghestroke-cy Ghemiddlehook-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pedescender-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Qa-cy We-cy";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy Gedescender-cy Ghestroke-cy Ghemiddlehook-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pedescender-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Qa-cy We-cy";
 name = Uppercase;
 }
 );
@@ -130,8 +130,8 @@ name = aalt;
 },
 {
 code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb strokeshortcomb];
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb slashlongcomb slashshortcomb strokeshortcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 	@Markscomb = [brevecomb-cy dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb commaaccentcomb cedillacomb ogonekcomb];
@@ -146,11 +146,21 @@ lookup ccmp_Other_2 {
 } ccmp_Other_2;
 
 lookup ccmp_Other_3 {
-sub yod-hb dagesh-hb by yoddagesh-hb;
-sub vav-hb dagesh-hb by vavdagesh-hb;
-sub pe-hb dagesh-hb by pedagesh-hb;
-sub finalpe-hb dagesh-hb by finalpedagesh-hb; 
-} ccmp_Other_3;";
+	sub yod-hb dagesh-hb by yoddagesh-hb;
+	sub vav-hb dagesh-hb by vavdagesh-hb;
+	sub pe-hb dagesh-hb by pedagesh-hb;
+	sub finalpe-hb dagesh-hb by finalpedagesh-hb; 
+} ccmp_Other_3;
+
+lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
 name = ccmp;
 },
 {
@@ -116461,6 +116471,28 @@ glyphname = "finalpedagesh-hb";
 production = uniFB43;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{217, 0}";
+},
+{
+name = bottomleft;
+position = "{-48, 0}";
+},
+{
+name = center;
+position = "{318, 250}";
+},
+{
+name = top;
+position = "{328, 520}";
+},
+{
+name = topleft;
+position = "{63, 520}";
+}
+);
 background = {
 anchors = (
 {
@@ -116550,14 +116582,7 @@ nodes = (
 }
 );
 };
-color = 3;
-components = (
-{
-alignment = -1;
-name = "finalpe-hb";
-transform = "{1, 0, 0, 1, -19, 0}";
-}
-);
+color = 6;
 layerId = UUID0;
 paths = (
 {
@@ -116580,6 +116605,48 @@ nodes = (
 "292 246 OFFCURVE",
 "305 246 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"281 513 LINE",
+"416 513 OFFCURVE",
+"457 442 OFFCURVE",
+"432 322 CURVE SMOOTH",
+"342 -102 LINE SMOOTH",
+"339 -115 OFFCURVE",
+"346 -124 OFFCURVE",
+"359 -124 CURVE SMOOTH",
+"376 -124 LINE SMOOTH",
+"389 -124 OFFCURVE",
+"400 -115 OFFCURVE",
+"403 -102 CURVE SMOOTH",
+"494 327 LINE SMOOTH",
+"527 482 OFFCURVE",
+"469 571 OFFCURVE",
+"299 571 CURVE",
+"155 571 LINE",
+"142 571 OFFCURVE",
+"131 562 OFFCURVE",
+"128 549 CURVE SMOOTH",
+"95 393 LINE",
+"73 292 OFFCURVE",
+"92 240 OFFCURVE",
+"153 225 CURVE SMOOTH",
+"189 216 LINE SMOOTH",
+"202 213 OFFCURVE",
+"221 218 OFFCURVE",
+"223 231 CURVE SMOOTH",
+"226 245 LINE SMOOTH",
+"230 262 OFFCURVE",
+"226 274 OFFCURVE",
+"216 277 CURVE SMOOTH",
+"177 287 LINE SMOOTH",
+"144 296 OFFCURVE",
+"142 335 OFFCURVE",
+"155 393 CURVE",
+"180 513 LINE"
+);
 }
 );
 userData = {
@@ -116591,13 +116658,29 @@ com.schriftgestaltung.componentsAlignment = (
 width = 569;
 },
 {
-color = 3;
-components = (
+anchors = (
 {
-name = "finalpe-hb";
-transform = "{1, 0, 0, 1, -3, 0}";
+name = bottom;
+position = "{232, 0}";
+},
+{
+name = bottomleft;
+position = "{-32, 0}";
+},
+{
+name = center;
+position = "{290, 242}";
+},
+{
+name = top;
+position = "{343, 520}";
+},
+{
+name = topleft;
+position = "{79, 520}";
 }
 );
+color = 6;
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -116620,6 +116703,48 @@ nodes = (
 "272 205 OFFCURVE",
 "285 205 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"288 388 LINE SMOOTH",
+"336 389 OFFCURVE",
+"357 361 OFFCURVE",
+"349 311 CURVE",
+"263 -97 LINE",
+"259 -112 OFFCURVE",
+"269 -124 OFFCURVE",
+"284 -124 CURVE SMOOTH",
+"444 -124 LINE SMOOTH",
+"459 -124 OFFCURVE",
+"473 -112 OFFCURVE",
+"477 -97 CURVE",
+"562 308 LINE",
+"586 462 OFFCURVE",
+"531 571 OFFCURVE",
+"349 571 CURVE SMOOTH",
+"126 571 LINE SMOOTH",
+"111 571 OFFCURVE",
+"96 560 OFFCURVE",
+"93 544 CURVE SMOOTH",
+"62 398 LINE",
+"37 280 OFFCURVE",
+"86 207 OFFCURVE",
+"153 200 CURVE SMOOTH",
+"210 194 LINE SMOOTH",
+"226 192 OFFCURVE",
+"250 204 OFFCURVE",
+"253 222 CURVE SMOOTH",
+"269 302 LINE SMOOTH",
+"272 314 OFFCURVE",
+"269 327 OFFCURVE",
+"259 332 CURVE SMOOTH",
+"240 341 LINE SMOOTH",
+"229 346 OFFCURVE",
+"231 364 OFFCURVE",
+"234 380 CURVE",
+"235 387 LINE"
+);
 }
 );
 userData = {
@@ -116631,6 +116756,28 @@ com.schriftgestaltung.componentsAlignment = (
 width = 590;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{228, 0}";
+},
+{
+name = bottomleft;
+position = "{-36, 0}";
+},
+{
+name = center;
+position = "{303, 245}";
+},
+{
+name = top;
+position = "{339, 520}";
+},
+{
+name = topleft;
+position = "{75, 520}";
+}
+);
 associatedMasterId = UUID0;
 background = {
 anchors = (
@@ -116721,14 +116868,7 @@ nodes = (
 }
 );
 };
-color = 3;
-components = (
-{
-alignment = -1;
-name = "finalpe-hb";
-transform = "{1, 0, 0, 1, -7, 0}";
-}
-);
+color = 6;
 layerId = "CFAC7831-6167-4C24-84F2-561BA14D9A14";
 name = "{160}";
 paths = (
@@ -116751,6 +116891,48 @@ nodes = (
 "260 239 OFFCURVE",
 "267 230 OFFCURVE",
 "280 230 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"287 435 LINE",
+"368 436 OFFCURVE",
+"397 391 OFFCURVE",
+"382 315 CURVE SMOOTH",
+"295 -99 LINE SMOOTH",
+"291 -113 OFFCURVE",
+"300 -124 OFFCURVE",
+"314 -124 CURVE SMOOTH",
+"421 -124 LINE SMOOTH",
+"435 -124 OFFCURVE",
+"448 -113 OFFCURVE",
+"451 -99 CURVE SMOOTH",
+"539 315 LINE SMOOTH",
+"566 470 OFFCURVE",
+"510 571 OFFCURVE",
+"332 571 CURVE",
+"139 571 LINE",
+"125 571 OFFCURVE",
+"111 561 OFFCURVE",
+"108 546 CURVE SMOOTH",
+"76 396 LINE",
+"53 285 OFFCURVE",
+"90 219 OFFCURVE",
+"155 209 CURVE SMOOTH",
+"204 202 LINE SMOOTH",
+"219 200 OFFCURVE",
+"241 209 OFFCURVE",
+"244 225 CURVE SMOOTH",
+"255 281 LINE SMOOTH",
+"258 295 OFFCURVE",
+"255 307 OFFCURVE",
+"245 311 CURVE SMOOTH",
+"218 321 LINE SMOOTH",
+"199 327 OFFCURVE",
+"200 353 OFFCURVE",
+"206 385 CURVE",
+"216 434 LINE"
 );
 }
 );
@@ -116988,12 +117170,29 @@ glyphname = "pedagesh-hb";
 production = uniFB44;
 layers = (
 {
-color = 3;
-components = (
+anchors = (
 {
-name = "pe-hb";
+name = bottom;
+position = "{227, 0}";
+},
+{
+name = bottomleft;
+position = "{-30, 0}";
+},
+{
+name = center;
+position = "{341, 242}";
+},
+{
+name = top;
+position = "{338, 520}";
+},
+{
+name = topleft;
+position = "{81, 520}";
 }
 );
+color = 6;
 layerId = UUID0;
 paths = (
 {
@@ -117016,17 +117215,88 @@ nodes = (
 "315 238 OFFCURVE",
 "328 238 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"342 513 LINE",
+"445 513 OFFCURVE",
+"483 442 OFFCURVE",
+"461 322 CURVE SMOOTH",
+"457 302 OFFCURVE",
+"450 269 OFFCURVE",
+"445 249 CURVE SMOOTH",
+"415 129 OFFCURVE",
+"349 58 OFFCURVE",
+"246 58 CURVE",
+"85 58 LINE",
+"72 58 OFFCURVE",
+"61 49 OFFCURVE",
+"58 36 CURVE",
+"55 22 LINE",
+"52 9 OFFCURVE",
+"59 0 OFFCURVE",
+"72 0 CURVE",
+"238 0 LINE",
+"376 0 OFFCURVE",
+"468 89 OFFCURVE",
+"505 244 CURVE SMOOTH",
+"510 264 OFFCURVE",
+"519 307 OFFCURVE",
+"523 327 CURVE SMOOTH",
+"552 482 OFFCURVE",
+"498 571 OFFCURVE",
+"360 571 CURVE",
+"181 571 LINE",
+"168 571 OFFCURVE",
+"157 562 OFFCURVE",
+"154 549 CURVE SMOOTH",
+"126 418 LINE",
+"105 317 OFFCURVE",
+"124 265 OFFCURVE",
+"184 250 CURVE SMOOTH",
+"220 241 LINE SMOOTH",
+"234 238 OFFCURVE",
+"252 243 OFFCURVE",
+"255 256 CURVE SMOOTH",
+"258 270 LINE SMOOTH",
+"261 287 OFFCURVE",
+"258 299 OFFCURVE",
+"247 302 CURVE SMOOTH",
+"209 312 LINE SMOOTH",
+"175 321 OFFCURVE",
+"174 360 OFFCURVE",
+"186 418 CURVE",
+"206 513 LINE"
+);
 }
 );
 width = 563;
 },
 {
-color = 3;
-components = (
+anchors = (
 {
-name = "pe-hb";
+name = bottom;
+position = "{231, 0}";
+},
+{
+name = bottomleft;
+position = "{-19, 0}";
+},
+{
+name = center;
+position = "{317, 250}";
+},
+{
+name = top;
+position = "{342, 520}";
+},
+{
+name = topleft;
+position = "{92, 520}";
 }
 );
+color = 6;
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -117049,18 +117319,89 @@ nodes = (
 "292 226 OFFCURVE",
 "305 226 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"304 386 LINE SMOOTH",
+"353 386 OFFCURVE",
+"395 361 OFFCURVE",
+"387 311 CURVE SMOOTH",
+"384 291 OFFCURVE",
+"382 280 OFFCURVE",
+"376 260 CURVE SMOOTH",
+"363 210 OFFCURVE",
+"311 185 OFFCURVE",
+"262 185 CURVE SMOOTH",
+"65 185 LINE SMOOTH",
+"50 185 OFFCURVE",
+"35 173 OFFCURVE",
+"32 158 CURVE SMOOTH",
+"4 27 LINE SMOOTH",
+"1 12 OFFCURVE",
+"10 0 OFFCURVE",
+"25 0 CURVE SMOOTH",
+"227 0 LINE SMOOTH",
+"432 0 OFFCURVE",
+"534 109 OFFCURVE",
+"575 263 CURVE SMOOTH",
+"580 283 OFFCURVE",
+"581 288 OFFCURVE",
+"585 308 CURVE SMOOTH",
+"609 462 OFFCURVE",
+"554 571 OFFCURVE",
+"349 571 CURVE SMOOTH",
+"136 571 LINE SMOOTH",
+"121 571 OFFCURVE",
+"109 559 OFFCURVE",
+"103 544 CURVE SMOOTH",
+"72 398 LINE",
+"51 300 OFFCURVE",
+"100 227 OFFCURVE",
+"167 220 CURVE SMOOTH",
+"209 215 LINE SMOOTH",
+"239 212 OFFCURVE",
+"265 228 OFFCURVE",
+"270 253 CURVE SMOOTH",
+"284 322 LINE SMOOTH",
+"286 334 OFFCURVE",
+"283 347 OFFCURVE",
+"273 352 CURVE SMOOTH",
+"254 361 LINE SMOOTH",
+"248 364 OFFCURVE",
+"244 371 OFFCURVE",
+"244 380 CURVE",
+"245 386 LINE"
+);
 }
 );
 width = 597;
 },
 {
-associatedMasterId = UUID0;
-color = 3;
-components = (
+anchors = (
 {
-name = "pe-hb";
+name = bottom;
+position = "{230, 0}";
+},
+{
+name = bottomleft;
+position = "{-23, 0}";
+},
+{
+name = center;
+position = "{326, 247}";
+},
+{
+name = top;
+position = "{341, 520}";
+},
+{
+name = topleft;
+position = "{88, 520}";
 }
 );
+associatedMasterId = UUID0;
+color = 6;
 layerId = "E09DD2BD-C8A4-4869-BEED-A081A4F96247";
 name = "{160}";
 paths = (
@@ -117083,6 +117424,60 @@ nodes = (
 "279 242 OFFCURVE",
 "286 233 OFFCURVE",
 "299 233 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"318 434 LINE",
+"388 434 OFFCURVE",
+"428 391 OFFCURVE",
+"415 315 CURVE SMOOTH",
+"411 295 OFFCURVE",
+"408 276 OFFCURVE",
+"402 256 CURVE SMOOTH",
+"383 180 OFFCURVE",
+"325 137 OFFCURVE",
+"256 137 CURVE",
+"73 137 LINE",
+"58 137 OFFCURVE",
+"45 127 OFFCURVE",
+"42 112 CURVE",
+"23 25 LINE",
+"20 11 OFFCURVE",
+"28 0 OFFCURVE",
+"43 0 CURVE",
+"231 0 LINE",
+"411 0 OFFCURVE",
+"509 102 OFFCURVE",
+"549 256 CURVE SMOOTH",
+"554 276 OFFCURVE",
+"558 295 OFFCURVE",
+"562 315 CURVE SMOOTH",
+"588 470 OFFCURVE",
+"533 571 OFFCURVE",
+"353 571 CURVE",
+"153 571 LINE",
+"139 571 OFFCURVE",
+"127 560 OFFCURVE",
+"122 546 CURVE SMOOTH",
+"92 406 LINE",
+"71 306 OFFCURVE",
+"109 241 OFFCURVE",
+"173 231 CURVE SMOOTH",
+"213 225 LINE SMOOTH",
+"237 222 OFFCURVE",
+"260 234 OFFCURVE",
+"264 254 CURVE SMOOTH",
+"274 303 LINE SMOOTH",
+"277 316 OFFCURVE",
+"274 329 OFFCURVE",
+"263 333 CURVE SMOOTH",
+"237 343 LINE SMOOTH",
+"221 348 OFFCURVE",
+"218 367 OFFCURVE",
+"222 394 CURVE",
+"230 434 LINE"
 );
 }
 );
@@ -119088,243 +119483,6 @@ width = 751;
 leftKerningGroup = hethebrew;
 rightKerningGroup = tavhebrew;
 unicode = FB4A;
-},
-{
-export = 0;
-glyphname = "finalpedagesh-hb.black";
-production = uniFB43.black;
-layers = (
-{
-color = 3;
-components = (
-{
-name = "finalpe-hb";
-transform = "{1, 0, 0, 1, 1, 0}";
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"298 205 LINE SMOOTH",
-"311 205 OFFCURVE",
-"322 214 OFFCURVE",
-"324 227 CURVE",
-"338 290 LINE SMOOTH",
-"341 303 OFFCURVE",
-"334 312 OFFCURVE",
-"321 312 CURVE SMOOTH",
-"308 312 LINE SMOOTH",
-"295 312 OFFCURVE",
-"284 303 OFFCURVE",
-"281 290 CURVE SMOOTH",
-"267 227 LINE",
-"265 214 OFFCURVE",
-"272 205 OFFCURVE",
-"285 205 CURVE SMOOTH"
-);
-}
-);
-userData = {
-com.schriftgestaltung.componentsAlignment = (
--1
-);
-};
-width = 600;
-},
-{
-color = 3;
-components = (
-{
-name = "finalpe-hb";
-transform = "{1, 0, 0, 1, 1, 0}";
-}
-);
-layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
-paths = (
-{
-closed = 1;
-nodes = (
-"298 205 LINE SMOOTH",
-"311 205 OFFCURVE",
-"322 214 OFFCURVE",
-"324 227 CURVE",
-"338 290 LINE SMOOTH",
-"341 303 OFFCURVE",
-"334 312 OFFCURVE",
-"321 312 CURVE SMOOTH",
-"308 312 LINE SMOOTH",
-"295 312 OFFCURVE",
-"284 303 OFFCURVE",
-"281 290 CURVE SMOOTH",
-"267 227 LINE",
-"265 214 OFFCURVE",
-"272 205 OFFCURVE",
-"285 205 CURVE SMOOTH"
-);
-}
-);
-userData = {
-com.schriftgestaltung.componentsAlignment = (
--1
-);
-};
-width = 600;
-}
-);
-userData = {
-com.typemytype.robofont.guides = (
-{
-angle = 0;
-isGlobal = 0;
-magnetic = 5;
-x = 0;
-y = 571;
-},
-{
-angle = 90;
-isGlobal = 0;
-magnetic = 5;
-x = 1818;
-y = 0;
-}
-);
-};
-},
-{
-export = 0;
-glyphname = "pedagesh-hb.black";
-production = uniFB44.black;
-layers = (
-{
-color = 3;
-components = (
-{
-name = "pe-hb";
-transform = "{1, 0, 0, 1, 1, 0}";
-}
-);
-guideLines = (
-{
-position = "{310, 571}";
-},
-{
-position = "{310, 336}";
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"318 226 LINE SMOOTH",
-"331 226 OFFCURVE",
-"342 235 OFFCURVE",
-"345 248 CURVE SMOOTH",
-"358 311 LINE SMOOTH",
-"361 324 OFFCURVE",
-"354 333 OFFCURVE",
-"341 333 CURVE SMOOTH",
-"328 333 LINE SMOOTH",
-"315 333 OFFCURVE",
-"304 324 OFFCURVE",
-"301 311 CURVE SMOOTH",
-"288 248 LINE SMOOTH",
-"285 235 OFFCURVE",
-"292 226 OFFCURVE",
-"305 226 CURVE SMOOTH"
-);
-}
-);
-userData = {
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "kaf-hb";
-com.schriftgestaltung.hints = (
-{
-horizontal = 1;
-options = 0;
-place = (
--2147483648,
-0
-);
-stem = -2;
-type = Tag;
-}
-);
-};
-width = 598;
-},
-{
-color = 3;
-components = (
-{
-name = "pe-hb";
-transform = "{1, 0, 0, 1, 1, 0}";
-}
-);
-guideLines = (
-{
-position = "{310, 571}";
-},
-{
-position = "{310, 336}";
-}
-);
-layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
-paths = (
-{
-closed = 1;
-nodes = (
-"318 226 LINE SMOOTH",
-"331 226 OFFCURVE",
-"342 235 OFFCURVE",
-"345 248 CURVE SMOOTH",
-"358 311 LINE SMOOTH",
-"361 324 OFFCURVE",
-"354 333 OFFCURVE",
-"341 333 CURVE SMOOTH",
-"328 333 LINE SMOOTH",
-"315 333 OFFCURVE",
-"304 324 OFFCURVE",
-"301 311 CURVE SMOOTH",
-"288 248 LINE SMOOTH",
-"285 235 OFFCURVE",
-"292 226 OFFCURVE",
-"305 226 CURVE SMOOTH"
-);
-}
-);
-userData = {
-com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "kaf-hb";
-com.schriftgestaltung.hints = (
-{
-horizontal = 1;
-options = 0;
-place = (
--2147483648,
-0
-);
-stem = -2;
-type = Tag;
-}
-);
-};
-width = 598;
-}
-);
-leftKerningGroup = tethebrew;
-rightKerningGroup = pehebrew;
-userData = {
-com.typemytype.robofont.guides = (
-{
-angle = 90;
-isGlobal = 0;
-magnetic = 5;
-x = 70;
-y = 0;
-}
-);
-};
 },
 {
 glyphname = "yodyod-hb";
@@ -135002,7 +135160,9 @@ nodes = (
 color = 10;
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
+transform = "{1, 0, 0, 1, 99, 520}";
 }
 );
 layerId = UUID0;
@@ -135047,7 +135207,9 @@ nodes = (
 color = 10;
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
+transform = "{1, 0, 0, 1, 110, 520}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -135117,7 +135279,9 @@ nodes = (
 color = 10;
 components = (
 {
+alignment = -1;
 name = parenrightinferior;
+transform = "{1, 0, 0, 1, 110, 520}";
 }
 );
 layerId = UUID0;
@@ -135162,7 +135326,9 @@ nodes = (
 color = 10;
 components = (
 {
+alignment = -1;
 name = parenrightinferior;
+transform = "{1, 0, 0, 1, 110, 520}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
