@@ -2742,11 +2742,6 @@ width = 650;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, -220}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -3619,31 +3614,6 @@ glyphname = Ccedilla;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, -174}";
-},
-{
-position = "{-150, -220}";
-},
-{
-position = "{-150, -96}";
-},
-{
-position = "{-150, -50}";
-},
-{
-position = "{-150, -135}";
-},
-{
-angle = 90;
-position = "{181, 0}";
-},
-{
-angle = 90;
-position = "{192, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -3731,15 +3701,6 @@ width = 651;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, -220}";
-},
-{
-angle = 90;
-position = "{1069, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -5476,33 +5437,6 @@ position = "{427, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, -10}";
-},
-{
-position = "{-150, 260}";
-},
-{
-position = "{-150, 440}";
-},
-{
-angle = 90;
-position = "{184, 0}";
-},
-{
-angle = 90;
-position = "{-17, 0}";
-},
-{
-angle = 90;
-position = "{454, 0}";
-},
-{
-angle = 90;
-position = "{-83, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -5576,28 +5510,6 @@ position = "{460, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{350, 710}";
-},
-{
-position = "{350, -10}";
-},
-{
-position = "{350, 440}";
-},
-{
-position = "{350, 270}";
-},
-{
-angle = 90;
-position = "{734, 0}";
-},
-{
-angle = 90;
-position = "{1078, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -6806,12 +6718,6 @@ glyphname = Iogonek;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-40, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -8507,11 +8413,6 @@ width = 684;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 26}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -9140,27 +9041,6 @@ name = O;
 {
 name = slashlongcomb;
 transform = "{1, 0, 0, 1, 107, -1}";
-}
-);
-guideLines = (
-{
-position = "{-150, 145}";
-},
-{
-angle = 90;
-position = "{201, 0}";
-},
-{
-angle = 90;
-position = "{529, 0}";
-},
-{
-angle = 90;
-position = "{-65, 0}";
-},
-{
-angle = 90;
-position = "{-130, 0}";
 }
 );
 layerId = UUID0;
@@ -9891,29 +9771,6 @@ position = "{425, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, 710}";
-},
-{
-position = "{-150, -10}";
-},
-{
-position = "{-150, -56}";
-},
-{
-angle = 90;
-position = "{-68, 0}";
-},
-{
-angle = 90;
-position = "{600, 0}";
-},
-{
-angle = 90;
-position = "{430, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -9992,25 +9849,6 @@ position = "{465, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{350, 710}";
-},
-{
-position = "{350, -10}";
-},
-{
-position = "{350, -42}";
-},
-{
-angle = 90;
-position = "{397, 0}";
-},
-{
-angle = 90;
-position = "{1065, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -10150,30 +9988,6 @@ position = "{368, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, 691}";
-},
-{
-position = "{-150, 9}";
-},
-{
-angle = 90;
-position = "{466, 0}";
-},
-{
-angle = 90;
-position = "{424, 0}";
-},
-{
-angle = 90;
-position = "{-56, 0}";
-},
-{
-angle = 90;
-position = "{-11, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -10242,16 +10056,6 @@ position = "{430, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{738, 0}";
-},
-{
-angle = 90;
-position = "{1044, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -10783,12 +10587,6 @@ glyphname = Scedilla;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{156, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -14004,18 +13802,6 @@ glyphname = aogonek;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 22}";
-},
-{
-position = "{-150, -220}";
-},
-{
-angle = 258.2326;
-position = "{429, 18}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -14371,26 +14157,6 @@ position = "{504, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, -10}";
-},
-{
-position = "{-150, 530}";
-},
-{
-angle = 90;
-position = "{323, 0}";
-},
-{
-angle = 90;
-position = "{-529, 0}";
-},
-{
-angle = 90;
-position = "{303, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -14504,22 +14270,6 @@ position = "{526, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{350, -10}";
-},
-{
-position = "{350, 530}";
-},
-{
-angle = 90;
-position = "{838, 0}";
-},
-{
-angle = 90;
-position = "{-19, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -15534,11 +15284,6 @@ position = "{641, 710}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{467, 710}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -15624,11 +15369,6 @@ position = "{762, 710}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{584, 710}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -15736,19 +15476,6 @@ glyphname = eth;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 512}";
-},
-{
-angle = 90;
-position = "{64, 0}";
-},
-{
-angle = 90;
-position = "{334, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -16805,18 +16532,6 @@ position = "{329, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, 259}";
-},
-{
-position = "{-150, -220}";
-},
-{
-angle = 90;
-position = "{189, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -18541,15 +18256,6 @@ glyphname = iogonek;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 22}";
-},
-{
-angle = 90;
-position = "{-19, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -19377,14 +19083,6 @@ position = "{299, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, 520}";
-},
-{
-position = "{-150, 260}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -19448,11 +19146,6 @@ position = "{377, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{350, 520}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -19557,11 +19250,6 @@ position = "{287, 710}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{208, 710}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -19608,11 +19296,6 @@ position = "{426, 710}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{339, 710}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -19825,23 +19508,6 @@ glyphname = lslash;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 355}";
-},
-{
-angle = 90;
-position = "{81, 0}";
-},
-{
-angle = 90;
-position = "{-50, 0}";
-},
-{
-angle = 90;
-position = "{-120, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -19896,22 +19562,6 @@ width = 247;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 215}";
-},
-{
-position = "{350, 355}";
-},
-{
-angle = 90;
-position = "{360, 0}";
-},
-{
-angle = 90;
-position = "{713, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -21362,31 +21012,6 @@ name = slashshortcomb;
 transform = "{1, 0, 0, 1, 60, 17}";
 }
 );
-guideLines = (
-{
-position = "{-150, 259}";
-},
-{
-angle = 90;
-position = "{220, 0}";
-},
-{
-angle = 90;
-position = "{-70, 0}";
-},
-{
-angle = 90;
-position = "{434, 0}";
-},
-{
-angle = 90;
-position = "{-9, 0}";
-},
-{
-angle = 90;
-position = "{-130, 0}";
-}
-);
 layerId = UUID0;
 width = 556;
 },
@@ -21577,16 +21202,6 @@ position = "{521, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-99, 0}";
-},
-{
-angle = 90;
-position = "{345, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -22723,18 +22338,6 @@ position = "{290, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, 265}";
-},
-{
-position = "{-150, 139}";
-},
-{
-angle = 90;
-position = "{100, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -22807,25 +22410,6 @@ position = "{330, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{350, 766}";
-},
-{
-position = "{350, 710}";
-},
-{
-position = "{350, -10}";
-},
-{
-angle = 90;
-position = "{656, 0}";
-},
-{
-angle = 90;
-position = "{927, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -23339,22 +22923,6 @@ position = "{339, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, 527}";
-},
-{
-position = "{-150, 601}";
-},
-{
-angle = 90;
-position = "{117, 0}";
-},
-{
-angle = 90;
-position = "{349, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -23434,11 +23002,6 @@ position = "{396, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{350, 541}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -24643,15 +24206,6 @@ glyphname = uogonek;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 213}";
-},
-{
-angle = 90;
-position = "{343, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -27431,18 +26985,6 @@ glyphname = "Be-cy";
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-15, 280}";
-},
-{
-position = "{21, 447}";
-},
-{
-angle = 90;
-position = "{442, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27616,12 +27158,6 @@ position = "{370, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{442, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -27739,12 +27275,6 @@ name = "Ge-cy";
 {
 name = acutecomb.case;
 transform = "{1, 0, 0, 1, 279, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{270, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -28101,11 +27631,6 @@ production = uni0414;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-107, -139}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -28169,11 +27694,6 @@ width = 682;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{-63, -110}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -28306,12 +27826,6 @@ name = gravecomb.case;
 transform = "{1, 0, 0, 1, 251, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{212, 0}";
-}
-);
 layerId = UUID0;
 width = 591;
 },
@@ -28324,12 +27838,6 @@ name = "Ie-cy";
 {
 name = gravecomb.case;
 transform = "{1, 0, 0, 1, 182, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{254, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -28366,12 +27874,6 @@ name = dieresiscomb;
 transform = "{1, 0, 0, 1, 267, 180}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{211, 0}";
-}
-);
 layerId = UUID0;
 width = 591;
 },
@@ -28384,12 +27886,6 @@ name = "Ie-cy";
 {
 name = dieresiscomb;
 transform = "{1, 0, 0, 1, 215, 180}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{252, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -28865,22 +28361,6 @@ position = "{364, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-86, -10}";
-},
-{
-position = "{-45, 180}";
-},
-{
-angle = 90;
-position = "{-22, 0}";
-},
-{
-angle = 90;
-position = "{226, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -28962,12 +28442,6 @@ position = "{445, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-9, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -29211,12 +28685,6 @@ name = "brevecomb-cy.case";
 transform = "{1, 0, 0, 1, 281, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{240, 0}";
-}
-);
 layerId = UUID0;
 width = 727;
 },
@@ -29229,12 +28697,6 @@ name = "Ii-cy";
 {
 name = "brevecomb-cy.case";
 transform = "{1, 0, 0, 1, 230, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{282, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -29271,12 +28733,6 @@ name = gravecomb.case;
 transform = "{1, 0, 0, 1, 304, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{279, 0}";
-}
-);
 layerId = UUID0;
 width = 727;
 },
@@ -29289,12 +28745,6 @@ name = "Ii-cy";
 {
 name = gravecomb.case;
 transform = "{1, 0, 0, 1, 254, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{282, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -29332,12 +28782,6 @@ position = "{393, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{592, 488}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -29747,12 +29191,6 @@ name = acutecomb.case;
 transform = "{1, 0, 0, 1, 334, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{320, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 width = 764;
 }
@@ -29767,11 +29205,6 @@ production = uni041B;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-43, -10}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -29816,11 +29249,6 @@ width = 669;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{9, 268}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -30003,12 +29431,6 @@ position = "{489, 0}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{11, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30224,20 +29646,6 @@ position = "{361, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{4620, 0}";
-},
-{
-angle = 90;
-position = "{6549, 0}";
-},
-{
-angle = 90;
-position = "{6843, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30401,12 +29809,6 @@ name = "brevecomb-cy.case";
 transform = "{1, 0, 0, 1, 199, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{234, 0}";
-}
-);
 layerId = UUID0;
 width = 563;
 },
@@ -30419,12 +29821,6 @@ name = "U-cy";
 {
 name = "brevecomb-cy.case";
 transform = "{1, 0, 0, 1, 185, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{286, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -30452,27 +29848,6 @@ production = uni0424;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{7, 183}";
-},
-{
-position = "{42, 350}";
-},
-{
-position = "{81, 535}";
-},
-{
-position = "{94, 595}";
-},
-{
-angle = 90;
-position = "{18, 0}";
-},
-{
-position = "{187, 332}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30726,28 +30101,6 @@ position = "{391, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{127, 700}";
-},
-{
-position = "{71, 434}";
-},
-{
-position = "{22, 206}";
-},
-{
-position = "{252, 1286}";
-},
-{
-angle = 90;
-position = "{1588, 0}";
-},
-{
-angle = 90;
-position = "{29, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30808,12 +30161,6 @@ position = "{448, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{310, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -30918,15 +30265,6 @@ production = uni0426;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-86, -110}";
-},
-{
-angle = 90;
-position = "{22, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -30975,11 +30313,6 @@ width = 717;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{-87, -110}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -31056,12 +30389,6 @@ production = uni0428;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{399, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31180,14 +30507,6 @@ production = uni0429;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-7, -110}";
-},
-{
-position = "{29, 60}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31246,11 +30565,6 @@ width = 961;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{-87, -110}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -31338,23 +30652,6 @@ production = uni040F;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-87, -110}";
-},
-{
-angle = 90;
-position = "{1263, 0}";
-},
-{
-angle = 90;
-position = "{1008, 0}";
-},
-{
-angle = 90;
-position = "{21, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31759,16 +31056,6 @@ position = "{444, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{170, 0}";
-},
-{
-angle = 90;
-position = "{51, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31905,12 +31192,6 @@ production = uni0409;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 77.8923;
-position = "{527, 212}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -31973,11 +31254,6 @@ width = 949;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{8, 267}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -32221,11 +31497,6 @@ production = uni0404;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{12, 350}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -32379,25 +31650,6 @@ position = "{404, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{41, 541}";
-},
-{
-position = "{-41, 159}";
-},
-{
-position = "{0, 350}";
-},
-{
-angle = 90;
-position = "{130, 0}";
-},
-{
-angle = 90;
-position = "{222, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -32629,12 +31881,6 @@ name = dieresiscomb;
 transform = "{1, 0, 0, 1, 87, 180}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{6, 0}";
-}
-);
 layerId = UUID0;
 width = 252;
 },
@@ -32647,12 +31893,6 @@ name = I;
 {
 name = dieresiscomb;
 transform = "{1, 0, 0, 1, 61, 180}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{94, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -32707,16 +31947,6 @@ production = uni040B;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-3, 0}";
-},
-{
-angle = 90;
-position = "{360, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -32777,15 +32007,6 @@ width = 701;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{-24, 201}";
-},
-{
-angle = 90;
-position = "{405, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -32879,11 +32100,6 @@ position = "{551, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{1, 355}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -33209,20 +32425,6 @@ production = uni0402;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-17, 0}";
-},
-{
-angle = 90;
-position = "{346, 0}";
-},
-{
-angle = 90;
-position = "{418, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -33291,12 +32493,6 @@ width = 696;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{405, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -33554,22 +32750,6 @@ width = 889;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{432, 353}";
-},
-{
-angle = 90;
-position = "{361, 447}";
-},
-{
-angle = 90;
-position = "{748, 439}";
-},
-{
-position = "{429, 400}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -35733,18 +34913,6 @@ position = "{465, 700}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{759, 260}";
-},
-{
-position = "{796, 436}";
-},
-{
-angle = 90;
-position = "{356, 230}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -36456,22 +35624,6 @@ production = uni0431;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{94, 730}";
-},
-{
-position = "{-12, 231}";
-},
-{
-angle = 90;
-position = "{-6, 0}";
-},
-{
-angle = 90;
-position = "{432, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -36539,14 +35691,6 @@ width = 560;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{18, 320}";
-},
-{
-position = "{1, 236}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -36654,20 +35798,6 @@ production = uni0432;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{15, 0}";
-},
-{
-angle = 78.1113;
-position = "{445, 377}";
-},
-{
-angle = 78.1113;
-position = "{507, 377}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -36729,18 +35859,6 @@ width = 542;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{21, 357}";
-},
-{
-position = "{-21, 162}";
-},
-{
-angle = 90;
-position = "{299, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -36832,12 +35950,6 @@ position = "{309, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{412, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -36944,12 +36056,6 @@ name = acutecomb;
 transform = "{1, 0, 0, 1, 256, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{191, 0}";
-}
-);
 layerId = UUID0;
 width = 418;
 },
@@ -36962,12 +36068,6 @@ name = "ge-cy";
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 196, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{194, 0}";
 }
 );
 hints = (
@@ -37459,23 +36559,6 @@ production = uni0434;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-140, -110}";
-},
-{
-angle = 90;
-position = "{349, 0}";
-},
-{
-angle = 90;
-position = "{-57, 0}";
-},
-{
-angle = 90;
-position = "{391, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -37572,23 +36655,6 @@ nodes = (
 );
 };
 color = 6;
-guideLines = (
-{
-position = "{-142, -110}";
-},
-{
-angle = 90;
-position = "{347, 0}";
-},
-{
-angle = 90;
-position = "{-59, 0}";
-},
-{
-angle = 90;
-position = "{389, 0}";
-}
-);
 layerId = "0F05B1C5-3511-47BE-8364-4EA4FFCE4314";
 name = "Sep 9 16, 19:26";
 paths = (
@@ -37653,11 +36719,6 @@ width = 574;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{-62, -110}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -37748,11 +36809,6 @@ nodes = (
 );
 };
 color = 6;
-guideLines = (
-{
-position = "{-62, -110}";
-}
-);
 layerId = "066841D5-1549-48E1-A850-59D7566563D8";
 name = "Sep 9 16, 19:36";
 paths = (
@@ -37917,15 +36973,6 @@ name = gravecomb;
 transform = "{1, 0, 0, 1, 205, 0}";
 }
 );
-guideLines = (
-{
-position = "{50, 595}";
-},
-{
-angle = 90;
-position = "{199, 0}";
-}
-);
 layerId = UUID0;
 width = 544;
 },
@@ -37938,12 +36985,6 @@ name = "ie-cy";
 {
 name = gravecomb;
 transform = "{1, 0, 0, 1, 145, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{240, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -37987,12 +37028,6 @@ name = dieresiscomb;
 transform = "{1, 0, 0, 1, 212, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{201, 0}";
-}
-);
 layerId = UUID0;
 width = 544;
 },
@@ -38005,15 +37040,6 @@ name = "ie-cy";
 {
 name = dieresiscomb;
 transform = "{1, 0, 0, 1, 162, 0}";
-}
-);
-guideLines = (
-{
-position = "{46, 595}";
-},
-{
-angle = 90;
-position = "{240, 0}";
 }
 );
 hints = (
@@ -38063,12 +37089,6 @@ position = "{430, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{23, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -38606,12 +37626,6 @@ components = (
 name = u;
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{410, 0}";
-}
-);
 layerId = UUID0;
 width = 586;
 },
@@ -38666,12 +37680,6 @@ name = "brevecomb-cy";
 transform = "{1, 0, 0, 1, 147, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{210, 0}";
-}
-);
 layerId = UUID0;
 width = 586;
 },
@@ -38684,15 +37692,6 @@ name = "ii-cy";
 {
 name = "brevecomb-cy";
 transform = "{1, 0, 0, 1, 109, 0}";
-}
-);
-guideLines = (
-{
-position = "{44, 590}";
-},
-{
-angle = 90;
-position = "{255, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -38743,12 +37742,6 @@ name = gravecomb;
 transform = "{1, 0, 0, 1, 154, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{254, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -38780,19 +37773,6 @@ position = "{310, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{0, 260}";
-},
-{
-angle = 90;
-position = "{-912, 0}";
-},
-{
-angle = 90;
-position = "{15, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -38896,19 +37876,6 @@ nodes = (
 );
 };
 color = 6;
-guideLines = (
-{
-position = "{0, 260}";
-},
-{
-angle = 90;
-position = "{-857, 0}";
-},
-{
-angle = 90;
-position = "{70, 0}";
-}
-);
 layerId = "255BA7C3-3368-441B-BB98-346AB378CB36";
 name = "1";
 paths = (
@@ -39024,19 +37991,6 @@ nodes = (
 );
 };
 color = 6;
-guideLines = (
-{
-position = "{0, 260}";
-},
-{
-angle = 90;
-position = "{-857, 0}";
-},
-{
-angle = 90;
-position = "{70, 0}";
-}
-);
 layerId = "07ED4AB0-A96D-4BB6-8152-74A48FFEBE6B";
 name = "2";
 paths = (
@@ -39126,23 +38080,6 @@ nodes = (
 );
 };
 color = 6;
-guideLines = (
-{
-position = "{0, 260}";
-},
-{
-angle = 90;
-position = "{-857, 0}";
-},
-{
-angle = 90;
-position = "{70, 0}";
-},
-{
-angle = 90;
-position = "{436, 342}";
-}
-);
 layerId = "E9D7561D-F42A-4CDE-9177-0FC925E84D6E";
 name = "3";
 paths = (
@@ -39247,19 +38184,6 @@ nodes = (
 );
 };
 color = 6;
-guideLines = (
-{
-position = "{0, 260}";
-},
-{
-angle = 90;
-position = "{-857, 0}";
-},
-{
-angle = 90;
-position = "{70, 0}";
-}
-);
 layerId = "DB5E8808-178A-47BB-AFAA-05472A639889";
 name = "Sep 1 16, 18:37";
 paths = (
@@ -39326,11 +38250,6 @@ position = "{388, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{0, 261}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -39451,11 +38370,6 @@ nodes = (
 );
 };
 color = 6;
-guideLines = (
-{
-position = "{0, 261}";
-}
-);
 layerId = "1F63CD2E-49AA-4FE9-9789-0673C5E291D4";
 name = old;
 paths = (
@@ -39568,12 +38482,6 @@ name = acutecomb;
 transform = "{1, 0, 0, 1, 257, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{188, 0}";
-}
-);
 layerId = UUID0;
 width = 496;
 },
@@ -39586,12 +38494,6 @@ name = "ka-cy";
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 279, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{267, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -39619,12 +38521,6 @@ production = uni043B;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-9, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -39734,14 +38630,6 @@ production = uni043C;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-27, 85}";
-},
-{
-position = "{-21, 113}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -39893,15 +38781,6 @@ position = "{438, 0}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{0, 260}";
-},
-{
-angle = 90;
-position = "{15, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -40078,12 +38957,6 @@ position = "{501, 0}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{15, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -40388,16 +39261,6 @@ position = "{422, 0}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-25, 0}";
-},
-{
-angle = 90;
-position = "{446, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -40511,19 +39374,6 @@ position = "{298, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-104, -190}";
-},
-{
-angle = 90;
-position = "{208, 0}";
-},
-{
-angle = 90;
-position = "{-24, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -40687,12 +39537,6 @@ name = "brevecomb-cy";
 transform = "{1, 0, 0, 1, 122, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{215, 0}";
-}
-);
 layerId = UUID0;
 width = 538;
 },
@@ -40705,12 +39549,6 @@ name = "u-cy";
 {
 name = "brevecomb-cy";
 transform = "{1, 0, 0, 1, 107, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{268, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -40738,14 +39576,6 @@ production = uni0444;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-58, -190}";
-},
-{
-position = "{134, 710}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -40824,12 +39654,6 @@ width = 678;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{1349, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -41045,19 +39869,6 @@ position = "{360, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{21, 364}";
-},
-{
-angle = 90;
-position = "{268, 0}";
-},
-{
-angle = 90;
-position = "{314, 88}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -41117,18 +39928,6 @@ production = uni0446;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-29, 58}";
-},
-{
-position = "{-65, -110}";
-},
-{
-angle = 90;
-position = "{29, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -41177,11 +39976,6 @@ width = 605;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{-67, -110}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -41371,14 +40165,6 @@ production = uni0449;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-32, 58}";
-},
-{
-position = "{-68, -110}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -41437,11 +40223,6 @@ width = 786;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{-78, -110}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -41529,19 +40310,6 @@ production = uni045F;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-58, -110}";
-},
-{
-angle = 90;
-position = "{36, 0}";
-},
-{
-angle = 90;
-position = "{409, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -41590,11 +40358,6 @@ width = 577;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{-78, -110}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -41679,16 +40442,6 @@ production = uni044C;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{15, 0}";
-},
-{
-angle = 90;
-position = "{202, 542}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -42133,12 +40886,6 @@ width = 744;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{350, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -42212,15 +40959,6 @@ production = uni045A;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 180;
-position = "{273, 237}";
-},
-{
-position = "{285, 295}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -42533,19 +41271,6 @@ position = "{323, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{0, 259}";
-},
-{
-angle = 90;
-position = "{199, 0}";
-},
-{
-angle = 90;
-position = "{52, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -42616,12 +41341,6 @@ position = "{371, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{367, 407}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -42790,12 +41509,6 @@ name = dieresiscomb;
 transform = "{1, 0, 0, 1, -4, 0}";
 }
 );
-guideLines = (
-{
-angle = 90;
-position = "{85, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -42849,15 +41562,6 @@ production = uni045B;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{77, 629}";
-},
-{
-angle = 90;
-position = "{54, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -43216,12 +41920,6 @@ position = "{315, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-25, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -43293,16 +41991,6 @@ position = "{378, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{563, 0}";
-},
-{
-angle = 90;
-position = "{179, 394}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -43388,23 +42076,6 @@ production = uni0452;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{76, 620}";
-},
-{
-angle = 90;
-position = "{84, 0}";
-},
-{
-angle = 90;
-position = "{497, 0}";
-},
-{
-angle = 90;
-position = "{426, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -44064,23 +42735,6 @@ width = 1273;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{490, 320}";
-},
-{
-position = "{203, 270}";
-},
-{
-angle = 53.8759;
-position = "{767, 376}";
-},
-{
-angle = 126.1241;
-position = "{236, 376}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -44183,12 +42837,6 @@ position = "{485, 520}";
 );
 associatedMasterId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{484.5, 320}";
-}
-);
 layerId = "2ECB0FA0-63E8-4693-88D9-CB8FF535FEE8";
 name = "Sep 3 16, 11:39";
 paths = (
@@ -45369,12 +44017,6 @@ production = ustraitcy;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{213, 112}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -45420,12 +44062,6 @@ width = 499;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{291, 178}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -47145,17 +45781,6 @@ position = "{87, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{955, 571}";
-},
-{
-position = "{1005, 0}";
-},
-{
-position = "{1433, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -47254,17 +45879,6 @@ position = "{85, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{303, 431}";
-},
-{
-position = "{335, 0}";
-},
-{
-position = "{897, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -47500,17 +46114,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{284, 571}";
-},
-{
-position = "{324, 0}";
-},
-{
-position = "{800, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -47593,20 +46196,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 320}";
-},
-{
-position = "{498, 0}";
-},
-{
-position = "{368, 395}";
-},
-{
-position = "{368, 571}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -47746,11 +46335,6 @@ position = "{87, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{305, 571}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -47848,14 +46432,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 332}";
-},
-{
-position = "{489, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -47940,15 +46516,6 @@ position = "{20, 520}";
 );
 associatedMasterId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 color = 6;
-guideLines = (
-{
-position = "{0, 332}";
-},
-{
-angle = 90;
-position = "{189, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -48070,14 +46637,6 @@ position = "{20, 520}";
 );
 associatedMasterId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 color = 6;
-guideLines = (
-{
-position = "{0, 332}";
-},
-{
-position = "{189, 0}";
-}
-);
 layerId = "C72B544F-4D12-4025-BDF5-F71CE74F1B8D";
 name = "Bold Sep 16 15, 13:05";
 paths = (
@@ -48231,11 +46790,6 @@ name = "dagesh-hb";
 transform = "{1, 0, 0, 1, 64, -26}";
 }
 );
-guideLines = (
-{
-position = "{111, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 width = 514;
 }
@@ -48272,17 +46826,6 @@ position = "{109, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{327, 571}";
-},
-{
-position = "{357, 0}";
-},
-{
-position = "{823, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -48368,11 +46911,6 @@ position = "{93, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{833, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -48515,11 +47053,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{370, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -48614,17 +47147,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 321}";
-},
-{
-position = "{350, 0}";
-},
-{
-position = "{633, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -48775,11 +47297,6 @@ position = "{228, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 571}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -48844,11 +47361,6 @@ position = "{278, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 571}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -49004,17 +47516,6 @@ position = "{129, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{347, 983}";
-},
-{
-position = "{347, 983}";
-},
-{
-position = "{347, 571}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -49242,17 +47743,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 571}";
-},
-{
-position = "{370, 0}";
-},
-{
-position = "{817, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -49330,14 +47820,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 321}";
-},
-{
-position = "{638, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -49435,20 +47917,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 571}";
-},
-{
-position = "{300, 581}";
-},
-{
-position = "{496, 0}";
-},
-{
-position = "{365, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -49544,11 +48012,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 246}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -49710,11 +48173,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 240}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -49853,11 +48311,6 @@ name = "dagesh-hb";
 transform = "{1, 0, 0, 1, -39, -26}";
 }
 );
-guideLines = (
-{
-position = "{412, 240}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 userData = {
 com.schriftgestaltung.componentsAlignment = (
@@ -49911,11 +48364,6 @@ position = "{143, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{361, 61}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -50119,14 +48567,6 @@ position = "{121, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{339, 590}";
-},
-{
-position = "{379, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -50211,14 +48651,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{320, 0}";
-},
-{
-position = "{494, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -50353,14 +48785,6 @@ position = "{93, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{353, 710}";
-},
-{
-position = "{817, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -50448,17 +48872,6 @@ position = "{26, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 710}";
-},
-{
-position = "{300, 249}";
-},
-{
-position = "{831, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -50610,14 +49023,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 853}";
-},
-{
-position = "{300, 58}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -50695,17 +49100,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 853}";
-},
-{
-position = "{300, 321}";
-},
-{
-position = "{624, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -50798,14 +49192,6 @@ position = "{69, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{337, 0}";
-},
-{
-position = "{863, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -50905,17 +49291,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 321}";
-},
-{
-position = "{330, 0}";
-},
-{
-position = "{673, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -51190,14 +49565,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{700, 0}";
-},
-{
-position = "{300, 571}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -51288,17 +49655,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 321}";
-},
-{
-position = "{325, 0}";
-},
-{
-position = "{400, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -51439,17 +49795,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{365, 0}";
-},
-{
-position = "{809, 0}";
-},
-{
-position = "{636, 571}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -51535,20 +49880,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 321}";
-},
-{
-position = "{300, 246}";
-},
-{
-position = "{613, 0}";
-},
-{
-position = "{368, 571}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -51686,14 +50017,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 571}";
-},
-{
-position = "{340, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -51784,17 +50107,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 249}";
-},
-{
-position = "{320, 0}";
-},
-{
-position = "{628, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -51896,14 +50208,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 571}";
-},
-{
-position = "{2118, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -51990,14 +50294,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-126, 0}";
-},
-{
-position = "{1607, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -52491,11 +50787,6 @@ position = "{81, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{369, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -52594,14 +50885,6 @@ position = "{92, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{310, 571}";
-},
-{
-position = "{310, 336}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -53031,20 +51314,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 571}";
-},
-{
-position = "{300, -124}";
-},
-{
-position = "{328, 0}";
-},
-{
-position = "{731, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -53242,11 +51511,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{327, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -53484,20 +51748,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, -191}";
-},
-{
-position = "{370, 0}";
-},
-{
-position = "{816, 0}";
-},
-{
-position = "{370, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -53597,14 +51847,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 249}";
-},
-{
-position = "{1330, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -53768,17 +52010,6 @@ position = "{128, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{346, 571}";
-},
-{
-position = "{386, 0}";
-},
-{
-position = "{782, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -53852,14 +52083,6 @@ position = "{100, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{318, 321}";
-},
-{
-position = "{532, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -53993,14 +52216,6 @@ position = "{745, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{304, 952}";
-},
-{
-position = "{304, 571}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -54108,14 +52323,6 @@ position = "{800, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{307, 240}";
-},
-{
-position = "{104, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -54235,14 +52442,6 @@ name = "shindot-hb";
 transform = "{1, 0, 0, 1, 740, 105}";
 }
 );
-guideLines = (
-{
-position = "{837, 0}";
-},
-{
-position = "{634, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 width = 806;
 }
@@ -54278,14 +52477,6 @@ name = "shin-hb";
 {
 name = "sindot-hb";
 transform = "{1, 0, 0, 1, 76, 105}";
-}
-);
-guideLines = (
-{
-position = "{45, 0}";
-},
-{
-position = "{248, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -54342,14 +52533,6 @@ transform = "{1, 0, 0, 1, 446, -26}";
 {
 name = "shindot-hb";
 transform = "{1, 0, 0, 1, 740, 105}";
-}
-);
-guideLines = (
-{
-position = "{634, 0}";
-},
-{
-position = "{837, 0}";
 }
 );
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
@@ -54470,17 +52653,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{270, 571}";
-},
-{
-position = "{846, 0}";
-},
-{
-position = "{320, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -54586,17 +52758,6 @@ position = "{82, 520}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{300, 175}";
-},
-{
-position = "{300, 321}";
-},
-{
-position = "{306, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -54971,20 +53132,6 @@ glyphname = two;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{385, 0}";
-},
-{
-angle = 90;
-position = "{-80, 0}";
-},
-{
-angle = 90;
-position = "{360, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -55047,19 +53194,6 @@ width = 560;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 176}";
-},
-{
-angle = 90;
-position = "{400, 0}";
-},
-{
-angle = 90;
-position = "{1015, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -55217,20 +53351,6 @@ width = 576;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{400, 0}";
-},
-{
-angle = 90;
-position = "{1052, 0}";
-},
-{
-angle = 90;
-position = "{726, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -55608,15 +53728,6 @@ width = 582;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 253}";
-},
-{
-angle = 90;
-position = "{728, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -55726,15 +53837,6 @@ width = 487;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 522}";
-},
-{
-angle = 90;
-position = "{672, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -55990,27 +54092,6 @@ width = 572;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 450}";
-},
-{
-angle = 90;
-position = "{395, 0}";
-},
-{
-angle = 90;
-position = "{415, 0}";
-},
-{
-angle = 90;
-position = "{719, 0}";
-},
-{
-angle = 90;
-position = "{1025, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -56182,11 +54263,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 251}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -56245,12 +54321,6 @@ glyphname = one.tf;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-70, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -56305,16 +54375,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{389, 0}";
-},
-{
-angle = 90;
-position = "{674, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -56378,20 +54438,6 @@ glyphname = two.tf;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{388, 0}";
-},
-{
-angle = 90;
-position = "{-77, 0}";
-},
-{
-angle = 90;
-position = "{363, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -56454,19 +54500,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 176}";
-},
-{
-angle = 90;
-position = "{385, 0}";
-},
-{
-angle = 90;
-position = "{1000, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -56623,20 +54656,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{374, 0}";
-},
-{
-angle = 90;
-position = "{1026, 0}";
-},
-{
-angle = 90;
-position = "{700, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -56768,21 +54787,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 213}";
-},
-{
-position = "{350, 315}";
-},
-{
-position = "{350, 112}";
-},
-{
-angle = 90;
-position = "{690, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -56904,22 +54908,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 468}";
-},
-{
-position = "{350, 282}";
-},
-{
-angle = 90;
-position = "{380, 0}";
-},
-{
-angle = 90;
-position = "{1021, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -57049,15 +55037,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 253}";
-},
-{
-angle = 90;
-position = "{702, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -57166,15 +55145,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 522}";
-},
-{
-angle = 90;
-position = "{696, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -57302,18 +55272,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 433}";
-},
-{
-position = "{350, 277}";
-},
-{
-angle = 90;
-position = "{380, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -57452,27 +55410,6 @@ width = 600;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 450}";
-},
-{
-angle = 90;
-position = "{375, 0}";
-},
-{
-angle = 90;
-position = "{395, 0}";
-},
-{
-angle = 90;
-position = "{699, 0}";
-},
-{
-angle = 90;
-position = "{1005, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -57963,22 +55900,6 @@ production = uni2080;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, -170}";
-},
-{
-position = "{-150, 180}";
-},
-{
-angle = 90;
-position = "{22, 0}";
-},
-{
-angle = 90;
-position = "{-492, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -58039,21 +55960,6 @@ width = 362;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 185}";
-},
-{
-position = "{350, -175}";
-},
-{
-position = "{350, 46}";
-},
-{
-angle = 90;
-position = "{382, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -58146,22 +56052,6 @@ production = uni2081;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, -170}";
-},
-{
-position = "{-150, 180}";
-},
-{
-angle = 90;
-position = "{24, 0}";
-},
-{
-angle = 90;
-position = "{-141, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -58206,14 +56096,6 @@ width = 269;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 180}";
-},
-{
-position = "{350, -170}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -58290,26 +56172,6 @@ production = uni2082;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 180}";
-},
-{
-position = "{-150, -170}";
-},
-{
-angle = 90;
-position = "{158, 0}";
-},
-{
-angle = 90;
-position = "{-115, 0}";
-},
-{
-angle = 90;
-position = "{15, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -58370,19 +56232,6 @@ width = 335;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 185}";
-},
-{
-angle = 90;
-position = "{380, 0}";
-},
-{
-angle = 90;
-position = "{701, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -58482,25 +56331,6 @@ production = uni2083;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, -73}";
-},
-{
-position = "{-150, -170}";
-},
-{
-position = "{-150, 180}";
-},
-{
-angle = 90;
-position = "{-129, 0}";
-},
-{
-angle = 90;
-position = "{161, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -58571,11 +56401,6 @@ width = 336;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, -175}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -58685,22 +56510,6 @@ production = uni2084;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 180}";
-},
-{
-position = "{-150, -170}";
-},
-{
-angle = 90;
-position = "{154, 0}";
-},
-{
-angle = 90;
-position = "{-129, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -58763,12 +56572,6 @@ width = 330;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{543, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -58863,26 +56666,6 @@ production = uni2085;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, -170}";
-},
-{
-position = "{-150, 180}";
-},
-{
-angle = 90;
-position = "{156, 0}";
-},
-{
-angle = 90;
-position = "{-124, 0}";
-},
-{
-angle = 90;
-position = "{14, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -58951,14 +56734,6 @@ width = 325;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 978}";
-},
-{
-position = "{350, -170}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -59066,25 +56841,6 @@ production = uni2086;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 180}";
-},
-{
-position = "{-150, -170}";
-},
-{
-position = "{-150, -55}";
-},
-{
-angle = 90;
-position = "{-125, 0}";
-},
-{
-angle = 90;
-position = "{159, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -59145,11 +56901,6 @@ width = 336;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, -170}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -59249,22 +57000,6 @@ production = uni2087;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 180}";
-},
-{
-position = "{-150, -170}";
-},
-{
-angle = 90;
-position = "{-130, 0}";
-},
-{
-angle = 90;
-position = "{110, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -59312,14 +57047,6 @@ width = 284;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 180}";
-},
-{
-position = "{350, -170}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -59399,28 +57126,6 @@ production = uni2088;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 710}";
-},
-{
-position = "{-150, 88}";
-},
-{
-position = "{-150, 180}";
-},
-{
-position = "{-150, -170}";
-},
-{
-angle = 90;
-position = "{-120, 0}";
-},
-{
-angle = 90;
-position = "{158, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -59498,14 +57203,6 @@ width = 343;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 180}";
-},
-{
-position = "{350, -170}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -59629,18 +57326,6 @@ production = uni2089;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 180}";
-},
-{
-position = "{-150, -170}";
-},
-{
-angle = 90;
-position = "{17, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -59701,14 +57386,6 @@ width = 334;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, -170}";
-},
-{
-position = "{350, 180}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -61064,12 +58741,90 @@ layers = (
 {
 color = 6;
 layerId = UUID0;
-width = 290;
+paths = (
+{
+closed = 1;
+nodes = (
+"514 -117 LINE SMOOTH",
+"527 -117 OFFCURVE",
+"538 -108 OFFCURVE",
+"540 -95 CURVE SMOOTH",
+"730 796 LINE SMOOTH",
+"732 809 OFFCURVE",
+"725 818 OFFCURVE",
+"712 818 CURVE SMOOTH",
+"221 818 LINE SMOOTH",
+"208 818 OFFCURVE",
+"197 809 OFFCURVE",
+"195 796 CURVE SMOOTH",
+"5 -95 LINE SMOOTH",
+"3 -108 OFFCURVE",
+"10 -117 OFFCURVE",
+"23 -117 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"649 703 LINE",
+"487 -59 LINE",
+"114 -59 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"248 760 LINE",
+"625 760 LINE",
+"85 -9 LINE"
+);
+}
+);
+width = 696;
 },
 {
 color = 6;
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
-width = 290;
+paths = (
+{
+closed = 1;
+nodes = (
+"514 -117 LINE SMOOTH",
+"527 -117 OFFCURVE",
+"538 -108 OFFCURVE",
+"540 -95 CURVE SMOOTH",
+"730 796 LINE SMOOTH",
+"732 809 OFFCURVE",
+"725 818 OFFCURVE",
+"712 818 CURVE SMOOTH",
+"221 818 LINE SMOOTH",
+"208 818 OFFCURVE",
+"197 809 OFFCURVE",
+"195 796 CURVE SMOOTH",
+"5 -95 LINE SMOOTH",
+"3 -108 OFFCURVE",
+"10 -117 OFFCURVE",
+"23 -117 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"649 703 LINE",
+"487 -59 LINE",
+"114 -59 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"248 760 LINE",
+"625 760 LINE",
+"85 -9 LINE"
+);
+}
+);
+width = 696;
 }
 );
 },
@@ -61128,11 +58883,6 @@ production = uni05F3;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{636, 571}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -61164,11 +58914,6 @@ width = 213;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{368, 571}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -61207,11 +58952,6 @@ production = uni05F4;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{636, 571}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -61267,11 +59007,6 @@ width = 347;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{368, 571}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -61362,14 +59097,6 @@ width = 369;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{368, 571}";
-},
-{
-position = "{368, 395}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -61656,12 +59383,6 @@ glyphname = semicolon;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{21, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -61714,11 +59435,6 @@ width = 259;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, -75}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -62060,11 +59776,6 @@ glyphname = exclamdown;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 352}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -62180,26 +59891,6 @@ glyphname = question;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 710}";
-},
-{
-position = "{-150, 605}";
-},
-{
-angle = 90;
-position = "{154, 0}";
-},
-{
-angle = 90;
-position = "{86, 0}";
-},
-{
-angle = 90;
-position = "{120, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -62271,11 +59962,6 @@ width = 503;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 710}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -62804,22 +60490,6 @@ glyphname = numbersign;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 474}";
-},
-{
-position = "{-150, 220}";
-},
-{
-angle = 90;
-position = "{332, 0}";
-},
-{
-angle = 90;
-position = "{105, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -62917,12 +60587,6 @@ width = 701;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{698, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -64241,18 +61905,6 @@ glyphname = braceleft;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 776}";
-},
-{
-position = "{-150, -159}";
-},
-{
-angle = 90;
-position = "{173, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -64417,14 +62069,6 @@ glyphname = braceright;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, -159}";
-},
-{
-position = "{-150, 776}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -66312,12 +63956,6 @@ production = guillemotleft;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{139, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -66496,15 +64134,6 @@ production = guillemotright;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 329}";
-},
-{
-angle = 90;
-position = "{499, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -67080,12 +64709,6 @@ production = guillemotleft.case;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{139, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -67270,15 +64893,6 @@ production = guillemotright.case;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 329}";
-},
-{
-angle = 90;
-position = "{499, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -67803,40 +65417,6 @@ glyphname = at;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 193}";
-},
-{
-position = "{-150, 470}";
-},
-{
-position = "{-150, 684}";
-},
-{
-position = "{-150, 135}";
-},
-{
-angle = 90;
-position = "{336, 0}";
-},
-{
-angle = 90;
-position = "{228, 0}";
-},
-{
-angle = 90;
-position = "{269, 0}";
-},
-{
-angle = 90;
-position = "{619, 0}";
-},
-{
-angle = 90;
-position = "{381, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -68133,29 +65713,6 @@ glyphname = ampersand;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 366}";
-},
-{
-position = "{-150, -10}";
-},
-{
-position = "{-150, 550}";
-},
-{
-angle = 90;
-position = "{135, 0}";
-},
-{
-angle = 90;
-position = "{439, 0}";
-},
-{
-angle = 90;
-position = "{-90, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -68269,18 +65826,6 @@ width = 674;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, -10}";
-},
-{
-position = "{350, 710}";
-},
-{
-angle = 90;
-position = "{667, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -68544,30 +66089,6 @@ glyphname = section;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, -140}";
-},
-{
-position = "{-150, 710}";
-},
-{
-angle = 90;
-position = "{141, 0}";
-},
-{
-angle = 90;
-position = "{-78, 0}";
-},
-{
-angle = 90;
-position = "{1126, 0}";
-},
-{
-angle = 90;
-position = "{361, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -68672,27 +66193,6 @@ width = 553;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, -140}";
-},
-{
-position = "{350, 275}";
-},
-{
-position = "{350, 548}";
-},
-{
-position = "{350, 239}";
-},
-{
-position = "{350, 503}";
-},
-{
-angle = 90;
-position = "{683, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -70044,16 +67544,6 @@ glyphname = estimated;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{148, 0}";
-},
-{
-angle = 90;
-position = "{391, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -70446,40 +67936,6 @@ glyphname = at.case;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 193}";
-},
-{
-position = "{-150, 470}";
-},
-{
-position = "{-150, 684}";
-},
-{
-position = "{-150, 135}";
-},
-{
-angle = 90;
-position = "{336, 0}";
-},
-{
-angle = 90;
-position = "{228, 0}";
-},
-{
-angle = 90;
-position = "{269, 0}";
-},
-{
-angle = 90;
-position = "{619, 0}";
-},
-{
-angle = 90;
-position = "{381, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -70954,21 +68410,6 @@ glyphname = currency;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 300}";
-},
-{
-position = "{-150, 510}";
-},
-{
-position = "{-150, 450}";
-},
-{
-angle = 90;
-position = "{138, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -72639,16 +70080,6 @@ glyphname = sterling;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{-80, 0}";
-},
-{
-angle = 90;
-position = "{68, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -72742,27 +70173,6 @@ width = 658;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 345}";
-},
-{
-position = "{350, -11}";
-},
-{
-position = "{350, 183}";
-},
-{
-position = "{350, 86}";
-},
-{
-position = "{350, 195}";
-},
-{
-angle = 90;
-position = "{766, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -73193,12 +70603,6 @@ glyphname = yen;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{322, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -73442,12 +70846,6 @@ width = 750;
 {
 associatedMasterId = UUID0;
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{322, 0}";
-}
-);
 layerId = "BD370EC2-F23E-4558-88F2-5561C5AA6EC5";
 name = "[125]";
 paths = (
@@ -73559,11 +70957,6 @@ glyphname = plus;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{0, 300}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -73612,11 +71005,6 @@ width = 622;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{0, 300}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -74462,15 +71850,6 @@ glyphname = less;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 620}";
-},
-{
-angle = 90;
-position = "{765, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -74588,11 +71967,6 @@ glyphname = greaterequal;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 400}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -74664,16 +72038,6 @@ width = 527;
 },
 {
 color = 6;
-guideLines = (
-{
-angle = 90;
-position = "{861, 0}";
-},
-{
-angle = 90;
-position = "{400, 0}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -74755,25 +72119,6 @@ glyphname = lessequal;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 686}";
-},
-{
-position = "{-150, 194}";
-},
-{
-position = "{-150, 400}";
-},
-{
-angle = 90;
-position = "{-100, 0}";
-},
-{
-angle = 90;
-position = "{271, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -74845,17 +72190,6 @@ width = 527;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 686}";
-},
-{
-position = "{350, 440}";
-},
-{
-position = "{350, 499}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -75134,11 +72468,6 @@ glyphname = approxequal;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 299}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -75220,11 +72549,6 @@ width = 563;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 300}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -75323,23 +72647,6 @@ glyphname = asciitilde;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 300}";
-},
-{
-angle = 90;
-position = "{-80, 0}";
-},
-{
-angle = 90;
-position = "{330, 0}";
-},
-{
-angle = 90;
-position = "{125, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -75411,11 +72718,6 @@ width = 563;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 300}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -75588,14 +72890,6 @@ glyphname = asciicircum;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 575}";
-},
-{
-position = "{-150, 705}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -75639,11 +72933,6 @@ width = 418;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 595}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -76217,18 +73506,6 @@ glyphname = summation;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, -200}";
-},
-{
-position = "{-150, 250}";
-},
-{
-angle = 90;
-position = "{326, 0}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -78079,11 +75356,6 @@ glyphname = approxequal.case;
 layers = (
 {
 color = 6;
-guideLines = (
-{
-position = "{-150, 299}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -78217,11 +75489,6 @@ width = 566;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 300}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -78390,11 +75657,6 @@ width = 565;
 },
 {
 color = 6;
-guideLines = (
-{
-position = "{350, 300}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -78759,15 +76021,6 @@ position = "{52, 0}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{52, 60}";
-},
-{
-angle = 90;
-position = "{86, 369}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -78801,15 +76054,6 @@ position = "{59, 0}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{165, 220}";
-},
-{
-angle = 90;
-position = "{88, 447}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -80747,12 +77991,6 @@ components = (
 name = circumflex;
 }
 );
-guideLines = (
-{
-angle = 257.9455;
-position = "{152, 504}";
-}
-);
 layerId = UUID0;
 width = 304;
 },
@@ -80867,12 +78105,6 @@ color = 10;
 components = (
 {
 name = breve;
-}
-);
-guideLines = (
-{
-angle = 257.9455;
-position = "{99, 504}";
 }
 );
 layerId = UUID0;
@@ -81209,17 +78441,6 @@ position = "{31, -210}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{-150, -210}";
-},
-{
-position = "{-150, -50}";
-},
-{
-position = "{-150, -217}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -81261,14 +78482,6 @@ position = "{61, -250}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{350, -50}";
-},
-{
-position = "{350, -250}";
-}
-);
 layerId = "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3";
 paths = (
 {
@@ -81595,11 +78808,6 @@ position = "{243, 351}";
 }
 );
 color = 6;
-guideLines = (
-{
-position = "{66, -64}";
-}
-);
 layerId = UUID0;
 paths = (
 {
