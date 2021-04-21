@@ -42976,7 +42976,7 @@ nodes = (
 );
 }
 );
-width = 752;
+width = 774;
 },
 {
 anchors = (
@@ -43014,7 +43014,7 @@ nodes = (
 );
 }
 );
-width = 990;
+width = 1019;
 }
 );
 leftMetricsKey = "zhe-cy";
@@ -43164,7 +43164,7 @@ nodes = (
 );
 }
 );
-width = 675;
+width = 695;
 }
 );
 leftMetricsKey = "en-cy";
