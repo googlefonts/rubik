@@ -48,15 +48,13 @@ value = 1;
 {
 name = "Axis Mappings";
 value = {
-ital = {
-0 = 0;
-1 = 1;
-};
 wght = {
 300 = 60;
 400 = 90;
 500 = 125;
+600 = 142;
 700 = 160;
+800 = 190;
 900 = 220;
 };
 };
@@ -82028,6 +82026,15 @@ name = Medium;
 weightClass = Medium;
 },
 {
+interpolationWeight = 142;
+instanceInterpolations = {
+"581BC726-83A6-4935-8633-5A6508251040" = 0.4875;
+"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.5125;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
 interpolationWeight = 160;
 instanceInterpolations = {
 "581BC726-83A6-4935-8633-5A6508251040" = 0.375;
@@ -82036,6 +82043,15 @@ instanceInterpolations = {
 isBold = 1;
 name = Bold;
 weightClass = Bold;
+},
+{
+interpolationWeight = 190;
+instanceInterpolations = {
+"581BC726-83A6-4935-8633-5A6508251040" = 0.1875;
+"EC64484B-0978-4CB1-9EE9-C40A2D8C4059" = 0.8125;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
 },
 {
 interpolationWeight = 220;
