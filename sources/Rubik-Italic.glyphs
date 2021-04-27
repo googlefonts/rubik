@@ -81998,6 +81998,17 @@ name = "Medium Italic";
 weightClass = Medium;
 },
 {
+interpolationWeight = 142;
+instanceInterpolations = {
+"A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.5125;
+UUID0 = 0.4875;
+};
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
+weightClass = SemiBold;
+},
+{
 interpolationWeight = 160;
 instanceInterpolations = {
 "A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.625;
@@ -82007,6 +82018,17 @@ isBold = 1;
 isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
+},
+{
+interpolationWeight = 190;
+instanceInterpolations = {
+"A0D8A2CD-35BA-4362-A7DB-C0E331BFD9A3" = 0.8125;
+UUID0 = 0.1875;
+};
+isItalic = 1;
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
+weightClass = ExtraBold;
 },
 {
 interpolationWeight = 220;
