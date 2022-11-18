@@ -85742,7 +85742,7 @@ key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Hubert & Fischer";
+value = "Hubert and Fischer";
 }
 );
 },
