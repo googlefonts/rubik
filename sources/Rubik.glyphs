@@ -140,7 +140,7 @@ name = "Enforce Compatibility Check";
 value = 0;
 }
 );
-date = "2023-06-06 13:31:19 +0000";
+date = "2023-06-06 14:15:17 +0000";
 familyName = Rubik;
 featurePrefixes = (
 {
@@ -134969,5 +134969,5 @@ public.kern2.zayinhebrew = (
 };
 };
 versionMajor = 2;
-versionMinor = 200;
+versionMinor = 300;
 }

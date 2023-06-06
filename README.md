@@ -59,3 +59,6 @@ In June 2017 the .ttfs are now manually hinted using [VTT](https://www.microsoft
 #### Source Files v2.200
 In Dec 2019 all the source files moved to Robofont `.ufo` format.   The best rendering for .ttfs was determined to be unhinted.
 
+#### Source Files v2.300
+Arabic was added to the upright, designed by Daniel Grumer and Omaima Dajani
+
