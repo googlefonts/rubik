@@ -1,5 +1,5 @@
 {
-.appVersion = "3146";
+.appVersion = "3151";
 .formatVersion = 3;
 axes = (
 {
@@ -70,7 +70,7 @@ name = "Enforce Compatibility Check";
 value = 0;
 }
 );
-date = "2017-03-21 06:32:22 +0000";
+date = "2023-06-06 13:31:32 +0000";
 familyName = Rubik;
 featurePrefixes = (
 {
@@ -86959,5 +86959,5 @@ public.kern2.zayinhebrew = (
 };
 };
 versionMajor = 2;
-versionMinor = 104;
+versionMinor = 200;
 }
