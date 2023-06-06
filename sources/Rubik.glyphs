@@ -16,6 +16,76 @@ name = HebrewLetters;
 automatic = 1;
 code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy Gedescender-cy Ghestroke-cy Ghemiddlehook-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pedescender-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Qa-cy We-cy";
 name = Uppercase;
+},
+{
+code = "alefMaksura-ar.fina
+yeh-ar.fina
+yehHamzaabove-ar.fina
+yeh-farsi.fina
+";
+name = maksuras;
+},
+{
+code = "jeem-ar.medi
+jeem-ar.init
+hah-ar.medi
+hah-ar.init
+khah-ar.medi
+khah-ar.init
+kaf-ar.medi
+kaf-ar.init
+feh-ar.init
+feh-ar.medi
+veh-ar.init
+veh-ar.medi
+fehDotless-ar.init
+fehDotless-ar.medi
+qaf-ar.init
+qaf-ar.medi
+# teh-ar.init
+# theh-ar.init
+# noon-ar.init
+# yehHamzaabove-ar
+# teh-ar.medi
+# theh-ar.medi
+# noon-ar.medi
+# behDotless-ar.medi
+# behDotless-ar.init
+# ain-ar.init
+# ghain-ar.init
+";
+name = shortysSrc;
+},
+{
+code = "jeem-ar.medi.short
+jeem-ar.init.short
+hah-ar.medi.short
+hah-ar.init.short
+khah-ar.medi.short
+khah-ar.init.short
+kaf-ar.medi.short
+kaf-ar.init.short
+feh-ar.init.short
+feh-ar.medi.short
+veh-ar.init.short
+veh-ar.medi.short
+fehDotless-ar.init.short
+fehDotless-ar.medi.short
+qaf-ar.init.short
+qaf-ar.medi.short
+# teh-ar.init.short
+# theh-ar.init.short
+# noon-ar.init.short
+# yehHamzaabove-ar.init.short
+# teh-ar.medi.short
+# theh-ar.medi.short
+# noon-ar.medi.short
+# behDotless-ar.medi.short
+# behDotless-ar.init.short
+# ain-ar.init.short
+# ghain-ar.init.short
+";
+name = shortysDst;
 }
 );
 customParameters = (
@@ -77,6 +147,8 @@ featurePrefixes = (
 automatic = 1;
 code = "languagesystem DFLT dflt;
 
+languagesystem arab dflt;
+
 languagesystem latn dflt;
 languagesystem latn ROM;
 languagesystem latn MOL;
@@ -103,10 +175,10 @@ feature ordn;
 feature pnum;
 feature tnum;
 feature case;
-feature zero;
 feature init;
 feature medi;
 feature fina;
+feature zero;
 ";
 tag = aalt;
 },
@@ -394,173 +466,6 @@ tag = case;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub f f i by f_f_i;
-sub f f l by f_f_l;
-sub f f by f_f;
-sub f i by fi;
-sub f l by fl;
-";
-tag = liga;
-},
-{
-automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub yod-hb yod-hb by yodyod-hb;
-lookup dlig_RTL {
-lookupflag IgnoreMarks;
-	sub behDotless-ar.init alefMaksura-ar.fina by behDotless_alefMaksura-ar;
-	sub behDotless-ar.medi alefMaksura-ar.fina by behDotless_alefMaksura-ar.fina;
-	sub behDotless-ar.medi noonghunna-ar.fina by behDotless_noonghunna-ar.fina;
-	sub behDotless-ar.medi reh-ar.fina by behDotless_reh-ar.fina;
-	sub beh-ar.init alefMaksura-ar.fina by beh_alefMaksura-ar;
-	sub beh-ar.medi alefMaksura-ar.fina by beh_alefMaksura-ar.fina;
-	sub beh-ar.medi noon-ar.fina by beh_noon-ar.fina;
-	sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;
-	sub beh-ar.init yeh-ar.fina by beh_yeh-ar;
-	sub beh-ar.medi yeh-ar.fina by beh_yeh-ar.fina;
-	sub beh-ar.init yehHamzaabove-ar.fina by beh_yehHamzaabove-ar;
-	sub beh-ar.medi yehHamzaabove-ar.fina by beh_yehHamzaabove-ar.fina;
-	sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;
-	sub dad-ar.init alefMaksura-ar.fina by dad_alefMaksura-ar;
-	sub dad-ar.medi alefMaksura-ar.fina by dad_alefMaksura-ar.fina;
-	sub dad-ar.init reh-ar.fina by dad_reh-ar;
-	sub dad-ar.medi reh-ar.fina by dad_reh-ar.fina;
-	sub dad-ar.init yeh-ar.fina by dad_yeh-ar;
-	sub dad-ar.medi yeh-ar.fina by dad_yeh-ar.fina;
-	sub dad-ar.init yehHamzaabove-ar.fina by dad_yehHamzaabove-ar;
-	sub dad-ar.medi yehHamzaabove-ar.fina by dad_yehHamzaabove-ar.fina;
-	sub dad-ar.init zain-ar.fina by dad_zain-ar;
-	sub dad-ar.medi zain-ar.fina by dad_zain-ar.fina;
-	sub feh-ar.init alefMaksura-ar.fina by feh_alefMaksura-ar;
-	sub feh-ar.init yeh-ar.fina by feh_yeh-ar;
-	sub feh-ar.init yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;
-	sub hah-ar.init alefMaksura-ar.fina by hah_alefMaksura-ar;
-	sub hah-ar.medi alefMaksura-ar.fina by hah_alefMaksura-ar.fina;
-	sub hah-ar.init yeh-ar.fina by hah_yeh-ar;
-	sub hah-ar.medi yeh-ar.fina by hah_yeh-ar.fina;
-	sub hah-ar.init yehHamzaabove-ar.fina by hah_yehHamzaabove-ar;
-	sub hah-ar.medi yehHamzaabove-ar.fina by hah_yehHamzaabove-ar.fina;
-	sub jeem-ar.init alefMaksura-ar.fina by jeem_alefMaksura-ar;
-	sub jeem-ar.medi alefMaksura-ar.fina by jeem_alefMaksura-ar.fina;
-	sub jeem-ar.init yeh-ar.fina by jeem_yeh-ar;
-	sub jeem-ar.medi yeh-ar.fina by jeem_yeh-ar.fina;
-	sub jeem-ar.init yehHamzaabove-ar.fina by jeem_yehHamzaabove-ar;
-	sub jeem-ar.medi yehHamzaabove-ar.fina by jeem_yehHamzaabove-ar.fina;
-	sub kaf-ar.init alefMaksura-ar.fina by kaf_alefMaksura-ar;
-	sub kaf-ar.medi alefMaksura-ar.fina by kaf_alefMaksura-ar.fina;
-	sub kaf-ar.init yeh-ar.fina by kaf_yeh-ar;
-	sub kaf-ar.medi yeh-ar.fina by kaf_yeh-ar.fina;
-	sub kaf-ar.init yehHamzaabove-ar.fina by kaf_yehHamzaabove-ar;
-	sub kaf-ar.medi yehHamzaabove-ar.fina by kaf_yehHamzaabove-ar.fina;
-	sub khah-ar.init alefMaksura-ar.fina by khah_alefMaksura-ar;
-	sub khah-ar.medi alefMaksura-ar.fina by khah_alefMaksura-ar.fina;
-	sub khah-ar.init yeh-ar.fina by khah_yeh-ar;
-	sub khah-ar.medi yeh-ar.fina by khah_yeh-ar.fina;
-	sub khah-ar.init yehHamzaabove-ar.fina by khah_yehHamzaabove-ar;
-	sub khah-ar.medi yehHamzaabove-ar.fina by khah_yehHamzaabove-ar.fina;
-	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;
-	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;
-	sub lam-ar.init yeh-ar.fina by lam_yeh-ar;
-	sub lam-ar.medi yeh-ar.fina by lam_yeh-ar.fina;
-	sub lam-ar.init yehHamzaabove-ar.fina by lam_yehHamzaabove-ar;
-	sub lam-ar.medi yehHamzaabove-ar.fina by lam_yehHamzaabove-ar.fina;
-	sub noon-ar.init alefMaksura-ar.fina by noon_alefMaksura-ar;
-	sub noon-ar.medi alefMaksura-ar.fina by noon_alefMaksura-ar.fina;
-	sub noon-ar.medi noon-ar.fina by noon_noon-ar.fina;
-	sub noon-ar.medi reh-ar.fina by noon_reh-ar.fina;
-	sub noon-ar.init yeh-ar.fina by noon_yeh-ar;
-	sub noon-ar.medi yeh-ar.fina by noon_yeh-ar.fina;
-	sub noon-ar.init yehHamzaabove-ar.fina by noon_yehHamzaabove-ar;
-	sub noon-ar.medi yehHamzaabove-ar.fina by noon_yehHamzaabove-ar.fina;
-	sub noon-ar.medi zain-ar.fina by noon_zain-ar.fina;
-	sub peh-ar.init alefMaksura-ar.fina by peh_alefMaksura-ar;
-	sub peh-ar.medi alefMaksura-ar.fina by peh_alefMaksura-ar.fina;
-	sub peh-ar.medi noon-ar.fina by peh_noon-ar.fina;
-	sub peh-ar.medi reh-ar.fina by peh_reh-ar.fina;
-	sub peh-ar.init yeh-ar.fina by peh_yeh-ar;
-	sub peh-ar.medi yeh-ar.fina by peh_yeh-ar.fina;
-	sub peh-ar.init yehHamzaabove-ar.fina by peh_yehHamzaabove-ar;
-	sub peh-ar.medi yehHamzaabove-ar.fina by peh_yehHamzaabove-ar.fina;
-	sub peh-ar.medi zain-ar.fina by peh_zain-ar.fina;
-	sub qaf-ar.init alefMaksura-ar.fina by qaf_alefMaksura-ar;
-	sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;
-	sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;
-	sub sad-ar.init alefMaksura-ar.fina by sad_alefMaksura-ar;
-	sub sad-ar.medi alefMaksura-ar.fina by sad_alefMaksura-ar.fina;
-	sub sad-ar.init reh-ar.fina by sad_reh-ar;
-	sub sad-ar.medi reh-ar.fina by sad_reh-ar.fina;
-	sub sad-ar.init yeh-ar.fina by sad_yeh-ar;
-	sub sad-ar.medi yeh-ar.fina by sad_yeh-ar.fina;
-	sub sad-ar.init yehHamzaabove-ar.fina by sad_yehHamzaabove-ar;
-	sub sad-ar.medi yehHamzaabove-ar.fina by sad_yehHamzaabove-ar.fina;
-	sub sad-ar.init zain-ar.fina by sad_zain-ar;
-	sub sad-ar.medi zain-ar.fina by sad_zain-ar.fina;
-	sub seen-ar.init alefMaksura-ar.fina by seen_alefMaksura-ar;
-	sub seen-ar.medi alefMaksura-ar.fina by seen_alefMaksura-ar.fina;
-	sub seen-ar.init reh-ar.fina by seen_reh-ar;
-	sub seen-ar.medi reh-ar.fina by seen_reh-ar.fina;
-	sub seen-ar.init yeh-ar.fina by seen_yeh-ar;
-	sub seen-ar.medi yeh-ar.fina by seen_yeh-ar.fina;
-	sub seen-ar.init yehHamzaabove-ar.fina by seen_yehHamzaabove-ar;
-	sub seen-ar.medi yehHamzaabove-ar.fina by seen_yehHamzaabove-ar.fina;
-	sub seen-ar.init zain-ar.fina by seen_zain-ar;
-	sub seen-ar.medi zain-ar.fina by seen_zain-ar.fina;
-	sub sheen-ar.init alefMaksura-ar.fina by sheen_alefMaksura-ar;
-	sub sheen-ar.medi alefMaksura-ar.fina by sheen_alefMaksura-ar.fina;
-	sub sheen-ar.init reh-ar.fina by sheen_reh-ar;
-	sub sheen-ar.medi reh-ar.fina by sheen_reh-ar.fina;
-	sub sheen-ar.init yeh-ar.fina by sheen_yeh-ar;
-	sub sheen-ar.medi yeh-ar.fina by sheen_yeh-ar.fina;
-	sub sheen-ar.init yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar;
-	sub sheen-ar.medi yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar.fina;
-	sub sheen-ar.init zain-ar.fina by sheen_zain-ar;
-	sub sheen-ar.medi zain-ar.fina by sheen_zain-ar.fina;
-	sub teh-ar.init alefMaksura-ar.fina by teh_alefMaksura-ar;
-	sub teh-ar.medi alefMaksura-ar.fina by teh_alefMaksura-ar.fina;
-	sub teh-ar.medi reh-ar.fina by teh_reh-ar.fina;
-	sub teh-ar.init yeh-ar.fina by teh_yeh-ar;
-	sub teh-ar.medi yeh-ar.fina by teh_yeh-ar.fina;
-	sub teh-ar.init yehHamzaabove-ar.fina by teh_yehHamzaabove-ar;
-	sub teh-ar.medi yehHamzaabove-ar.fina by teh_yehHamzaabove-ar.fina;
-	sub teh-ar.medi zain-ar.fina by teh_zain-ar.fina;
-	sub theh-ar.init alefMaksura-ar.fina by theh_alefMaksura-ar;
-	sub theh-ar.medi alefMaksura-ar.fina by theh_alefMaksura-ar.fina;
-	sub theh-ar.medi noon-ar.fina by theh_noon-ar.fina;
-	sub theh-ar.medi reh-ar.fina by theh_reh-ar.fina;
-	sub theh-ar.init yeh-ar.fina by theh_yeh-ar;
-	sub theh-ar.medi yeh-ar.fina by theh_yeh-ar.fina;
-	sub theh-ar.init yehHamzaabove-ar.fina by theh_yehHamzaabove-ar;
-	sub theh-ar.medi yehHamzaabove-ar.fina by theh_yehHamzaabove-ar.fina;
-	sub theh-ar.medi zain-ar.fina by theh_zain-ar.fina;
-	sub yehHamzaabove-ar.init alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar;
-	sub yehHamzaabove-ar.medi alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar.fina;
-	sub yehHamzaabove-ar.medi noon-ar.fina by yehHamzaabove_noon-ar.fina;
-	sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;
-	sub yehHamzaabove-ar.init yeh-ar.fina by yehHamzaabove_yeh-ar;
-	sub yehHamzaabove-ar.medi yeh-ar.fina by yehHamzaabove_yeh-ar.fina;
-	sub yehHamzaabove-ar.init yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar;
-	sub yehHamzaabove-ar.medi yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar.fina;
-	sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;
-	sub yeh-ar.medi alefMaksura-ar.fina by yeh_alefMaksura-ar.fina;
-	sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;
-	sub yeh-ar.medi reh-ar.fina by yeh_reh-ar.fina;
-	sub yeh-ar.medi yeh-ar.fina by yeh_yeh-ar.fina;
-	sub yeh-ar.medi yehHamzaabove-ar.fina by yeh_yehHamzaabove-ar.fina;
-	sub yeh-ar.medi zain-ar.fina by yeh_zain-ar.fina;
-} dlig_RTL;
-";
-tag = dlig;
-},
-{
-automatic = 1;
-code = "sub zero by zero.zero;
-sub zero.tf by zero.tf.zero;
-";
-tag = zero;
-},
-{
-automatic = 1;
 code = "sub behDotless-ar by behDotless-ar.init;
 sub beh-ar by beh-ar.init;
 sub peh-ar by peh-ar.init;
@@ -762,6 +667,173 @@ code = "lookup rlig_arab_0 {
 } rlig_arab_0;
 ";
 tag = rlig;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub yod-hb yod-hb by yodyod-hb;
+lookup dlig_RTL {
+lookupflag IgnoreMarks;
+	sub behDotless-ar.init alefMaksura-ar.fina by behDotless_alefMaksura-ar;
+	sub behDotless-ar.medi alefMaksura-ar.fina by behDotless_alefMaksura-ar.fina;
+	sub behDotless-ar.medi noonghunna-ar.fina by behDotless_noonghunna-ar.fina;
+	sub behDotless-ar.medi reh-ar.fina by behDotless_reh-ar.fina;
+	sub beh-ar.init alefMaksura-ar.fina by beh_alefMaksura-ar;
+	sub beh-ar.medi alefMaksura-ar.fina by beh_alefMaksura-ar.fina;
+	sub beh-ar.medi noon-ar.fina by beh_noon-ar.fina;
+	sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;
+	sub beh-ar.init yeh-ar.fina by beh_yeh-ar;
+	sub beh-ar.medi yeh-ar.fina by beh_yeh-ar.fina;
+	sub beh-ar.init yehHamzaabove-ar.fina by beh_yehHamzaabove-ar;
+	sub beh-ar.medi yehHamzaabove-ar.fina by beh_yehHamzaabove-ar.fina;
+	sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;
+	sub dad-ar.init alefMaksura-ar.fina by dad_alefMaksura-ar;
+	sub dad-ar.medi alefMaksura-ar.fina by dad_alefMaksura-ar.fina;
+	sub dad-ar.init reh-ar.fina by dad_reh-ar;
+	sub dad-ar.medi reh-ar.fina by dad_reh-ar.fina;
+	sub dad-ar.init yeh-ar.fina by dad_yeh-ar;
+	sub dad-ar.medi yeh-ar.fina by dad_yeh-ar.fina;
+	sub dad-ar.init yehHamzaabove-ar.fina by dad_yehHamzaabove-ar;
+	sub dad-ar.medi yehHamzaabove-ar.fina by dad_yehHamzaabove-ar.fina;
+	sub dad-ar.init zain-ar.fina by dad_zain-ar;
+	sub dad-ar.medi zain-ar.fina by dad_zain-ar.fina;
+	sub feh-ar.init alefMaksura-ar.fina by feh_alefMaksura-ar;
+	sub feh-ar.init yeh-ar.fina by feh_yeh-ar;
+	sub feh-ar.init yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;
+	sub hah-ar.init alefMaksura-ar.fina by hah_alefMaksura-ar;
+	sub hah-ar.medi alefMaksura-ar.fina by hah_alefMaksura-ar.fina;
+	sub hah-ar.init yeh-ar.fina by hah_yeh-ar;
+	sub hah-ar.medi yeh-ar.fina by hah_yeh-ar.fina;
+	sub hah-ar.init yehHamzaabove-ar.fina by hah_yehHamzaabove-ar;
+	sub hah-ar.medi yehHamzaabove-ar.fina by hah_yehHamzaabove-ar.fina;
+	sub jeem-ar.init alefMaksura-ar.fina by jeem_alefMaksura-ar;
+	sub jeem-ar.medi alefMaksura-ar.fina by jeem_alefMaksura-ar.fina;
+	sub jeem-ar.init yeh-ar.fina by jeem_yeh-ar;
+	sub jeem-ar.medi yeh-ar.fina by jeem_yeh-ar.fina;
+	sub jeem-ar.init yehHamzaabove-ar.fina by jeem_yehHamzaabove-ar;
+	sub jeem-ar.medi yehHamzaabove-ar.fina by jeem_yehHamzaabove-ar.fina;
+	sub kaf-ar.init alefMaksura-ar.fina by kaf_alefMaksura-ar;
+	sub kaf-ar.medi alefMaksura-ar.fina by kaf_alefMaksura-ar.fina;
+	sub kaf-ar.init yeh-ar.fina by kaf_yeh-ar;
+	sub kaf-ar.medi yeh-ar.fina by kaf_yeh-ar.fina;
+	sub kaf-ar.init yehHamzaabove-ar.fina by kaf_yehHamzaabove-ar;
+	sub kaf-ar.medi yehHamzaabove-ar.fina by kaf_yehHamzaabove-ar.fina;
+	sub khah-ar.init alefMaksura-ar.fina by khah_alefMaksura-ar;
+	sub khah-ar.medi alefMaksura-ar.fina by khah_alefMaksura-ar.fina;
+	sub khah-ar.init yeh-ar.fina by khah_yeh-ar;
+	sub khah-ar.medi yeh-ar.fina by khah_yeh-ar.fina;
+	sub khah-ar.init yehHamzaabove-ar.fina by khah_yehHamzaabove-ar;
+	sub khah-ar.medi yehHamzaabove-ar.fina by khah_yehHamzaabove-ar.fina;
+	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;
+	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;
+	sub lam-ar.init yeh-ar.fina by lam_yeh-ar;
+	sub lam-ar.medi yeh-ar.fina by lam_yeh-ar.fina;
+	sub lam-ar.init yehHamzaabove-ar.fina by lam_yehHamzaabove-ar;
+	sub lam-ar.medi yehHamzaabove-ar.fina by lam_yehHamzaabove-ar.fina;
+	sub noon-ar.init alefMaksura-ar.fina by noon_alefMaksura-ar;
+	sub noon-ar.medi alefMaksura-ar.fina by noon_alefMaksura-ar.fina;
+	sub noon-ar.medi noon-ar.fina by noon_noon-ar.fina;
+	sub noon-ar.medi reh-ar.fina by noon_reh-ar.fina;
+	sub noon-ar.init yeh-ar.fina by noon_yeh-ar;
+	sub noon-ar.medi yeh-ar.fina by noon_yeh-ar.fina;
+	sub noon-ar.init yehHamzaabove-ar.fina by noon_yehHamzaabove-ar;
+	sub noon-ar.medi yehHamzaabove-ar.fina by noon_yehHamzaabove-ar.fina;
+	sub noon-ar.medi zain-ar.fina by noon_zain-ar.fina;
+	sub peh-ar.init alefMaksura-ar.fina by peh_alefMaksura-ar;
+	sub peh-ar.medi alefMaksura-ar.fina by peh_alefMaksura-ar.fina;
+	sub peh-ar.medi noon-ar.fina by peh_noon-ar.fina;
+	sub peh-ar.medi reh-ar.fina by peh_reh-ar.fina;
+	sub peh-ar.init yeh-ar.fina by peh_yeh-ar;
+	sub peh-ar.medi yeh-ar.fina by peh_yeh-ar.fina;
+	sub peh-ar.init yehHamzaabove-ar.fina by peh_yehHamzaabove-ar;
+	sub peh-ar.medi yehHamzaabove-ar.fina by peh_yehHamzaabove-ar.fina;
+	sub peh-ar.medi zain-ar.fina by peh_zain-ar.fina;
+	sub qaf-ar.init alefMaksura-ar.fina by qaf_alefMaksura-ar;
+	sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;
+	sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;
+	sub sad-ar.init alefMaksura-ar.fina by sad_alefMaksura-ar;
+	sub sad-ar.medi alefMaksura-ar.fina by sad_alefMaksura-ar.fina;
+	sub sad-ar.init reh-ar.fina by sad_reh-ar;
+	sub sad-ar.medi reh-ar.fina by sad_reh-ar.fina;
+	sub sad-ar.init yeh-ar.fina by sad_yeh-ar;
+	sub sad-ar.medi yeh-ar.fina by sad_yeh-ar.fina;
+	sub sad-ar.init yehHamzaabove-ar.fina by sad_yehHamzaabove-ar;
+	sub sad-ar.medi yehHamzaabove-ar.fina by sad_yehHamzaabove-ar.fina;
+	sub sad-ar.init zain-ar.fina by sad_zain-ar;
+	sub sad-ar.medi zain-ar.fina by sad_zain-ar.fina;
+	sub seen-ar.init alefMaksura-ar.fina by seen_alefMaksura-ar;
+	sub seen-ar.medi alefMaksura-ar.fina by seen_alefMaksura-ar.fina;
+	sub seen-ar.init reh-ar.fina by seen_reh-ar;
+	sub seen-ar.medi reh-ar.fina by seen_reh-ar.fina;
+	sub seen-ar.init yeh-ar.fina by seen_yeh-ar;
+	sub seen-ar.medi yeh-ar.fina by seen_yeh-ar.fina;
+	sub seen-ar.init yehHamzaabove-ar.fina by seen_yehHamzaabove-ar;
+	sub seen-ar.medi yehHamzaabove-ar.fina by seen_yehHamzaabove-ar.fina;
+	sub seen-ar.init zain-ar.fina by seen_zain-ar;
+	sub seen-ar.medi zain-ar.fina by seen_zain-ar.fina;
+	sub sheen-ar.init alefMaksura-ar.fina by sheen_alefMaksura-ar;
+	sub sheen-ar.medi alefMaksura-ar.fina by sheen_alefMaksura-ar.fina;
+	sub sheen-ar.init reh-ar.fina by sheen_reh-ar;
+	sub sheen-ar.medi reh-ar.fina by sheen_reh-ar.fina;
+	sub sheen-ar.init yeh-ar.fina by sheen_yeh-ar;
+	sub sheen-ar.medi yeh-ar.fina by sheen_yeh-ar.fina;
+	sub sheen-ar.init yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar;
+	sub sheen-ar.medi yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar.fina;
+	sub sheen-ar.init zain-ar.fina by sheen_zain-ar;
+	sub sheen-ar.medi zain-ar.fina by sheen_zain-ar.fina;
+	sub teh-ar.init alefMaksura-ar.fina by teh_alefMaksura-ar;
+	sub teh-ar.medi alefMaksura-ar.fina by teh_alefMaksura-ar.fina;
+	sub teh-ar.medi reh-ar.fina by teh_reh-ar.fina;
+	sub teh-ar.init yeh-ar.fina by teh_yeh-ar;
+	sub teh-ar.medi yeh-ar.fina by teh_yeh-ar.fina;
+	sub teh-ar.init yehHamzaabove-ar.fina by teh_yehHamzaabove-ar;
+	sub teh-ar.medi yehHamzaabove-ar.fina by teh_yehHamzaabove-ar.fina;
+	sub teh-ar.medi zain-ar.fina by teh_zain-ar.fina;
+	sub theh-ar.init alefMaksura-ar.fina by theh_alefMaksura-ar;
+	sub theh-ar.medi alefMaksura-ar.fina by theh_alefMaksura-ar.fina;
+	sub theh-ar.medi noon-ar.fina by theh_noon-ar.fina;
+	sub theh-ar.medi reh-ar.fina by theh_reh-ar.fina;
+	sub theh-ar.init yeh-ar.fina by theh_yeh-ar;
+	sub theh-ar.medi yeh-ar.fina by theh_yeh-ar.fina;
+	sub theh-ar.init yehHamzaabove-ar.fina by theh_yehHamzaabove-ar;
+	sub theh-ar.medi yehHamzaabove-ar.fina by theh_yehHamzaabove-ar.fina;
+	sub theh-ar.medi zain-ar.fina by theh_zain-ar.fina;
+	sub yehHamzaabove-ar.init alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar;
+	sub yehHamzaabove-ar.medi alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar.fina;
+	sub yehHamzaabove-ar.medi noon-ar.fina by yehHamzaabove_noon-ar.fina;
+	sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;
+	sub yehHamzaabove-ar.init yeh-ar.fina by yehHamzaabove_yeh-ar;
+	sub yehHamzaabove-ar.medi yeh-ar.fina by yehHamzaabove_yeh-ar.fina;
+	sub yehHamzaabove-ar.init yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar;
+	sub yehHamzaabove-ar.medi yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar.fina;
+	sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;
+	sub yeh-ar.medi alefMaksura-ar.fina by yeh_alefMaksura-ar.fina;
+	sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;
+	sub yeh-ar.medi reh-ar.fina by yeh_reh-ar.fina;
+	sub yeh-ar.medi yeh-ar.fina by yeh_yeh-ar.fina;
+	sub yeh-ar.medi yehHamzaabove-ar.fina by yeh_yehHamzaabove-ar.fina;
+	sub yeh-ar.medi zain-ar.fina by yeh_zain-ar.fina;
+} dlig_RTL;
+";
+tag = dlig;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f f i by f_f_i;
+sub f f l by f_f_l;
+sub f f by f_f;
+sub f i by fi;
+sub f l by fl;
+";
+tag = liga;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;
+sub zero.tf by zero.tf.zero;
+";
+tag = zero;
 }
 );
 fontMaster = (
@@ -128080,6 +128152,98 @@ width = 226;
 }
 );
 unicode = 700;
+},
+{
+color = 4;
+glyphname = comp_wawHead;
+layers = (
+{
+anchors = (
+{
+name = topDots;
+pos = (233,458);
+}
+);
+layerId = "EC64484B-0978-4CB1-9EE9-C40A2D8C4059";
+shapes = (
+{
+closed = 1;
+nodes = (
+(499,162,l),
+(499,344,o),
+(399,458,o),
+(248,458,cs),
+(95,458,o),
+(11,329,o),
+(11,201,cs),
+(11,79,o),
+(83,0,o),
+(194,-9,cs),
+(277,-16,o),
+(357,16,o),
+(384,69,c),
+(372,229,l),
+(345,200,o),
+(283,175,o),
+(228,175,cs),
+(194,175,o),
+(165,185,o),
+(165,213,cs),
+(165,238,o),
+(189,258,o),
+(225,258,cs),
+(268,258,o),
+(324,226,o),
+(340,161,c)
+);
+}
+);
+width = 519;
+},
+{
+anchors = (
+{
+name = topDots;
+pos = (268,332);
+}
+);
+layerId = "581BC726-83A6-4935-8633-5A6508251040";
+shapes = (
+{
+closed = 1;
+nodes = (
+(444,118,l),
+(444,253,o),
+(371,332,o),
+(278,332,cs),
+(178,332,o),
+(117,258,o),
+(117,162,cs),
+(117,88,o),
+(168,15,o),
+(268,15,cs),
+(328,15,o),
+(372,36,o),
+(400,65,c),
+(390,125,l),
+(377,104,o),
+(328,82,o),
+(268,82,cs),
+(211,82,o),
+(169,115,o),
+(169,168,cs),
+(169,216,o),
+(202,270,o),
+(277,270,cs),
+(347,270,o),
+(388,209,o),
+(388,120,c)
+);
+}
+);
+width = 600;
+}
+);
 },
 {
 color = 6;
