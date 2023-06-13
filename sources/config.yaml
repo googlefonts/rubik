@@ -6,3 +6,6 @@ axisOrder:
   - ital
 familyName: Rubik
 autohintTTF: True
+buildWebfont: false
+buildOTF: false
+buildStatic: false
