@@ -872,11 +872,11 @@ value = -50;
 },
 {
 name = winAscent;
-value = 945;
+value = 1066;
 },
 {
 name = winDescent;
-value = 307;
+value = 466;
 },
 {
 name = TTFStems;
@@ -1799,11 +1799,11 @@ value = -75;
 },
 {
 name = winAscent;
-value = 945;
+value = 1066;
 },
 {
 name = winDescent;
-value = 307;
+value = 466;
 },
 {
 name = TTFStems;
