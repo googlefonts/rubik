@@ -144,10 +144,11 @@ date = "2023-06-06 14:15:17 +0000";
 familyName = Rubik;
 featurePrefixes = (
 {
-automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem arab dflt;
+
+languagesystem cyrl dflt;
 
 languagesystem latn dflt;
 languagesystem latn ROM;
